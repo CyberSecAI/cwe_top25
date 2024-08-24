@@ -9,9 +9,9 @@
 top25_eda.ipynb
 
 
-## Add CVE Descriptions to Top 25
+## Add CVE Descriptions to Top 25 and remove Rationale
 
 nvd/CVSSData.ipynb
 top25_add_cve_desc.ipynb
 
-## Remove Notes
+
