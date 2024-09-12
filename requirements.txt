@@ -1,0 +1,8 @@
+
+ipykernel
+ipython
+matplotlib
+numpy
+pandas
+plotly
+python-csv

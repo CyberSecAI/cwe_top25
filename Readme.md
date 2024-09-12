@@ -3,6 +3,7 @@
 1. Do Exploratory Data Analysis (EDA) on Top 25 CWEs file from MITRE CWE
 2. Add CVE Descriptions to Top 25 and remove Rationale, and CWE entries that are not a CWE
 3. Add Top25 Known Good CVE-CWE Mappings to CWE JSON as Top25Examples
+4. Extract 550 Observed Examples with CWE ID
 
 ## Do Exploratory Data Analysis (EDA) on Top 25 CWEs file from MITRE CWE
 
