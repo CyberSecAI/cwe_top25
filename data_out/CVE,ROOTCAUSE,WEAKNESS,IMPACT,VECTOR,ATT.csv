@@ -1,0 +1,999 @@
+CVE,ROOTCAUSE,WEAKNESS,IMPACT,VECTOR,ATTACKER,PRODUCT,VERSION,COMPONENT
+CVE-2022-25258,lacks certain validation,NULL function pointer retrieval,memory corruption,,,,Linux kernel before 5.16.10,drivers/usb/gadget/composite.c
+CVE-2022-25291,integer overflow,heap-based buffer overflow,arbitrary code execution,firmware update,authenticated remote attacker,WatchGuard Firebox and XTM appliances,"Fireware OS before 12.7.2_U2, 12.x before 12.1.3_U8, and 12.2.x through 12.5.x before 12.5.9_U2",
+CVE-2022-25308,stack-based buffer overflow,memory leak,denial of service,,,Fribidi package,,
+CVE-2022-25427,stack overflow,,,,,Tenda AC9,v15.03.2.21,openSchedWifi function
+CVE-2022-25428,stack overflow,,,,,Tenda AC9,v15.03.2.21,saveparentcontrolinfo function
+CVE-2022-25429,buffer overflow,,,,,Tenda AC9,v15.03.2.21,saveparentcontrolinfo function
+CVE-2022-25431,stack overflows,,,,,Tenda AC9,v15.03.2.21,Formsetqosband function
+CVE-2022-25433,stack overflow,,,,,Tenda AC9,v15.03.2.21,saveparentcontrolinfo function
+CVE-2022-25434,stack overflow,,,,,Tenda AC9,v15.03.2.21,SetFirewallCfg function
+CVE-2022-25435,stack overflow,,,,,Tenda AC9,v15.03.2.21,SetStaticRoutecfg function
+CVE-2022-25437,stack overflow,,,,,Tenda AC9,v15.03.2.21,SetVirtualServerCfg function
+CVE-2022-25439,stack overflow,,,,,Tenda AC9,v15.03.2.21,SetIpMacBind function
+CVE-2022-25440,stack overflow,,,,,Tenda AC9,v15.03.2.21,SetSysTimeCfg function
+CVE-2022-25654,improper input validation,memory corruption,,,,"Snapdragon Auto, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Wearables",,kernel
+CVE-2022-2566,integer overflow,heap out-of-bounds memory write,remote code execution,malicious mp4 file,,FFMPEG,since version 5.1,build_open_gop_key_points()
+CVE-2022-25661,untrusted pointer dereference,memory corruption,,,,"Snapdragon Auto, Snapdragon Compute, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile",,kernel
+CVE-2022-25682,out of range pointer offset,memory corruption,,,,"Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables",,MODEM UIM
+CVE-2022-25694,out-of-range pointer offset,memory corruption,,,,,,Modem UIM
+CVE-2022-25696,time-of-check time-of-use race condition,memory corruption,,,,"Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wearables",,display
+CVE-2022-25697,improper input validation,memory corruption,,,,"Snapdragon Mobile, Snapdragon Wearables",,i2c buses
+CVE-2022-25698,improper input validation,memory corruption,,,,"Snapdragon Mobile, Snapdragon Wearables",,SPI buses
+CVE-2022-25709,out of range pointer offset,memory corruption,,,,,,modem
+CVE-2022-25715,incorrect type casting,memory corruption,,,,,,display driver
+CVE-2022-25716,,memory corruption,,,,,,Multimedia Framework
+CVE-2022-25727,improper length check,memory corruption,,,,"Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Voice & Music",,modem
+CVE-2022-25793,lack of proper validation of the length of user-supplied data,stack-based buffer overflow,code execution,,,Autodesk 3ds Max,"2022, 2021, and 2020",
+CVE-2022-25795,,memory corruption,remote code execution,maliciously crafted DWG files,,Autodesk TrueView,2022 and 2021,
+CVE-2022-25959,,memory corruption,arbitrary code execution,specific project file,,Omron CX-Position,2.5.3 and prior,
+CVE-2022-2603,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 104.0.5112.79,Omnibox
+CVE-2022-2604,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 104.0.5112.79,Safe Browsing
+CVE-2022-2606,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 104.0.5112.79,Managed devices API
+CVE-2022-2607,use after free,heap corruption,,specific UI interactions,remote attacker,Google Chrome on Chrome OS,prior to 104.0.5112.79,Tab Strip
+CVE-2022-2608,use after free,heap corruption,,specific UI interactions,remote attacker,Google Chrome on Chrome OS,prior to 104.0.5112.79,Overview Mode
+CVE-2022-2609,use after free,heap corruption,,specific UI interactions,remote attacker,Google Chrome on Chrome OS,prior to 104.0.5112.79,Nearby Share
+CVE-2022-26093,null pointer dereference,out of bounds write,,,remote attacker,libsimba library,prior to SMR Apr-2022 Release 1,parser_irot function
+CVE-2022-26094,null pointer dereference,out of bounds write,,,remote attacker,libsimba library,prior to SMR Apr-2022 Release 1,parser_auxC function
+CVE-2022-26095,null pointer dereference,out of bounds write,,,remote attacker,libsimba library,prior to SMR Apr-2022 Release 1,parser_colr function
+CVE-2022-26096,null pointer dereference,out of bounds write,,,remote attacker,libsimba library,prior to SMR Apr-2022 Release 1,parser_ispe function
+CVE-2022-26097,null pointer dereference,out of bounds write,,,remote attacker,libsimba library,prior to SMR Apr-2022 Release 1,parser_unknown_property function
+CVE-2022-26099,null pointer dereference,out of bounds read,,,remote attacker,libsimba library,prior to SMR Apr-2022 Release 1,parser_infe function
+CVE-2022-2613,use after free,heap corruption,,specific UI interactions,remote attacker,Google Chrome on Chrome OS,prior to 104.0.5112.79,Input
+CVE-2022-2614,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 104.0.5112.79,Sign-In Flow
+CVE-2022-2617,use after free,heap corruption,,specific UI interactions,attacker who convinced a user to install a malicious extension,Google Chrome,prior to 104.0.5112.79,Extensions API
+CVE-2022-2620,use after free,heap corruption,,specific UI interactions,remote attacker,Google Chrome on Chrome OS,prior to 104.0.5112.79,WebUI
+CVE-2022-2621,use after free,heap corruption,,specific UI interactions,attacker who convinced a user to install a malicious extension,Google Chrome,prior to 104.0.5112.79,Extensions
+CVE-2022-2623,race condition,use after free,heap corruption,specific UI interactions,remote attacker,Google Chrome on Android,prior to 104.0.5112.79,Offline
+CVE-2022-26428,race condition,memory corruption,local escalation of privilege,,,,,,video codec
+CVE-2022-26433,type confusion,out of bounds write,local escalation of privilege,,,,,mailbox
+CVE-2022-26437,uninitialized data,out of bounds write,remote escalation of privilege,,,,,httpclient
+CVE-2022-26447,missing bounds check,out of bounds write,remote code execution,,,,,BT firmware
+CVE-2022-26450,race condition,use after free,local escalation of privilege,,,,,apusys
+CVE-2022-26452,improper locking,use after free,local escalation of privilege,,,,,isp
+CVE-2022-26459,integer overflow,out of bounds read,local information disclosure,,,,,vow
+CVE-2022-26473,improper locking,use after free,local escalation of privilege,,,,,vdec fmt
+CVE-2022-26474,incorrect calculation of buffer size,out of bounds write,local escalation of privilege,,,,,sensorhub
+CVE-2022-26475,missing bounds check,out of bounds write,local escalation of privilege,,,,,wlan
+CVE-2022-26495,integer overflow,heap-based buffer overflow,,,,,nbd before 3.24,nbd-server
+CVE-2022-26531,,buffer overflow,system crash,crafted payload,local authenticated attacker,Zyxel USG/ZyWALL series,"4.09 through 4.71, USG FLEX series firmware versions 4.50 through 5.21, ATP series firmware versions 4.32 through 5.21, VPN series firmware versions 4.30 through 5.21, NSG series firmware versions 1.00 through 1.33 Patch 4, NXC2500 firmware version 6.10(AAIG.3) and earlier versions, NAP203 firmware version 6.25(ABFA.7) and earlier versions, NWA50AX firmware version 6.25(ABYW.5) and earlier versions, WAC500 firmware version 6.30(ABVS.2) and earlier versions, and WAX510D firmware version 6.30(ABTF.2) and earlier versions",
+CVE-2022-26700,,memory corruption,code execution,maliciously crafted web content,,"tvOS, watchOS, iOS, iPadOS, macOS Monterey, Safari","15.5, 8.6, 15.5, 12.4, 15.5",
+CVE-2022-26716,,memory corruption,arbitrary code execution,maliciously crafted web content,,"tvOS, iOS, iPadOS, watchOS, macOS Monterey, Safari","15.5, 8.6, 12.4, 15.5",
+CVE-2022-26719,,memory corruption,arbitrary code execution,maliciously crafted web content,,"tvOS, iOS, iPadOS, watchOS, macOS Monterey, Safari","15.5, 8.6, 12.4, 15.5",
+CVE-2022-26723,improper input validation,memory corruption,arbitrary code execution,maliciously crafted Samba network share,,"macOS Monterey, macOS Big Sur","12.4, 11.6.6",
+CVE-2022-26730,improper input validation,memory corruption,arbitrary code execution,maliciously crafted image,,macOS Ventura,13,
+CVE-2022-26762,improper memory handling,memory corruption,arbitrary code execution,,,macOS Monterey,"12.4, iOS 15.5 and iPadOS 15.5",
+CVE-2022-27567,null pointer dereference,out of bounds write,,,remote attacker,libsimba library,prior to SMR Apr-2022 Release 1,parser_hvcC function
+CVE-2022-27624,improper restriction of operations within the bounds of a memory buffer,,arbitrary command execution,,,Synology DiskStation Manager,before 7.1.1-42962-2,Out-of-Band (OOB) Management
+CVE-2022-27882,integer signedness error,heap-based buffer overflow,,crafted IPv6 router advertisement,,OpenBSD,"6.9 and 7.0 before 2022-03-22",slaacd
+CVE-2022-28193,insufficient validation,memory buffer overflow,code execution,,,NVIDIA Jetson Linux Driver Package,,Cboot module tegrabl_cbo.c
+CVE-2022-28196,insufficient validation,memory buffer overflow,code execution,,,NVIDIA Jetson Linux Driver Package,,Cboot blob_decompress function
+CVE-2022-28269,use-after-free,memory leak,,malicious file,,Acrobat Reader DC,"22.001.20085 (and earlier), 20.005.3031x (and earlier) and 17.012.30205 (and earlier)",
+CVE-2022-28285,,out of bounds memory read,,,,"Thunderbird, Firefox, Firefox ESR","< 91.8, < 99, < 91.8",
+CVE-2022-28331,integer overflow,write beyond the end of a stack based buffer,,,,"Apache Portable Runtime on Windows",1.7.0 and earlier,apr_socket_sendv()
+CVE-2022-2845,improper validation of specified quantity in input,buffer over-read,,,,vim/vim,prior to 9.0.0218,
+CVE-2022-28471,integer overflow,heap overflow,,,,ffjpeg,caade60,bmp_load() in bmp.c and jfif_encode() in jfif.c
+CVE-2022-2852,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 104.0.5112.101,FedCM
+CVE-2022-2855,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 104.0.5112.101,ANGLE
+CVE-2022-28556,stack overflow,,,,,Tenda AC15,US_AC15V1.0BR_V15.03.05.20_multi_TDE01.bin,/goform/setpptpservercfg interface
+CVE-2022-2857,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 104.0.5112.101,Blink
+CVE-2022-2858,use after free,heap corruption,,specific UI interaction,remote attacker,Google Chrome,prior to 104.0.5112.101,Sign-In Flow
+CVE-2022-2859,use after free,heap corruption,,specific UI interactions,remote attacker,Google Chrome,prior to 104.0.5112.101,Chrome OS Shell
+CVE-2022-28690,uninitialized pointer,out-of-bounds write,arbitrary code execution,,,,,
+CVE-2022-28796,race condition,use-after-free,,,,Linux kernel,before 5.17.1,jbd2_journal_wait_updates in fs/jbd2/transaction.c
+CVE-2022-2896,use after free,,,specific project file,,Measuresoft ScadaPro Server,All Versions,
+CVE-2022-29203,integer overflow,assertion failure,denial of service,,,TensorFlow,"prior to versions 2.9.0, 2.8.1, 2.7.2, and 2.6.4",tf.raw_ops.SpaceToBatchND
+CVE-2022-29210,,heap buffer overflow,,,,TensorFlow,2.8.0,TensorKey hash function
+CVE-2022-29395,stack overflow,,,,,TOTOLINK N600R,V4.3.0cu.7647_B20210106,function FUN_0041bac4
+CVE-2022-29396,stack overflow,,,,,TOTOLINK N600R,V4.3.0cu.7647_B20210106,function FUN_00418f10
+CVE-2022-29397,stack overflow,,,,,TOTOLINK N600R,V4.3.0cu.7647_B20210106,function FUN_004196c8
+CVE-2022-29398,stack overflow,,,,,TOTOLINK N600R,V4.3.0cu.7647_B20210106,function FUN_0041309c
+CVE-2022-29399,stack overflow,,,,,TOTOLINK N600R,V4.3.0cu.7647_B20210106,function FUN_00415bf0
+CVE-2022-29465,out-of-bounds write,memory corruption,,malicious file,,Accusoft ImageGear,20.0,PSD Header processing
+CVE-2022-2947,,memory corruption,,,,"Altair HyperView Player",2021.1.0.27 and prior,
+CVE-2022-29488,uninitialized pointer,out-of-bounds read,arbitrary code execution,,,,,
+CVE-2022-2949,use of uninitialized memory,memory corruption,,,,"Altair HyperView Player",2021.1.0.27 and prior,
+CVE-2022-29496,stack-based buffer overflow,command execution,,network request,,Blynk -Library,v1.0.1,BlynkConsole.h runCommand
+CVE-2022-2950,use of uninitialized memory,memory corruption,,,,"Altair HyperView Player",2021.1.0.27 and prior,
+CVE-2022-29503,,memory corruption,,create threads,,"uClibC, uClibC-ng","0.9.33.2, 1.0.40",libpthread linuxthreads
+CVE-2022-29582,race condition,use-after-free,,,local user,Linux kernel,before 5.17.3,fs/io_uring.c
+CVE-2022-2961,race condition,use-after-free,crash,,,Linux kernel,,PLP Rose functionality
+CVE-2022-2962,,stack or heap overflow,denial of service,malicious mp4 file,malicious guest,QEMU,,Tulip device emulation
+CVE-2022-29638,stack overflow,,denial of service,crafted POST request,,TOTOLINK A3100R,"V4.1.2cu.5050_B20200504 and V4.1.2cu.5247_B20211129",setIpQosRules function
+CVE-2022-2964,,out-of-bounds reads,,,,"Linux kernel's driver for the ASIX AX88179_178A-based USB 2.0/3.0 Gigabit Ethernet Devices",,
+CVE-2022-29640,stack overflow,,denial of service,crafted POST request,,TOTOLINK A3100R,"V4.1.2cu.5050_B20200504 and V4.1.2cu.5247_B20211129",setPortForwardRules function
+CVE-2022-29641,stack overflow,,denial of service,crafted POST request,,TOTOLINK A3100R,"V4.1.2cu.5050_B20200504 and V4.1.2cu.5247_B20211129",setParentalRules function
+CVE-2022-29642,stack overflow,,denial of service,crafted POST request,,TOTOLINK A3100R,"V4.1.2cu.5050_B20200504 and V4.1.2cu.5247_B20211129",setUrlFilterRules function
+CVE-2022-29643,stack overflow,,denial of service,crafted POST request,,TOTOLINK A3100R,"V4.1.2cu.5050_B20200504 and V4.1.2cu.5247_B20211129",setMacQos function
+CVE-2022-2972,stack-based buffer overflow,,,,,MZ Automation's libIEC61850,"1.4 and prior; version 1.5 prior to commit a3b04b7bc4872a5a39e5de3fdc5fbde52c09e10e",
+CVE-2022-29776,stack overflow,,,,,Onlyoffice Document Server,"v6.0.0 and below and Core 6.1.0.26 and below",DesktopEditor/common/File.cpp
+CVE-2022-29777,heap overflow,,,,,Onlyoffice Document Server,"v6.0.0 and below and Core 6.1.0.26 and below",DesktopEditor/fontengine/fontconverter/FontFileBase.h
+CVE-2022-29886,integer overflow,heap buffer overflow,arbitrary code execution,specially-crafted OLE file,,ESTsoft Alyac,2.5.8.544,
+CVE-2022-2991,heap-based buffer overflow,,arbitrary code execution,,,Linux kernel,,LightNVM subsystem
+CVE-2022-29917,,memory corruption,,,,"Thunderbird, Firefox ESR, Firefox","< 91.9, < 91.9, < 100",
+CVE-2022-29925,uninitialized pointer,,arbitrary code execution,specially crafted image file,,graphic editor 'V-SFT',versions prior to v6.1.6.0,simulator module
+CVE-2022-2998,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 104.0.5112.101,Browser Creation
+CVE-2022-30040,stack buffer overflow,denial of service,,,,"Tenda AX1803",v1.0.0.1_2890,/goform/SetSysTimeCfg
+CVE-2022-3028,race condition,out-of-bounds read,,,local attacker,Linux kernel,,IP framework for transforming packets (XFRM subsystem)
+CVE-2022-30292,heap-based buffer overflow,,,,,SQUIRREL,3.2 and prior,sqbaselib.cpp
+CVE-2022-30293,heap-based buffer overflow,,,,,WebKitGTK,through 2.36.0,WebCore::TextureMapperLayer::setContentsLayer in WebCore/platform/graphics/texmap/TextureMapperLayer.cpp
+CVE-2022-30306,stack-based buffer overflow,arbitrary code execution,,,authenticated attacker,FortiWeb,"version 7.0.1 and below, 6.4 all versions, version 6.3.19 and below",CA sign functionality
+CVE-2022-3038,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 105.0.5195.52,Network Service
+CVE-2022-3039,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 105.0.5195.52,WebSQL
+CVE-2022-3040,,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 105.0.5195.52,Layout
+CVE-2022-3041,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 105.0.5195.52,WebSQL
+CVE-2022-3042,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome on Chrome OS,prior to 105.0.5195.52,PhoneHub
+CVE-2022-30426,stack buffer overflow,arbitrary code execution,,,,"Acer Altos, Aspire, and Veriton products",various firmware versions,UEFI DXE driver
+CVE-2022-3043,heap buffer overflow,heap corruption,,crafted HTML page,remote attacker,Google Chrome on Chrome OS,prior to 105.0.5195.52,Screen Capture
+CVE-2022-3045,insufficient validation of untrusted input,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 105.0.5195.52,V8
+CVE-2022-3046,use after free,heap corruption,,crafted HTML page,attacker who convinced a user to install a malicious extension,Google Chrome,prior to 105.0.5195.52,Browser Tag
+CVE-2022-30472,stack-based buffer overflow,,,,,Tenda AC Series Router,AC18_V15.03.05.19(6318),function fromAddressNat
+CVE-2022-30473,stack-based buffer overflow,,,,,Tenda AC Series Router,AC18_V15.03.05.19(6318),function form_fast_setting_wifi_set
+CVE-2022-30474,heap overflow,,,,,Tenda AC Series Router,AC18_V15.03.05.19(6318),httpd module
+CVE-2022-30475,stack-based buffer overflow,,,,,Tenda AC Series Router,AC18_V15.03.05.19(6318),httpd module
+CVE-2022-30476,stack-based buffer overflow,,,,,Tenda AC Series Router,AC18_V15.03.05.19(6318),httpd module
+CVE-2022-30540,uninitialized pointer,heap-based buffer overflow,arbitrary code execution,,,,,
+CVE-2022-3055,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 105.0.5195.52,Passwords
+CVE-2022-3058,use after free,heap corruption,,crafted UI interaction,remote attacker,Google Chrome,prior to 105.0.5195.52,Sign-In Flow
+CVE-2022-30937,,memory corruption,denial of service,specially crafted HTTP packets,,EN100 Ethernet module,All versions,/txtrace endpoint
+CVE-2022-30938,,memory corruption,denial of service,specially crafted HTTP packets,,EN100 Ethernet module,All versions,/txtrace endpoint
+CVE-2022-31019,,stack overflow,process crash,,,Vapor,before 4.61.1,
+CVE-2022-31031,stack buffer overflow,,,,,PJSIP,prior to and including 2.12.1,
+CVE-2022-31099,,stack overflow,denial of service,,,rulex,before 0.4.3,
+CVE-2022-31620,,out-of-bounds array access,denial of service,,,libjpeg,before 1.64,BitStream<false>::Get in bitstream.hpp
+CVE-2022-31696,,memory corruption,,,malicious actor with local access,VMware ESXi,,
+CVE-2022-31741,uninitialized variable,invalid memory read,memory corruption,crafted CMS message,,"Thunderbird, Firefox, Firefox ESR","< 91.10, < 101, < 91.10",
+CVE-2022-31747,,memory corruption,,,,"Thunderbird, Firefox, Firefox ESR","< 91.10, < 101, < 91.10",
+CVE-2022-31748,,memory corruption,,,,,Firefox,< 101,
+CVE-2022-3178,buffer over-read,,,,,gpac/gpac,prior to 2.1.0-DEV,
+CVE-2022-3196,use after free,heap corruption,,crafted PDF file,remote attacker,Google Chrome,prior to 105.0.5195.125,PDF
+CVE-2022-3197,use after free,heap corruption,,crafted PDF file,remote attacker,Google Chrome,prior to 105.0.5195.125,PDF
+CVE-2022-3198,use after free,heap corruption,,crafted PDF file,remote attacker,Google Chrome,prior to 105.0.5195.125,PDF
+CVE-2022-3199,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 105.0.5195.125,Frames
+CVE-2022-32030,stack overflow,,,,,Tenda AX1806,v1.0.0.1,function formSetQosBand
+CVE-2022-32031,stack overflow,,,,,Tenda AX1806,v1.0.0.1,function fromSetRouteStatic
+CVE-2022-32037,stack overflow,,,,,Tenda M3,V1.0.0.12,function formSetAPCfg
+CVE-2022-32039,stack overflow,,,,,Tenda M3,V1.0.0.12,function fromDhcpListClient
+CVE-2022-32040,stack overflow,,,,,Tenda M3,V1.0.0.12,function formSetCfm
+CVE-2022-32041,stack overflow,,,,,Tenda M3,V1.0.0.12,function formGetPassengerAnalyseData
+CVE-2022-32043,stack overflow,,,,,Tenda M3,V1.0.0.12,function formSetAccessCodeInfo
+CVE-2022-32044,stack overflow,,,,,TOTOLINK T6,V4.1.9cu.5179_B20201015,function FUN_00413f80
+CVE-2022-32045,stack overflow,,,,,TOTOLINK T6,V4.1.9cu.5179_B20201015,function FUN_00413be4
+CVE-2022-32046,stack overflow,,,,,TOTOLINK T6,V4.1.9cu.5179_B20201015,function FUN_0041880c
+CVE-2022-32047,stack overflow,,,,,TOTOLINK T6,V4.1.9cu.5179_B20201015,function FUN_00412ef4
+CVE-2022-32048,stack overflow,,,,,TOTOLINK T6,V4.1.9cu.5179_B20201015,function FUN_0041cc88
+CVE-2022-32049,stack overflow,,,,,TOTOLINK T6,V4.1.9cu.5179_B20201015,function FUN_00418540
+CVE-2022-32050,stack overflow,,,,,TOTOLINK T6,V4.1.9cu.5179_B20201015,function FUN_0041af40
+CVE-2022-32051,stack overflow,,,,,TOTOLINK T6,V4.1.9cu.5179_B20201015,function FUN_004133c4
+CVE-2022-32052,stack overflow,,,,,TOTOLINK T6,V4.1.9cu.5179_B20201015,function FUN_004137a4
+CVE-2022-32053,stack overflow,,,,,TOTOLINK T6,V4.1.9cu.5179_B20201015,function FUN_0041621c
+CVE-2022-32141,invalid offset,buffer over read,denial of service,,,Multiple CODESYS Products,,
+CVE-2022-32142,invalid offset,out-of-bounds read or write,denial of service,,,Multiple CODESYS Products,,
+CVE-2022-3216,,memory corruption,stack overflow,,,Nintendo Game Boy Color,,Mobile Adapter GB
+CVE-2022-32317,use-after-free,double free,denial of service,crafted file,,MPlayer Project,v1.5,libvo/vo_v4l2.c
+CVE-2022-32527,,stack-based buffer overflow,remote code execution,specially crafted alarm cache data messages,,IGSS Data Server,Versions prior to V15.0.0.22170,IGSSdataServer.exe
+CVE-2022-32529,,stack-based buffer overflow,remote code execution,specially crafted log data request messages,,IGSS Data Server,Versions prior to V15.0.0.22170,IGSSdataServer.exe
+CVE-2022-32543,integer overflow,heap buffer overflow,arbitrary code execution,specially-crafted OLE file,,ESTsoft Alyac,2.5.8.544,
+CVE-2022-32590,incorrect status check,use after free,local escalation of privilege,,,,,wlan
+CVE-2022-32593,missing bounds check,out of bounds write,local escalation of privilege,,,,,vowe
+CVE-2022-32595,incorrect bounds check,out of bounds read,local information disclosure,,,,,widevine
+CVE-2022-32603,improper input validation,out of bounds write,local escalation of privilege,,,,,gpu drm
+CVE-2022-32608,race condition,use after free,local escalation of privilege,,,,,jpeg
+CVE-2022-32615,uninitialized data,out of bounds write,local escalation of privilege,,,,,ccd
+CVE-2022-32616,uninitialized data,out of bounds write,local escalation of privilege,,,,,isp
+CVE-2022-32617,incorrect calculation of buffer size,out of bounds write,local escalation of privilege,,,,,typec
+CVE-2022-32618,incorrect calculation of buffer size,out of bounds write,local escalation of privilege,,,,,typec
+CVE-2022-32623,incorrect error handling,out of bounds write,local escalation of privilege,,,,,mdp
+CVE-2022-32624,incorrect calculation of buffer size,out of bounds write,local escalation of privilege,,,,,throttling
+CVE-2022-32630,incorrect calculation of buffer size,out of bounds write,local escalation of privilege,,,,,throttling
+CVE-2022-32631,improper input validation,out of bounds write,local escalation of privilege,,,,,Wi-Fi
+CVE-2022-32632,improper input validation,out of bounds write,local escalation of privilege,,,,,Wi-Fi
+CVE-2022-32634,improper input validation,out of bounds write,local escalation of privilege,,,,,ccci
+CVE-2022-32635,missing bounds check,out of bounds write,local escalation of privilege,,,,,gps
+CVE-2022-32636,integer overflow,out of bounds write,local escalation of privilege,,,,,keyinstall
+CVE-2022-32637,missing bounds check,out of bounds write,local escalation of privilege,,,,,hevc decoder
+CVE-2022-32638,race condition,out of bounds write,local escalation of privilege,,,,,isp
+CVE-2022-32639,missing bounds check,out of bounds read,local escalation of privilege,,,,,watchdog
+CVE-2022-32640,missing bounds check,out of bounds write,local escalation of privilege,,,,,meta wifi
+CVE-2022-32641,missing bounds check,out of bounds read,local escalation of privilege,,,,,meta wifi
+CVE-2022-32646,missing bounds check,stack overflow,local escalation of privilege,,,,,gpu drm
+CVE-2022-32649,logic error,use after free,local escalation of privilege,,,,,jpeg
+CVE-2022-32650,logic error,use after free,local escalation of privilege,,,,,mtk-isp
+CVE-2022-32651,logic error,use after free,local escalation of privilege,,,,,mtk-aie
+CVE-2022-32796,improper state management,memory corruption,arbitrary code execution,,,macOS Monterey,12.5,
+CVE-2022-32811,improper locking,memory corruption,arbitrary code execution,,,"macOS Monterey, macOS Big Sur, Security Update 2022-005 Catalina","12.5, 11.6.8",
+CVE-2022-32821,improper validation,memory corruption,arbitrary code execution,,,"watchOS, tvOS, iOS, iPadOS, macOS Monterey","8.7, 15.6, 15.6, 12.5",
+CVE-2022-32827,improper state management,memory corruption,denial-of-service,,"iOS 16, macOS Ventura",13,
+CVE-2022-32944,improper state management,memory corruption,arbitrary code execution,,,"tvOS, iOS, iPadOS, macOS Ventura, watchOS, macOS Monterey, macOS Big Sur","16.1, 15.7.1, 13, 9.1, 16.1, 12.6.1, 11.7.1",
+CVE-2022-32959,insufficient parameter length validation,stack-based buffer overflow,arbitrary code execution,,,HiCOS,,client-side citizen digital certificate component
+CVE-2022-3296,,buffer underflow,,,,,prior to 9.0.0577,GitHub repository vim/vim
+CVE-2022-3304,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 106.0.5249.62,CSS
+CVE-2022-3307,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 106.0.5249.62,media
+CVE-2022-3315,type confusion,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 106.0.5249.62,Blink
+CVE-2022-3318,use after free,heap corruption,,UI interaction,remote attacker,Google Chrome on ChromeOS,prior to 106.0.5249.62,ChromeOS Notifications
+CVE-2022-33183,stack buffer overflow,,,,"firmwaredownload" and "diagshow" commands,remote authenticated attacker,Brocade Fabric OS,"before Brocade Fabric OS v9.1.0, 9.0.1e, 8.2.3c, 8.2.0cbn5, 7.4.2.j",Brocade Fabric OS CLI
+CVE-2022-33210,out-of-range pointer offset,memory corruption,,,,"Snapdragon Auto",,automotive multimedia
+CVE-2022-33214,time-of-check time-of-use,memory corruption,,,,"Snapdragon Auto, Snapdragon Compute, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wearables",,display
+CVE-2022-33218,improper input validation,memory corruption,,,,"Snapdragon Auto",,
+CVE-2022-33234,configuration weakness,memory corruption,,,,"Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wearables",,video
+CVE-2022-33236,,buffer over-read,denial of service,,,"Snapdragon Compute, Snapdragon Connectivity, Snapdragon Mobile, Snapdragon Wired Infrastructure and Networking",,WLAN firmware
+CVE-2022-33242,improper authentication,memory corruption,,,,Qualcomm IPC,,
+CVE-2022-33243,improper access control,memory corruption,,,,Qualcomm IPC,,
+CVE-2022-33257,time-of-check time-of-use race condition,memory corruption,,,,"Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wearables",,Core
+CVE-2022-33266,integer overflow,buffer overflow,,,,"Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wearables",,Audio
+CVE-2022-33280,access of uninitialized pointer,memory corruption,,,,"Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wearables",,Bluetooth HOST
+CVE-2022-33300,improper input validation,memory corruption,,,,"Snapdragon Auto",,Automotive Android OS
+CVE-2022-33719,improper input validation,integer overflow,heap overflow,,,baseband,prior to SMR Aug-2022 Release 1,
+CVE-2022-3377,improper input validation,uninitialized pointer,out-of-bounds memory read,maliciously formed FNT file,,Horner Automation's Cscape,9.90 SP 6 and prior,
+CVE-2022-3378,improper input validation,uninitialized pointer,out-of-bounds memory write,maliciously formed FNT file,,Horner Automation's Cscape,9.90 SP 7 and prior,
+CVE-2022-33938,format string injection,memory corruption,information disclosure,malicious XML payload,,Abode Systems iota All-In-One Security Kit,"6.9Z and 6.9X",ghome_process_control_packet functionality
+CVE-2022-34287,stack corruption,information disclosure,,,,"PADS Standard/Plus Viewer",All versions,
+CVE-2022-34290,stack corruption,information disclosure,,,,"PADS Standard/Plus Viewer",All versions,
+CVE-2022-34291,stack corruption,information disclosure,,,,"PADS Standard/Plus Viewer",All versions,
+CVE-2022-3437,heap-based buffer overflow,denial of service,,,remote user,Samba,,GSSAPI unwrap_des() and unwrap_des3() routines of Heimdal
+CVE-2022-3445,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 106.0.5249.119,Skia
+CVE-2022-3448,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 106.0.5249.119,Permissions API
+CVE-2022-34484,,memory corruption,,,,"Firefox, Firefox ESR, Thunderbird","< 102, < 91.11, < 102, < 91.11",
+CVE-2022-3449,use after free,heap corruption,,crafted Chrome Extension,attacker who convinced a user to install a malicious extension,Google Chrome,prior to 106.0.5249.119,Safe Browsing
+CVE-2022-34502,heap buffer overflow,denial of service,,,,"Radare2",v5.7.0,function consume_encoded_name_new at format/wasm/wasm.c
+CVE-2022-34503,heap buffer overflow,denial of service,,,,"QPDF",v8.4.2,function QPDF::processXRefStream
+CVE-2022-34568,use-after-free,,,,,SDL,v1.2,XFree function at /src/video/x11/SDL_x11yuv.c
+CVE-2022-34680,integer truncation,out-of-bounds read,denial of service,,,NVIDIA GPU Display Driver for Linux,,kernel mode layer handler
+CVE-2022-34970,heap-based buffer overflow,arbitrary code execution,,,,"Crow",before 1.0+4,function qs_parse in query_string.h
+CVE-2022-35104,heap-buffer overflow,,,,,SWFTools,commit 772e55a2,DCTStream::reset() at /xpdf/Stream.cc
+CVE-2022-35105,heap-buffer overflow,,,,,SWFTools,commit 772e55a2,/bin/png2swf+0x552cea
+CVE-2022-35107,stack overflow,,,,,SWFTools,commit 772e55a2,vfprintf at /stdio-common/vfprintf.c
+CVE-2022-35109,heap-buffer overflow,,,,,SWFTools,commit 772e55a2,draw_stroke at /gfxpoly/stroke.c
+CVE-2022-35111,stack overflow,,,,,SWFTools,commit 772e55a2,__sanitizer::StackDepotNode::hash(__sanitizer::StackTrace const&) at /sanitizer_common/sanitizer_stackdepot.cpp
+CVE-2022-35113,heap-buffer overflow,,,,,SWFTools,commit 772e55a2,swf_DefineLosslessBitsTagToImage at /modules/swfbits.c
+CVE-2022-35218,insufficient validation,heap-based buffer overflow,denial of service,,,NHI card's web service component,,
+CVE-2022-35219,insufficient validation,stack-based buffer overflow,denial of service,,,NHI card's web service component,,
+CVE-2022-35244,format string injection,memory corruption,information disclosure,malicious XML payload,,Abode Systems iota All-In-One Security Kit,"6.9X and 6.9Z",XCMD getVarHA functionality
+CVE-2022-35260,,buffer overflow,denial of service,,,curl,,
+CVE-2022-35289,integer overflow,write-what-where condition,arbitrary code execution,crafted JavaScript,,hermes,prior to commit 5b6255ae049fa4641791e47fad994e8e8c4da374,
+CVE-2022-35407,stack buffer overflow,arbitrary code execution,,,,"Insyde InsydeH2O with kernel 5.0 through 5.5",,SetupUtility driver
+CVE-2022-35447,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x6b04de
+CVE-2022-35448,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x6b55af
+CVE-2022-35449,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x6b0466
+CVE-2022-35450,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x6b84b1
+CVE-2022-35451,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x6b03b5
+CVE-2022-35452,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x6b0b2c
+CVE-2022-35453,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x6c08a6
+CVE-2022-35454,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x6b05aa
+CVE-2022-35455,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x6b0d63
+CVE-2022-35456,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x617087
+CVE-2022-35458,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x6b05ce
+CVE-2022-35459,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x6e412a
+CVE-2022-35460,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x61731f
+CVE-2022-35461,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x6c0a32
+CVE-2022-35462,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x6c0bc3
+CVE-2022-35463,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x6b0478
+CVE-2022-35464,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x6171b2
+CVE-2022-35465,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x6c0414
+CVE-2022-35456,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x617087
+CVE-2022-35458,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x6b05ce
+CVE-2022-35459,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x6e412a
+CVE-2022-35460,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x61731f
+CVE-2022-35461,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x6c0a32
+CVE-2022-35462,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x6c0bc3
+CVE-2022-35463,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x6b0478
+CVE-2022-35464,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x6171b2
+CVE-2022-35465,heap-buffer overflow,,,,,OTFCC,v0.10.4,/release-x64/otfccdump+0x6c0414
+CVE-2022-35690,stack-based buffer overflow,arbitrary code execution,,,,"Adobe ColdFusion","Update 14 (and earlier) and Update 4 (and earlier)",
+CVE-2022-3570,heap buffer overflows,,,crafted TIFF image file,,libtiff,Version 4.4.0,tiffcrop.c utility
+CVE-2022-35710,stack-based buffer overflow,arbitrary code execution,,,,"Adobe ColdFusion","Update 14 (and earlier) and Update 4 (and earlier)",
+CVE-2022-35711,heap-based buffer overflow,arbitrary code execution,,,,"Adobe ColdFusion","Update 14 (and earlier) and Update 4 (and earlier)",
+CVE-2022-35712,heap-based buffer overflow,arbitrary code execution,,,,"Adobe ColdFusion","Update 14 (and earlier) and Update 4 (and earlier)",
+CVE-2022-35874,format string injection,memory corruption,information disclosure,,,Abode Systems iota All-In-One Security Kit,"6.9X and 6.9Z",XCMD testWifiAP functionality
+CVE-2022-35875,format string injection,memory corruption,information disclosure,,,Abode Systems iota All-In-One Security Kit,"6.9X and 6.9Z",XCMD testWifiAP functionality
+CVE-2022-35876,format string injection,memory corruption,information disclosure,,,Abode Systems iota All-In-One Security Kit,"6.9X and 6.9Z",XCMD testWifiAP functionality
+CVE-2022-35877,format string injection,memory corruption,information disclosure,,,Abode Systems iota All-In-One Security Kit,"6.9X and 6.9Z",XCMD testWifiAP functionality
+CVE-2022-35878,format string injection,memory corruption,information disclosure,,,Abode Systems iota All-In-One Security Kit,"6.9Z and 6.9X",UPnP logging functionality
+CVE-2022-35879,format string injection,memory corruption,information disclosure,,,Abode Systems iota All-In-One Security Kit,"6.9Z and 6.9X",UPnP logging functionality
+CVE-2022-35880,format string injection,memory corruption,information disclosure,,,Abode Systems iota All-In-One Security Kit,"6.9Z and 6.9X",UPnP logging functionality
+CVE-2022-35881,format string injection,memory corruption,information disclosure,,,Abode Systems iota All-In-One Security Kit,"6.9Z and 6.9X",UPnP logging functionality
+CVE-2022-35884,format string injection,memory corruption,information disclosure,,,Abode Systems iota All-In-One Security Kit,"6.9Z and 6.9X",web interface /action/wirelessConnect functionality
+CVE-2022-35885,format string injection,memory corruption,information disclosure,,,Abode Systems iota All-In-One Security Kit,"6.9Z and 6.9X",web interface /action/wirelessConnect functionality
+CVE-2022-35886,format string injection,memory corruption,information disclosure,,,Abode Systems iota All-In-One Security Kit,"6.9Z and 6.9X",web interface /action/wirelessConnect functionality
+CVE-2022-35887,format string injection,memory corruption,information disclosure,,,Abode Systems iota All-In-One Security Kit,"6.9Z and 6.9X",web interface /action/wirelessConnect functionality
+CVE-2022-35893,,memory corruption,,,,"Insyde InsydeH2O with kernel 5.0 through 5.5",,FvbServicesRuntimeDxe driver
+CVE-2022-35896,,memory leak,information disclosure,,,"Insyde InsydeH2O with kernel 5.0 through 5.5",,FvbServicesRuntimeDxe driver
+CVE-2022-35928,passwords lengths not checked,buffer overruns,,,,"AES Crypt for Linux",3.11,
+CVE-2022-35951,integer overflow,heap overflow,remote code execution,,,Redis,"7.0.0 and above, prior to 7.0.5",XAUTOCLAIM command
+CVE-2022-3602,improper validation,buffer overflow,denial of service,malicious email address,,"OpenSSL","3.0.0,3.0.1,3.0.2,3.0.3,3.0.4,3.0.5,3.0.6",X.509 certificate verification
+CVE-2022-36063,integer underflow,buffer overflow,remote code execution,,,Azure RTOS USBX,,_ux_host_class_cdc_ecm_mac_address_get function
+CVE-2022-36150,heap-buffer overflow,,,,,tifig,v0.2.2,__asan_memmove at /asan/asan_interceptors_memintrinsics.cpp
+CVE-2022-36448,,memory corruption,,,,"Insyde InsydeH2O with kernel 5.0 through 5.5",,PnpSmm driver
+CVE-2022-3654,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 107.0.5304.62,Layout
+CVE-2022-3657,use after free,heap corruption,,crafted Chrome Extension,attacker who convinced a user to install a malicious extension,Google Chrome,prior to 107.0.5304.62,Extensions
+CVE-2022-3658,use after free,heap corruption,,specific UI interaction,attacker who convinced a user to install a malicious extension,Google Chrome on Chrome OS,prior to 107.0.5304.62,Feedback service on Chrome OS
+CVE-2022-3659,use after free,heap corruption,,specific UI interactions,remote attacker,Google Chrome on Chrome OS,prior to 107.0.5304.62,Accessibility
+CVE-2022-36620,stack overflow,,,,,D-link DIR-816 A2_v1.10CNB04 and DIR-878 DIR_878_FW1.30B08.img,,/goform/addRouting
+CVE-2022-37035,race condition,use-after-free,remote code execution,crafted BGP packets,,"FRRouting (FRR)",8.3,bgp_notify_send_with_data() and bgp_process_packet() in bgp_packet.c
+CVE-2022-37134,stack overflow,,,,,D-link DIR-816,A2_v1.10CNB04.img,/goform/form2Wan.cgi
+CVE-2022-37415,stack-based buffer overflow,,,,,Uniwill SparkIO.sys driver,1.0,IOCTL 0x40002008
+CVE-2022-37937,,memory corruption,,,,"HPE Serviceguard",,
+CVE-2022-3821,off-by-one error,buffer overrun,denial of service,,,Systemd,,format_timespan() function of time-util.c
+CVE-2022-38334,stack overflow,,,,,XPDF,v4.04 and earlier,function Catalog::countPageTree() at Catalog.cc
+CVE-2022-3842,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 105.0.5195.125,Passwords
+CVE-2022-38459,stack-based buffer overflow,remote code execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,httpd downfile.cgi functionality
+CVE-2022-3863,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 100.0.4896.75,Browser History
+CVE-2022-3885,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 107.0.5304.106,V8
+CVE-2022-3886,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 107.0.5304.106,Speech Recognition
+CVE-2022-3887,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 107.0.5304.106,Web Workers
+CVE-2022-3888,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 107.0.5304.106,WebCodecs
+CVE-2022-3889,type confusion,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 107.0.5304.106,V8
+CVE-2022-39131,improper locking,memory corruption,denial of service,,,,,camera driver
+CVE-2022-39134,race condition,use after free,denial of service,,,,,audio driver
+CVE-2022-39274,improper size validation,out-of-bounds write,denial of service,,,LoRaMac-node,prior to 4.7.0,ProcessRadioRxDone function
+CVE-2022-39283,,read uninitialized data,,,,"FreeRDP",before 2.8.1,
+CVE-2022-39293,integer overflow,buffer overflow,,,,"Azure RTOS USBX",before 6.1.12,_ux_host_class_pima_read function
+CVE-2022-39343,integer under and overflows,buffer overflow,,,,"Azure RTOS FileX",before 6.2.0,Fault Tolerant feature
+CVE-2022-39392,,out of bounds reads/writes,,,,"Wasmtime",prior to 2.0.2,pooling instance allocator
+CVE-2022-39803,improper memory management,stack-based buffer overflow,remote code execution,manipulated ACIS Part and Assembly file,,"SAP 3D Visual Enterprise Author",9,CoreCadTranslator.exe
+CVE-2022-39804,improper memory management,stack-based buffer overflow,remote code execution,manipulated SolidWorks Part file,,"SAP 3D Visual Enterprise Author",9,CoreCadTranslator.exe
+CVE-2022-39805,improper memory management,stack-based buffer overflow,remote code execution,manipulated Computer Graphics Metafile file,,"SAP 3D Visual Enterprise Author",9,CgmTranslator.exe
+CVE-2022-39806,improper memory management,stack-based buffer overflow,remote code execution,manipulated SolidWorks Drawing file,,"SAP 3D Visual Enterprise Author",9,CoreCadTranslator.exe
+CVE-2022-39808,improper memory management,stack-based buffer overflow,remote code execution,manipulated Wavefront Object file,,"SAP 3D Visual Enterprise Author",9,ObjTranslator.exe
+CVE-2022-39908,time-of-check time-of-use,out-of-bounds write,,,local attacker,"Samsung decoding library for video thumbnails",prior to SMR Dec-2022 Release 1,
+CVE-2022-40307,race condition,use-after-free,,,,"Linux kernel",through 5.19.8,drivers/firmware/efi/capsule-loader.c
+CVE-2022-40531,incorrect type cast,memory corruption,,,,"WLAN",,
+CVE-2022-40962,,memory corruption,,,,"Firefox ESR, Thunderbird, Firefox","< 102.3, < 102.3, < 105",
+CVE-2022-40985,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-40986,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-40987,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-40988,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-40989,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-40990,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-40991,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-40992,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-40993,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-40994,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-40995,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-40996,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-40997,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-40998,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-40999,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41000,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41001,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41002,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41003,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41004,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41005,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41006,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41007,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41008,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41009,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41010,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41011,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41012,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41013,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41014,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41015,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41016,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41017,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41018,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41024,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41025,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41026,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41027,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41028,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41029,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41030,stack-based buffer overflow,arbitrary command execution,,,,"Siretta QUARTZ-GOLD",G5.0.1.5-210720-141020,DetranCLI command parsing functionality
+CVE-2022-41167,improper memory management,remote code execution,,,,"SAP 3D Visual Enterprise Author",9,TeighaTranslator.exe
+CVE-2022-41168,improper memory management,remote code execution,,,,"SAP 3D Visual Enterprise Author",9,CatiaTranslator.exe
+CVE-2022-41170,improper memory management,remote code execution,,,,"SAP 3D Visual Enterprise Author",9,CatiaTranslator.exe
+CVE-2022-41172,improper memory management,remote code execution,,,,"SAP 3D Visual Enterprise Author",9,TeighaTranslator.exe
+CVE-2022-41175,improper memory management,remote code execution,,,,"SAP 3D Visual Enterprise Author",9,emf.x3d
+CVE-2022-41177,improper memory management,remote code execution,,,,"SAP 3D Visual Enterprise Author",9,CoreCadTranslator.exe
+CVE-2022-41179,improper memory management,remote code execution,,,,"SAP 3D Visual Enterprise Author",9,JtTranslator.exe
+CVE-2022-41180,improper memory management,remote code execution,,,,"SAP 3D Visual Enterprise Author",9,PDFPublishing.dll
+CVE-2022-41184,improper memory management,remote code execution,,,,"SAP 3D Visual Enterprise Author",9,ico.x3d
+CVE-2022-41185,improper memory management,remote code execution,,,,"SAP 3D Visual Enterprise Author",9,MataiPersistence.dll
+CVE-2022-41186,improper memory management,remote code execution,,,,"SAP 3D Visual Enterprise Viewer",9,CgmCore.dll
+CVE-2022-41187,improper memory management,remote code execution,,,,"SAP 3D Visual Enterprise Viewer",9,ObjTranslator.exe
+CVE-2022-41189,improper memory management,remote code execution,,,,"SAP 3D Visual Enterprise Viewer",9,TeighaTranslator.exe
+CVE-2022-41190,improper memory management,remote code execution,,,,"SAP 3D Visual Enterprise Viewer",9,TeighaTranslator.exe
+CVE-2022-41191,improper memory management,remote code execution,,,,"SAP 3D Visual Enterprise Viewer",9,JTReader.x3d
+CVE-2022-41193,improper memory management,remote code execution,,,,"SAP 3D Visual Enterprise Viewer",9,ai.x3d
+CVE-2022-41195,improper memory management,remote code execution,,,,"SAP 3D Visual Enterprise Viewer",9,2d.x3d
+CVE-2022-41196,improper memory management,remote code execution,,,,"SAP 3D Visual Enterprise Viewer",9,vrml.x3d
+CVE-2022-41198,improper memory management,remote code execution,,,,"SAP 3D Visual Enterprise Viewer",9,SketchUp.x3d
+CVE-2022-41199,improper memory management,remote code execution,,,,"SAP 3D Visual Enterprise Viewer",9,vrml.x3d
+CVE-2022-41200,improper memory management,remote code execution,,,,"SAP 3D Visual Enterprise Viewer",9,svg.x3d
+CVE-2022-41201,improper memory management,remote code execution,,,,"SAP 3D Visual Enterprise Viewer",9,rh.x3d
+CVE-2022-41202,improper memory management,remote code execution,,,,"SAP 3D Visual Enterprise Viewer",9,vds.x3d
+CVE-2022-41211,improper memory management,arbitrary code execution,,,,"SAP 3D Visual Enterprise Author and SAP 3D Visual Enterprise Viewer",9,
+CVE-2022-41318,incorrect integer-overflow protection,buffer over-read,,,,"Squid","2.5 through 5.6",libntlmauth
+CVE-2022-4135,heap buffer overflow,,,crafted HTML page,remote attacker,Google Chrome,prior to 107.0.5304.121,GPU
+CVE-2022-4141,heap based buffer overflow,,,,,vim/vim,9.0.0946 and below,
+CVE-2022-41415,stack overflow,denial of service,,,,"Acer Altos W2000h-W570h",F4 R01.03.0018,RevserveMem component
+CVE-2022-41420,stack overflow,,,,,nasm,v2.16,Ndisasm component
+CVE-2022-41428,heap overflow,,,,,Bento4,v1.6.0-639,AP4_BitReader::ReadBits function in mp4mux
+CVE-2022-41429,heap overflow,,,,,Bento4,v1.6.0-639,AP4_Atom::TypeFromString function in mp4tag
+CVE-2022-41430,heap overflow,,,,,Bento4,v1.6.0-639,AP4_BitReader::ReadBit function in mp4mux
+CVE-2022-41517,stack overflow,,,,,TOTOLINK NR1800X,V9.1.0u.6279_B20210910,setLanguageCfg function
+CVE-2022-41520,stack overflow,,,,,TOTOLINK NR1800X,V9.1.0u.6279_B20210910,UploadCustomModule function
+CVE-2022-41521,stack overflow,,,,,TOTOLINK NR1800X,V9.1.0u.6279_B20210910,setIpPortFilterRules function
+CVE-2022-41522,stack overflow,,,,,TOTOLINK NR1800X,V9.1.0u.6279_B20210910,"main" function
+CVE-2022-41523,stack overflow,,,,,TOTOLINK NR1800X,V9.1.0u.6279_B20210910,setTracerouteCfg function
+CVE-2022-41524,stack overflow,,,,,TOTOLINK NR1800X,V9.1.0u.6279_B20210910,setParentalRules function
+CVE-2022-41525,command injection,,,,,"TOTOLINK NR1800X",V9.1.0u.6279_B20210910,OpModeCfg function at /cgi-bin/cstecgi.cgi
+CVE-2022-41595,heap overflow,,,,,,,fingerprint trusted application (TA)
+CVE-2022-4172,integer overflow,buffer overflow,,,malicious guest,QEMU,,ACPI Error Record Serialization Table (ERST) device
+CVE-2022-4174,type confusion,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 108.0.5359.71,V8
+CVE-2022-4175,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 108.0.5359.71,Camera Capture
+CVE-2022-4177,use after free,heap corruption,,crafted Chrome Extension and UI interaction,attacker who convinced a user to install an extension,Google Chrome,prior to 108.0.5359.71,Extensions
+CVE-2022-4178,use after free,heap corruption,,crafted HTML page,remote attacker who had compromised the renderer process,Google Chrome,prior to 108.0.5359.71,Mojo
+CVE-2022-4179,use after free,heap corruption,,crafted Chrome Extension,attacker who convinced a user to install a malicious extension,Google Chrome,prior to 108.0.5359.71,Audio
+CVE-2022-4180,use after free,heap corruption,,crafted Chrome Extension,attacker who convinced a user to install a malicious extension,Google Chrome,prior to 108.0.5359.71,Mojo
+CVE-2022-4181,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 108.0.5359.71,Forms
+CVE-2022-41858,null pointer dereference,,crash,,,Linux kernel,,sl_tx_timeout in drivers/net/slip/slip.c
+CVE-2022-41873,integer truncation,out-of-bounds read,,,,"Contiki-NG",prior to 4.9,Bluetooth Low Energy stack
+CVE-2022-41877,missing input length validation,out-of-bounds read,,,,"FreeRDP",prior to 2.9.0,drive channel
+CVE-2022-41902,,out-of-bounds memory read,crash,,,TensorFlow,,MakeGrapplerFunctionItem function
+CVE-2022-4191,use after free,heap corruption,,specific UI interaction,remote attacker,Google Chrome,prior to 108.0.5359.71,Sign-In
+CVE-2022-4192,use after free,heap corruption,,specific UI interaction,remote attacker,Google Chrome,prior to 108.0.5359.71,Live Caption
+CVE-2022-4194,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 108.0.5359.71,Accessibility
+CVE-2022-41966,,stack overflow,denial of service,,,XStream,prior to 1.4.20,
+CVE-2022-41981,stack-based buffer overflow,arbitrary code execution,,,,"OpenImageIO",v2.3.19.0,TGA file format parser
+CVE-2022-4203,read buffer overrun,denial of service,,,,"OpenSSL",,X.509 certificate verification
+CVE-2022-42324,integer truncation,,,,,Oxenstored,,
+CVE-2022-42332,use-after-free,,,,"physically proximate attacker",Xen,,shadow mode
+CVE-2022-42377,improper validation,memory corruption,arbitrary code execution,malicious page or file,remote attacker,PDF-XChange Editor,,U3D file parsing
+CVE-2022-42498,missing bounds check,out of bounds write,remote code execution,,,Pixel cellular firmware,,
+CVE-2022-42499,heap buffer overflow,out of bounds write,remote code execution,,,Android kernel,,sms_SendMmCpErrMsg of sms_MmConManagement.c
+CVE-2022-42820,improper state management,memory corruption,arbitrary code execution,,,"iOS, iPadOS, macOS Ventura","16.1, 16, 13",
+CVE-2022-42898,integer overflow,heap-based buffer overflow,remote code execution,,,MIT Kerberos 5,"before 1.19.4 and 1.20.x before 1.20.1",krb5_pac_parse in lib/krb5/krb/pac.c
+CVE-2022-4291,heap corruption,,,,,Avast Antivirus,prior to 18.0.1478,aswjsflt.dll
+CVE-2022-42932,,memory corruption,,,,"Firefox, Firefox ESR, Thunderbird","< 106, < 102.4, < 102.4",
+CVE-2022-43581,missing authorization,,,,authenticated user,"IBM Content Navigator","3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.0.4, 3.0.5, 3.0.6, 3.0.7, 3.0.8, 3.0.9, 3.0.10, 3.0.11, and 3.0.12",
+CVE-2022-43606,use-of-uninitialized-pointer,,,specially-crafted EtherNet/IP request,,EIP Stack Group OpENer,development commit 58ee13c,Forward Open connection_management_entry functionality
+CVE-2022-43663,integer conversion,buffer overflow,,,,"WellinTech KingHistorian",35.01.00.05,SORBAx64.dll RecvPacket functionality
+CVE-2022-44032,race condition,use-after-free,,,physically proximate attacker,Linux kernel,through 6.0.6,drivers/char/pcmcia/cm4000_cs.c
+CVE-2022-44033,race condition,use-after-free,,,physically proximate attacker,Linux kernel,through 6.0.6,drivers/char/pcmcia/cm4040_cs.c
+CVE-2022-44034,race condition,use-after-free,,,physically proximate attacker,Linux kernel,through 6.0.6,drivers/char/pcmcia/scr24x_cs.c
+CVE-2022-4436,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 108.0.5359.124,Blink Media
+CVE-2022-4437,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 108.0.5359.124,Mojo IPC
+CVE-2022-4438,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 108.0.5359.124,Blink Frames
+CVE-2022-4439,use after free,heap corruption,,specific UI interactions,remote attacker,Google Chrome on Windows,prior to 108.0.5359.124,Aura
+CVE-2022-4440,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 108.0.5359.124,Profiles
+CVE-2022-44550,use-after-free,,denial of service,,,,,graphics display module
+CVE-2022-44638,integer overflow,heap-based buffer overflow,,,,Pixman,before 0.42.2,libpixman
+CVE-2022-44789,,memory corruption,remote code execution,crafted JavaScript file,,Artifex MuJS,"1.0.0 through 1.3.x before 1.3.2",O_getOwnPropertyDescriptor()
+CVE-2022-45406,use-after-free,,,,,Firefox ESR,"< 102.5, Thunderbird < 102.5, and Firefox < 107",
+CVE-2022-45421,,memory corruption,,,,"Firefox ESR, Thunderbird, Firefox","< 102.5, < 102.5, < 107",
+CVE-2022-45869,race condition,denial of service,,,guest OS users,Linux kernel,through 6.1-rc6,x86 KVM subsystem
+CVE-2022-46152,improper validation of array index,out-of-bounds read,,,,"OP-TEE Trusted OS",prior to 3.19.0,cleanup_shm_refs() function
+CVE-2022-46597,command injection,,,,,TRENDnet TEW755AP,1.13B01,setup_wizard_mydlink (sub_4104B8) function
+CVE-2022-46598,command injection,,,,,TRENDnet TEW755AP,1.13B01,action set_sta_enrollee_pin_5g function
+CVE-2022-46878,,memory corruption,,,,"Firefox, Firefox ESR, Thunderbird","< 108, < 102.6, < 102.6",
+CVE-2022-46879,,memory corruption,,,,,Firefox,< 108,
+CVE-2022-46881,,memory corruption,,,,"Firefox, Firefox ESR, Thunderbird","< 106, < 102.6, < 102.6",WebGL
+CVE-2022-46883,,memory corruption,,,,,Firefox,< 107,
+CVE-2022-47662,infinite recursion,stack overflow,,,,"GPAC MP4Box",2.1-DEV-rev649-ga8f438d20,Media_GetSample in isomedia/media.c
+CVE-2022-47935,,memory corruption,arbitrary code execution,specially crafted JT files,,"JT Open, JT Utilities, Solid Edge","All versions < V11.1.1.0, All versions < V13.1.1.0, All versions < V2023",Jt1001.dll
+CVE-2022-47967,,memory corruption,arbitrary code execution,,,Solid Edge,All versions < V2023 MP1,DOCMGMT.DLL
+CVE-2022-47977,,memory corruption,arbitrary code execution,specially crafted JT files,,"JT Open, JT Utilities","All versions < V11.2.3.0, All versions < V13.2.3.0",
+CVE-2022-48303,out-of-bounds read,use of uninitialized memory,,,,"GNU Tar",through 1.34,from_header in list.c
+CVE-2022-48423,improper validation,out-of-bounds write,,,,"Linux kernel",before 6.1.3,fs/ntfs3/record.c
+CVE-2022-4904,missing input validation,stack overflow,denial of service,,,c-ares,,ares_set_sortlist function
+CVE-2022-40304,,double-free,,,,"libxml2",before 2.10.3,
+CVE-2022-32522,buffer copy without checking size of input,stack-based buffer overflow,remote code execution,,,IGSS Data Server,Versions prior to V15.0.0.22170,IGSSdataServer.exe
+CVE-2022-32523,buffer copy without checking size of input,stack-based buffer overflow,remote code execution,,,IGSS Data Server,Versions prior to V15.0.0.22170,IGSSdataServer.exe
+CVE-2022-32524,buffer copy without checking size of input,stack-based buffer overflow,remote code execution,,,IGSS Data Server,Versions prior to V15.0.0.22170,IGSSdataServer.exe
+CVE-2022-32525,buffer copy without checking size of input,stack-based buffer overflow,remote code execution,,,IGSS Data Server,Versions prior to V15.0.0.22170,IGSSdataServer.exe
+CVE-2022-32526,buffer copy without checking size of input,stack-based buffer overflow,remote code execution,,,IGSS Data Server,Versions prior to V15.0.0.22170,IGSSdataServer.exe
+CVE-2021-3442,improper input validation,cross-site scripting,,,authenticated user,"Red Hat OpenShift API Management",,
+CVE-2021-44532,improper escaping,bypass of certificate constraints,,,,"Node.js","< 12.22.9, < 14.18.3, < 16.13.2, and < 17.3.1",
+CVE-2021-1942,improper handling of permissions,memory corruption,,,,"Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables, Snapdragon Wired Infrastructure and Networking",,
+CVE-2021-21906,improper input validation,stack-based buffer overflow,,,,"Garrett Metal Detectors iC Module CMA",Version 5.0,CMA readfile function
+CVE-2021-21958,heap-based buffer overflow,arbitrary code execution,,,,"Hancom Office",2020 11.0.0.2353,Hword HwordApp.dll
+CVE-2022-32609,race condition,use after free,local escalation of privilege,,,,,vcu
+CVE-2022-32610,race condition,use after free,local escalation of privilege,,,,,vcu
+CVE-2022-32612,race condition,use after free,local escalation of privilege,,,,,vcu
+CVE-2022-32613,race condition,memory corruption,local escalation of privilege,,,,,vcu
+CVE-2022-32642,race condition,memory corruption,local escalation of privilege,,,,,ccd
+CVE-2022-32643,race condition,use after free,local escalation of privilege,,,,,ccd
+CVE-2022-32644,race condition,use after free,local escalation of privilege,,,,,vow
+CVE-2022-32648,race condition,use after free,local escalation of privilege,,,,,disp
+CVE-2022-42775,improper locking,memory corruption,denial of service,,,,,camera driver
+CVE-2022-42901,out-of-bounds read,information disclosure,,,,"Bentley MicroStation and MicroStation-based applications",,
+CVE-2022-42928,missing annotations,memory corruption,,,,"Firefox, Firefox ESR, Thunderbird","< 106, < 102.4, < 102.4",
+CVE-2022-4338,integer underflow,out-of-bounds read,,,,"OpenvSwitch",,Organization Specific TLV
+CVE-2022-37434,heap-based buffer overflow,,,,,zlib,through 1.2.12,inflate in inflate.c
+CVE-2022-46393,heap-based buffer overflow,,,,,Mbed TLS,"before 2.28.2 and 3.x before 3.3.0",DTLS
+CVE-2022-47517,off-by-one error,heap-based buffer over-read,denial of service,crafted UDP message,remote attackers,drachtio-server,before 0.8.19,url_canonize2
+CVE-2022-27255,stack-based buffer overflow,remote code execution,,,,"Realtek eCos RSDK, MSDK","1.5.7p1, 4.9.4p1",SIP ALG function
+CVE-2022-2742,use after free,heap corruption,,crafted UI interactions,remote attacker,Google Chrome on Chrome OS and Lacros,prior to 104.0.5112.79,Exosphere
+CVE-2022-27940,heap-based buffer over-read,,,,,Tcpreplay,4.4.1,get_ipv6_next in common/get.c
+CVE-2022-27941,heap-based buffer over-read,,,,,Tcpreplay,4.4.1,get_l2len_protocol in common/get.c
+CVE-2022-27942,heap-based buffer over-read,,,,,Tcpreplay,4.4.1,parse_mpls in common/get.c
+CVE-2022-2854,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 104.0.5112.101,SwiftShader
+CVE-2022-29228,improper handling of local responses,memory corruption,,,,"Envoy",prior to 1.22.1,OAuth filter
+CVE-2022-25658,incorrect pointer arithmetic,memory corruption,,,,"Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables",,video parser function
+CVE-2022-25681,improper cache invalidation,memory corruption,,,,"Snapdragon Auto, Snapdragon Compute, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile",,
+CVE-2022-25721,type confusion,memory corruption,,,,"Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables",,video driver
+CVE-2022-22612,improper memory handling,heap corruption,,,,"tvOS, iOS, iPadOS, iTunes, watchOS, macOS Monterey","15.4, 15.4, 12.12.3 for Windows, 8.5, 12.3",
+CVE-2022-2295,type confusion,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 103.0.5060.114,V8
+CVE-2022-23318,heap-buffer-overflow,out-of-bounds read,information disclosure,specially crafted PCF font file,,pcf2bdf,>= 1.05,
+CVE-2022-23459,improper pointer handling,memory corruption,,,,"Jsonxx/Json++",,Value class
+CVE-2022-23460,,stack exhaustion,denial of service,,,"Jsonxx/Json++",,json parsing
+CVE-2021-41837,untrusted pointer dereference,memory corruption,privilege escalation,,,"Insyde InsydeH2O","kernel 5.0 through 5.5",AhciBusDxe
+CVE-2021-41839,untrusted pointer dereference,memory corruption,privilege escalation,,,"Insyde InsydeH2O","kernel 5.0 through 5.5",NvmExpressDxe  
+CVE-2022-3461,heap buffer overflow,,,manipulated PC Worx or Config+ files,,"PHOENIX CONTACT Automationworx Software Suite",up to version 1.89,
+CVE-2022-34918,type confusion,buffer overflow,privilege escalation,,,Linux kernel,through 5.18.9,nft_set_elem_init
+CVE-2022-3652,type confusion,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 107.0.5304.62,V8
+CVE-2022-36354,improper validation,heap out-of-bounds read,information disclosure,malformed RLA file,,OpenImageIO,"master-branch-9aeece7a and v2.3.19.0",RLA format parser
+CVE-2022-35506,missing input validation,stack overflow,,,,"TripleCross",v0.1.0,
+CVE-2022-35557,stack overflow,denial of service,,,,"Tenda W6",V1.0.0.9(4122),/goform/wifiSSIDget
+CVE-2022-35558,stack overflow,denial of service,,,,"Tenda W6",V1.0.0.9(4122),/goform/WifiMacFilterGet
+CVE-2022-35559,stack overflow,arbitrary code execution,,,,"Tenda W6",V1.0.0.9(4122),/goform/setAutoPing
+CVE-2022-35560,stack overflow,denial of service,,,,"Tenda W6",V1.0.0.9(4122),/goform/wifiSSIDset
+CVE-2022-35561,stack overflow,denial of service,,,,"Tenda W6",V1.0.0.9(4122),/goform/WifiMacFilterSet
+CVE-2022-3370,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome,prior to 106.0.5249.91,Custom Elements
+CVE-2022-3049,use after free,heap corruption,,crafted HTML page,remote attacker,Google Chrome on Chrome OS and Lacros,prior to 105.0.5195.52,SplitScreen
+CVE-2022-3071,use after free,heap corruption,,crafted UI interaction,remote attacker,Google Chrome on Chrome OS and Lacros,prior to 105.0.5195.52,Tab Strip
+CVE-2022-43762,insufficient input validation,memory leaks,,,,"B&R APROL Tbase server",versions < R 4.2-07,
+CVE-2022-43945,improper input handling,buffer overflow,,,,"Linux kernel NFSD","prior to versions 5.19.17 and 6.0.2",
+CVE-2022-4498,heap overflow,denial of service,arbitrary code execution,crafted packet,,"TP-Link routers Archer C5 and WR710N-V1",,httpd service
+CVE-2022-24988,off-by-one error,buffer overflow,,,,"galois_2p8",before 0.1.2,PrimitivePolynomialField::new
+CVE-2022-34169,integer truncation,arbitrary code execution,,,,"Apache Xalan Java XSLT library",before 2.7.3,
+CVE-2022-41916,improper validation,out-of-bounds read,denial of service,,,Heimdal,prior to 7.7.1,PKI certificate validation library
+CVE-2021-1359,insufficient validation,command injection,privilege escalation,crafted XML configuration files,authenticated remote attacker,"Cisco AsyncOS for Cisco Web Security Appliance (WSA)",,configuration management
+CVE-2021-1594,insufficient input validation,command injection,privilege escalation,,unauthenticated remote attacker,"Cisco Identity Services Engine (ISE)",,REST API
+CVE-2021-20543,improper input sanitization,HTML injection,,,remote attacker,"IBM Jazz Team Server","6.0.6, 6.0.6.1, 7.0, 7.0.1, and 7.0.2",
+CVE-2021-21366,improper parsing,unexpected syntactic changes,,maliciously crafted documents,,xmldom,0.4.0 and older,
+CVE-2021-21445,improper input validation,cross-site scripting,page hijacking,,authenticated attacker,"SAP Commerce Cloud","versions - 1808, 1811, 1905, 2005, 2011",
+CVE-2021-23277,improper code neutralization,arbitrary code execution,,,,"Eaton Intelligent Power Manager (IPM)",prior to 1.69,loadUserFile function
+CVE-2021-24410,lack of CSRF protection,cross-site scripting,,,,"?????? ?????? ??????? WordPress plugin",through 1.0,
+CVE-2021-25326,incorrect access control,information disclosure,,,unauthenticated user,"Skyworth Digital Technology RN510",V.3.1.0.4,/cgi-bin/test_version.asp
+CVE-2021-26634,insufficient input validation,arbitrary code execution,privilege escalation,,,,Maxboard,
+CVE-2021-29854,improper input validation,cross-site scripting,session hijacking,specially crafted HTTP request,remote attacker,"IBM Maximo Asset Management","7.6.1.1 and 7.6.1.2",
+CVE-2021-31249,lack of validation,CRLF injection,,,,"CHIYU Technology Inc BF-430, BF-431, and BF-450M TCP/IP Converter devices",,multiple CGI components
+CVE-2021-31573,improper input validation,command injection,remote escalation of privilege,,,Config Manager,,
+CVE-2021-31574,improper input validation,command injection,remote escalation of privilege,,,Config Manager,,
+CVE-2021-31575,improper input validation,command injection,remote escalation of privilege,,,Config Manager,,
+CVE-2021-31676,improper input validation,cross-site scripting,,,,"PESCMS",V2.3.3,
+CVE-2021-33604,URL encoding error,arbitrary JavaScript code execution,,,local user,"com.vaadin:flow-server","2.0.0 through 2.6.1, 3.0.0 through 6.0.9",development mode handler
+CVE-2021-33621,improper input handling,HTTP response splitting,,,,cgi gem for Ruby,"before 0.1.0.2, 0.2.x before 0.2.2, and 0.3.x before 0.3.5",
+CVE-2021-35095,improper serialization,race condition,,,,"Snapdragon Connectivity, Snapdragon Mobile",,
+CVE-2021-36667,un-sanitized input,command injection,arbitrary command execution,crafted payload,,"Druva inSync",6.9.0 for MacOS,local HTTP server
+CVE-2021-38241,weak cipher,arbitrary code execution,,,remote attackers,Ruoyi,before 4.6.1,Shiro framework
+CVE-2021-38997,improper input validation,cross-site scripting,session hijacking,,,IBM API Connect,"V10.0.0.0 through V10.0.5.0, V10.0.1.0 through V10.0.1.7, and V2018.4.1.0 through 2018.4.1.19",
+CVE-2021-39024,improper input sanitization,cross-site scripting,credentials disclosure,,,IBM Guardium Data Encryption (GDE),"4.0.0.0 and 5.0.0.0",Web UI
+CVE-2021-39028,improper input validation,cross-site scripting,session hijacking,,,IBM Engineering Lifecycle Optimization - Publishing,"6.0.6, 6.0.6.1, 7.0, 7.0.1, and 7.0.2",
+CVE-2021-3935,improper restriction of XML features,SQL injection,,,,PgBouncer,prior to 1.6.1,
+CVE-2021-40336,improper data validation,HTTP response splitting,,,,"Hitachi Energy MSM","V2.2 and prior versions",http web interface
+CVE-2021-40604,improper input validation,server-side request forgery,deserialization,,,IPS Community Suite,before 4.6.2,
+CVE-2021-40658,improper input sanitization,HTML injection,,,,"Textpattern",4.8.7,"Content>Write>Body"
+CVE-2021-41421,improper input sanitization,PHP code injection,remote code execution,,authenticated attacker,MaianAffiliate,v.1.0,admin panel
+CVE-2021-41433,improper input sanitization,SQL injection,authentication bypass,,,Resumes Management and Job Application Website,1.0,login.php
+CVE-2021-41437,improper input handling,HTTP response splitting,unauthorized access,,,ASUS RT-AX88U,before v3.0.0.4.388.20558,web application
+CVE-2021-41749,improper input handling,server-side template injection,remote code execution,,unauthenticated attackers,SEOmatic plugin for Craft CMS 3,up to 3.4.11,
+CVE-2021-42232,improper input handling,command injection,arbitrary command execution,,,TP-Link Archer A7,Archer A7(US)_V5_210519,/usr/bin/tddp
+CVE-2021-42651,improper input handling,server-side template injection,arbitrary code execution,,authenticated remote attacker,Pentest-Collaboration-Framework,v1.0.8,/project/PROJECTNAME/reports/
+CVE-2021-4267,improper input sanitization,cross-site scripting,,,remote attacker,tad_discuss,,
+CVE-2021-42872,improper input handling,command injection,remote code execution,,,TOTOLINK EX1200T,V4.1.2cu.5215,
+CVE-2021-44080,improper input validation,command injection,arbitrary OS command execution,,logged in administrators,SerComm h500s,"FW: lowi-h500s-v3.4.22",httpd web server (setup.cgi)
+CVE-2021-46877,improper input handling,denial of service,,,attackers,jackson-databind,"2.10.x through 2.12.x before 2.12.6 and 2.13.x before 2.13.1",JsonNode JDK serialization
+CVE-2022-0073,improper input validation,command injection,,,,"LiteSpeed Technologies OpenLiteSpeed Web Server and LiteSpeed Web Server","1.7.0 versions before 1.7.16.1",dashboards
+CVE-2022-0210,insufficient escaping,cross-site scripting,,,attackers with administrative user access,Random Banner WordPress plugin,up to and including 4.1.4,~/include/models/model.php
+CVE-2022-0217,improper restriction of XML features,entity expansion,,,attacker,Prosody,,internal XML library
+CVE-2022-0220,improper escaping,cross-site scripting,,,,"GDPR WordPress plugin",before 1.9.27,check_privacy_settings AJAX action
+CVE-2022-0366,improper input sanitization,SQL injection,administrative access,,authenticated and authorized agent user,Capsule8 Console,between versions 4.6.0 and 4.9.1,
+CVE-2022-0421,lack of authorization,cross-site scripting,,,unauthenticated users,Five Star Restaurant Reservations WordPress plugin,before 2.4.12,
+CVE-2022-0423,lack of authorization,cross-site scripting,,,any authenticated users,3D FlipBook WordPress plugin,before 1.12.1,
+CVE-2022-0439,improper input escaping,SQL injection,,,users with roles as low as Subscriber,Email Subscribers & Newsletters WordPress plugin,before 5.3.2,ajax_fetch_report_list action
+CVE-2022-0450,lack of authorization,cross-site scripting,,,any authenticated users,Menu Image Icons made easy WordPress plugin,before 3.0.6,
+CVE-2022-0479,improper input sanitization,SQL injection,cross-site scripting,,,"Popup Builder WordPress plugin",before 4.1.1,All Subscribers admin dashboard
+CVE-2022-0642,improper CSRF protection,cross-site scripting,,,attacker,JivoChat Live Chat WordPress plugin,before 1.3.5.4,plugins admin page
+CVE-2022-0661,improper input sanitization,cross-site scripting,remote code execution,,high privileged user (Admin+),Ad Injection WordPress plugin,through 1.2.0.19,
+CVE-2022-0780,improper CSRF protection,cross-site scripting,,,unauthenticated attackers,SearchIQ WordPress plugin,before 3.9,siq_ajax AJAX action
+CVE-2022-0818,lack of authorization,cross-site scripting,,,unauthenticated attacker,WooCommerce Affiliate Plugin WordPress plugin,before 4.16.4.5,
+CVE-2022-0830,lack of CSRF protection,cross-site scripting,,,attackers,FormBuilder WordPress plugin,through 1.08,
+CVE-2022-0875,lack of CSRF protection,cross-site scripting,,,attackers,Google Authenticator WordPress plugin,before 1.0.5,
+CVE-2022-0895,improper input sanitization,code injection,,,,"microweber/microweber",prior to 1.3,
+CVE-2022-1045,improper file upload validation,cross-site scripting,,".svg file upload",,"polonel/trudesk",prior to v1.2.0,
+CVE-2022-1059,,information disclosure,,,,Aethon TUG Home Base Server,versions prior to version 24,
+CVE-2022-1243,improper input sanitization,cross-site scripting,,,,"medialize/uri.js",prior to 1.19.11,
+CVE-2022-1262,,command injection,arbitrary code execution,,,,,protest binary
+CVE-2022-1345,improper file upload validation,cross-site scripting,session hijacking,".svg file upload",,"causefx/organizr",prior to 2.1.1810,
+CVE-2022-1390,improper input validation,arbitrary file read,remote code execution,,,Featured Image from URL (FIFU) WordPress plugin,through 2.2,
+CVE-2022-1407,lack of CSRF protection,cross-site scripting,,,attackers,VikBooking Hotel Booking Engine & PMS WordPress plugin,before 1.5.8,
+CVE-2022-1557,lack of authorization,cross-site scripting,,,any authenticated users,ULeak Security & Monitoring WordPress plugin,through 1.2.3,
+CVE-2022-1578,missing CSRF check,arbitrary SQL execution,,,attacker,My wpdb WordPress plugin,before 2.5,
+CVE-2022-1592,improper input validation,cross-site scripting,,,attacker,"clinical-genomics/scout",prior to v4.42,
+CVE-2022-1593,lack of input sanitization,cross-site scripting,,,attackers,Site Offline or Coming Soon WordPress plugin,through 1.6.6,
+CVE-2022-1626,lack of CSRF protection,cross-site scripting,,,attackers,Sharebar WordPress plugin,through 1.4.1,
+CVE-2022-1758,lack of CSRF protection,cross-site scripting,remote code execution,,attackers,Genki Pre-Publish Reminder WordPress plugin,through 1.4.1,
+CVE-2022-1763,missing checks,cross-site scripting,,,attackers,Static Page eXtended WordPress plugin,through 2.1,
+CVE-2022-1764,lack of CSRF protection,cross-site scripting,,,attackers,WP-chgFontSize WordPress plugin,through 1.8,
+CVE-2022-1780,lack of CSRF protection,cross-site scripting,,,attackers,LaTeX for WordPress plugin,through 3.4.10,
+CVE-2022-1781,lack of CSRF protection,cross-site scripting,,,attackers,postTabs WordPress plugin,through 2.10.6,
+CVE-2022-1787,lack of CSRF protection,cross-site scripting,,,attackers,Sideblog WordPress plugin,through 6.0,
+CVE-2022-1792,lack of CSRF protection,cross-site scripting,,,attackers,Quick Subscribe WordPress plugin,through 1.7.1,
+CVE-2022-1818,lack of CSRF protection,cross-site scripting,,,attackers,Multi-page Toolkit WordPress plugin,through 2.6,
+CVE-2022-1829,lack of CSRF protection,cross-site scripting,,,attackers,Inline Google Maps WordPress plugin,through 5.11,
+CVE-2022-1830,lack of CSRF protection,cross-site scripting,,,attackers,Amazon Einzeltitellinks WordPress plugin,through 1.3.3,
+CVE-2022-1842,lack of CSRF protection,cross-site scripting,,,attackers,OpenBook Book Data WordPress plugin,through 3.5.2,
+CVE-2022-1844,lack of CSRF protection,cross-site scripting,,,attackers,WP Sentry WordPress plugin,through 1.0,
+CVE-2022-1913,lack of CSRF protection,cross-site scripting,,,attackers,Add Post URL WordPress plugin,through 2.1.0,
+CVE-2022-1914,lack of CSRF protection,cross-site scripting,,,attackers,Clean-Contact WordPress plugin,through 1.6,
+CVE-2022-20054,missing permission check,command injection,local escalation of privilege,,,,,ims service
+CVE-2022-2068,improper input sanitization,command injection,arbitrary command execution,,,OpenSSL,"3.0.0-3.0.3, 1.1.1-1.1.1o, 1.0.2-1.0.2ze",c_rehash script
+CVE-2022-2071,lack of CSRF protection,cross-site scripting,,,attackers,Name Directory WordPress plugin,before 1.25.4,
+CVE-2022-20713,improper input validation,cross-site scripting,,,unauthenticated remote attacker,"Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software",,VPN web client services component
+CVE-2022-20718,incomplete sanitization,command injection,arbitrary code execution,,,Cisco IOx application hosting environment,,
+CVE-2022-20719,improper input validation,path traversal,,,,,Cisco IOx application hosting environment,
+CVE-2022-20720,improper path validation,arbitrary code execution,,,,,Cisco IOx application hosting environment,
+CVE-2022-20721,insufficient path validation,arbitrary code execution,,,,,Cisco IOx application hosting environment,
+CVE-2022-20722,,path traversal,,,,,Cisco IOx application hosting environment,
+CVE-2022-20724,race condition,arbitrary code execution,,,,,Cisco IOx application hosting environment,
+CVE-2022-20725,insufficient input validation,cross-site scripting,,,,,Cisco IOx application hosting environment,
+CVE-2022-20726,insufficient error handling,,,,,,Cisco IOx application hosting environment,
+CVE-2022-20727,improper input validation,command injection,cross-site scripting,,,,Cisco IOx application hosting environment,
+CVE-2022-20772,improper input sanitization,HTTP response splitting,,,unauthenticated remote attacker,"Cisco Email Security Appliance (ESA) and Cisco Secure Email and Web Manager",,
+CVE-2022-20852,improper input validation,cross-site scripting,frame hijacking,,,Cisco Webex Meetings,,web interface
+CVE-2022-20857,insufficient access controls,arbitrary command execution,,,unauthenticated remote attacker,Cisco Nexus Dashboard,,
+CVE-2022-2099,lack of input sanitization,HTML injection,,,,"WooCommerce WordPress plugin",before 6.6.0,payment gateway titles
+CVE-2022-21145,,cross-site scripting,,,,"Lansweeper lansweeper",9.1.20.2,WebUserActions.aspx functionality
+CVE-2022-21169,prototype pollution,cross-site scripting bypass,,,,"express-xss-sanitizer",before 1.1.3,
+CVE-2022-21187,improper input validation,command injection,arbitrary command execution,,,libvcs,before 0.11.1,update_repo function
+CVE-2022-21223,improper input validation,command injection,arbitrary command execution,,,cocoapods-downloader,before 1.6.2,download function
+CVE-2022-21235,improper input validation,command injection,arbitrary command execution,,,github.com/masterminds/vcs,before 1.13.3,
+CVE-2022-2146,lack of input sanitization,cross-site scripting,,,,"Import CSV Files WordPress plugin",through 1.0,
+CVE-2022-21647,improper deserialization,SQL injection,,,remote attackers,CodeIgniter4,,old() function
+CVE-2022-21663,improper deserialization,arbitrary object injection,,,,"WordPress","5.8.3, 3.7.37",
+CVE-2022-2171,lack of CSRF protection,cross-site scripting,,,attackers,Progressive License WordPress plugin,through 1.1.0,
+CVE-2022-21826,improper request handling,cross-site scripting,,,,"Pulse Secure",9.115 and below,
+CVE-2022-21939,missing HttpOnly flag,,,,,"Johnson Controls System Configuration Tool (SCT)","version 14 prior to 14.2.3 and version 15 prior to 15.0.3",
+CVE-2022-22344,improper input validation,HTTP header injection,cross-site scripting,,,IBM Spectrum Copy Data Management,2.2.0.0 through 2.2.14.3,
+CVE-2022-22360,,LDAP injection,unauthorized access,,remote authenticated attacker,"IBM Sterling Partner Engagement Manager","6.1.2, 6.2, and Cloud/SasS 22.2",
+CVE-2022-2241,lack of CSRF protection,cross-site scripting,,,attackers,Featured Image from URL (FIFU) WordPress plugin,before 4.0.1,
+CVE-2022-22734,lack of input sanitization,cross-site scripting,,,attacker,Simple Quotation WordPress plugin,through 1.3.2,
+CVE-2022-22735,lack of authorization,SQL injection,,,any authenticated users,Simple Quotation WordPress plugin,through 1.3.2,
+CVE-2022-22954,server-side template injection,remote code execution,,,malicious actor with network access,"VMware Workspace ONE Access and Identity Manager",,
+CVE-2022-22958,improper deserialization,remote code execution,,,malicious actor with administrative access,"VMware Workspace ONE Access, Identity Manager and vRealize Automation",,
+CVE-2022-22997,command injection,remote code execution,,,attacker,My Cloud Home devices,,
+CVE-2022-23068,improper input sanitization,HTML injection,,,attacker,ToolJet,v0.6.0 to v1.10.2,
+CVE-2022-2312,lack of CSRF protection,cross-site scripting,,,attackers,Student Result or Employee Database WordPress plugin,before 1.7.5,
+CVE-2022-23170,XML external entity injection,server-side request forgery,,,unauthenticated attacker,"SysAid - Okta SSO integration",,identity provider endpoint
+CVE-2022-23367,,DOM-based cross-site scripting,,,attackers,Fulusso,v1.1,/BindAccount/SuccessTips.js
+CVE-2022-23395,prototype pollution,DOM cross-site scripting,,,,"jQuery Cookie",1.4.1,
+CVE-2022-23474,improper input sanitization,code injection,,,,"Editor.js",prior to 2.26.0,processHTML method
+CVE-2022-2353,improper input neutralization,cross-site request forgery,,,attacker,microweber/microweber,prior to v1.2.20,
+CVE-2022-23544,improper input validation,server-side request forgery,cross-site scripting,,,MeterSphere,prior to 2.5.0,IssueProxyResourceService::getMdImageByUrl
+CVE-2022-23599,,cross-site scripting,open redirect,,,Products.ATContentTypes,,image_view_fullscreen page
+CVE-2022-23603,improper input sanitization,code injection,,,,"iTunesRPC-Remastered",before commit 24f43aa,
+CVE-2022-23611,improper input sanitization,command injection,,,,"iTunesRPC-Remastered",before commit cdcd48b,
+CVE-2022-23614,improper constraint enforcement,code injection,,,,"Twig",,sort filter
+CVE-2022-23620,improper input escaping,path traversal,,,,"XWiki Platform",before 13.6-rc-1,AbstractSxExportURLFactoryActionHandler#processSx
+CVE-2022-23661,,command injection,,,authenticated remote attacker,"Aruba ClearPass Policy Manager","6.10.4 and below, 6.9.9 and below, 6.8.9-HF2 and below, 6.7.x and below",
+CVE-2022-23662,,command injection,,,authenticated remote attacker,"Aruba ClearPass Policy Manager","6.10.4 and below, 6.9.9 and below, 6.8.9-HF2 and below, 6.7.x and below",
+CVE-2022-23663,,command injection,,,authenticated remote attacker,"Aruba ClearPass Policy Manager","6.10.4 and below, 6.9.9 and below, 6.8.9-HF2 and below, 6.7.x and below",
+CVE-2022-23664,,command injection,,,authenticated remote attacker,"Aruba ClearPass Policy Manager","6.10.4 and below, 6.9.9 and below, 6.8.9-HF2 and below, 6.7.x and below",
+CVE-2022-23665,,command injection,,,authenticated remote attacker,"Aruba ClearPass Policy Manager","6.10.4 and below, 6.9.9 and below, 6.8.9-HF2 and below, 6.7.x and below",
+CVE-2022-23666,,command injection,,,authenticated remote attacker,"Aruba ClearPass Policy Manager","6.10.4 and below, 6.9.9 and below, 6.8.9-HF2 and below, 6.7.x and below",
+CVE-2022-23667,,command injection,,,authenticated remote attacker,"Aruba ClearPass Policy Manager","6.10.4 and below, 6.9.9 and below, 6.8.9-HF2 and below, 6.7.x and below",
+CVE-2022-23681,,command injection,arbitrary code execution,,authenticated attacker,"ArubaOS-CX","10.09.1030 and below, 10.08.1030 and below, 10.06.0180 and below",command line interface
+CVE-2022-23682,,command injection,arbitrary code execution,,authenticated attacker,"ArubaOS-CX","10.09.1030 and below, 10.08.1030 and below, 10.06.0180 and below",command line interface
+CVE-2022-23683,,command injection,arbitrary code execution,,authenticated attacker,"ArubaOS-CX","10.10.0002 and below, 10.09.1030 and below, 10.08.1070 and below, 10.06.0210 and below",Network Analytics Engine via NAE scripts
+CVE-2022-23734,improper deserialization,remote code execution,,,attacker,GitHub Enterprise Server,prior to v3.6,SVNBridge
+CVE-2022-23812,,malicious code execution,,,,"node-ipc","from 10.1.1 and before 10.1.3",
+CVE-2022-23857,improper input sanitization,SQL injection,information disclosure,,authenticated user,Navidrome,before 0.47.5,model/criteria/criteria.go
+CVE-2022-24065,improper input validation,command injection,,,,"cookiecutter",before 2.1.1,
+CVE-2022-24193,,command injection,,,,"CasaOS",before v0.2.7,
+CVE-2022-2433,improper deserialization,arbitrary PHP object execution,,,unauthenticated users,WordPress Infinite Scroll – Ajax Load More plugin,up to and including 5.5.3,
+CVE-2022-24433,improper input validation,command injection,arbitrary command execution,,,simple-git,before 3.3.0,.fetch(remote branch handlerFn) function
+CVE-2022-24440,improper input validation,command injection,,,,"cocoapods-downloader","before 1.6.0, from 1.6.2 and before 1.6.3",Pod::Downloader.preprocess_options function
+CVE-2022-24449,improper XML parsing,XXE,SSRF,crafted XML document,,"Solar appScreener",through 3.10.4,
+CVE-2022-2458,improper XML parsing,XXE,information disclosure,,,Business Central and Kie-Server APIs,,
+CVE-2022-24688,unrestricted file upload,remote code execution,,PDF upload with PHP content,,"DSK DSKNet","2.16.136.0 and 2.17.136.5",Touch settings
+CVE-2022-24690,improper input sanitization,SQL injection,information disclosure,crafted HTTP requests,unauthenticated users,"DSK DSKNet","2.16.136.0 and 2.17.136.5",PresAbs.php
+CVE-2022-24697,improper input validation,command injection,remote code execution,,,Kylin,"2 version 2.6.5 and earlier, 3 version 3.1.2 and earlier, and 4 version 4.0.1 and earlier",cube designer function
+CVE-2022-24818,unchecked JNDI lookups,arbitrary code execution,,,,"GeoTools","26.4, 25.6, and 24.6",
+CVE-2022-24847,unchecked JNDI lookup,arbitrary code execution,,,,"GeoServer","2.21.0, 2.20.4, 1.19.6",security mechanism
+CVE-2022-24881,lack of input validation,remote code execution,,,attackers,"Ballcat Codegen",prior to 1.0.0.beta.2,template engine
+CVE-2022-24917,,cross-site scripting,,,,,,services' page
+CVE-2022-24918,,cross-site scripting,,,,,,items' page  
+CVE-2022-24919,,cross-site scripting,,,,,,graphs' page
+CVE-2022-24926,improper input validation,cross-site scripting,,,,SmartTagPlugin,prior to version 1.2.15-6,
+CVE-2022-25017,,command injection,,,,"Hitron CHITA",7.2.2.0.3b6-CD,Device/DDNS ddnsUsername field
+CVE-2022-25048,,command injection,,,normal users,CWP,v0.9.8.1126,
+CVE-2022-25151,missing HttpOnly flag,information disclosure,,,remote attacker,"ITarian platform",,Service Desk module
+CVE-2022-25172,missing HttpOnly flag,information disclosure,,,attacker able to perform an XSS attack,"InHand Networks InRouter302",V3.5.4,web interface session cookie functionality
+CVE-2022-2540,missing CSRF protection,cross-site scripting,,,unauthenticated attackers,Link Optimizer Lite WordPress plugin,up to and including 1.4.5,admin_page function in ~/admin.php
+CVE-2022-2541,missing CSRF protection,cross-site scripting,,,unauthenticated attackers,uContext for Amazon WordPress plugin,up to and including 3.9.1,~/app/sites/ajax/actions/keyword_save.php
+CVE-2022-2542,missing CSRF protection,cross-site scripting,,,unauthenticated attackers,uContext for Clickbank WordPress plugin,up to and including 3.9.1,~/app/sites/ajax/actions/keyword_save.php
+CVE-2022-25581,arbitrary file upload,code injection,,crafted .txt file,attackers,Classcms,v2.5 and below,\class\classupload component
+CVE-2022-25597,insufficient input filtering,command injection,,,unauthenticated LAN attacker,"ASUS RT-AC86U",,LPD service
+CVE-2022-25648,improper input validation,command injection,,,,"git",before 1.11.0,fetch function
+CVE-2022-25760,lack of input sanitization,arbitrary code injection,,,,"accesslog",All versions,format option
+CVE-2022-25766,improper input validation,remote code execution,,,,"ungit",before 1.5.20,/api/fetch endpoint
+CVE-2022-25813,improper input validation,remote code execution,,,anonymous user,"Apache OFBiz","18.12.05 and earlier",ecommerce plugin
+CVE-2022-25865,improper input validation,command injection,,,,"workspace-tools",before 0.18.4,fetchRemoteBranch function
+CVE-2022-25866,improper input validation,command injection,,,,"czproject/git-php",before 4.0.3,isRemoteUrlReadable function  
+CVE-2022-25900,insecure usage of --upload-pack,command injection,,,,"git-clone",All versions,
+CVE-2022-25906,missing input sanitization,command injection,,,,"is-http2",All versions,isH2 function
+CVE-2022-26088,improper input sanitization,HTML injection,,,remote authenticated users,"BMC Remedy",before 22.1,Email-based Incident Forwarding
+CVE-2022-26136,improper input validation,cross-site scripting,,,remote unauthenticated attacker,"Atlassian products",,Servlet Filters
+CVE-2022-26151,,command injection,,,,"Citrix XenMobile Server","10.12 through RP11, 10.13 through RP7, and 10.14 through RP4",
+CVE-2022-26289,,command injection,,,,"Tenda M3",1.10 V1.0.0.12(4856),/goform/exeCommand
+CVE-2022-26290,,command injection,,,,"Tenda M3",1.10 V1.0.0.12(4856),/goform/WriteFacMac
+CVE-2022-26413,,command injection,,,local authenticated attacker,"Zyxel VMG3312-T20A",firmware version 5.30(ABFX.5)C0,CGI program
+CVE-2022-26477,improper termination condition,CPU exhaustion,,,,"SystemDS",2.2.1 and earlier,readExternal method
+CVE-2022-26481,,command injection,,,,"Poly Studio",before 3.7.0,Create Certificate Signing Request (CSR) action
+CVE-2022-26482,,command injection,,,admin,"Poly EagleEye Director II",before 2.2.2.1,
+CVE-2022-26532,improper input validation,command injection,,,local authenticated attacker,"Zyxel USG/ZyWALL series, USG FLEX series, ATP series, VPN series, NSG series, NXC2500, NAP203, NWA50AX, WAC500, WAX510D",various versions,packet-trace CLI command
+CVE-2022-26536,,command injection,,,,"Tenda M3",1.10 V1.0.0.12(4856),/goform/setFixTools
+CVE-2022-26580,lack of input sanitization,command injection,,,attacker with physical USB access,"PAX A930",PayDroid_7.1.1_Virgo_V04.3.26T1_20210419,ADB daemon shell service
+CVE-2022-26670,inadequate input filtering,command injection,,,unauthenticated LAN attacker,"D-Link DIR-878",,webpage input field
+CVE-2022-26868,improper input validation,command injection,arbitrary code execution,,authenticated attacker,"Dell EMC PowerStore","2.0.0.x, 2.0.1.x, and 2.1.0.x",
+CVE-2022-26889,improper input validation,path traversal,arbitrary content injection,,,Splunk Enterprise,before 8.1.2,uri path
+CVE-2022-26995,,command injection,,,attackers,"Arris TR3300",v1.0.13,pptp function
+CVE-2022-26996,,command injection,,,attackers,"Arris TR3300",v1.0.13,pppoe function
+CVE-2022-26997,,command injection,,,attackers,"Arris TR3300",v1.0.13,upnp function
+CVE-2022-26998,,command injection,,,attackers,"Arris TR3300",v1.0.13,wps setting function
+CVE-2022-26999,,command injection,,,attackers,"Arris TR3300",v1.0.13,static ip settings function
+CVE-2022-27000,,command injection,,,attackers,"Arris TR3300",v1.0.13,time and time zone function
+CVE-2022-27001,,command injection,,,attackers,"Arris TR3300",v1.0.13,dhcp function
+CVE-2022-27002,,command injection,,,attackers,"Arris TR3300",v1.0.13,ddns function
+CVE-2022-27076,,command injection,,,,"Tenda M3",1.10 V1.0.0.12(4856),/goform/delAd
+CVE-2022-27077,,command injection,,,,"Tenda M3",1.10 V1.0.0.12(4856),/cgi-bin/uploadWeiXinPic
+CVE-2022-27078,,command injection,,,,"Tenda M3",1.10 V1.0.0.12(4856),/goform/setAdInfoDetail
+CVE-2022-27079,,command injection,,,,"Tenda M3",1.10 V1.0.0.12(4856),/goform/setPicListItem
+CVE-2022-27080,,command injection,,,,"Tenda M3",1.10 V1.0.0.12(4856),/goform/setWorkmode
+CVE-2022-27081,,command injection,,,,"Tenda M3",1.10 V1.0.0.12(4856),/goform/SetLanInfo
+CVE-2022-27082,,command injection,,,,"Tenda M3",1.10 V1.0.0.12(4856),/goform/SetInternetLanInfo
+CVE-2022-27083,,command injection,,,,"Tenda M3",1.10 V1.0.0.12(4856),/cgi-bin/uploadAccessCodePic
+CVE-2022-27193,improper XML parsing,XXE,information disclosure,,,CVRF-CSAF-Converter,before 1.0.0-rc2,
+CVE-2022-27858,,CSV injection,,,,"Activity Log Team Activity Log",<= 2.8.3,
+CVE-2022-28374,improper input sanitization,command injection,remote code execution,,,Verizon 5G Home LVSKIHP OutDoorUnit (ODU),3.33.101.0,/usr/lib/lua/5.1/luci/controller/admin/settings.lua
+CVE-2022-28375,improper input sanitization,command injection,remote code execution,,,Verizon 5G Home LVSKIHP OutDoorUnit (ODU),3.33.101.0,/usr/lib/lua/5.1/luci/controller/rpc.lua
+CVE-2022-2846,lack of authorization,cross-site scripting,,,unauthenticated attackers,Calendar Event Multi View WordPress plugin,before 1.4.07,
+CVE-2022-28491,,command injection,,,attackers,"TOTOLink outdoor CPE CP900",V6.3c.566_B20171026,NTPSyncWithHost function
+CVE-2022-28494,,command injection,,,attackers,"TOTOLink outdoor CPE CP900",V6.3c.566_B20171026,setUpgradeFW function
+CVE-2022-28495,,command injection,,,attackers,"TOTOLink outdoor CPE CP900",V6.3c.566_B20171026,setWebWlanIdx function
+CVE-2022-28496,,command injection,,,attackers,"TOTOLink outdoor CPE CP900",V6.3c.566_B20171026,setPasswordCfg function
+CVE-2022-28497,,command injection,,,attackers,"TOTOLink outdoor CPE CP900",V6.3c.566_B20171026,mtd_write_bootloader function
+CVE-2022-28703,,cross-site scripting,,,,"Lansweeper lansweeper",10.1.1.0,HdConfigActions.aspx altertextlanguages functionality
+CVE-2022-29080,improper input validation,command injection,,,,"npm-dependency-versions",through 0.3.0,dependencyVersions function
+CVE-2022-29307,improper input validation,command injection,,,,"IonizeCMS",v1.0.8.1,copy_lang_content in application/models/lang_model.php
+CVE-2022-29520,,command injection,arbitrary command execution,specially-crafted XCMD,,"Abode Systems iota All-In-One Security Kit",6.9Z,console_main_loop :sys functionality
+CVE-2022-29539,improper input validation,command injection,,,unauthenticated attacker,"RESI Gemini-Net",4.2,resi-calltrace
+CVE-2022-29603,improper input sanitization,SQL injection,information disclosure,crafted SQL statements,remote authenticated attacker,UniverSIS UniverSIS-API,through 1.2.1,multiple API endpoints
+CVE-2022-29652,,SQL injection,,,,"Online Sports Complex Booking System",1.0,/scbs/classes/Users.php?f=save_client
+CVE-2022-29816,,HTML injection,,,,"JetBrains IntelliJ IDEA",before 2022.1,IDE messages
+CVE-2022-29843,,command injection,arbitrary code execution,,,Western Digital My Cloud OS 5,firmware versions prior to 5.26.119,DDNS service configuration
+CVE-2022-30078,improper input sanitization,command injection,,,remote authenticated attackers,"NETGEAR R6200_V2, R6300_V2","through R6200v2-V1.0.3.12_10.1.11, through R6300v2-V1.0.4.52_10.0.93",ipv6_fix.cgi
+CVE-2022-30105,improper input sanitization,command injection,arbitrary code execution,,,"Belkin N300",Firmware 1.00.08,/setting_hidden.asp
+CVE-2022-3024,lack of authorization,cross-site scripting,,,any authenticated users,Simple Bitcoin Faucets WordPress plugin,through 1.7.0,AJAX action
+CVE-2022-30321,improper input validation,command injection,arbitrary host access,,,"go-getter","up to 1.5.11 and 2.0.2",
+CVE-2022-30335,improper input sanitization,SQL injection,information disclosure,,,Bonanza Wealth Management System (BWM),7.3.2,login form
+CVE-2022-30425,,command injection,,,,"Tenda Technology Co. Ltd HG6",3.3.0-210926,pingAddr and traceAddr parameters
+CVE-2022-30966,improper output escaping,cross-site scripting,,,attackers with Item/Configure permission,Jenkins Random String Parameter Plugin,1.0 and earlier,
+CVE-2022-30991,,HTML injection,,,,"Acronis Cyber Protect 15 (Linux Windows)",before build 29240,
+CVE-2022-31014,improper input sanitization,SMTP command injection,,,,"Nextcloud server","before 22.2.8 23.0.5 or 24.0.1",
+CVE-2022-31085,improper encryption,information disclosure,,,,"LDAP Account Manager (LAM)",prior to 8.0,session files
+CVE-2022-31100,improper input handling,denial of service,,,,"rulex",before 0.4.3,
+CVE-2022-31102,improper input sanitization,cross-site scripting,,,,"Argo CD","2.3.0-2.3.5 and 2.4.0-2.4.4",/auth/callback page
+CVE-2022-31179,improper input sanitization,code injection,,,,"Shescape",prior to 1.5.8,
+CVE-2022-31479,improper input validation,command injection,arbitrary command execution,specially crafted hostname,unauthenticated attacker,"HID Mercury Intelligent Controllers LP1501, LP1502, LP2500, LP4502, and EP4502","firmware versions prior to 1.302 for LP series, 1.296 for EP series",
+CVE-2022-31777,,cross-site scripting,arbitrary JavaScript execution,malicious payload in logs,remote attackers,Apache Spark,"3.2.1 and earlier, and 3.3.0",UI
+CVE-2022-31814,improper input sanitization,command injection,arbitrary OS command execution,shell metacharacters in HTTP Host header,remote attackers,pfSense pfBlockerNG,through 2.1.4_26,
+CVE-2022-31898,improper input validation,command injection,,,,"gl-inet GL-MT300N-V2 Mango, GL-AX1800 Flint","v3.212, v3.214",ping_addr and trace_addr functions
+CVE-2022-3236,improper input validation,code injection,remote code execution,,,Sophos Firewall,v19.0 MR1 and older,User Portal and Webadmin
+CVE-2022-3242,improper input sanitization,HTML injection,,,,"microweber/microweber",prior to 1.3.2,
+CVE-2022-32534,,command injection,arbitrary command execution,,,Bosch Ethernet switch PRA-ES8P2S,1.01.05 and earlier,diagnostics web interface
+CVE-2022-32763,improper input sanitization,cross-site scripting,arbitrary JavaScript execution,specially-crafted HTTP request,,"Lansweeper lansweeper",10.1.1.0,SanitizeHtml functionality
+CVE-2022-32765,,command injection,arbitrary command execution,specially-crafted network request,,"Robustel R1510","3.1.16 and 3.3.0",sysupgrade command
+CVE-2022-33312,,command injection,arbitrary command execution,specially-crafted network request,,"Robustel R1510",3.3.0,/action/import_cert_file/ API
+CVE-2022-33313,,command injection,arbitrary command execution,specially-crafted network request,,"Robustel R1510",3.3.0,/action/import_https_cert_file/ API
+CVE-2022-33314,,command injection,arbitrary command execution,specially-crafted network request,,"Robustel R1510",3.3.0,/action/import_sdk_file/ API
+CVE-2022-33325,,command injection,arbitrary command execution,specially-crafted network packets,,"Robustel R1510",3.3.0,/ajax/clear_tools_log/ API
+CVE-2022-33326,,command injection,arbitrary command execution,specially-crafted network packets,,"Robustel R1510",3.3.0,/ajax/config_rollback/ API
+CVE-2022-33327,,command injection,arbitrary command execution,specially-crafted network packets,,"Robustel R1510",3.3.0,/ajax/remove_sniffer_raw_log/ API
+CVE-2022-33328,,command injection,arbitrary command execution,specially-crafted network packets,,"Robustel R1510",3.3.0,/ajax/remove/ API
+CVE-2022-33329,,command injection,arbitrary command execution,specially-crafted network packets,,"Robustel R1510",3.3.0,/ajax/set_sys_time/ API
+CVE-2022-3338,improper XML parsing,XXE,server-side request forgery,carefully constructed XML file,unauthenticated remote attacker,ePO,prior to 5.10 Update 14,
+CVE-2022-3360,improper deserialization,PHP object injection,remote code execution,,,LearnPress WordPress plugin,before 4.1.7.2,REST API endpoint
+CVE-2022-33900,,PHP object injection,,,,"Easy Digital Downloads WordPress plugin",<= 3.0.1,
+CVE-2022-34009,improper input handling,cross-site scripting,denial of service,XSS payload in ticket,attackers,Fossil,2.18 on Windows,
+CVE-2022-3401,improper authorization,remote code execution,,,authenticated attackers with minimal permissions,Bricks WordPress theme,1.2 to 1.5.3,
+CVE-2022-34160,improper input sanitization,HTML injection,,,remote attacker,"IBM CICS TX Standard and Advanced",11.1,
+CVE-2022-34165,improper input validation,HTTP header injection,cross-site scripting,,,IBM WebSphere Application Server,"7.0, 8.0, 8.5, and 9.0 and IBM WebSphere Application Server Liberty 17.0.0.3 through 22.0.0.9",
+CVE-2022-34254,improper input validation,path traversal,cross-site scripting,,,Adobe Commerce,"2.4.3-p2 (and earlier), 2.3.7-p3 (and earlier) and 2.4.4 (and earlier)",
+CVE-2022-34306,improper input validation,HTTP header injection,cross-site scripting,,,IBM CICS TX Standard and Advanced,11.1,
+CVE-2022-34362,improper input validation,HTTP header injection,cross-site scripting,,,IBM Sterling Secure Proxy,6.0.3,
+CVE-2022-34426,improper path validation,command injection,,,remote unauthenticated attacker,Dell Container Storage Modules,1.2,goiscsi and gobrick libraries
+CVE-2022-34625,improper input validation,server-side template injection,remote code execution,crafted Jinja2 template,attackers,Mealie,1.0.0beta3,
+CVE-2022-34769,,command injection,,,authenticated attacker,Michlol - rashim,,web interface
+CVE-2022-34966,improper input sanitization,HTML injection,,,,"OpenTeknik LLC OSSN OPEN SOURCE SOCIAL NETWORK",v6.3 LTS,
+CVE-2022-35132,,command injection,arbitrary OS command execution,,remote authenticated user,Usermin,through 1.850,GPG module
+CVE-2022-35229,improper input sanitization,cross-site scripting,,,authenticated user,,,discovery page
+CVE-2022-35230,improper input sanitization,cross-site scripting,,,authenticated user,,,graphs page
+CVE-2022-35411,improper deserialization,remote code execution,,,unauthenticated client,rpc.py,through 0.6.0,
+CVE-2022-35507,improper input handling,CRLF injection,denial of service,,,Proxmox Virtual Environment and Proxmox Mail Gateway,,web interface
+CVE-2022-35651,insufficient input sanitization,cross-site scripting,information disclosure,,,Moodle,,SCORM track details
+CVE-2022-3568,improper CSRF protection,deserialization of untrusted data,,,,ImageMagick Engine WordPress plugin,up to and including 1.7.5,
+CVE-2022-35739,improper input validation,arbitrary content injection,,,,"PRTG Network Monitor",through 22.2.77.2204,device's icon
+CVE-2022-35741,improper XML parsing,XXE,server-side request forgery,,,Apache CloudStack,4.5.0 and later,SAML 2.0 authentication Service Provider plugin
+CVE-2022-35857,hardcoded encryption key,deserialization of untrusted data,arbitrary code execution,,remote attackers,kvf-admin,through 2022-02-12,
+CVE-2022-35943,improper CSRF protection,,,,SameSite attackers,CodeIgniter Shield,before v1.0.0-beta.2,
+CVE-2022-36069,improper input validation,command injection,code execution,,,Poetry,"before 1.1.9 and 1.2.0b1",
+CVE-2022-36309,improper input sanitization,command injection,,,,"Airspan AirVelocity 1500","software versions prior to 15.18.00.2511",recoverySubmit.cgi script
+CVE-2022-36325,improper input sanitization,DOM-based XSS,,,authenticated remote attacker with admin privileges,,,web interface
+CVE-2022-36566,,command injection,,,,"Rengine",v1.3.0,scan engine function
+CVE-2022-36669,,SQL injection,authentication bypass,,,Hospital Information System,1.0,
+CVE-2022-36775,improper input validation,HTTP header injection,cross-site scripting,,,IBM Security Verify Access,"10.0.0.0, 10.0.1.0, 10.0.2.0, 10.0.3.0, and10.0.4.0",
+CVE-2022-36859,improper input validation,cross-site scripting,,,privileged attackers,SmartTagPlugin,prior to version 1.2.21-6,
+CVE-2022-3721,improper input validation,code injection,,,,"froxlor/froxlor",prior to 0.10.39,
+CVE-2022-37240,,HTTP response splitting,,,,"MDaemon Technologies SecurityGateway for Email Servers",8.5.2,format parameter
+CVE-2022-37242,,HTTP response splitting,,,,"MDaemon Technologies SecurityGateway for Email Servers",8.5.2,data parameter
+CVE-2022-37953,,HTTP response splitting,,,,"WorkstationST",<v07.09.15,AM Gateway Challenge-Response dialog
+CVE-2022-38075,lack of CSRF protection,cross-site scripting,,,,"Mantenimiento web WordPress plugin",<= 0.13,
+CVE-2022-38114,improper request processing,HTTP request smuggling,cross-site scripting,,,,,,
+CVE-2022-38132,improper input sanitization,command injection,arbitrary OS command execution,,,Linksys MR8300 router,1.0,DDNS Service Registration
+CVE-2022-38191,,HTML injection,,,remote authenticated attacker,Esri Portal for ArcGIS,10.9.0 and below,home application
+CVE-2022-38210,,HTML injection,,,remote unauthenticated attacker,Esri Portal for ArcGIS,10.9.1 and below,
+CVE-2022-38342,improper XML parsing,XXE,server-side request forgery,,authenticated attackers,"Safe Software FME Server","v2021.2.5, v2022.0.0.2 and below",
+CVE-2022-38381,improper request handling,,WAF bypass,malformed HTTP request,remote attacker without privileges,"FortiADC","5.0 all versions, 6.0.0 all versions, 6.1.0 all versions, 6.2.0 through 6.2.3, and 7.0.0 through 7.0.2",
+CVE-2022-3844,improper input sanitization,cross-site scripting,,,remote attacker,Webmin,2.001,xterm/index.cgi
+CVE-2022-38547,improper input validation,command injection,OS command execution,,authenticated attacker with admin privileges,"Zyxel ZyWALL/USG series, VPN series, USG FLEX series, ATP series",various versions,CLI command
+CVE-2022-3869,improper input sanitization,code injection,,,,"froxlor/froxlor",prior to 0.10.38.2,
+CVE-2022-38802,improper access control,cross-site scripting,information disclosure,,authenticated administrator,Zkteco BioTime,< 8.5.3 Build:20200816.447,
+CVE-2022-38803,improper access control,cross-site scripting,information disclosure,,authenticated employee,Zkteco BioTime,< 8.5.3 Build:20200816.447,
+CVE-2022-38845,,cross-site scripting,,,remote users,EspoCRM,7.1.8,Import feature
+CVE-2022-3901,prototype pollution,cross-site scripting,,,attackers,Visioweb.js,1.10.6,
+CVE-2022-39056,insufficient input validation,SQL injection,,,unauthenticated remote attacker,RAVA certificate validation system,,
+CVE-2022-39057,insufficient input filtering,command injection,arbitrary system command execution,,remote attacker with admin privileges,RAVA certificate validation system,,
+CVE-2022-39072,insufficient input validation,SQL injection,stored XSS,,,Some ZTE Mobile Internet products,,SNTP interface
+CVE-2022-39301,improper file upload validation,cross-site scripting,information theft,,,sra-admin,1.1.1,Profile Picture Upload
+CVE-2022-39365,improper input validation,server-side template injection,remote code execution,,,Pimcore,prior to 10.5.9,Pimcore/Mail & ClassDefinition\Layout\Text
+CVE-2022-3980,improper XML parsing,XXE,server-side request forgery,,,Sophos Mobile,between 5.0.0 and 9.7.4,
+CVE-2022-40005,,command injection,,,authenticated users,"Intelbras WiFiber 120AC inMesh",before 1-1-220826,/boaform/formPing6 and /boaform/formTracert URIs
+CVE-2022-40145,improper input filtering,code injection,remote code execution,,,Apache Karaf,up to 4.4.1 and 4.3.7,jaas.modules.src.main.java.porg.apache.karaf.jass.modules.jdbc.JDBCUtils#doCreateDatasource
+CVE-2022-40202,lack of authentication,deserialization of untrusted data,remote code execution,,,Delta Electronics InfraSuite Device Master,00.00.01a and prior,database backup function
+CVE-2022-40238,improper deserialization,code injection,remote code execution,,,CERT software,prior to 1.50.5,
+CVE-2022-40248,improper input sanitization,HTML injection,,,authenticated attacker,CERT/CC VINCE software,prior to 1.50.4,Product Affected field
+CVE-2022-40257,improper input sanitization,HTML injection,,,authenticated attacker,CERT/CC VINCE software,prior to 1.50.4,email Subject field
+CVE-2022-4029,insufficient input sanitization,cross-site scripting,,,unauthenticated attackers,Simple:Press WordPress plugin,up to and including 6.8,
+CVE-2022-40434,improper input sanitization,HTML injection,,,,"Softr",v2.0,Name field of Account page
+CVE-2022-40695,lack of CSRF protection,cross-site scripting,,,,"SEO Redirection Plugin WordPress plugin",<= 8.9,
+CVE-2022-40740,insufficient input filtering,command injection,arbitrary system command execution,,remote authenticated admin,Realtek GPON router,,
+CVE-2022-40743,improper input validation,cross-site scripting,cache poisoning,,,Apache Traffic Server,9.0.0 to 9.1.3,xdebug plugin
+CVE-2022-40764,improper input sanitization,command injection,arbitrary command execution,,,Snyk CLI,before 1.996.0,
+CVE-2022-40847,improper input validation,command injection,arbitrary command execution,,,"Tenda AC1200 Router model W15Ev2",V15.11.0.10(1576),formSetFixTools function
+CVE-2022-40871,improper input validation,eval injection,arbitrary code execution,,,Dolibarr ERP & CRM,<=15.0.3,installation page
+CVE-2022-4105,,cross-site scripting,UI redressing,,,kiwi,,Test Plan
+CVE-2022-41136,lack of CSRF protection,cross-site scripting,,,,"Vladimir Anokhin's Shortcodes Ultimate WordPress plugin",<= 5.12.0,
+CVE-2022-4125,lack of authorization,cross-site scripting,,,unauthenticated attackers,Popup Manager WordPress plugin,through 1.6.6,
+CVE-2022-41395,,command injection,,,,"Tenda AC1200 Router Model W15Ev2",V15.11.0.10(1576),setDMZ function
+CVE-2022-41396,,command injection,,,,"Tenda AC1200 Router Model W15Ev2",V15.11.0.10(1576),setIPsecTunnelList function
+CVE-2022-41681,improper access control,remote code injection,privilege escalation,,,Forma LMS,3.1.0 and earlier,SCORM importer feature
+CVE-2022-41882,improper file handling,arbitrary code execution,,,,"Nextcloud Desktop Client",3.6.0,
+CVE-2022-41942,lack of input validation,command injection,arbitrary command execution,crafted request,,"Sourcegraph",prior to 4.1.0,gitserver service
+CVE-2022-42053,,command injection,,,,"Tenda AC1200 Router Model W15Ev2",V15.11.0.10(1576),setPortMapping function
+CVE-2022-42055,,command injection,arbitrary file read,,attackers,"GL.iNet GoodCloud IoT Device Management System",Version 1.00.220412.00,ping and traceroute tools
+CVE-2022-42139,,command injection,,,,"Delta Electronics DVW-W02W2-E2",1.5.0.10,
+CVE-2022-42140,,command injection,,,,"Delta Electronics DX-2100-L1-CN",2.42,lform/net_diagnose
+CVE-2022-42187,,cross-site scripting,,,,"Hustoj",22.09.22,/admin/problem_judge.php
+CVE-2022-42221,improper access control,command injection,,,,"Netgear R6220",v1.1.0.114_1.0.1,
+CVE-2022-42460,improper access control,cross-site scripting,,,,"Traffic Manager WordPress plugin",<= 1.4.5,
+CVE-2022-42471,improper input sanitization,HTTP response splitting,,,authenticated remote attacker,"FortiWeb","7.0.0 through 7.0.2, 6.4.0 through 6.4.2, 6.3.6 through 6.3.20",
+CVE-2022-42472,improper input sanitization,HTTP response splitting,,,authenticated remote attacker,"Fortinet FortiOS, FortiProxy",various versions,
+CVE-2022-42745,,XXE,arbitrary file read,,external attacker,CandidATS,3.0.0,
+CVE-2022-42925,improper access control,remote code injection,privilege escalation,,,Forma LMS,3.1.0 and earlier,plugin upload component
+CVE-2022-43325,,command injection,arbitrary command execution,crafted payload,unauthenticated attacker,Telos Alliance Omnia MPX Node,1.3.* - 1.4.*,product license validation function
+CVE-2022-43390,,command injection,arbitrary OS command execution,crafted HTTP request,authenticated attacker,Zyxel NR7101,firmware prior to V1.15(ACCC.3)C0,CGI program
+CVE-2022-43562,improper input validation,cross-site scripting,,,remote authenticated user,Splunk Enterprise,"below 8.1.12, 8.2.9, and 9.0.2",
+CVE-2022-43567,improper input handling,arbitrary OS command execution,,,authenticated user,Splunk Enterprise,"below 8.2.9, 8.1.12, and 9.0.2",Splunk Secure Gateway app
+CVE-2022-43695,improper input sanitization,cross-site scripting,,,,"Concrete CMS","below 8.5.10 and between 9.0.0 and 9.1.2",dashboard/system/express/entities/associations
+CVE-2022-43754,improper input sanitization,cross-site scripting,,,remote attackers,"SUSE Linux Enterprise Module for SUSE Manager Server, SUSE Manager Server",various versions,/rhn/audit/scap/Search.do
+CVE-2022-44012,,cross-site scripting,information disclosure,,,Simmeth Lieferantenmanager,before 5.6,/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId
+CVE-2022-44019,improper input sanitization,command injection,remote command execution,,,Total.js,4 before 0e5ace7,/api/common/ping
+CVE-2022-4427,improper input validation,SQL injection,,,,"OTRS AG OTRS, OTRS AG ((OTRS)) Community Edition",various versions,TicketSearch Webservice
+CVE-2022-44542,improper deserialization,arbitrary code execution,,,attackers,lesspipe,before 2.06,
+CVE-2022-44567,improper input validation,command injection,remote code execution,malicious url,attacker,Rocket.Chat-Desktop,<3.8.14,openInternalVideoChatWindow function
+CVE-2022-4466,improper input validation,cross-site scripting,,,users with contributor role and above,WordPress Infinite Scroll WordPress plugin,before 5.6.0.3,shortcode attributes
+CVE-2022-44741,lack of CSRF protection,cross-site scripting,,,,"David Anderson Testimonial Slider WordPress plugin",<= 1.3.1,
+CVE-2022-45004,,cross-site scripting,,,,"Gophish",through 0.12.1,
+CVE-2022-45194,improper XML parsing,XXE,information disclosure,,,CBRN-Analysis,before 22,
+CVE-2022-45326,improper XML parsing,XXE,server-side request forgery,,remote authenticated users,"Kwoksys Kwok Information Server",before v2.9.5.SP31,
+CVE-2022-45411,improper request handling,cross-site scripting,,,,"Firefox ESR, Thunderbird, Firefox","< 102.5, < 102.5, < 107",
+CVE-2022-45470,missing input validation,cross-site scripting,information disclosure,,,Apache Hama,,
+CVE-2022-4557,improper input validation,SQL injection,,,,"Group Arge Energy and Control Systems Smartpower Web",before 23.01.01,
+CVE-2022-45709,,command injection,arbitrary OS command execution,,,"IP-COM M50",V15.11.0.33(10768),formSetDebugCfg function
+CVE-2022-45711,,command injection,arbitrary OS command execution,,,"IP-COM M50",V15.11.0.33(10768),formSetNetCheckTools function
+CVE-2022-45910,improper input validation,LDAP injection,denial of service,,,Apache ManifoldCF,2.23 and prior versions,ActiveDirectory and Sharepoint ActiveDirectory authority connectors
+CVE-2022-46175,prototype pollution,,denial of service,,,JSON5,"1.0.1 and earlier, 2.2.1 and earlier",parse method
+CVE-2022-46304,insufficient input filtering,command injection,arbitrary system command execution,,unauthenticated remote attacker,ChangingTec ServiSign,,
+CVE-2022-46827,improper XML parsing,XXE,server-side request forgery,,,JetBrains IntelliJ IDEA,before 2022.3,
+CVE-2022-47052,improper input sanitization,CRLF injection,cross-site scripting,specially crafted URL,malicious unauthenticated attacker,"Nighthawk R6220 AC1200 Smart Wi-Fi Router","V1.1.0.112_1.0.1, V1.1.0.114_1.0.1",web interface
+CVE-2022-47083,improper deserialization,PHP object injection,arbitrary code execution,crafted requests,authenticated attackers,Spitfire CMS,v1.0.475,unserialize() function
+CVE-2022-47194,insecure default configuration,cross-site scripting,privilege escalation,crafted post content,non-administrator users,Ghost Foundation Ghost,5.9.4,Post Creation functionality
+CVE-2022-47196,insecure default configuration,cross-site scripting,privilege escalation,crafted post content,non-administrator users,Ghost Foundation Ghost,5.9.4,Post Creation functionality
+CVE-2022-47208,improper input sanitization,command injection,arbitrary command execution,,unauthenticated attacker on same network,,,puhttpsniff service
+CVE-2022-47339,missing permission check,command injection,local escalation of privilege,,,,,cmd services
+CVE-2022-47514,improper XML parsing,XXE,server-side request forgery,,remote authenticated users,XML-RPC.NET,before 2.5.0,
+CVE-2022-47873,improper XML parsing,XXE,server-side request forgery,,,Netcad KEOS,1.0,
+CVE-2022-47896,,server-side template injection,,,,"JetBrains IntelliJ IDEA",before 2022.3.1,code Templates
+CVE-2022-47945,improper input validation,local file inclusion,arbitrary OS command execution,,,ThinkPHP Framework,before 6.0.14,lang parameter
+CVE-2022-48069,improper input validation,command injection,,,,"Totolink A830R",V4.1.2cu.5182,QUERY_STRING parameter
+CVE-2022-48070,,command injection,,,,"Phicomm K2",v22.6.534.263,automatic upgrade function
+CVE-2022-48072,,command injection,,,,"Phicomm K2G",v22.6.3.20,automatic upgrade function
+CVE-2022-48337,improper input sanitization,command injection,arbitrary command execution,shell metacharacters in filename,attackers,GNU Emacs,through 28.2,etags program
+CVE-2022-48339,improper input sanitization,command injection,arbitrary code execution,,,GNU Emacs,through 28.2,htmlfontify.el
+CVE-2022-30287,improper deserialization,arbitrary code execution,,,,"Horde Groupware Webmail Edition",through 5.2.22,
+CVE-2022-30308,improper access control,command injection,unauthorized OS command execution,,,"Festo Controller CECC-X-M1",multiple versions,cecc-x-web-viewer-request-on endpoint
+CVE-2022-30309,improper access control,command injection,unauthorized OS command execution,,,"Festo Controller CECC-X-M1",multiple versions,cecc-x-web-viewer-request-off endpoint
+CVE-2022-30310,improper access control,command injection,unauthorized OS command execution,,,"Festo Controller CECC-X-M1",multiple versions,cecc-x-acknerr-request endpoint
+CVE-2022-30311,improper access control,command injection,unauthorized OS command execution,,,"Festo Controller CECC-X-M1",multiple versions,cecc-x-refresh-request endpoint
+CVE-2022-24720,improper input sanitization,command injection,arbitrary code execution,,,image_processing,prior to 1.12.2,apply method
+CVE-2022-3853,lack of CSRF protection,cross-site scripting,,,,,,,
+CVE-2022-39207,improper access control,cross-site scripting,privilege escalation,malicious artifact file,authenticated attacker,Onedev,before 7.3.0,
+CVE-2022-40181,improper URI scheme handling,,arbitrary file read,,,Desigo PXM series,various versions,embedded browser
+CVE-2022-3215,improper input validation,HTTP response splitting,cross-site scripting,,,NIOHTTP1,,
+CVE-2022-32224,improper deserialization,remote code execution,,,,"Active Record","< 7.0.3.1, <6.1.6.1, <6.0.5.1 and <5.2.8.1",
+CVE-2022-29241,improper access control,information disclosure,,,authenticated user,Jupyter Server,prior to 1.17.1,
+CVE-2022-1544,improper input sanitization,CSV injection,arbitrary code execution,,,luyadev/yii-helpers,prior to 1.2.1,
+CVE-2022-1759,lack of CSRF protection,cross-site scripting,,,attackers,RB Internal Links WordPress plugin,through 2.0.16,
+CVE-2022-1967,lack of CSRF protection,cross-site scripting,,,attackers,WP Championship WordPress plugin,before 9.3,
+CVE-2021-28965,improper XML handling,,,,,"REXML gem","before 3.2.5 in Ruby before 2.6.7, 2.7.x before 2.7.3, and 3.x before 3.0.1",
+CVE-2022-23640,improper XML parsing,XML entity expansion,,,,"Excel-Streaming-Reader",prior to xlsx-streamer 2.1.0,
+CVE-2022-38078,improper input validation,command injection,arbitrary OS command execution,specially crafted message,,"Movable Type","7 r.5202 and earlier, 6.8.6 and earlier, Premium 1.52 and earlier",XMLRPC API
+CVE-2022-3033,improper input handling,cross-site scripting,information disclosure,crafted HTML email,,"Thunderbird","< 102.2.1 and < 91.13.1",
+CVE-2022-20723,improper input sanitization,command injection,arbitrary command execution,,,Cisco IOx application hosting environment,,
+CVE-2021-0386,insecure default value,tapjacking,local escalation of privilege,,,Android,11,UsbConfirmActivity
+CVE-2021-0391,improper overlay protection,tapjacking,local escalation of privilege,,,Android,"11, 8.1, 9, 10",ChooseTypeAndAccountActivity.java
+CVE-2021-20084,prototype pollution,,,,,jquery-sparkle,1.5.2-beta,
+CVE-2021-20085,prototype pollution,,,,,backbone-query-parameters,0.4.0,
+CVE-2021-20086,prototype pollution,,,,,jquery-bbq,1.2.1,
+CVE-2021-20087,prototype pollution,,,,,jquery-deparam,0.5.1,
+CVE-2021-20088,prototype pollution,,,,,mootools-more,1.6.0,
+CVE-2021-20089,prototype pollution,,,,,purl,2.3.2,
+CVE-2021-20355,missing HTTPOnly flag,information disclosure,,,remote attacker,IBM Jazz Team Server,"6.0.6, 6.0.6.1, 7.0, 7.0.1, and 7.0.2",
+CVE-2021-23329,prototype pollution,,,,,nested-object-assign,before 1.0.4,
+CVE-2021-23395,prototype pollution,,,,,nedb,all versions,
+CVE-2021-23396,prototype pollution,,,,,lutils,all versions,
+CVE-2021-23408,prototype pollution,,,,,com.graphhopper:graphhopper-web-bundle,"before 3.2, from 4.0-pre1 and before 4.0",
+CVE-2021-25912,prototype pollution,denial of service,,,attackers,dotty,0.0.1 through 0.1.0,
+CVE-2021-25913,prototype pollution,denial of service,,,attackers,set-or-get,1.0.0 through 1.2.10,
+CVE-2021-25913,prototype pollution,denial of service,remote code execution,,attackers,set-or-get,1.0.0 through 1.2.10,
+CVE-2021-25914,prototype pollution,denial of service,remote code execution,,attacker,object-collider,1.0.0 through 1.0.3,
+CVE-2021-25916,prototype pollution,denial of service,remote code execution,,attackers,patchmerge,1.0.0 through 1.0.1,
+CVE-2021-25927,prototype pollution,denial of service,remote code execution,,attackers,safe-flat,2.0.0 through 2.0.1,
+CVE-2021-25928,prototype pollution,denial of service,remote code execution,,attackers,safe-obj,1.0.0 through 1.0.2,
+CVE-2021-25941,prototype pollution,denial of service,remote code execution,,attackers,deep-override,1.0.0 through 1.0.1,
+CVE-2021-25943,prototype pollution,denial of service,remote code execution,,attackers,101,1.0.0 through 1.6.3,
+CVE-2021-25944,prototype pollution,denial of service,remote code execution,,attacker,deep-defaults,1.0.0 through 1.0.5,
+CVE-2021-25946,prototype pollution,denial of service,remote code execution,,attackers,nconf-toml,0.0.1 through 0.0.2,
+CVE-2021-25947,prototype pollution,denial of service,remote code execution,,attackers,nestie,0.0.0 through 1.0.0,
+CVE-2021-25953,prototype pollution,denial of service,remote code execution,,attacker,putil-merge,1.0.0 through 3.6.6,
+CVE-2021-27764,missing HTTPOnly flag,information disclosure,,,,"WebUI",,
+CVE-2021-32506,,path traversal,arbitrary file download,,remote authenticated attackers,QSAN Storage Manager,before v3.3.3,GetImage
+CVE-2021-32964,,path traversal,arbitrary file read,,attacker,AGG Software Web Server,4.0.40.1014 and prior,
+CVE-2021-35237,missing X-Frame-Options header,clickjacking,,,attacker,Kiwi Syslog Server,,
+CVE-2021-38399,,relative path traversal,unauthorized file access,,attacker,"Honeywell Experion PKS C200, C200E, C300, and ACE controllers",,
+CVE-2021-38879,missing HTTPOnly flag,information disclosure,,,remote attacker,IBM Jazz Team Server,"6.0.6, 6.0.6.1, 7.0, 7.0.1, and 7.0.2",
+CVE-2021-40649,missing HttpOnly flag,,,,,Connx,6.2.0.1269,
+CVE-2021-41031,relative path traversal,privilege escalation,,,local unprivileged attacker,FortiClient for Windows,"7.0.2 and prior, 6.4.6 and prior and 6.2.9 and below",FortiESNAC service
+CVE-2021-4287,symlink following,,,,,ReFirm Labs binwalk,up to 2.3.2,src/binwalk/modules/extractor.py
+CVE-2021-45427,improper access control,arbitrary file deletion,,,,Emerson XWEB 300D EVO,3.0.7--3ee403,
+CVE-2021-46379,improper access control,open redirect,,,,DLink DIR850,ET850-1.08TRb03,
+CVE-2022-0164,lack of authorization,arbitrary email sending,,,authenticated users,Coming soon and Maintenance mode WordPress plugin,before 3.5.3,coming_soon_send_mail AJAX action
+CVE-2022-0229,improper authorization,arbitrary option deletion,,,unauthenticated users,miniOrange's Google Authenticator WordPress plugin,before 5.5,reconfigureMethod handler
+CVE-2022-0345,lack of authorization,information disclosure,,,authenticated users,Customize WordPress Emails and Alerts WordPress plugin,before 1.8.7,bnfw_search_users AJAX action
+CVE-2022-0363,lack of authorization,arbitrary post creation,,,authenticated users,myCred WordPress plugin,before 2.4.3.1,mycred-tools-import-export AJAX action
+CVE-2022-0398,lack of authorization,arbitrary link creation,open redirect,,authenticated users,ThirstyAffiliates Affiliate Link Manager WordPress plugin,before 3.10.5,
+CVE-2022-0403,lack of authorization,arbitrary file manipulation,,,authenticated users,Library File Manager WordPress plugin,before 5.2.3,connector AJAX action
+CVE-2022-0444,lack of authorization,settings reset,,,unauthenticated attackers,"Backup, Restore and Migrate WordPress Sites With the XCloner Plugin WordPress plugin",before 4.3.6,
+CVE-2022-0634,lack of authorization,arbitrary image addition,,,low-privilege users,ThirstyAffiliates WordPress plugin,before 3.10.5,ta_insert_external_image action
+CVE-2022-0833,lack of authorization,information disclosure,,,unauthenticated attackers,Church Admin WordPress plugin,before 3.4.135,
+CVE-2022-0952,lack of authorization,arbitrary option modification,account takeover,,unauthenticated attackers,Sitemap by click5 WordPress plugin,before 1.0.36,
+CVE-2022-0959,improper access control,arbitrary file upload,,,authorized and authenticated user,pgAdmin,,
+CVE-2022-1092,lack of authorization,information disclosure,,,authenticated users,myCred WordPress plugin,before 2.4.3.1,mycred-tools-import-export AJAX action
+CVE-2022-1203,lack of authorization,arbitrary option modification,,,authenticated users,Content Mask WordPress plugin,before 1.8.4.1,
+CVE-2022-1373,improper input validation,arbitrary code execution,,,attacker,Softing Secure Integration Server,V1.22,restore configuration feature
+CVE-2022-1570,lack of authorization,settings reset,,,authenticated users,Files Download Delay WordPress plugin,before 1.0.7,

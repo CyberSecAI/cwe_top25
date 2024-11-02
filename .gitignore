@@ -1,3 +1,4 @@
+.env
 data_out/CVSSData.csv.gz
 nvd/nvdcve*
 nvd/nvdcve-1.1-2021.json
@@ -7,4 +8,6 @@ nvd/nvdcve-1.1-2022.json.zip
 nvd/CVSSData*
 top25/ 
 data_out/CVSSData.csv.gz
-
+tmp/
+nvd/jsondata
+data_out/CVSSData.csv.gz

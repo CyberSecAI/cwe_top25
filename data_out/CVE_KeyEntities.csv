@@ -1,0 +1,5029 @@
+CVE,KeyEntities
+CVE-2021-0674,"[WEAKNESS] out of bounds read
+[PRODUCT]
+[COMPONENT] alac decoder
+[VERSION]
+[ATTACKER]
+[IMPACT] local information disclosure
+[VECTOR]
+[ROOTCAUSE] incorrect bounds check"
+CVE-2021-0676,"[WEAKNESS] out of bounds read
+[PRODUCT]
+[COMPONENT] geniezone driver
+[VERSION]
+[ATTACKER]
+[IMPACT] local information disclosure
+[VECTOR]
+[ROOTCAUSE] incorrect bounds check"
+CVE-2021-0677,"[WEAKNESS] out of bounds read
+[PRODUCT]
+[COMPONENT] ccu driver
+[VERSION]
+[ATTACKER]
+[IMPACT] local information disclosure
+[VECTOR]
+[ROOTCAUSE] integer overflow"
+CVE-2021-0678,"[WEAKNESS] out of bounds write
+[PRODUCT]
+[COMPONENT] apusys
+[VERSION]
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] missing bounds check"
+CVE-2021-0679,"[WEAKNESS] memory corruption
+[PRODUCT]
+[COMPONENT] apusys
+[VERSION]
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] missing bounds check"
+CVE-2021-0895,"[WEAKNESS] out of bounds write
+[PRODUCT] 
+[COMPONENT] apusys
+[VERSION] 
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] missing bounds check"
+CVE-2021-0896,"[WEAKNESS] out of bounds write
+[PRODUCT] 
+[COMPONENT] apusys
+[VERSION] 
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] missing bounds check"
+CVE-2021-0900,"[WEAKNESS] out of bounds read
+[PRODUCT] 
+[COMPONENT] apusys
+[VERSION] 
+[ATTACKER] 
+[IMPACT] local information disclosure
+[VECTOR] 
+[ROOTCAUSE] incorrect bounds check"
+CVE-2021-0902,"[WEAKNESS] out of bounds read
+[PRODUCT] 
+[COMPONENT] apusys
+[VERSION] 
+[ATTACKER] 
+[IMPACT] local information disclosure
+[VECTOR] 
+[ROOTCAUSE] incorrect bounds check"
+CVE-2021-0903,"[WEAKNESS] out of bounds write
+[PRODUCT] 
+[COMPONENT] apusys
+[VERSION] 
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] missing bounds check"
+CVE-2021-0955,"[WEAKNESS] memory corruption
+[PRODUCT] Android
+[COMPONENT] pf_write_buf of FuseDaemon.cpp
+[VERSION] Android-11
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] race condition"
+CVE-2021-0964,"[WEAKNESS] out of bounds write
+[PRODUCT] Android
+[COMPONENT] C2SoftMP3::process() of C2SoftMp3Dec.cpp
+[VERSION] Android-10 Android-11 Android-12 Android-9
+[ATTACKER] 
+[IMPACT] remote information disclosure
+[VECTOR] 
+[ROOTCAUSE] heap buffer overflow"
+CVE-2021-1001,"[WEAKNESS] out of bounds read
+[PRODUCT] Android
+[COMPONENT] PVInitVideoEncoder of mp4enc_api.cpp
+[VERSION] Android-12
+[ATTACKER] 
+[IMPACT] local information disclosure
+[VECTOR] 
+[ROOTCAUSE] heap buffer overflow"
+CVE-2021-1047,"[WEAKNESS] out of bounds read
+[PRODUCT] Android
+[COMPONENT] valid_ipc_dram_addr of cm_access_control.c
+[VERSION] Android kernel
+[ATTACKER] 
+[IMPACT] local information disclosure
+[VECTOR] 
+[ROOTCAUSE] integer overflow"
+CVE-2021-20038,"[WEAKNESS] Stack-based buffer overflow
+[PRODUCT] SMA100 Apache httpd server
+[COMPONENT] mod_cgi module
+[VERSION] firmware 10.2.0.8-37sv, 10.2.1.1-19sv, 10.2.1.2-24sv and earlier versions
+[ATTACKER] remote unauthenticated attacker
+[IMPACT] potentially execute code as a 'nobody' user
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-20043,"[WEAKNESS] Heap-based buffer overflow
+[PRODUCT] SonicWall SMA100
+[COMPONENT] getBookmarks method
+[VERSION] 
+[ATTACKER] remote authenticated attacker
+[IMPACT] potentially execute code as the nobody user
+[VECTOR] 
+[ROOTCAUSE] unchecked use of strcat"
+CVE-2021-20046,"[WEAKNESS] Stack-based buffer overflow
+[PRODUCT] SonicOS
+[COMPONENT] HTTP Content-Length response header
+[VERSION] Gen 5, Gen 6 and Gen 7 firmware versions
+[ATTACKER] remote authenticated attacker
+[IMPACT] Denial of Service (DoS) and potentially results in code execution
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-20048,"[WEAKNESS] Stack-based buffer overflow
+[PRODUCT] SonicOS
+[COMPONENT] SessionID HTTP response header
+[VERSION] Gen 5, Gen 6 and Gen 7 firmware versions
+[ATTACKER] remote authenticated attacker
+[IMPACT] Denial of Service (DoS) and potentially results in code execution
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-21773,"[WEAKNESS] out-of-bounds write
+[PRODUCT] Accusoft ImageGear
+[COMPONENT] TIFF header count-processing functionality
+[VERSION] 19.8
+[ATTACKER] 
+[IMPACT] memory corruption
+[VECTOR] specially crafted malformed file
+[ROOTCAUSE] missing null check for a size field"
+CVE-2021-21776,"[WEAKNESS] out-of-bounds write
+[PRODUCT] Accusoft ImageGear
+[COMPONENT] SGI Format Buffer Size Processing functionality
+[VERSION] 19.8
+[ATTACKER] 
+[IMPACT] memory corruption
+[VECTOR] specially crafted malformed file
+[ROOTCAUSE] "
+CVE-2021-21782,"[WEAKNESS] out-of-bounds write
+[PRODUCT] Accusoft ImageGear
+[COMPONENT] SGI format buffer size processing functionality
+[VERSION] 19.8
+[ATTACKER] 
+[IMPACT] memory corruption
+[VECTOR] specially crafted malformed file
+[ROOTCAUSE] "
+CVE-2021-21793,"[WEAKNESS] out-of-bounds write
+[PRODUCT] Accusoft ImageGear
+[COMPONENT] JPG sof_nb_comp header processing functionality
+[VERSION] 19.8 and 19.9
+[ATTACKER] 
+[IMPACT] memory corruption
+[VECTOR] specially crafted malformed file
+[ROOTCAUSE] "
+CVE-2021-21832,"[WEAKNESS] out-of-bounds write
+[PRODUCT] Disc Soft Ltd Deamon Tools Pro
+[COMPONENT] ISO Parsing functionality
+[VERSION] 8.3.0.0767
+[ATTACKER] 
+[IMPACT] memory corruption
+[VECTOR] specially crafted malformed file
+[ROOTCAUSE] "
+CVE-2021-21887,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] Lantronix PremierWave 2050
+[COMPONENT] Web Manager SslGenerateCSR functionality
+[VERSION] 8.9.0.0R4 (in QEMU)
+[ATTACKER] 
+[IMPACT] remote code execution
+[VECTOR] specially crafted HTTP request
+[ROOTCAUSE] "
+CVE-2021-26112,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] FortiWAN
+[COMPONENT] network daemons and command line interpreter
+[VERSION] before 4.5.9
+[ATTACKER] unauthenticated attacker
+[IMPACT] potentially corrupt control data in memory and execute arbitrary code
+[VECTOR] specifically crafted requests
+[ROOTCAUSE] "
+CVE-2021-26252,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] htmldoc
+[COMPONENT] pspdf_prepare_page() in ps-pdf.cxx
+[VERSION] v1.9.12
+[ATTACKER] 
+[IMPACT] execute arbitrary code and denial of service
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-26259,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] htmldoc
+[COMPONENT] render_table_row() in ps-pdf.cxx
+[VERSION] v1.9.12
+[ATTACKER] 
+[IMPACT] arbitrary code execution and denial of service
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-26347,"[WEAKNESS] integer overflow
+[PRODUCT] ASP (AMD Secure Processor)
+[COMPONENT] bootloader
+[VERSION] 
+[ATTACKER] 
+[IMPACT] potential denial of service
+[VECTOR] 
+[ROOTCAUSE] Failure to validate the integer operand"
+CVE-2021-26384,"[WEAKNESS] out-of-bounds memory reads and writes
+[PRODUCT] 
+[COMPONENT] SMI (System Management Interface)
+[VERSION] 
+[ATTACKER] 
+[IMPACT] potential loss of resources
+[VECTOR] malformed SMI command
+[ROOTCAUSE] "
+CVE-2021-26386,"[WEAKNESS] corrupt memory
+[PRODUCT] 
+[COMPONENT] Stage 2 Bootloader
+[VERSION] 
+[ATTACKER] 
+[IMPACT] code execution
+[VECTOR] malformed system call
+[ROOTCAUSE] "
+CVE-2021-26567,"[WEAKNESS] Stack-based buffer overflow
+[PRODUCT] faad2
+[COMPONENT] frontend/main.c
+[VERSION] before 2.2.7.1
+[ATTACKER] local attackers
+[IMPACT] execute arbitrary code
+[VECTOR] filename and pathname options
+[ROOTCAUSE] "
+CVE-2021-26635,"[WEAKNESS] stack buffer overflow
+[PRODUCT] ark library
+[COMPONENT] 
+[VERSION] 
+[ATTACKER] 
+[IMPACT] remote code execution
+[VECTOR] 
+[ROOTCAUSE] wrong use of the data type"
+CVE-2021-26727,"[WEAKNESS] stack-based buffer overflows
+[PRODUCT] Lanner Inc IAC-AST2500A
+[COMPONENT] SubNet_handler_func function of spx_restservice
+[VERSION] standard firmware version 1.10.0
+[ATTACKER] 
+[IMPACT] execute arbitrary code with the same privileges as the server user (root)
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-26728,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] Lanner Inc IAC-AST2500A
+[COMPONENT] KillDupUsr_func function of spx_restservice
+[VERSION] standard firmware version 1.10.0
+[ATTACKER] 
+[IMPACT] execute arbitrary code with the same privileges as the server user (root)
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-26729,"[WEAKNESS] stack-based buffer overflows
+[PRODUCT] Lanner Inc IAC-AST2500A
+[COMPONENT] Login_handler_func function of spx_restservice
+[VERSION] standard firmware version 1.10.0
+[ATTACKER] 
+[IMPACT] execute arbitrary code with the same privileges as the server user (root)
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-26730,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] Lanner Inc IAC-AST2500A
+[COMPONENT] subfunction of the Login_handler_func function of spx_restservice
+[VERSION] standard firmware version 1.10.0
+[ATTACKER] 
+[IMPACT] execute arbitrary code with the same privileges as the server user (root)
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-26731,"[WEAKNESS] stack-based buffer overflows
+[PRODUCT] Lanner Inc IAC-AST2500A
+[COMPONENT] modifyUserb_func function of spx_restservice
+[VERSION] standard firmware version 1.10.0
+[ATTACKER] 
+[IMPACT] execute arbitrary code with the same privileges as the server user (root)
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-28237,"[WEAKNESS] heap-buffer overflow
+[PRODUCT] LibreDWG
+[COMPONENT] decode_preR13
+[VERSION] v0.12.3
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-28277,"[WEAKNESS] Heap-based Buffer Overflow
+[PRODUCT] jhead
+[COMPONENT] RemoveUnknownSections function in jpgfile.c
+[VERSION] 3.04 and 3.05
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-28278,"[WEAKNESS] Heap-based Buffer Overflow
+[PRODUCT] jhead
+[COMPONENT] RemoveSectionType function in jpgfile.c
+[VERSION] 3.04 and 3.05
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-29568,"[WEAKNESS] undefined behavior
+[PRODUCT] TensorFlow
+[COMPONENT] tf.raw_ops.ParameterizedTruncatedNormal
+[VERSION] 2.5.0, 2.4.2, 2.3.3, 2.2.3 and 2.1.4
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] does not validate input arguments before accessing the first element"
+CVE-2021-30289,"[WEAKNESS] buffer overflow
+[PRODUCT] Snapdragon
+[COMPONENT] DIAG command for COEX management
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] lack of range check"
+CVE-2021-30311,"[WEAKNESS] heap overflow
+[PRODUCT] Snapdragon
+[COMPONENT] 
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] lack of index validation before allocating and writing to heap buffer"
+CVE-2021-30349,"[WEAKNESS] memory corruption
+[PRODUCT] Snapdragon
+[COMPONENT] AC database
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] Improper access control sequence"
+CVE-2021-30350,"[WEAKNESS] memory corruption
+[PRODUCT] Snapdragon
+[COMPONENT] MBN header
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] Lack of header size verification against input buffer"
+CVE-2021-30982,"[WEAKNESS] race condition
+[PRODUCT] macOS
+[COMPONENT] 
+[VERSION] macOS Monterey 12.1, Security Update 2021-008 Catalina, macOS Big Sur 11.6.2
+[ATTACKER] remote attacker
+[IMPACT] unexpected application termination or heap corruption
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-31578,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Boa
+[COMPONENT] 
+[VERSION] 
+[ATTACKER] proximal attacker
+[IMPACT] remote escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-31884,"[WEAKNESS] Out-of-bound reads, writes, and Denial-of-service
+[PRODUCT] DHCP client application
+[COMPONENT] 
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] assumes that the data supplied with the Hostname DHCP option is NULL terminated"
+CVE-2021-32040,"[WEAKNESS] stack overflow
+[PRODUCT] MongoDB Server
+[COMPONENT] aggregation pipeline
+[VERSION] v4.4 prior to and including 4.4.28, v5.0 prior to 5.0.4, v4.2 prior to 4.2.16
+[ATTACKER] 
+[IMPACT] crash MongoDB
+[VECTOR] extremely long aggregation pipeline
+[ROOTCAUSE] size of the stack frames"
+CVE-2021-32435,"[WEAKNESS] Stack-based buffer overflow
+[PRODUCT] abcm2ps
+[COMPONENT] function get_key in parse.c
+[VERSION] v8.14.11
+[ATTACKER] remote attackers
+[IMPACT] Denial of Service (DoS)
+[VECTOR] unspecified vectors
+[ROOTCAUSE] "
+CVE-2021-32845,"[WEAKNESS] uninitialized memory use
+[PRODUCT] HyperKit
+[COMPONENT] qnotify at pci_vtrnd_notify
+[VERSION] 0.20210107 and prior
+[ATTACKER] 
+[IMPACT] guest crashing the host causing a denial of service and memory corruption
+[VECTOR] 
+[ROOTCAUSE] Fails to check the return value"
+CVE-2021-32846,"[WEAKNESS] uninitialized memory use
+[PRODUCT] HyperKit
+[COMPONENT] function pci_vtsock_proc_tx in virtio-sock
+[VERSION] 0.20210107
+[ATTACKER] 
+[IMPACT] guest crashing the host causing a denial of service and memory corruption
+[VECTOR] 
+[ROOTCAUSE] function can return -1 if it finds an error it cannot recover from"
+CVE-2021-32941,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] Annke N48PBB (Network Video Recorder)
+[COMPONENT] 
+[VERSION] 3.4.106 build 200422 and prior
+[ATTACKER] unauthorized remote attacker
+[IMPACT] execute arbitrary code with the same privileges as the server user (root)
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-33019,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] Delta Electronics DOPSoft
+[COMPONENT] 
+[VERSION] 4.00.11 and prior
+[ATTACKER] 
+[IMPACT] execute arbitrary code
+[VECTOR] processing a specially crafted project file
+[ROOTCAUSE] "
+CVE-2021-33438,"[WEAKNESS] stack buffer overflow
+[PRODUCT] mjs (mJS: Restricted JavaScript engine)
+[COMPONENT] json_parse_array() in mjs.c
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-33443,"[WEAKNESS] stack buffer overflow
+[PRODUCT] mjs (mJS: Restricted JavaScript engine)
+[COMPONENT] mjs_execute() in mjs.c
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-33448,"[WEAKNESS] stack buffer overflow
+[PRODUCT] mjs (mJS: Restricted JavaScript engine)
+[COMPONENT] 
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-33545,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] Multiple camera devices by UDP Technology, Geutebrück and other vendors
+[COMPONENT] counter parameter
+[VERSION] 
+[ATTACKER] 
+[IMPACT] remotely execute arbitrary code
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-33657,"[WEAKNESS] heap overflow
+[PRODUCT] SDL (Simple DirectMedia Layer)
+[COMPONENT] video/SDL_pixels.c
+[VERSION] 2.x to 2.0.18
+[ATTACKER] 
+[IMPACT] crash, denial of service or Code execution
+[VECTOR] crafting a malicious .BMP file
+[ROOTCAUSE] "
+CVE-2021-33912,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] libspf2
+[COMPONENT] SPF_record_expand_data in spf_expand.c
+[VERSION] before 1.2.11
+[ATTACKER] remote attackers
+[IMPACT] execute arbitrary code
+[VECTOR] crafted SPF DNS record
+[ROOTCAUSE] incorrect sprintf usage"
+CVE-2021-33913,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] libspf2
+[COMPONENT] SPF_record_expand_data in spf_expand.c
+[VERSION] before 1.2.11
+[ATTACKER] remote attackers
+[IMPACT] execute arbitrary code
+[VECTOR] crafted SPF DNS record
+[VECTOR] unauthenticated e-mail message
+[ROOTCAUSE] "
+CVE-2021-33945,"[WEAKNESS] stack buffer overflow
+[PRODUCT] RICOH Printer series SP
+[COMPONENT] file /etc/wpa_supplicant.conf
+[VERSION] v1.06
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] crafted overflow data
+[ROOTCAUSE] "
+CVE-2021-3434,"[WEAKNESS] Stack based buffer overflow
+[PRODUCT] Zephyr
+[COMPONENT] le_ecred_conn_req()
+[VERSION] >= v2.5.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-34583,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] CODESYS V2 web server
+[COMPONENT] 
+[VERSION] prior to V1.1.9.22
+[ATTACKER] 
+[IMPACT] denial-of-service condition due to a crash
+[VECTOR] Crafted web server requests
+[ROOTCAUSE] "
+CVE-2021-34874,"[WEAKNESS] memory corruption
+[PRODUCT] Bentley View
+[COMPONENT] processing of 3DS files
+[VERSION] 10.15.0.75
+[ATTACKER] remote attackers
+[IMPACT] execute arbitrary code
+[VECTOR] malicious page or file
+[ROOTCAUSE] lack of proper validation of user-supplied data"
+CVE-2021-34934,"[WEAKNESS] memory corruption
+[PRODUCT] Bentley View
+[COMPONENT] parsing of JT files
+[VERSION] 10.15.0.75
+[ATTACKER] remote attackers
+[IMPACT] execute arbitrary code
+[VECTOR] malicious page or file
+[ROOTCAUSE] lack of proper validation of user-supplied data"
+CVE-2021-35005,"[WEAKNESS] read past the end of an allocated array
+[PRODUCT] TeamViewer
+[COMPONENT] TeamViewer service
+[VERSION] 
+[ATTACKER] local attackers
+[IMPACT] disclose sensitive information
+[VECTOR] 
+[ROOTCAUSE] lack of proper validation of user-supplied data"
+CVE-2021-35090,"[WEAKNESS] memory corruption
+[PRODUCT] Snapdragon
+[COMPONENT] 
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] TOC TOU race condition when updating address mappings"
+CVE-2021-35091,"[WEAKNESS] out of bounds read
+[PRODUCT] Snapdragon
+[COMPONENT] 
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] improper typecasting while handling page fault for global memory"
+CVE-2021-35098,"[WEAKNESS] memory corruption
+[PRODUCT] Snapdragon
+[COMPONENT] PCM routing process
+[VERSION]
+[ATTACKER]
+[IMPACT]
+[VECTOR]
+[ROOTCAUSE] Improper validation of session id"
+CVE-2021-35110,"[WEAKNESS] buffer overflow
+[PRODUCT] Snapdragon
+[COMPONENT]
+[VERSION]
+[ATTACKER]
+[IMPACT]
+[VECTOR]
+[ROOTCAUSE] improper validation of hash segment of file while allocating memory"
+CVE-2021-35120,"[WEAKNESS] use after free
+[PRODUCT] Snapdragon
+[COMPONENT]
+[VERSION]
+[ATTACKER]
+[IMPACT]
+[VECTOR]
+[ROOTCAUSE] Improper handling between export and release functions on the same handle from client"
+CVE-2021-35121,"[WEAKNESS] Use After Free
+[PRODUCT] Snapdragon
+[COMPONENT] Synx driver
+[VERSION]
+[ATTACKER]
+[IMPACT]
+[VECTOR]
+[ROOTCAUSE] improper validation of array index"
+CVE-2021-35132,"[WEAKNESS] Out of bound write
+[PRODUCT] Snapdragon
+[COMPONENT] DSP service
+[VERSION]
+[ATTACKER]
+[IMPACT]
+[VECTOR]
+[ROOTCAUSE] improper bound check for response buffer size"
+CVE-2021-3575,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] openjpeg
+[COMPONENT] color.c:379:42 in sycc420_to_rgb
+[VERSION] 
+[ATTACKER] 
+[IMPACT] execute arbitrary code
+[VECTOR] crafted .j2k file
+[ROOTCAUSE] "
+CVE-2021-3609,"[WEAKNESS] race condition
+[PRODUCT] Linux kernel
+[COMPONENT] CAN BCM networking protocol, net/can/bcm.c
+[VERSION] 
+[ATTACKER] local attacker
+[IMPACT] corrupt memory, crash the system or escalate privileges
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-3610,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] ImageMagick
+[COMPONENT] ReadTIFFImage() in coders/tiff.c
+[VERSION] prior to 7.0.11-14
+[ATTACKER] 
+[IMPACT] crash and segmentation fault
+[VECTOR] 
+[ROOTCAUSE] incorrect setting of the pixel array size"
+CVE-2021-3611,"[WEAKNESS] stack overflow
+[PRODUCT] QEMU
+[COMPONENT] Intel HD Audio device (intel-hda)
+[VERSION] prior to 7.0.0
+[ATTACKER] malicious guest
+[IMPACT] crash the QEMU process, denial of service
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-36173,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] FortiOS
+[COMPONENT] firmware signature verification function
+[VERSION] 7.0.1, 7.0.0, 6.4.0 through 6.4.6, 6.2.0 through 6.2.9, and 6.0.0 through 6.0.13
+[ATTACKER] 
+[IMPACT] execute arbitrary code
+[VECTOR] specially crafted installation images
+[ROOTCAUSE] "
+CVE-2021-36193,"[WEAKNESS] stack-based buffer overflows
+[PRODUCT] FortiWeb
+[COMPONENT] command line interpreter
+[VERSION] before 6.4.2
+[ATTACKER] authenticated attacker
+[IMPACT] arbitrary code execution
+[VECTOR] specially crafted commands
+[ROOTCAUSE] "
+CVE-2021-36194,"[WEAKNESS] stack-based buffer overflows
+[PRODUCT] FortiWeb
+[COMPONENT] API controllers
+[VERSION] 6.4.1, 6.4.0, and 6.3.0 through 6.3.15
+[ATTACKER] authenticated attacker
+[IMPACT] arbitrary code execution
+[VECTOR] specially crafted requests
+[ROOTCAUSE] "
+CVE-2021-3622,"[WEAKNESS] stack overflow
+[PRODUCT] hivex library
+[COMPONENT] _get_children() function
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] specially crafted Windows Registry (hive) file
+[ROOTCAUSE] "
+CVE-2021-36347,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] iDRAC9, iDRAC8
+[COMPONENT] 
+[VERSION] iDRAC9 prior to 5.00.20.00, iDRAC8 prior to 2.82.82.82
+[ATTACKER] authenticated remote attacker with high privileges
+[IMPACT] control process execution and gain access to the iDRAC operating system
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-36412,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] GPAC
+[COMPONENT] gp_rtp_builder_do_mpeg12_video function in MP4Box
+[VERSION] 1.0.1
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] crafted file in the MP4Box command
+[ROOTCAUSE] "
+CVE-2021-36417,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] GPAC
+[COMPONENT] gf_isom_dovi_config_get function in MP4Box
+[VERSION] v1.0.1
+[ATTACKER] 
+[IMPACT] denial of service or execute arbitrary code
+[VECTOR] crafted file
+[ROOTCAUSE] "
+CVE-2021-36613,"[WEAKNESS] memory corruption
+[PRODUCT] Mikrotik RouterOs
+[COMPONENT] ptp process
+[VERSION] before stable 6.48.2
+[ATTACKER] authenticated remote attacker
+[IMPACT] Denial of Service
+[VECTOR] 
+[ROOTCAUSE] NULL pointer dereference"
+CVE-2021-36614,"[WEAKNESS] memory corruption
+[PRODUCT] Mikrotik RouterOs
+[COMPONENT] tr069-client process
+[VERSION] before stable 6.48.2
+[ATTACKER] authenticated remote attacker
+[IMPACT] Denial of Service
+[VECTOR] 
+[ROOTCAUSE] NULL pointer dereference"
+CVE-2021-3674,"[WEAKNESS] out of bounds reads
+[PRODUCT] rizin
+[COMPONENT] create_section_from_phdr function
+[VERSION] 
+[ATTACKER] 
+[IMPACT] memory corruption and possibly code execution
+[VECTOR] Crafted values in the headers
+[ROOTCAUSE] "
+CVE-2021-36762,"[WEAKNESS] out of bounds read
+[PRODUCT] HCC Embedded InterNiche NicheStack
+[COMPONENT] tfshnd():tftpsrv.c TFTP packet processing function
+[VERSION] through 4.3
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] function doesn't ensure that a filename is adequately '\\0' terminated"
+CVE-2021-3700,"[WEAKNESS] use-after-free
+[PRODUCT] usbredir
+[COMPONENT] usbredirparser_serialize() in usbredirparser/usbredirparser.c
+[VERSION] prior to 0.11.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] serializing large amounts of buffered write data in the case of a slow or blocked destination
+[ROOTCAUSE] "
+CVE-2021-37014,"[WEAKNESS] Stack-based Buffer Overflow
+[PRODUCT] Huawei Smartphone
+[COMPONENT] 
+[VERSION] 
+[ATTACKER] 
+[IMPACT] device cannot be used properly
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-37020,"[WEAKNESS] Stack-based Buffer Overflow
+[PRODUCT] Huawei Smartphone
+[COMPONENT] 
+[VERSION] 
+[ATTACKER] 
+[IMPACT] Out-of-bounds read
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-37021,"[WEAKNESS] Stack-based Buffer Overflow
+[PRODUCT] Huawei Smartphone
+[COMPONENT] 
+[VERSION] 
+[ATTACKER] 
+[IMPACT] Out-of-bounds read
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-37041,"[WEAKNESS] out-of-bounds read
+[PRODUCT] Huawei Smartphone
+[COMPONENT] 
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] Improper verification"
+CVE-2021-37042,"[WEAKNESS] out-of-bounds read
+[PRODUCT] Huawei Smartphone
+[COMPONENT] 
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] Improper verification"
+CVE-2021-37049,"[WEAKNESS] Heap-based buffer overflow
+[PRODUCT] Huawei Smartphone
+[COMPONENT] 
+[VERSION] 
+[ATTACKER] 
+[IMPACT] rewrite the memory of adjacent objects
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-37404,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Apache Hadoop
+[COMPONENT] libhdfs native code
+[VERSION] 
+[ATTACKER] 
+[IMPACT] denial of service or arbitrary code execution
+[VECTOR] Opening a file path provided by user without validation
+[ROOTCAUSE] "
+CVE-2021-3752,"[WEAKNESS] use-after-free
+[PRODUCT] Linux kernel
+[COMPONENT] Bluetooth subsystem
+[VERSION] 
+[ATTACKER] user
+[IMPACT] crash the system or escalate privileges
+[VECTOR] connect to the socket and disconnect simultaneously
+[ROOTCAUSE] race condition"
+CVE-2021-3782,"[WEAKNESS] use-after-free
+[PRODUCT] 
+[COMPONENT] 
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] reference count overflow"
+CVE-2021-38005,"[WEAKNESS] use after free
+[PRODUCT] Google Chrome
+[COMPONENT] loader
+[VERSION] prior to 96.0.4664.45
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-38006,"[WEAKNESS] use after free
+[PRODUCT] Google Chrome
+[COMPONENT] storage foundation
+[VERSION] prior to 96.0.4664.45
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-38007,"[WEAKNESS] Type confusion
+[PRODUCT] Google Chrome
+[COMPONENT] V8
+[VERSION] prior to 96.0.4664.45
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-38008,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] media
+[VERSION] prior to 96.0.4664.45
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-38011,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] storage foundation
+[VERSION] prior to 96.0.4664.45
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-38012,"[WEAKNESS] Type confusion
+[PRODUCT] Google Chrome
+[COMPONENT] V8
+[VERSION] prior to 96.0.4664.45
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-38013,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] Google Chrome on ChromeOS
+[COMPONENT] fingerprint recognition
+[VERSION] prior to 96.0.4664.45
+[ATTACKER] remote attacker who had compromised a WebUI renderer process
+[IMPACT] potentially perform a sandbox escape
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-38014,"[WEAKNESS] Out of bounds write
+[PRODUCT] Google Chrome
+[COMPONENT] Swiftshader
+[VERSION] prior to 96.0.4664.45
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-3826,"[WEAKNESS] Heap/stack buffer overflow
+[PRODUCT] libiberty
+[COMPONENT] dlang_lname function in d-demangle.c
+[VERSION] 
+[ATTACKER] 
+[IMPACT] denial of service (segmentation fault and crash)
+[VECTOR] crafted mangled symbol
+[ROOTCAUSE] "
+CVE-2021-3835,"[WEAKNESS] Heap-based Buffer Overflow
+[PRODUCT] Zephyr
+[COMPONENT] usb device class
+[VERSION] >= v2.6.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-3861,"[WEAKNESS] Heap-based Buffer Overflow
+[PRODUCT] Zephyr
+[COMPONENT] RNDIS USB device class
+[VERSION] >= v2.6.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-38682,"[WEAKNESS] stack buffer overflow
+[PRODUCT] QNAP device
+[COMPONENT] QVR Elite, QVR Pro, QVR Guard
+[VERSION] 
+[ATTACKER] 
+[IMPACT] execute arbitrary code
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-38687,"[WEAKNESS] stack buffer overflow
+[PRODUCT] QNAP NAS
+[COMPONENT] Surveillance Station
+[VERSION] 
+[ATTACKER] 
+[IMPACT] execute arbitrary code
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-38689,"[WEAKNESS] stack buffer overflow
+[PRODUCT] QNAP device
+[COMPONENT] QVR Elite, QVR Pro, QVR Guard
+[VERSION] 
+[ATTACKER] 
+[IMPACT] execute arbitrary code
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-38690,"[WEAKNESS] stack buffer overflow
+[PRODUCT] QNAP device
+[COMPONENT] QVR Elite, QVR Pro, QVR Guard
+[VERSION] 
+[ATTACKER] 
+[IMPACT] execute arbitrary code
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-38691,"[WEAKNESS] stack buffer overflow
+[PRODUCT] QNAP device
+[COMPONENT] QVR Elite, QVR Pro, QVR Guard
+[VERSION] 
+[ATTACKER] 
+[IMPACT] execute arbitrary code
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-38692,"[WEAKNESS] stack buffer overflow
+[PRODUCT] QNAP device
+[COMPONENT] QVR Elite, QVR Pro, QVR Guard
+[VERSION] 
+[ATTACKER] 
+[IMPACT] execute arbitrary code
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-39048,"[WEAKNESS] stack based buffer overflow
+[PRODUCT] IBM Spectrum Protect Client
+[COMPONENT] 
+[VERSION] 7.1 and 8.1
+[ATTACKER] local attacker
+[IMPACT] denial of service
+[VECTOR] 
+[ROOTCAUSE] improper bounds checking"
+CVE-2021-39049,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] IBM i2 Analyst's Notebook
+[COMPONENT] 
+[VERSION] 9.2.0, 9.2.1, and 9.2.2
+[ATTACKER] local attacker
+[IMPACT] gain lower level privileges
+[VECTOR] 
+[ROOTCAUSE] improper bounds checking"
+CVE-2021-39050,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] IBM i2 Analyst's Notebook
+[COMPONENT] 
+[VERSION] 9.2.0, 9.2.1, and 9.2.2
+[ATTACKER] local attacker
+[IMPACT] gain lower level privileges
+[VECTOR] 
+[ROOTCAUSE] improper bounds checking"
+CVE-2021-39306,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Realtek RTL8195AM device
+[COMPONENT] client code
+[VERSION] before 2.0.10
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] big size Authentication challenge text in WEP security
+[ROOTCAUSE] "
+CVE-2021-3942,"[WEAKNESS] buffer overflow
+[PRODUCT] HP Print products and Digital Sending products
+[COMPONENT] 
+[VERSION] 
+[ATTACKER] 
+[IMPACT] potential remote code execution
+[VECTOR] use of Link-Local Multicast Name Resolution or LLMNR
+[ROOTCAUSE] "
+CVE-2021-39623,"[WEAKNESS] out of bounds write
+[PRODUCT] Android
+[COMPONENT] doRead of SimpleDecodingSource.cpp
+[VERSION] Android-10 Android-11 Android-12 Android-9
+[ATTACKER]
+[IMPACT] remote escalation of privilege
+[VECTOR]
+[ROOTCAUSE] incorrect bounds check"
+CVE-2021-39642,"[WEAKNESS] out of bounds write
+[PRODUCT] Android
+[COMPONENT] synchronous_process_io_entries of lwis_ioctl.c
+[VERSION] Android kernel
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] race condition"
+CVE-2021-39667,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Android
+[COMPONENT] ih264d_parse_decode_slice of ih264d_parse_slice.c
+[VERSION] Android-10 Android-11 Android-12
+[ATTACKER] 
+[IMPACT] remote information disclosure
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-39671,"[WEAKNESS] out of bounds read
+[PRODUCT] Android
+[COMPONENT] code generated by aidl_const_expressions.cpp
+[VERSION] Android-12
+[ATTACKER] 
+[IMPACT] information disclosure
+[VECTOR] 
+[ROOTCAUSE] uninitialized data"
+CVE-2021-39675,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Android
+[COMPONENT] GKI_getbuf of gki_buffer.cc
+[VERSION] Android-12
+[ATTACKER] 
+[IMPACT] remote escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-39688,"[WEAKNESS] out of bounds read
+[PRODUCT] Android
+[COMPONENT] 
+[VERSION] Android kernel
+[ATTACKER] 
+[IMPACT] local information disclosure
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-39708,"[WEAKNESS] out of bounds write
+[PRODUCT] Android
+[COMPONENT] gatt_process_notification of gatt_cl.cc
+[VERSION] Android-12
+[ATTACKER] 
+[IMPACT] remote escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] incorrect bounds check"
+CVE-2021-39712,"[WEAKNESS] use after free
+[PRODUCT] Android
+[COMPONENT] 
+[VERSION] Android kernel
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] race condition"
+CVE-2021-39735,"[WEAKNESS] memory corruption
+[PRODUCT] Android
+[COMPONENT] gasket_alloc_coherent_memory of gasket_page_table.c
+[VERSION] Android kernel
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] race condition"
+CVE-2021-39762,"[WEAKNESS] out of bounds read
+[PRODUCT] Android
+[COMPONENT] tremolo
+[VERSION] Android-12L
+[ATTACKER] 
+[IMPACT] remote information disclosure
+[VECTOR] 
+[ROOTCAUSE] integer overflow"
+CVE-2021-39805,"[WEAKNESS] out of bounds read
+[PRODUCT] Android
+[COMPONENT] l2cble_process_sig_cmd of l2c_ble.cc
+[VERSION] Android-12 Android-12L
+[ATTACKER] 
+[IMPACT] remote information disclosure through Bluetooth
+[VECTOR] 
+[ROOTCAUSE] missing bounds check"
+CVE-2021-39812,"[WEAKNESS] out of bounds read
+[PRODUCT] Android
+[COMPONENT] 
+[VERSION] Android kernel
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] use after free"
+CVE-2021-39820,"[WEAKNESS] Out-of-bounds Write
+[PRODUCT] Adobe InDesign
+[COMPONENT] 
+[VERSION] 16.3 (and earlier), and 16.3.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious TIFF file
+[ROOTCAUSE] insecure handling"
+CVE-2021-3999,"[WEAKNESS] off-by-one buffer overflow and underflow
+[PRODUCT] glibc
+[COMPONENT] getcwd()
+[VERSION] 
+[ATTACKER] local attacker
+[IMPACT] memory corruption, potentially execute arbitrary code and escalate privileges
+[VECTOR] control the input buffer and size passed to getcwd() in a setuid program
+[ROOTCAUSE] "
+CVE-2021-39990,"[WEAKNESS] Stack-based Buffer Overflow
+[PRODUCT] 
+[COMPONENT] screen lock module
+[VERSION] 
+[ATTACKER] 
+[IMPACT] affect user experience
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-39996,"[WEAKNESS] Heap-based buffer overflow
+[PRODUCT] 
+[COMPONENT] NFC module in smartphones
+[VERSION] 
+[ATTACKER] 
+[IMPACT] memory overflow
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-40010,"[WEAKNESS] heap overflow
+[PRODUCT] 
+[COMPONENT] bone voice ID TA
+[VERSION] 
+[ATTACKER] 
+[IMPACT] malicious code execution
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-40014,"[WEAKNESS] heap overflow
+[PRODUCT] 
+[COMPONENT] bone voice ID trusted application (TA)
+[VERSION] 
+[ATTACKER] 
+[IMPACT] affect data confidentiality
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-40026,"[WEAKNESS] Heap-based buffer overflow
+[PRODUCT] 
+[COMPONENT] AOD module in smartphones
+[VERSION] 
+[ATTACKER] 
+[IMPACT] affect service integrity
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-40057,"[WEAKNESS] heap-based and stack-based buffer overflow
+[PRODUCT] 
+[COMPONENT] video framework
+[VERSION] 
+[ATTACKER] 
+[IMPACT] affect availability
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-40058,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] 
+[COMPONENT] video framework
+[VERSION] 
+[ATTACKER] 
+[IMPACT] affect availability
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-40060,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] 
+[COMPONENT] video framework
+[VERSION] 
+[ATTACKER] 
+[IMPACT] affect availability
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-40064,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] 
+[COMPONENT] system components
+[VERSION] 
+[ATTACKER] 
+[IMPACT] affect system stability
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-40161,"[WEAKNESS] Memory Corruption
+[PRODUCT] PDFTron
+[COMPONENT] 
+[VERSION] earlier than 9.0.7
+[ATTACKER] 
+[IMPACT] code execution
+[VECTOR] maliciously crafted DLL files
+[ROOTCAUSE] "
+CVE-2021-40164,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] 
+[COMPONENT] 
+[VERSION] 
+[ATTACKER] 
+[IMPACT] execute arbitrary code
+[VECTOR] parsing TIFF, PICT, TGA, or RLC files
+[ROOTCAUSE] "
+CVE-2021-40167,"[WEAKNESS] memory corruption
+[PRODUCT] DesignReview.exe
+[COMPONENT] 
+[VERSION] 
+[ATTACKER] 
+[IMPACT] code execution
+[VECTOR] malicious crafted dwf or .pct file
+[ROOTCAUSE] read access violation"
+CVE-2021-40393,"[WEAKNESS] out-of-bounds write
+[PRODUCT] Gerbv
+[COMPONENT] RS-274X aperture macro variables handling functionality
+[VERSION] 2.7.0 and dev (commit b5f1eacd) and the forked version (commit 71493260)
+[ATTACKER] 
+[IMPACT] code execution
+[VECTOR] specially-crafted gerber file
+[ROOTCAUSE] "
+CVE-2021-40401,"[WEAKNESS] use-after-free
+[PRODUCT] Gerbv
+[COMPONENT] RS-274X aperture definition tokenization functionality
+[VERSION] 2.7.0 and dev (commit b5f1eacd) and Gerbv forked 2.7.1
+[ATTACKER] 
+[IMPACT] code execution
+[VECTOR] specially-crafted gerber file
+[ROOTCAUSE] The aperture type is parsed using strtok but the ad variable is not compared against NULL"
+CVE-2021-40417,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] DPDecoder service
+[COMPONENT] 
+[VERSION] 
+[ATTACKER] 
+[IMPACT] code execution
+[VECTOR] 
+[ROOTCAUSE] integer overflow in buffer size calculation"
+CVE-2021-4052,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] web apps
+[VERSION] prior to 96.0.4664.93
+[ATTACKER] 
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted Chrome Extension
+[ROOTCAUSE] "
+CVE-2021-4053,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome on Linux
+[COMPONENT] UI
+[VERSION] prior to 96.0.4664.93
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-4055,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] Google Chrome
+[COMPONENT] extensions
+[VERSION] prior to 96.0.4664.93
+[ATTACKER] 
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted Chrome Extension
+[ROOTCAUSE] "
+CVE-2021-40556,"[WEAKNESS] stack overflow
+[PRODUCT] ASUS RT-AX56U Router
+[COMPONENT] httpd service
+[VERSION] 3.0.0.4.386.44266
+[ATTACKER] 
+[IMPACT] execute commands remotely
+[VECTOR] 
+[ROOTCAUSE] strcat function called by caupload input handle function allowing user to enter 0xFFFF bytes into the stack"
+CVE-2021-4056,"[WEAKNESS] Type confusion
+[PRODUCT] Google Chrome
+[COMPONENT] loader
+[VERSION] prior to 96.0.4664.93
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-4057,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] file API
+[VERSION] prior to 96.0.4664.93
+[ATTACKER] remote attacker who had compromised the renderer process
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-4058,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] Google Chrome
+[COMPONENT] ANGLE
+[VERSION] prior to 96.0.4664.93
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-4061,"[WEAKNESS] Type confusion
+[PRODUCT] Google Chrome
+[COMPONENT] V8
+[VERSION] prior to 96.0.4664.93
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-4062,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] Google Chrome
+[COMPONENT] BFCache
+[VERSION] prior to 96.0.4664.93
+[ATTACKER] remote attacker who had compromised the renderer process
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-4063,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] developer tools
+[VERSION] prior to 96.0.4664.93
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-4064,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome on ChromeOS
+[COMPONENT] screen capture
+[VERSION] prior to 96.0.4664.93
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-4065,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] autofill
+[VERSION] prior to 96.0.4664.93
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-4066,"[WEAKNESS] Integer underflow
+[PRODUCT] Google Chrome
+[COMPONENT] ANGLE
+[VERSION] prior to 96.0.4664.93
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-4067,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome on ChromeOS
+[COMPONENT] window manager
+[VERSION] prior to 96.0.4664.93
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-40734,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Audition
+[COMPONENT] 
+[VERSION] 14.4 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] parsing a SVG file
+[ROOTCAUSE] "
+CVE-2021-40735,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Audition
+[COMPONENT] 
+[VERSION] 14.4 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-40736,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Audition
+[COMPONENT] 
+[VERSION] 14.4 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-40738,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Audition
+[COMPONENT] 
+[VERSION] 14.4 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] parsing a WAV file
+[ROOTCAUSE] "
+CVE-2021-40739,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Audition
+[COMPONENT] 
+[VERSION] 14.4 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] parsing a M4A file
+[ROOTCAUSE] "
+CVE-2021-40740,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Audition
+[COMPONENT] 
+[VERSION] 14.4 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] parsing a M4A file
+[ROOTCAUSE] "
+CVE-2021-40763,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Character Animator
+[COMPONENT] 
+[VERSION] 4.4 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] parsing a WAF file
+[ROOTCAUSE] "
+CVE-2021-40764,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Character Animator
+[COMPONENT] 
+[VERSION] 4.4 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] parsing a M4A file
+[ROOTCAUSE] "
+CVE-2021-40777,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Media Encoder
+[COMPONENT] 
+[VERSION] 15.4.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious file
+[ROOTCAUSE] insecure handling"
+CVE-2021-40779,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Media Encoder
+[COMPONENT] 
+[VERSION] 15.4.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious file
+[ROOTCAUSE] insecure handling"
+CVE-2021-4078,"[WEAKNESS] Type confusion
+[PRODUCT] Google Chrome
+[COMPONENT] V8
+[VERSION] prior to 96.0.4664.93
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-40780,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Media Encoder
+[COMPONENT] 
+[VERSION] 15.4.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious file
+[ROOTCAUSE] insecure handling"
+CVE-2021-40783,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Premiere Rush
+[COMPONENT] 
+[VERSION] 1.5.16 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious WAV file
+[ROOTCAUSE] insecure handling"
+CVE-2021-40784,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Premiere Rush
+[COMPONENT] 
+[VERSION] 1.5.16 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious WAV file
+[ROOTCAUSE] insecure handling"
+CVE-2021-40786,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Premiere Elements
+[COMPONENT] 
+[VERSION] 20210809.daily.2242976 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious file
+[ROOTCAUSE] insecure handling"
+CVE-2021-40787,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Premiere Elements
+[COMPONENT] 
+[VERSION] 20210809.daily.2242976 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious file
+[ROOTCAUSE] insecure handling"
+CVE-2021-4079,"[WEAKNESS] Out of bounds write
+[PRODUCT] Google Chrome
+[COMPONENT] WebRTC
+[VERSION] prior to 96.0.4664.93
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted WebRTC packets
+[ROOTCAUSE] "
+CVE-2021-40792,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Premiere Pro
+[COMPONENT] 
+[VERSION] 15.4.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious file
+[ROOTCAUSE] insecure handling"
+CVE-2021-40793,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Premiere Pro
+[COMPONENT] 
+[VERSION] 15.4.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious file
+[ROOTCAUSE] insecure handling"
+CVE-2021-40794,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Premiere Pro
+[COMPONENT] 
+[VERSION] 15.4.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious file
+[ROOTCAUSE] insecure handling"
+CVE-2021-4083,"[WEAKNESS] read-after-free
+[PRODUCT] Linux kernel
+[COMPONENT] garbage collection for Unix domain socket file handlers
+[VERSION] prior to 5.16-rc4
+[ATTACKER] local user
+[IMPACT] crash the system or escalate privileges
+[VECTOR] 
+[ROOTCAUSE] race condition when users call close() and fget() simultaneously"
+CVE-2021-4093,"[WEAKNESS] out-of-bounds reads and writes
+[PRODUCT] KVM
+[COMPONENT] AMD code for supporting the Secure Encrypted Virtualization-Encrypted State (SEV-ES)
+[VERSION] 
+[ATTACKER] KVM guest using SEV-ES
+[IMPACT] crash of the entire system or potential guest-to-host escape
+[VECTOR] malicious VMGEXIT for a string I/O instruction
+[ROOTCAUSE] "
+CVE-2021-4099,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Swiftshader
+[VERSION] prior to 96.0.4664.110
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-4100,"[WEAKNESS] Object lifecycle issue
+[PRODUCT] Google Chrome
+[COMPONENT] ANGLE
+[VERSION] prior to 96.0.4664.110
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-4101,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] Google Chrome
+[COMPONENT] Swiftshader
+[VERSION] prior to 96.0.4664.110
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-41017,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] FortiWeb
+[COMPONENT] web API controllers
+[VERSION] 6.4.1, 6.4.0, and 6.3.0 through 6.3.15
+[ATTACKER] remote authenticated attacker
+[IMPACT] execute arbitrary code or commands
+[VECTOR] specifically crafted HTTP requests
+[ROOTCAUSE] "
+CVE-2021-4102,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] V8
+[VERSION] prior to 96.0.4664.110
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-41027,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] Fortinet FortiWeb
+[COMPONENT] 
+[VERSION] 6.4.1 and 6.4.0
+[ATTACKER] authenticated attacker
+[IMPACT] execute unauthorized code or commands
+[VECTOR] crafted certificates loaded into the device
+[ROOTCAUSE] "
+CVE-2021-4129,"[WEAKNESS] memory safety bugs
+[PRODUCT] Firefox, Firefox ESR, Thunderbird
+[COMPONENT] 
+[VERSION] Firefox < 95, Firefox ESR < 91.4.0, and Thunderbird < 91.4.0
+[ATTACKER] 
+[IMPACT] memory corruption, potentially run arbitrary code
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-41396,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] Live555
+[COMPONENT] error-handling module
+[VERSION] through 1.08
+[ATTACKER] 
+[IMPACT] DoS attack
+[VECTOR] huge number of incoming socket connections in a short time
+[ROOTCAUSE] "
+CVE-2021-41458,"[WEAKNESS] stack buffer overflow
+[PRODUCT] GPAC MP4Box
+[COMPONENT] src/utils/error.c:1769
+[VERSION] v1.1.0
+[ATTACKER] 
+[IMPACT] denial of service
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-4156,"[WEAKNESS] out-of-bounds read
+[PRODUCT] libsndfile
+[COMPONENT] FLAC codec functionality
+[VERSION] 
+[ATTACKER] 
+[IMPACT] crash, potentially leak memory information
+[VECTOR] specially crafted file
+[ROOTCAUSE] "
+CVE-2021-41736,"[WEAKNESS] heap-buffer overflow
+[PRODUCT] Faust
+[COMPONENT] function realPropagate() at propagate.cpp
+[VERSION] v2.35.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-41752,"[WEAKNESS] Stack overflow
+[PRODUCT] Jerryscript
+[COMPONENT] new opt() function
+[VERSION] before commit e1ce7dd7271288be8c0c8136eea9107df73a8ce2 on Oct 20, 2021
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] unbounded recursive call"
+CVE-2021-41987,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] Mikrotik RouterOS
+[COMPONENT] SCEP Server
+[VERSION] 6.46.8, 6.47.9, and 6.47.10
+[ATTACKER] 
+[IMPACT] remote code execution
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-42059,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] Insyde InsydeH2O
+[COMPONENT] UEFI DisplayTypeDxe DXE driver
+[VERSION] Kernel 5.0 before 05.08.41, Kernel 5.1 before 05.16.41, Kernel 5.2 before 05.26.41, Kernel 5.3 before 05.35.41, and Kernel 5.4 before 05.42.20
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-4206,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] QEMU
+[COMPONENT] QXL display device emulation, cursor_alloc() function
+[VERSION] 
+[ATTACKER] malicious privileged guest user
+[IMPACT] crash the QEMU process on the host or potentially execute arbitrary code
+[VECTOR] 
+[ROOTCAUSE] integer overflow"
+CVE-2021-4207,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] QEMU
+[COMPONENT] QXL display device emulation
+[VERSION] 
+[ATTACKER] malicious privileged guest user
+[IMPACT] crash the QEMU process on the host or potentially execute arbitrary code
+[VECTOR] 
+[ROOTCAUSE] double fetch of guest controlled values"
+CVE-2021-4214,"[WEAKNESS] heap overflow
+[PRODUCT] libpng
+[COMPONENT] pngimage.c program
+[VERSION] 
+[ATTACKER] 
+[IMPACT] application crash, denial of service
+[VECTOR] specially crafted PNG file
+[ROOTCAUSE] "
+CVE-2021-42199,"[WEAKNESS] heap buffer overflow
+[PRODUCT] swftools
+[COMPONENT] swf_FontExtract_DefineTextCallback() in swftext.c
+[VERSION] through 20201222
+[ATTACKER] 
+[IMPACT] code execution
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-42341,"[WEAKNESS] memory corruption
+[PRODUCT] OpenRC
+[COMPONENT] checkpath
+[VERSION] before 0.44.7
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] uses the direct output of strlen() to allocate strings, which does not account for the '\\0' byte"
+CVE-2021-42526,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Premiere Elements
+[COMPONENT] 
+[VERSION] 20210809.daily.2242976 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious file
+[ROOTCAUSE] insecure handling"
+CVE-2021-42527,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Premiere Elements
+[COMPONENT] 
+[VERSION] 20210809.daily.2242976 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious file
+[ROOTCAUSE] insecure handling"
+CVE-2021-42554,"[WEAKNESS] SMM memory corruption
+[PRODUCT] Insyde InsydeH2O
+[COMPONENT] FvbServicesRuntimeDxe
+[VERSION] Kernel 5.0 before 05.08.42, Kernel 5.1 before 05.16.42, Kernel 5.2 before 05.26.42, Kernel 5.3 before 05.35.42, Kernel 5.4 before 05.42.51, and Kernel 5.5 before 05.50.51
+[ATTACKER] 
+[IMPACT] escalating privileges to SMM
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-42585,"[WEAKNESS] heap buffer overflow
+[PRODUCT] dwgread
+[COMPONENT] copy_compressed_bytes in decode_r2007.c
+[VERSION] before 0.12.4
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] crafted dwg file
+[ROOTCAUSE] "
+CVE-2021-42586,"[WEAKNESS] heap buffer overflow
+[PRODUCT] dwgread
+[COMPONENT] copy_bytes in decode_r2007.c
+[VERSION] before 0.12.4
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] crafted dwg file
+[ROOTCAUSE] "
+CVE-2021-42724,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Bridge
+[COMPONENT] 
+[VERSION] 11.1.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious file
+[ROOTCAUSE] insecure handling"
+CVE-2021-42725,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Bridge
+[COMPONENT] 
+[VERSION] 11.1.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious M4A file
+[ROOTCAUSE] insecure handling"
+CVE-2021-42727,"[WEAKNESS] stack overflow
+[PRODUCT] Adobe Bridge
+[COMPONENT] 
+[VERSION] 11.1.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] crafted file
+[ROOTCAUSE] insecure handling"
+CVE-2021-42728,"[WEAKNESS] stack overflow
+[PRODUCT] Adobe Bridge
+[COMPONENT] 
+[VERSION] 11.1.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] crafted file
+[ROOTCAUSE] insecure handling"
+CVE-2021-42729,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Bridge
+[COMPONENT] 
+[VERSION] 11.1.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious WAV file
+[ROOTCAUSE] insecure handling"
+CVE-2021-42730,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Bridge
+[COMPONENT] 
+[VERSION] 11.1.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious PSD file
+[ROOTCAUSE] insecure handling"
+CVE-2021-42739,"[WEAKNESS] buffer overflow
+[PRODUCT] Linux kernel
+[COMPONENT] firewire subsystem, avc_ca_pmt in drivers/media/firewire/firedtv-avc.c and drivers/media/firewire/firedtv-ci.c
+[VERSION] through 5.14.13
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] mishandles bounds checking"
+CVE-2021-42756,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] FortiWeb
+[COMPONENT] proxy daemon
+[VERSION] 5.x all versions, 6.0.7 and below, 6.1.2 and below, 6.2.6 and below, 6.3.16 and below, 6.4 all versions
+[ATTACKER] unauthenticated remote attacker
+[IMPACT] arbitrary code execution
+[VECTOR] specifically crafted HTTP requests
+[ROOTCAUSE] "
+CVE-2021-42757,"[WEAKNESS] buffer overflow
+[PRODUCT] FortiOS
+[COMPONENT] TFTP client library
+[VERSION] before 6.4.7 and 7.0.0 through 7.0.2
+[ATTACKER] authenticated local attacker
+[IMPACT] arbitrary code execution
+[VECTOR] specially crafted command line arguments
+[ROOTCAUSE] "
+CVE-2021-42781,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] Opensc
+[COMPONENT] pkcs15-oberthur.c
+[VERSION] before 0.22.0
+[ATTACKER]
+[IMPACT] potentially crash programs using the library
+[VECTOR]
+[ROOTCAUSE] "
+CVE-2021-42782,"[WEAKNESS] Stack buffer overflow
+[PRODUCT] Opensc
+[COMPONENT] various places
+[VERSION] before 0.22.0
+[ATTACKER]
+[IMPACT] potentially crash programs using the library
+[VECTOR]
+[ROOTCAUSE] "
+CVE-2021-40777,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Media Encoder
+[COMPONENT] 
+[VERSION] 15.4.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious file
+[ROOTCAUSE] insecure handling"
+CVE-2021-40779,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Media Encoder
+[COMPONENT] 
+[VERSION] 15.4.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious file
+[ROOTCAUSE] insecure handling"
+CVE-2021-4078,"[WEAKNESS] Type confusion
+[PRODUCT] Google Chrome
+[COMPONENT] V8
+[VERSION] prior to 96.0.4664.93
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-40780,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Media Encoder
+[COMPONENT] 
+[VERSION] 15.4.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious file
+[ROOTCAUSE] insecure handling"
+CVE-2021-40783,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Premiere Rush
+[COMPONENT] 
+[VERSION] 1.5.16 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious WAV file
+[ROOTCAUSE] insecure handling"
+CVE-2021-40784,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Premiere Rush
+[COMPONENT] 
+[VERSION] 1.5.16 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious WAV file
+[ROOTCAUSE] insecure handling"
+CVE-2021-40786,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Premiere Elements
+[COMPONENT] 
+[VERSION] 20210809.daily.2242976 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious file
+[ROOTCAUSE] insecure handling"
+CVE-2021-40787,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Premiere Elements
+[COMPONENT] 
+[VERSION] 20210809.daily.2242976 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious file
+[ROOTCAUSE] insecure handling"
+CVE-2021-4079,"[WEAKNESS] Out of bounds write
+[PRODUCT] Google Chrome
+[COMPONENT] WebRTC
+[VERSION] prior to 96.0.4664.93
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted WebRTC packets
+[ROOTCAUSE] "
+CVE-2021-40792,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Premiere Pro
+[COMPONENT] 
+[VERSION] 15.4.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious file
+[ROOTCAUSE] insecure handling"
+CVE-2021-40793,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Premiere Pro
+[COMPONENT] 
+[VERSION] 15.4.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious file
+[ROOTCAUSE] insecure handling"
+CVE-2021-40794,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Premiere Pro
+[COMPONENT] 
+[VERSION] 15.4.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious file
+[ROOTCAUSE] insecure handling"
+CVE-2021-4083,"[WEAKNESS] read-after-free
+[PRODUCT] Linux kernel
+[COMPONENT] garbage collection for Unix domain socket file handlers
+[VERSION] prior to 5.16-rc4
+[ATTACKER] local user
+[IMPACT] crash the system or escalate privileges
+[VECTOR] 
+[ROOTCAUSE] race condition when users call close() and fget() simultaneously"
+CVE-2021-4093,"[WEAKNESS] out-of-bounds reads and writes
+[PRODUCT] KVM
+[COMPONENT] AMD code for supporting the Secure Encrypted Virtualization-Encrypted State (SEV-ES)
+[VERSION] 
+[ATTACKER] KVM guest using SEV-ES
+[IMPACT] crash of the entire system or potential guest-to-host escape
+[VECTOR] malicious VMGEXIT for a string I/O instruction
+[ROOTCAUSE] "
+CVE-2021-4099,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Swiftshader
+[VERSION] prior to 96.0.4664.110
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-4100,"[WEAKNESS] Object lifecycle issue
+[PRODUCT] Google Chrome
+[COMPONENT] ANGLE
+[VERSION] prior to 96.0.4664.110
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-4101,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] Google Chrome
+[COMPONENT] Swiftshader
+[VERSION] prior to 96.0.4664.110
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-41017,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] FortiWeb
+[COMPONENT] web API controllers
+[VERSION] 6.4.1, 6.4.0, and 6.3.0 through 6.3.15
+[ATTACKER] remote authenticated attacker
+[IMPACT] execute arbitrary code or commands
+[VECTOR] specifically crafted HTTP requests
+[ROOTCAUSE] "
+CVE-2021-4102,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] V8
+[VERSION] prior to 96.0.4664.110
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2021-41027,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] Fortinet FortiWeb
+[COMPONENT] 
+[VERSION] 6.4.1 and 6.4.0
+[ATTACKER] authenticated attacker
+[IMPACT] execute unauthorized code or commands
+[VECTOR] crafted certificates loaded into the device
+[ROOTCAUSE] "
+CVE-2021-4129,"[WEAKNESS] memory safety bugs
+[PRODUCT] Firefox, Firefox ESR, Thunderbird
+[COMPONENT] 
+[VERSION] Firefox < 95, Firefox ESR < 91.4.0, and Thunderbird < 91.4.0
+[ATTACKER] 
+[IMPACT] memory corruption, potentially run arbitrary code
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-41396,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] Live555
+[COMPONENT] error-handling module
+[VERSION] through 1.08
+[ATTACKER] 
+[IMPACT] DoS attack
+[VECTOR] huge number of incoming socket connections in a short time
+[ROOTCAUSE] "
+CVE-2021-41458,"[WEAKNESS] stack buffer overflow
+[PRODUCT] GPAC MP4Box
+[COMPONENT] src/utils/error.c:1769
+[VERSION] v1.1.0
+[ATTACKER] 
+[IMPACT] denial of service
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-4156,"[WEAKNESS] out-of-bounds read
+[PRODUCT] libsndfile
+[COMPONENT] FLAC codec functionality
+[VERSION] 
+[ATTACKER] 
+[IMPACT] crash, potentially leak memory information
+[VECTOR] specially crafted file
+[ROOTCAUSE] "
+CVE-2021-41736,"[WEAKNESS] heap-buffer overflow
+[PRODUCT] Faust
+[COMPONENT] function realPropagate() at propagate.cpp
+[VERSION] v2.35.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-41752,"[WEAKNESS] Stack overflow
+[PRODUCT] Jerryscript
+[COMPONENT] new opt() function
+[VERSION] before commit e1ce7dd7271288be8c0c8136eea9107df73a8ce2 on Oct 20, 2021
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] unbounded recursive call"
+CVE-2021-41987,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] Mikrotik RouterOS
+[COMPONENT] SCEP Server
+[VERSION] 6.46.8, 6.47.9, and 6.47.10
+[ATTACKER] 
+[IMPACT] remote code execution
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-42059,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] Insyde InsydeH2O
+[COMPONENT] UEFI DisplayTypeDxe DXE driver
+[VERSION] Kernel 5.0 before 05.08.41, Kernel 5.1 before 05.16.41, Kernel 5.2 before 05.26.41, Kernel 5.3 before 05.35.41, and Kernel 5.4 before 05.42.20
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-4206,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] QEMU
+[COMPONENT] QXL display device emulation, cursor_alloc() function
+[VERSION] 
+[ATTACKER] malicious privileged guest user
+[IMPACT] crash the QEMU process on the host or potentially execute arbitrary code
+[VECTOR] 
+[ROOTCAUSE] integer overflow"
+CVE-2021-4207,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] QEMU
+[COMPONENT] QXL display device emulation
+[VERSION] 
+[ATTACKER] malicious privileged guest user
+[IMPACT] crash the QEMU process on the host or potentially execute arbitrary code
+[VECTOR] 
+[ROOTCAUSE] double fetch of guest controlled values"
+CVE-2021-4214,"[WEAKNESS] heap overflow
+[PRODUCT] libpng
+[COMPONENT] pngimage.c program
+[VERSION] 
+[ATTACKER] 
+[IMPACT] application crash, denial of service
+[VECTOR] specially crafted PNG file
+[ROOTCAUSE] "
+CVE-2021-42199,"[WEAKNESS] heap buffer overflow
+[PRODUCT] swftools
+[COMPONENT] swf_FontExtract_DefineTextCallback() in swftext.c
+[VERSION] through 20201222
+[ATTACKER] 
+[IMPACT] code execution
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-42341,"[WEAKNESS] memory corruption
+[PRODUCT] OpenRC
+[COMPONENT] checkpath
+[VERSION] before 0.44.7
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] uses the direct output of strlen() to allocate strings, which does not account for the '\\0' byte"
+CVE-2021-42526,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Premiere Elements
+[COMPONENT] 
+[VERSION] 20210809.daily.2242976 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious file
+[ROOTCAUSE] insecure handling"
+CVE-2021-42527,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Premiere Elements
+[COMPONENT] 
+[VERSION] 20210809.daily.2242976 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious file
+[ROOTCAUSE] insecure handling"
+CVE-2021-42554,"[WEAKNESS] SMM memory corruption
+[PRODUCT] Insyde InsydeH2O
+[COMPONENT] FvbServicesRuntimeDxe
+[VERSION] Kernel 5.0 before 05.08.42, Kernel 5.1 before 05.16.42, Kernel 5.2 before 05.26.42, Kernel 5.3 before 05.35.42, Kernel 5.4 before 05.42.51, and Kernel 5.5 before 05.50.51
+[ATTACKER] 
+[IMPACT] escalating privileges to SMM
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-42585,"[WEAKNESS] heap buffer overflow
+[PRODUCT] dwgread
+[COMPONENT] copy_compressed_bytes in decode_r2007.c
+[VERSION] before 0.12.4
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] crafted dwg file
+[ROOTCAUSE] "
+CVE-2021-42586,"[WEAKNESS] heap buffer overflow
+[PRODUCT] dwgread
+[COMPONENT] copy_bytes in decode_r2007.c
+[VERSION] before 0.12.4
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] crafted dwg file
+[ROOTCAUSE] "
+CVE-2021-42724,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Bridge
+[COMPONENT] 
+[VERSION] 11.1.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious file
+[ROOTCAUSE] insecure handling"
+CVE-2021-42725,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Bridge
+[COMPONENT] 
+[VERSION] 11.1.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious M4A file
+[ROOTCAUSE] insecure handling"
+CVE-2021-42727,"[WEAKNESS] stack overflow
+[PRODUCT] Adobe Bridge
+[COMPONENT] 
+[VERSION] 11.1.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] crafted file
+[ROOTCAUSE] insecure handling"
+CVE-2021-42728,"[WEAKNESS] stack overflow
+[PRODUCT] Adobe Bridge
+[COMPONENT] 
+[VERSION] 11.1.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] crafted file
+[ROOTCAUSE] insecure handling"
+CVE-2021-42729,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Bridge
+[COMPONENT] 
+[VERSION] 11.1.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious WAV file
+[ROOTCAUSE] insecure handling"
+CVE-2021-42730,"[WEAKNESS] memory corruption
+[PRODUCT] Adobe Bridge
+[COMPONENT] 
+[VERSION] 11.1.1 (and earlier)
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] malicious PSD file
+[ROOTCAUSE] insecure handling"
+CVE-2021-42739,"[WEAKNESS] buffer overflow
+[PRODUCT] Linux kernel
+[COMPONENT] firewire subsystem, avc_ca_pmt in drivers/media/firewire/firedtv-avc.c and drivers/media/firewire/firedtv-ci.c
+[VERSION] through 5.14.13
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] mishandles bounds checking"
+CVE-2021-42756,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] FortiWeb
+[COMPONENT] proxy daemon
+[VERSION] 5.x all versions, 6.0.7 and below, 6.1.2 and below, 6.2.6 and below, 6.3.16 and below, 6.4 all versions
+[ATTACKER] unauthenticated remote attacker
+[IMPACT] arbitrary code execution
+[VECTOR] specifically crafted HTTP requests
+[ROOTCAUSE] "
+CVE-2021-42757,"[WEAKNESS] buffer overflow
+[PRODUCT] FortiOS
+[COMPONENT] TFTP client library
+[VERSION] before 6.4.7 and 7.0.0 through 7.0.2
+[ATTACKER] authenticated local attacker
+[IMPACT] arbitrary code execution
+[VECTOR] specially crafted command line arguments
+[ROOTCAUSE] "
+CVE-2021-42781,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] Opensc
+[COMPONENT] pkcs15-oberthur.c
+[VERSION] before 0.22.0
+[ATTACKER] 
+[IMPACT] potentially crash programs using the library
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-42782,"[WEAKNESS] Stack buffer overflow
+[PRODUCT] Opensc
+[COMPONENT] various places
+[VERSION] before 0.22.0
+[ATTACKER] 
+[IMPACT] potentially crash programs using the library
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45636,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] NETGEAR D7000
+[COMPONENT] 
+[VERSION] before 1.0.1.82
+[ATTACKER] unauthenticated attacker
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45637,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] NETGEAR R6260, R6800, R6700v2, R6900v2, R7450, AC2100, AC2400, AC2600
+[COMPONENT] 
+[VERSION] various versions before specific releases
+[ATTACKER] unauthenticated attacker
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45638,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] NETGEAR D6220, D6400, D7000v2, D8500, DC112A, R6300v2, R6400, R7000, R7100LG, RBS40V, RBW30, RS400, R7000P, R6900P
+[COMPONENT] 
+[VERSION] various versions before specific releases
+[ATTACKER] unauthenticated attacker
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45687,"[WEAKNESS] memory corruption
+[PRODUCT] raw-cpuid crate
+[COMPONENT] 
+[VERSION] before 9.1.1
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] Deserialize operation
+[ROOTCAUSE] insufficient validation when serialize feature is used"
+CVE-2021-45710,"[WEAKNESS] data race and memory corruption
+[PRODUCT] tokio crate
+[COMPONENT] 
+[VERSION] before 1.8.4, and 1.9.x through 1.13.x before 1.13.1
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] closed oneshot channel
+[ROOTCAUSE] race condition"
+CVE-2021-45830,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] HDF5
+[COMPONENT] H5F_addr_decode_len in /hdf5/src/H5Fint.c
+[VERSION] 1.13.1-1
+[ATTACKER] 
+[IMPACT] Denial of Service
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45832,"[WEAKNESS] Stack-based Buffer Overflow
+[PRODUCT] HDF5
+[COMPONENT] hdf5/src/H5Eint.c
+[VERSION] 1.13.1-1
+[ATTACKER] 
+[IMPACT] Denial of Service
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45833,"[WEAKNESS] Stack-based Buffer Overflow
+[PRODUCT] HDF5
+[COMPONENT] H5D__create_chunk_file_map_hyper function in /hdf5/src/H5Dchunk.c
+[VERSION] 1.13.1-1
+[ATTACKER] 
+[IMPACT] Denial of Service
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45863,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] tsMuxer
+[COMPONENT] HevcUnit::updateBits in hevc.cpp
+[VERSION] git-2678966
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45907,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] gif2apng
+[COMPONENT] 
+[VERSION] 1.9
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] for loop
+[ROOTCAUSE] "
+CVE-2021-45908,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] gif2apng
+[COMPONENT] 
+[VERSION] 1.9
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] while loop
+[ROOTCAUSE] "
+CVE-2021-45909,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] gif2apng
+[COMPONENT] DecodeLZW function
+[VERSION] 1.9
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45910,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] gif2apng
+[COMPONENT] main function
+[VERSION] 1.9
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45911,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] gif2apng
+[COMPONENT] main function
+[VERSION] 1.9
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45918,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] NHI's health insurance web service component
+[COMPONENT] 
+[VERSION] 
+[ATTACKER] remote attacker
+[IMPACT] terminate service without authentication
+[VECTOR] 
+[ROOTCAUSE] insufficient validation for input string length"
+CVE-2021-45926,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] MDB Tools
+[COMPONENT] mdb_numeric_to_string
+[VERSION] 0.9.2
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45927,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] MDB Tools
+[COMPONENT] mdb_numeric_to_string
+[VERSION] 0.9.2
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45932,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] wolfSSL wolfMQTT
+[COMPONENT] MqttDecode_Publish
+[VERSION] 1.9
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45933,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] wolfSSL wolfMQTT
+[COMPONENT] MqttDecode_Publish
+[VERSION] 1.9
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45934,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] wolfSSL wolfMQTT
+[COMPONENT] MqttClient_DecodePacket
+[VERSION] 1.9
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45935,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] Grok
+[COMPONENT] openhtj2k::T1OpenHTJ2K::decompress
+[VERSION] 9.5.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45936,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] wolfSSL wolfMQTT
+[COMPONENT] MqttDecode_Disconnect
+[VERSION] 1.9
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45937,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] wolfSSL wolfMQTT
+[COMPONENT] MqttClient_DecodePacket
+[VERSION] 1.9
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45938,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] wolfSSL wolfMQTT
+[COMPONENT] MqttClient_DecodePacket
+[VERSION] 1.9
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45939,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] wolfSSL wolfMQTT
+[COMPONENT] MqttClient_DecodePacket
+[VERSION] 1.9
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45940,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] libbpf
+[COMPONENT] __bpf_object__open
+[VERSION] 0.6.0 and 0.6.1
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45941,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] libbpf
+[COMPONENT] __bpf_object__open
+[VERSION] 0.6.0 and 0.6.1
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45942,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] OpenEXR
+[COMPONENT] Imf_3_1::LineCompositeTask::execute
+[VERSION] 3.1.x before 3.1.4
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45943,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] GDAL
+[COMPONENT] PCIDSK::CPCIDSKFile::ReadFromFile
+[VERSION] 3.3.0 through 3.4.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45948,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] Open Asset Import Library
+[COMPONENT] _m3d_safestr
+[VERSION] 5.1.0 and 5.1.1
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45949,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] Ghostscript GhostPDL
+[COMPONENT] sampled_data_finish
+[VERSION] 9.50 through 9.54.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-45958,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] UltraJSON
+[COMPONENT] Buffer_AppendIndentUnchecked
+[VERSION] through 5.1.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] large amount of indentation
+[ROOTCAUSE] "
+CVE-2021-45972,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] giftrans
+[COMPONENT] giftrans function
+[VERSION] 1.12.2
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] input file
+[ROOTCAUSE] value inside the input file determines the amount of data to write"
+CVE-2021-45988,"[WEAKNESS] stack overflow
+[PRODUCT] Tenda routers G1 and G3
+[COMPONENT] formAddDnsForward function
+[VERSION] v15.11.0.17(9502)_CN
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] DnsForwardRule parameter
+[ROOTCAUSE] "
+CVE-2021-45989,"[WEAKNESS] stack overflow
+[PRODUCT] Tenda routers G1 and G3
+[COMPONENT] guestWifiRuleRefresh function
+[VERSION] v15.11.0.17(9502)_CN
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] qosGuestUpstream and qosGuestDownstream parameters
+[ROOTCAUSE] "
+CVE-2021-45991,"[WEAKNESS] stack overflow
+[PRODUCT] Tenda routers G1 and G3
+[COMPONENT] formAddVpnUsers function
+[VERSION] v15.11.0.17(9502)_CN
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] vpnUsers parameter
+[ROOTCAUSE] "
+CVE-2021-45992,"[WEAKNESS] stack overflow
+[PRODUCT] Tenda routers G1 and G3
+[COMPONENT] formSetQvlanList function
+[VERSION] v15.11.0.17(9502)_CN
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] qvlanName parameter
+[ROOTCAUSE] "
+CVE-2021-45993,"[WEAKNESS] stack overflow
+[PRODUCT] Tenda routers G1 and G3
+[COMPONENT] formIPMacBindModify function
+[VERSION] v15.11.0.17(9502)_CN
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] IPMacBindRuleIP and IPMacBindRuleMac parameters
+[ROOTCAUSE] "
+CVE-2021-45994,"[WEAKNESS] stack-based buffer overflow
+[PRODUCT] Tenda routers G1 and G3
+[COMPONENT] formDelDhcpRule function
+[VERSION] v15.11.0.17(9502)_CN
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] delDhcpIndex parameter
+[ROOTCAUSE] "
+CVE-2021-45995,"[WEAKNESS] stack overflow
+[PRODUCT] Tenda routers G1 and G3
+[COMPONENT] formSetStaticRoute function
+[VERSION] v15.11.0.17(9502)_CN
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] staticRouteNet, staticRouteMask, and staticRouteGateway parameters
+[ROOTCAUSE] "
+CVE-2021-45996,"[WEAKNESS] stack overflow
+[PRODUCT] Tenda routers G1 and G3
+[COMPONENT] formSetPortMapping function
+[VERSION] v15.11.0.17(9502)_CN
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] portMappingServer, portMappingProtocol, portMappingWan, porMappingtInternal, and portMappingExternal parameters
+[ROOTCAUSE] "
+CVE-2021-45997,"[WEAKNESS] stack overflow
+[PRODUCT] Tenda routers G1 and G3
+[COMPONENT] formSetPortMapping function
+[VERSION] v15.11.0.17(9502)_CN
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] portMappingServer, portMappingProtocol, portMappingWan, porMappingtInternal, and portMappingExternal parameters
+[ROOTCAUSE] "
+CVE-2021-46020,"[WEAKNESS] untrusted pointer dereference
+[PRODUCT] mruby
+[COMPONENT] mrb_vm_exec()
+[VERSION] v3.0.0
+[ATTACKER] 
+[IMPACT] segmentation fault or application crash
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46023,"[WEAKNESS] Untrusted Pointer Dereference
+[PRODUCT] mruby
+[COMPONENT] mrb_vm_exec
+[VERSION] before 3.1.0-rc
+[ATTACKER] 
+[IMPACT] segmentation fault and application crash
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46050,"[WEAKNESS] Stack Overflow
+[PRODUCT] Binaryen
+[COMPONENT] printf_common function
+[VERSION] 103
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46153,"[WEAKNESS] memory corruption
+[PRODUCT] Simcenter Femap
+[COMPONENT] NEU file parser
+[VERSION] V2020.2 (All versions), V2021.1 (All versions)
+[ATTACKER]
+[IMPACT] execute code in the context of the current process
+[VECTOR] parsing NEU files
+[ROOTCAUSE] lack of proper validation of user-supplied data"
+CVE-2021-46154,"[WEAKNESS] stack based buffer overflow
+[PRODUCT] Simcenter Femap
+[COMPONENT] NEU file parser
+[VERSION] V2020.2 (All versions), V2021.1 (All versions)
+[ATTACKER]
+[IMPACT] execute code in the context of the current process
+[VECTOR] parsing NEU files
+[ROOTCAUSE] lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer"
+CVE-2021-46155,"[WEAKNESS] stack based buffer overflow
+[PRODUCT] Simcenter Femap
+[COMPONENT] NEU file parser
+[VERSION] V2020.2 (All versions), V2021.1 (All versions)
+[ATTACKER]
+[IMPACT] execute code in the context of the current process
+[VECTOR] parsing NEU files
+[ROOTCAUSE] lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer"
+CVE-2021-46157,"[WEAKNESS] memory corruption
+[PRODUCT] Simcenter Femap
+[COMPONENT] NEU file parser
+[VERSION] V2020.2 (All versions), V2021.1 (All versions)
+[ATTACKER]
+[IMPACT] execute code in the context of the current process
+[VECTOR] parsing NEU files
+[ROOTCAUSE] lack of proper validation of user-supplied data"
+CVE-2021-46238,"[WEAKNESS] stack overflow
+[PRODUCT] GPAC
+[COMPONENT] gf_node_get_name() function in scenegraph/base_scenegraph.c
+[VERSION] v1.1.0
+[ATTACKER] 
+[IMPACT] program crash, Denial of Service (DoS)
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46262,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Tenda AC Series Router
+[COMPONENT] PPPoE module
+[VERSION] AC11_V02.03.01.104_CN
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] crafted overflow data
+[ROOTCAUSE] "
+CVE-2021-46263,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Tenda AC Series Router
+[COMPONENT] wifiTime module
+[VERSION] AC11_V02.03.01.104_CN
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] crafted overflow data
+[ROOTCAUSE] "
+CVE-2021-46264,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Tenda AC Series Router
+[COMPONENT] onlineList module
+[VERSION] AC11_V02.03.01.104_CN
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] crafted overflow data
+[ROOTCAUSE] "
+CVE-2021-46265,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Tenda AC Series Router
+[COMPONENT] wanBasicCfg module
+[VERSION] AC11_V02.03.01.104_CN
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] crafted overflow data
+[ROOTCAUSE] "
+CVE-2021-46321,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Tenda AC Series Router
+[COMPONENT] wifiBasicCfg module
+[VERSION] AC11_V02.03.01.104_CN
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] crafted overflow data
+[ROOTCAUSE] "
+CVE-2021-46324,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Espruino
+[COMPONENT] jsvNewFromString in src/jsvar.c
+[VERSION] 2v11.251
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46325,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Espruino
+[COMPONENT] vcbprintf in src/jsutils.c
+[VERSION] 2v10.246
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46334,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Moddable SDK
+[COMPONENT] __interceptor_strcat
+[VERSION] v11.5.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46393,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Tenda-AX3 router
+[COMPONENT] formSetPPTPServer function
+[VERSION] V16.03.12.10_CN
+[ATTACKER] 
+[IMPACT] remote code execution
+[VECTOR] POSTing to /goform/SetPptpServerCfg with proper startIp
+[ROOTCAUSE] lack of security check on v10 variable from http request parameter startIp"
+CVE-2021-46394,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Tenda-AX3 router
+[COMPONENT] formSetPPTPServer function
+[VERSION] V16.03.12.10_CN
+[ATTACKER] 
+[IMPACT] remote code execution
+[VECTOR] POSTing to /goform/SetPptpServerCfg with proper startIp
+[ROOTCAUSE] lack of security check on v13 variable from http request parameter startIp"
+CVE-2021-46408,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Tenda AX12
+[COMPONENT] function sub_422CE4
+[VERSION] v22.03.01.21
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] strcpy parameter
+[ROOTCAUSE] "
+CVE-2021-46474,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Jsish
+[COMPONENT] jsiEvalCodeSub in src/jsiEval.c
+[VERSION] v3.5.0
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46475,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Jsish
+[COMPONENT] jsi_ArraySliceCmd in src/jsiArray.c
+[VERSION] v3.5.0
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46477,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Jsish
+[COMPONENT] RegExp_constructor in src/jsiRegexp.c
+[VERSION] v3.5.0
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46478,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Jsish
+[COMPONENT] jsiClearStack in src/jsiEval.c
+[VERSION] v3.5.0
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46480,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Jsish
+[COMPONENT] jsiValueObjDelete in src/jsiEval.c
+[VERSION] v3.5.0
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46482,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Jsish
+[COMPONENT] NumberConstructor at src/jsiNumber.c
+[VERSION] v3.5.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46483,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Jsish
+[COMPONENT] BooleanConstructor at src/jsiBool.c
+[VERSION] v3.5.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46505,"[WEAKNESS] stack overflow
+[PRODUCT] Jsish
+[COMPONENT] /usr/lib/x86_64-linux-gnu/libasan.so.4+0x5b1e5
+[VERSION] v3.5.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46507,"[WEAKNESS] stack overflow
+[PRODUCT] Jsish
+[COMPONENT] Jsi_LogMsg at src/jsiUtils.c
+[VERSION] v3.5.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46509,"[WEAKNESS] stack overflow
+[PRODUCT] Cesanta MJS
+[COMPONENT] snquote at mjs/src/mjs_json.c
+[VERSION] v2.20.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46518,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Cesanta MJS
+[COMPONENT] mjs_disown at src/mjs_core.c
+[VERSION] v2.20.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46519,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Cesanta MJS
+[COMPONENT] mjs_array_length at src/mjs_array.c
+[VERSION] v2.20.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46520,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Cesanta MJS
+[COMPONENT] mjs_jprintf at src/mjs_util.c
+[VERSION] v2.20.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46522,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Cesanta MJS
+[COMPONENT] /usr/lib/x86_64-linux-gnu/libasan.so.4+0xaff53
+[VERSION] v2.20.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46523,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Cesanta MJS
+[COMPONENT] to_json_or_debug at mjs/src/mjs_json.c
+[VERSION] v2.20.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46524,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Cesanta MJS
+[COMPONENT] snquote at mjs/src/mjs_json.c
+[VERSION] v2.20.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46527,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Cesanta MJS
+[COMPONENT] mjs_get_cstring at src/mjs_string.c
+[VERSION] v2.20.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46598,"[WEAKNESS] memory corruption
+[PRODUCT] Bentley MicroStation CONNECT
+[COMPONENT] JT file parser
+[VERSION] 10.16.0.80
+[ATTACKER] remote attackers
+[IMPACT] execute arbitrary code
+[VECTOR] malicious page or file
+[ROOTCAUSE] lack of proper validation of user-supplied data"
+CVE-2021-46699,"[WEAKNESS] stack based buffer overflow
+[PRODUCT] Simcenter Femap
+[COMPONENT] BDF file parser
+[VERSION] All versions < V2022.1.1
+[ATTACKER] 
+[IMPACT] execute code in the context of the current process
+[VECTOR] specially crafted BDF files
+[ROOTCAUSE] "
+CVE-2021-46768,"[WEAKNESS] out-of-bounds memory reads
+[PRODUCT] SEV firmware
+[COMPONENT] ASP boot loader
+[VERSION] 
+[ATTACKER] 
+[IMPACT] denial of service
+[VECTOR] 
+[ROOTCAUSE] Insufficient input validation"
+CVE-2021-46814,"[WEAKNESS] out-of-bounds memory read/write
+[PRODUCT] 
+[COMPONENT] video framework
+[VERSION] 
+[ATTACKER] 
+[IMPACT] affect system availability
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46822,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] libjpeg-turbo
+[COMPONENT] PPM reader, get_word_rgb_row function in rdppm.c
+[VERSION] through 2.0.90
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] loading a 16-bit binary PPM file into a grayscale buffer or loading a 16-bit binary PGM file into an RGB buffer
+[ROOTCAUSE] mishandling of tjLoadImage"
+CVE-2021-46829,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] GNOME GdkPixbuf
+[COMPONENT] io-gif-animation.c
+[VERSION] before 2.42.8
+[ATTACKER] 
+[IMPACT] code execution
+[VECTOR] compositing or clearing frames in GIF files
+[ROOTCAUSE] "
+CVE-2021-46848,"[WEAKNESS] off-by-one array size check
+[PRODUCT] GNU Libtasn1
+[COMPONENT] asn1_encode_simple_der
+[VERSION] before 4.19.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] ETYPE_OK off-by-one array size check"
+CVE-2022-0096,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Storage
+[VERSION] prior to 97.0.4692.71
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0098,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome on Chrome OS
+[COMPONENT] Screen Capture
+[VERSION] prior to 97.0.4692.71
+[ATTACKER] 
+[IMPACT] potentially exploit heap corruption
+[VECTOR] specific user gestures
+[ROOTCAUSE] "
+CVE-2022-0099,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Sign-in
+[VERSION] prior to 97.0.4692.71
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] specific user gesture
+[ROOTCAUSE] "
+CVE-2022-0100,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] Google Chrome
+[COMPONENT] Media streams API
+[VERSION] prior to 97.0.4692.71
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0101,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] Google Chrome
+[COMPONENT] Bookmarks
+[VERSION] prior to 97.0.4692.71
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] specific user gesture
+[ROOTCAUSE] "
+CVE-2022-0102,"[WEAKNESS] Type confusion
+[PRODUCT] Google Chrome
+[COMPONENT] V8
+[VERSION] prior to 97.0.4692.71
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0103,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] SwiftShader
+[VERSION] prior to 97.0.4692.71
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0104,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] Google Chrome
+[COMPONENT] ANGLE
+[VERSION] prior to 97.0.4692.71
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0105,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] PDF Accessibility
+[VERSION] prior to 97.0.4692.71
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0106,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Autofill
+[VERSION] prior to 97.0.4692.71
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page, specific user gesture
+[ROOTCAUSE] "
+CVE-2021-46238,"[WEAKNESS] stack overflow
+[PRODUCT] GPAC
+[COMPONENT] gf_node_get_name() function in scenegraph/base_scenegraph.c
+[VERSION] v1.1.0
+[ATTACKER] 
+[IMPACT] program crash, Denial of Service (DoS)
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46262,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Tenda AC Series Router
+[COMPONENT] PPPoE module
+[VERSION] AC11_V02.03.01.104_CN
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] crafted overflow data
+[ROOTCAUSE] "
+CVE-2021-46263,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Tenda AC Series Router
+[COMPONENT] wifiTime module
+[VERSION] AC11_V02.03.01.104_CN
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] crafted overflow data
+[ROOTCAUSE] "
+CVE-2021-46264,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Tenda AC Series Router
+[COMPONENT] onlineList module
+[VERSION] AC11_V02.03.01.104_CN
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] crafted overflow data
+[ROOTCAUSE] "
+CVE-2021-46265,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Tenda AC Series Router
+[COMPONENT] wanBasicCfg module
+[VERSION] AC11_V02.03.01.104_CN
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] crafted overflow data
+[ROOTCAUSE] "
+CVE-2021-46321,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Tenda AC Series Router
+[COMPONENT] wifiBasicCfg module
+[VERSION] AC11_V02.03.01.104_CN
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] crafted overflow data
+[ROOTCAUSE] "
+CVE-2021-46324,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Espruino
+[COMPONENT] jsvNewFromString in src/jsvar.c
+[VERSION] 2v11.251
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46325,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Espruino
+[COMPONENT] vcbprintf in src/jsutils.c
+[VERSION] 2v10.246
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46334,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Moddable SDK
+[COMPONENT] __interceptor_strcat
+[VERSION] v11.5.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46393,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Tenda-AX3 router
+[COMPONENT] formSetPPTPServer function
+[VERSION] V16.03.12.10_CN
+[ATTACKER] 
+[IMPACT] remote code execution
+[VECTOR] POSTing to /goform/SetPptpServerCfg with proper startIp
+[ROOTCAUSE] lack of security check on v10 variable from http request parameter startIp"
+CVE-2021-46394,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Tenda-AX3 router
+[COMPONENT] formSetPPTPServer function
+[VERSION] V16.03.12.10_CN
+[ATTACKER] 
+[IMPACT] remote code execution
+[VECTOR] POSTing to /goform/SetPptpServerCfg with proper startIp
+[ROOTCAUSE] lack of security check on v13 variable from http request parameter startIp"
+CVE-2021-46408,"[WEAKNESS] stack buffer overflow
+[PRODUCT] Tenda AX12
+[COMPONENT] function sub_422CE4
+[VERSION] v22.03.01.21
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] strcpy parameter
+[ROOTCAUSE] "
+CVE-2021-46474,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Jsish
+[COMPONENT] jsiEvalCodeSub in src/jsiEval.c
+[VERSION] v3.5.0
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46475,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Jsish
+[COMPONENT] jsi_ArraySliceCmd in src/jsiArray.c
+[VERSION] v3.5.0
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46477,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Jsish
+[COMPONENT] RegExp_constructor in src/jsiRegexp.c
+[VERSION] v3.5.0
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46478,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Jsish
+[COMPONENT] jsiClearStack in src/jsiEval.c
+[VERSION] v3.5.0
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46480,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Jsish
+[COMPONENT] jsiValueObjDelete in src/jsiEval.c
+[VERSION] v3.5.0
+[ATTACKER] 
+[IMPACT] Denial of Service (DoS)
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46482,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Jsish
+[COMPONENT] NumberConstructor at src/jsiNumber.c
+[VERSION] v3.5.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46483,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Jsish
+[COMPONENT] BooleanConstructor at src/jsiBool.c
+[VERSION] v3.5.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46505,"[WEAKNESS] stack overflow
+[PRODUCT] Jsish
+[COMPONENT] /usr/lib/x86_64-linux-gnu/libasan.so.4+0x5b1e5
+[VERSION] v3.5.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46507,"[WEAKNESS] stack overflow
+[PRODUCT] Jsish
+[COMPONENT] Jsi_LogMsg at src/jsiUtils.c
+[VERSION] v3.5.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46509,"[WEAKNESS] stack overflow
+[PRODUCT] Cesanta MJS
+[COMPONENT] snquote at mjs/src/mjs_json.c
+[VERSION] v2.20.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46518,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Cesanta MJS
+[COMPONENT] mjs_disown at src/mjs_core.c
+[VERSION] v2.20.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46519,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Cesanta MJS
+[COMPONENT] mjs_array_length at src/mjs_array.c
+[VERSION] v2.20.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46520,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Cesanta MJS
+[COMPONENT] mjs_jprintf at src/mjs_util.c
+[VERSION] v2.20.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46522,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Cesanta MJS
+[COMPONENT] /usr/lib/x86_64-linux-gnu/libasan.so.4+0xaff53
+[VERSION] v2.20.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46523,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Cesanta MJS
+[COMPONENT] to_json_or_debug at mjs/src/mjs_json.c
+[VERSION] v2.20.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46524,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Cesanta MJS
+[COMPONENT] snquote at mjs/src/mjs_json.c
+[VERSION] v2.20.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46527,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Cesanta MJS
+[COMPONENT] mjs_get_cstring at src/mjs_string.c
+[VERSION] v2.20.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46598,"[WEAKNESS] memory corruption
+[PRODUCT] Bentley MicroStation CONNECT
+[COMPONENT] JT file parser
+[VERSION] 10.16.0.80
+[ATTACKER] remote attackers
+[IMPACT] execute arbitrary code
+[VECTOR] malicious page or file
+[ROOTCAUSE] lack of proper validation of user-supplied data"
+CVE-2021-46699,"[WEAKNESS] stack based buffer overflow
+[PRODUCT] Simcenter Femap
+[COMPONENT] BDF file parser
+[VERSION] All versions < V2022.1.1
+[ATTACKER] 
+[IMPACT] execute code in the context of the current process
+[VECTOR] specially crafted BDF files
+[ROOTCAUSE] "
+CVE-2021-46768,"[WEAKNESS] out-of-bounds memory reads
+[PRODUCT] SEV firmware
+[COMPONENT] ASP boot loader
+[VERSION] 
+[ATTACKER] 
+[IMPACT] denial of service
+[VECTOR] 
+[ROOTCAUSE] Insufficient input validation"
+CVE-2021-46814,"[WEAKNESS] out-of-bounds memory read/write
+[PRODUCT] 
+[COMPONENT] video framework
+[VERSION] 
+[ATTACKER] 
+[IMPACT] affect system availability
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2021-46822,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] libjpeg-turbo
+[COMPONENT] PPM reader, get_word_rgb_row function in rdppm.c
+[VERSION] through 2.0.90
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] loading a 16-bit binary PPM file into a grayscale buffer or loading a 16-bit binary PGM file into an RGB buffer
+[ROOTCAUSE] mishandling of tjLoadImage"
+CVE-2021-46829,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] GNOME GdkPixbuf
+[COMPONENT] io-gif-animation.c
+[VERSION] before 2.42.8
+[ATTACKER] 
+[IMPACT] code execution
+[VECTOR] compositing or clearing frames in GIF files
+[ROOTCAUSE] "
+CVE-2021-46848,"[WEAKNESS] off-by-one array size check
+[PRODUCT] GNU Libtasn1
+[COMPONENT] asn1_encode_simple_der
+[VERSION] before 4.19.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] ETYPE_OK off-by-one array size check"
+CVE-2022-0096,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Storage
+[VERSION] prior to 97.0.4692.71
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0098,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome on Chrome OS
+[COMPONENT] Screen Capture
+[VERSION] prior to 97.0.4692.71
+[ATTACKER] 
+[IMPACT] potentially exploit heap corruption
+[VECTOR] specific user gestures
+[ROOTCAUSE] "
+CVE-2022-0099,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Sign-in
+[VERSION] prior to 97.0.4692.71
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] specific user gesture
+[ROOTCAUSE] "
+CVE-2022-0100,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] Google Chrome
+[COMPONENT] Media streams API
+[VERSION] prior to 97.0.4692.71
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0101,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] Google Chrome
+[COMPONENT] Bookmarks
+[VERSION] prior to 97.0.4692.71
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] specific user gesture
+[ROOTCAUSE] "
+CVE-2022-0102,"[WEAKNESS] Type confusion
+[PRODUCT] Google Chrome
+[COMPONENT] V8
+[VERSION] prior to 97.0.4692.71
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0103,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] SwiftShader
+[VERSION] prior to 97.0.4692.71
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0104,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] Google Chrome
+[COMPONENT] ANGLE
+[VERSION] prior to 97.0.4692.71
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0105,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] PDF Accessibility
+[VERSION] prior to 97.0.4692.71
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0106,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Autofill
+[VERSION] prior to 97.0.4692.71
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page, specific user gesture
+[ROOTCAUSE] "
+CVE-2022-0261,"[WEAKNESS] Heap-based Buffer Overflow
+[PRODUCT] vim
+[COMPONENT] 
+[VERSION] prior to 8.2
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2022-0289,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Safe browsing
+[VERSION] prior to 97.0.4692.99
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0293,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Web packaging
+[VERSION] prior to 97.0.4692.99
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0295,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Omnibox
+[VERSION] prior to 97.0.4692.99
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page, specific user interactions
+[ROOTCAUSE] "
+CVE-2022-0296,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Printing
+[VERSION] prior to 97.0.4692.99
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page, specific user interactions
+[ROOTCAUSE] "
+CVE-2022-0297,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Vulkan
+[VERSION] prior to 97.0.4692.99
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0298,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Scheduling
+[VERSION] prior to 97.0.4692.99
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0300,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome on Android
+[COMPONENT] Text Input Method Editor
+[VERSION] prior to 97.0.4692.99
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page, specific user interactions
+[ROOTCAUSE] "
+CVE-2022-0301,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] Google Chrome
+[COMPONENT] DevTools
+[VERSION] prior to 97.0.4692.99
+[ATTACKER] 
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page, malicious extension
+[ROOTCAUSE] "
+CVE-2022-0302,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Omnibox
+[VERSION] prior to 97.0.4692.99
+[ATTACKER] 
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page, specific user interactions
+[ROOTCAUSE] "
+CVE-2022-0304,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Bookmarks
+[VERSION] prior to 97.0.4692.99
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page, specific user interactions
+[ROOTCAUSE] "
+CVE-2022-0306,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] Google Chrome
+[COMPONENT] PDFium
+[VERSION] prior to 97.0.4692.99
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0307,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Optimization Guide
+[VERSION] prior to 97.0.4692.99
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page, specific user interaction
+[ROOTCAUSE] "
+CVE-2022-0308,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome on Chrome OS
+[COMPONENT] Data Transfer
+[VERSION] prior to 97.0.4692.99
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page, specific user interaction
+[ROOTCAUSE] "
+CVE-2022-0310,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] Google Chrome
+[COMPONENT] Task Manager
+[VERSION] prior to 97.0.4692.99
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] specific user interactions
+[ROOTCAUSE] "
+CVE-2022-0311,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] Google Chrome
+[COMPONENT] Task Manager
+[VERSION] prior to 97.0.4692.99
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page, specific user interaction
+[ROOTCAUSE] "
+CVE-2022-0318,"[WEAKNESS] Heap-based Buffer Overflow
+[PRODUCT] vim
+[COMPONENT] 
+[VERSION] prior to 8.2
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2022-0367,"[WEAKNESS] heap-based buffer overflow
+[PRODUCT] libmodbus
+[COMPONENT] modbus_reply() function in src/modbus.c
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2022-0435,"[WEAKNESS] stack overflow
+[PRODUCT] Linux kernel
+[COMPONENT] TIPC protocol functionality
+[VERSION] 
+[ATTACKER] remote user
+[IMPACT] crash the system or possibly escalate privileges
+[VECTOR] packet with malicious content where the number of domain member nodes is higher than the 64 allowed
+[ROOTCAUSE] "
+CVE-2022-0453,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Reader Mode
+[VERSION] prior to 98.0.4758.80
+[ATTACKER] remote attacker who had compromised the renderer process
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0454,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] Google Chrome
+[COMPONENT] ANGLE
+[VERSION] prior to 98.0.4758.80
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0456,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Web Search
+[VERSION] prior to 98.0.4758.80
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] profile destruction
+[ROOTCAUSE] "
+CVE-2022-0457,"[WEAKNESS] Type confusion
+[PRODUCT] Google Chrome
+[COMPONENT] V8
+[VERSION] prior to 98.0.4758.80
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0458,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Thumbnail Tab Strip
+[VERSION] prior to 98.0.4758.80
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0459,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Screen Capture
+[VERSION] prior to 98.0.4758.80
+[ATTACKER] remote attacker who had compromised the renderer process
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page, specific user interaction
+[ROOTCAUSE] "
+CVE-2022-0460,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Window Dialogue
+[VERSION] prior to 98.0.4758.80
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0463,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Accessibility
+[VERSION] prior to 98.0.4758.80
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] specific user interaction
+[ROOTCAUSE] "
+CVE-2022-0464,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Accessibility
+[VERSION] prior to 98.0.4758.80
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] specific user interaction
+[ROOTCAUSE] "
+CVE-2022-0465,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Extensions
+[VERSION] prior to 98.0.4758.80
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] user interaction
+[ROOTCAUSE] "
+CVE-2022-0468,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Payments
+[VERSION] prior to 98.0.4758.80
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0469,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Cast
+[VERSION] prior to 98.0.4758.80
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page, specific interactions
+[ROOTCAUSE] "
+CVE-2022-0470,"[WEAKNESS] Out of bounds memory access
+[PRODUCT] Google Chrome
+[COMPONENT] V8
+[VERSION] prior to 98.0.4758.80
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0500,"[WEAKNESS] out-of-bounds memory write
+[PRODUCT] Linux kernel
+[COMPONENT] BPF subsystem
+[VERSION] 
+[ATTACKER] local user
+[IMPACT] crash or escalate privileges
+[VECTOR] 
+[ROOTCAUSE] unrestricted eBPF usage by the BPF_BTF_LOAD"
+CVE-2022-0518,"[WEAKNESS] Heap-based Buffer Overflow
+[PRODUCT] radare2
+[COMPONENT] 
+[VERSION] prior to 5.6.2
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2022-0530,"[WEAKNESS] heap out-of-bound write
+[PRODUCT] Unzip
+[COMPONENT] 
+[VERSION] 
+[ATTACKER] 
+[IMPACT] crash or code execution
+[VECTOR] specially crafted zip file
+[ROOTCAUSE] conversion of a wide string to a local string"
+CVE-2022-0544,"[WEAKNESS] out-of-bounds read
+[PRODUCT] Blender
+[COMPONENT] DDS loader
+[VERSION] prior to 2.83.19, 2.93.8 and 3.1
+[ATTACKER] 
+[IMPACT] read sensitive data
+[VECTOR] crafted DDS image file
+[ROOTCAUSE] integer underflow"
+CVE-2022-0545,"[WEAKNESS] write-what-where, out-of-bounds read
+[PRODUCT] Blender
+[COMPONENT] 2D image processing
+[VERSION] prior to 2.83.19, 2.93.8 and 3.1
+[ATTACKER] 
+[IMPACT] leak sensitive information or achieve code execution
+[VECTOR] specially crafted image file
+[ROOTCAUSE] integer overflow"
+CVE-2022-0572,"[WEAKNESS] Heap-based Buffer Overflow
+[PRODUCT] vim
+[COMPONENT] 
+[VERSION] prior to 8.2
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2022-0603,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome on Chrome OS
+[COMPONENT] File Manager
+[VERSION] prior to 98.0.4758.102
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0604,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] Google Chrome
+[COMPONENT] Tab Groups
+[VERSION] prior to 98.0.4758.102
+[ATTACKER] 
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page, malicious extension, specific user interaction
+[ROOTCAUSE] "
+CVE-2022-0605,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Webstore API
+[VERSION] prior to 98.0.4758.102
+[ATTACKER] 
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page, malicious extension, specific user interaction
+[ROOTCAUSE] "
+CVE-2022-0606,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] ANGLE
+[VERSION] prior to 98.0.4758.102
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0607,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] GPU
+[VERSION] prior to 98.0.4758.102
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0608,"[WEAKNESS] Integer overflow
+[PRODUCT] Google Chrome
+[COMPONENT] Mojo
+[VERSION] prior to 98.0.4758.102
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0609,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Animation
+[VERSION] prior to 98.0.4758.102
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0610,"[WEAKNESS] Inappropriate implementation
+[PRODUCT] Google Chrome
+[COMPONENT] Gamepad API
+[VERSION] prior to 98.0.4758.102
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-0646,"[WEAKNESS] use after free
+[PRODUCT] Linux kernel
+[COMPONENT] Management Component Transport Protocol (MCTP) subsystem
+[VERSION] 5.17-rc1 to 5.17-rc5
+[ATTACKER] local user
+[IMPACT] crash the system or escalate privileges
+[VECTOR] 
+[ROOTCAUSE] user triggers cancel_work_sync after the unregister_netdev during removing device"
+CVE-2022-0676,"[WEAKNESS] Heap-based Buffer Overflow
+[PRODUCT] radare2
+[COMPONENT] 
+[VERSION] prior to 5.6.4
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2022-0713,"[WEAKNESS] Heap-based Buffer Overflow
+[PRODUCT] radare2
+[COMPONENT]
+[VERSION] prior to 5.6.4
+[ATTACKER]
+[IMPACT]
+[VECTOR]
+[ROOTCAUSE] "
+CVE-2022-1311,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome on ChromeOS
+[COMPONENT] shell
+[VERSION] prior to 100.0.4896.88
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-1313,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] tab groups
+[VERSION] prior to 100.0.4896.88
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-1314,"[WEAKNESS] Type confusion
+[PRODUCT] Google Chrome
+[COMPONENT] V8
+[VERSION] prior to 100.0.4896.88
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-1354,"[WEAKNESS] heap buffer overflow
+[PRODUCT] Libtiff
+[COMPONENT] tiffinfo.c, TIFFReadRawDataStriped() function
+[VERSION] 
+[ATTACKER] 
+[IMPACT] crash, denial of service
+[VECTOR] crafted TIFF file
+[ROOTCAUSE] "
+CVE-2022-1364,"[WEAKNESS] Type confusion
+[PRODUCT] Google Chrome
+[COMPONENT] V8 Turbofan
+[VERSION] prior to 100.0.4896.127
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-1383,"[WEAKNESS] Heap-based Buffer Overflow
+[PRODUCT] radare2
+[COMPONENT] 
+[VERSION] prior to 5.6.8
+[ATTACKER] 
+[IMPACT] read sensitive information from other memory locations or cause a crash
+[VECTOR] 
+[ROOTCAUSE] program reads data past the end of the intended buffer"
+CVE-2022-1437,"[WEAKNESS] Heap-based Buffer Overflow
+[PRODUCT] radare2
+[COMPONENT] 
+[VERSION] prior to 5.7.0
+[ATTACKER] 
+[IMPACT] read sensitive information from other memory locations or cause a crash
+[VECTOR] 
+[ROOTCAUSE] program reads data past the end of the intended buffer"
+CVE-2022-1462,"[WEAKNESS] out-of-bounds read
+[PRODUCT] Linux kernel
+[COMPONENT] TeleTYpe subsystem, flush_to_ldisc function
+[VERSION] 
+[ATTACKER] local user
+[IMPACT] crash the system or read unauthorized random data from memory
+[VECTOR] ioctls TIOCSPTLCK and TIOCGPTPEER and TIOCSTI and TCXONC
+[ROOTCAUSE] race condition"
+CVE-2022-1477,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Vulkan
+[VERSION] prior to 101.0.4951.41
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-1478,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] SwiftShader
+[VERSION] prior to 101.0.4951.41
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-1479,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] ANGLE
+[VERSION] prior to 101.0.4951.41
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-1481,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome on Mac
+[COMPONENT] Sharing
+[VERSION] prior to 101.0.4951.41
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page, specific user interaction
+[ROOTCAUSE] "
+CVE-2022-1482,"[WEAKNESS] Inappropriate implementation
+[PRODUCT] Google Chrome
+[COMPONENT] WebGL
+[VERSION] prior to 101.0.4951.41
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-1483,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] Google Chrome
+[COMPONENT] WebGPU
+[VERSION] prior to 101.0.4951.41
+[ATTACKER] remote attacker who had compromised the renderer process
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-1484,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] Google Chrome
+[COMPONENT] Web UI Settings
+[VERSION] prior to 101.0.4951.41
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-1485,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] File System API
+[VERSION] prior to 101.0.4951.41
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-1487,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Ozone
+[VERSION] prior to 101.0.4951.41
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] running a Wayland test
+[ROOTCAUSE] "
+CVE-2022-1489,"[WEAKNESS] Out of bounds memory access
+[PRODUCT] Google Chrome on Chrome OS, Lacros
+[COMPONENT] UI Shelf
+[VERSION] prior to 101.0.4951.41
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] specific user interactions
+[ROOTCAUSE] "
+CVE-2022-1490,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Browser Switcher
+[VERSION] prior to 101.0.4951.41
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page, specific user interaction
+[ROOTCAUSE] "
+CVE-2022-1491,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Bookmarks
+[VERSION] prior to 101.0.4951.41
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] specific and direct user interaction
+[ROOTCAUSE] "
+CVE-2022-1493,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Dev Tools
+[VERSION] prior to 101.0.4951.41
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] specific and direct user interaction
+[ROOTCAUSE] "
+CVE-2022-1496,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] File Manager
+[VERSION] prior to 101.0.4951.41
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] specific and direct user interaction
+[ROOTCAUSE] "
+CVE-2022-1516,"[WEAKNESS] NULL pointer dereference
+[PRODUCT] Linux kernel
+[COMPONENT] X.25 set of standardized network protocols functionality
+[VERSION] 
+[ATTACKER] local user
+[IMPACT] crash the system
+[VECTOR] terminating session using a simulated Ethernet card and continued usage of this connection
+[ROOTCAUSE] "
+CVE-2022-1523,"[WEAKNESS] write-what-where condition
+[PRODUCT] Fuji Electric D300win
+[COMPONENT] 
+[VERSION] prior to 3.7.1.17
+[ATTACKER] 
+[IMPACT] overwrite program memory to manipulate the flow of information
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2022-1543,"[WEAKNESS] memory corruption
+[PRODUCT] scoold
+[COMPONENT] 
+[VERSION] prior to 1.49.4
+[ATTACKER] 
+[IMPACT] momentary outage in a production environment
+[VECTOR] large text size
+[ROOTCAUSE] Improper handling of Length parameter"
+CVE-2022-1621,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] vim
+[COMPONENT] vim_strncpy find_word
+[VERSION] prior to 8.2.4919
+[ATTACKER] 
+[IMPACT] crashing software, Bypass Protection Mechanism, Modify Memory, possible remote execution
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2022-1629,"[WEAKNESS] Buffer Over-read
+[PRODUCT] vim
+[COMPONENT] find_next_quote function
+[VERSION] prior to 8.2.4925
+[ATTACKER] 
+[IMPACT] crashing software, Modify Memory, possible remote execution
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2022-1633,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome on Chrome OS
+[COMPONENT] Sharesheet
+[VERSION] prior to 101.0.4951.64
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] specific UI interactions
+[ROOTCAUSE] "
+CVE-2022-1634,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Browser UI
+[VERSION] prior to 101.0.4951.64
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] specific UI interactions
+[ROOTCAUSE] "
+CVE-2022-1635,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Permission Prompts
+[VERSION] prior to 101.0.4951.64
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] specific UI interactions
+[ROOTCAUSE] "
+CVE-2022-1636,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Performance APIs
+[VERSION] prior to 101.0.4951.64
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-1638,"[WEAKNESS] Heap buffer overflow
+[PRODUCT] Google Chrome
+[COMPONENT] V8 Internationalization
+[VERSION] prior to 101.0.4951.64
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-1639,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] ANGLE
+[VERSION] prior to 101.0.4951.64
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-1640,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Sharing
+[VERSION] prior to 101.0.4951.64
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page, specific UI interactions
+[ROOTCAUSE] "
+CVE-2022-1641,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome on Chrome OS
+[COMPONENT] Web UI Diagnostics
+[VERSION] prior to 101.0.4951.64
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] specific user interaction
+[ROOTCAUSE] "
+CVE-2022-1649,"[WEAKNESS] Null pointer dereference
+[PRODUCT] radare2
+[COMPONENT] libr/bin/format/mach0/mach0.c
+[VERSION] prior to 5.7.0
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2022-1714,"[WEAKNESS] Out-of-bounds Read
+[PRODUCT] radare2
+[COMPONENT] 
+[VERSION] prior to 5.7.0
+[ATTACKER] 
+[IMPACT] read sensitive information from other memory locations or cause a crash
+[VECTOR] 
+[ROOTCAUSE] program reads data past the end of the intended buffer"
+CVE-2022-1720,"[WEAKNESS] Buffer Over-read
+[PRODUCT] vim
+[COMPONENT] grab_file_name function
+[VERSION] prior to 8.2.4956
+[ATTACKER] 
+[IMPACT] crashing the software, memory modification, possible remote execution
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2022-1733,"[WEAKNESS] Heap-based Buffer Overflow
+[PRODUCT] vim
+[COMPONENT] 
+[VERSION] prior to 8.2.4968
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2022-1734,"[WEAKNESS] use after free
+[PRODUCT] Linux Kernel
+[COMPONENT] nfcmrvl_nci_unregister_dev() in drivers/nfc/nfcmrvl/main.c
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] non synchronized between cleanup routine and firmware download routine"
+CVE-2022-1769,"[WEAKNESS] Buffer Over-read
+[PRODUCT] vim
+[COMPONENT] 
+[VERSION] prior to 8.2.4974
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2022-1854,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] ANGLE
+[VERSION] prior to 102.0.5005.61
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-1855,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Messaging
+[VERSION] prior to 102.0.5005.61
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-1856,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] User Education
+[VERSION] prior to 102.0.5005.61
+[ATTACKER] 
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted Chrome Extension or specific user interaction
+[ROOTCAUSE] "
+CVE-2022-1859,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Performance Manager
+[VERSION] prior to 102.0.5005.61
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page, specific user interaction
+[ROOTCAUSE] "
+CVE-2022-1860,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome on Chrome OS
+[COMPONENT] UI Foundations
+[VERSION] prior to 102.0.5005.61
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] specific user interactions
+[ROOTCAUSE] "
+CVE-2022-1861,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome on Chrome OS
+[COMPONENT] Sharing
+[VERSION] prior to 102.0.5005.61
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] specific user interaction
+[ROOTCAUSE] "
+CVE-2022-1863,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Tab Groups
+[VERSION] prior to 102.0.5005.61
+[ATTACKER] attacker who convinced a user to install a malicious extension
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted Chrome Extension and specific user interaction
+[ROOTCAUSE] "
+CVE-2022-1864,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] WebApp Installs
+[VERSION] prior to 102.0.5005.61
+[ATTACKER] attacker who convinced a user to install a malicious extension
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted Chrome Extension and specific user interaction
+[ROOTCAUSE] "
+Here are the key entities extracted for the CVEs:
+
+CVE-2022-1866,
+[WEAKNESS] Use after free
+[PRODUCT] Google Chrome on Chrome OS
+[COMPONENT] Tablet Mode
+[VERSION] prior to 102.0.5005.61
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption 
+[VECTOR] specific user interactions
+[ROOTCAUSE]
+
+CVE-2022-1869,
+[WEAKNESS] Type Confusion
+[PRODUCT] Google Chrome
+[COMPONENT] V8
+[VERSION] prior to 102.0.5005.61
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE]
+
+CVE-2022-1870,
+[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] App Service
+[VERSION] prior to 102.0.5005.61
+[ATTACKER] attacker who convinced a user to install a malicious extension
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted Chrome Extension
+[ROOTCAUSE]
+
+CVE-2022-1876,
+[WEAKNESS] Heap buffer overflow
+[PRODUCT] Google Chrome
+[COMPONENT] DevTools
+[VERSION] prior to 102.0.5005.61
+[ATTACKER] attacker who convinced a user to install a malicious extension
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE]
+
+CVE-2022-1888,
+[WEAKNESS] stack-based buffer overflow
+[PRODUCT] Alpha7 PC Loader
+[COMPONENT]
+[VERSION] All versions
+[ATTACKER]
+[IMPACT] execute arbitrary code
+[VECTOR] specifically crafted project file
+[ROOTCAUSE]
+
+CVE-2022-1919,
+[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Codecs
+[VERSION] prior to 101.0.4951.41
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE]
+
+CVE-2022-1922,
+[WEAKNESS] Integer overflow
+[PRODUCT] GStreamer
+[COMPONENT] matroskademux element, gst_matroska_decompress_data function
+[VERSION]
+[ATTACKER]
+[IMPACT] segfault or heap overwrite
+[VECTOR]
+[ROOTCAUSE] Integer overflow in zlib decompression
+CVE-2022-1923,
+[WEAKNESS] Integer overflow
+[PRODUCT] GStreamer
+[COMPONENT] matroskademux element, bzip decompression function
+[VERSION]
+[ATTACKER]
+[IMPACT] segfault or heap overwrite
+[VECTOR]
+[ROOTCAUSE] Integer overflow in bzip decompression
+
+CVE-2022-1924,
+[WEAKNESS] Integer overflow
+[PRODUCT] GStreamer
+[COMPONENT] matroskademux element, lzo decompression function  
+[VERSION]
+[ATTACKER]
+[IMPACT] segfault or heap overwrite
+[VECTOR]
+[ROOTCAUSE] Integer overflow in lzo decompression
+
+CVE-2022-1925,
+[WEAKNESS] Integer overflow
+[PRODUCT] GStreamer
+[COMPONENT] matroskaparse element, gst_matroska_decompress_data function
+[VERSION]
+[ATTACKER]
+[IMPACT] heap overflow
+[VECTOR]
+[ROOTCAUSE] Integer overflow in HEADERSTRIP decompression
+
+CVE-2022-1927,
+[WEAKNESS] Buffer Over-read
+[PRODUCT] vim
+[COMPONENT]
+[VERSION] prior to 8.2
+[ATTACKER]
+[IMPACT]
+[VECTOR]
+[ROOTCAUSE]
+
+CVE-2022-1974,
+[WEAKNESS] use-after-free
+[PRODUCT] Linux kernel
+[COMPONENT] NFC core functionality
+[VERSION]
+[ATTACKER] local attacker with CAP_NET_ADMIN privilege
+[IMPACT] leak kernel information
+[VECTOR]
+[ROOTCAUSE] race condition between kobject creation and delete
+
+CVE-2022-20013,
+[WEAKNESS] memory corruption
+[PRODUCT] Android
+[COMPONENT] vow driver
+[VERSION]
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] race condition
+
+CVE-2022-20014,
+[WEAKNESS] memory corruption
+[PRODUCT] Android
+[COMPONENT] vow driver
+[VERSION]
+[ATTACKER]
+[IMPACT] local escalation of privilege  
+[VECTOR]
+[ROOTCAUSE] improper input validation
+
+CVE-2022-20016,
+[WEAKNESS] memory corruption
+[PRODUCT] Android
+[COMPONENT] vow driver
+[VERSION]
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] improper locking
+
+CVE-2022-20030,
+[WEAKNESS] out of bounds write
+[PRODUCT] Android
+[COMPONENT] vow driver
+[VERSION]
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] stack-based buffer overflow
+
+CVE-2022-20032,
+[WEAKNESS] memory corruption
+[PRODUCT] Android
+[COMPONENT] vow driver
+[VERSION]
+[ATTACKER]
+[IMPACT] local information disclosure
+[VECTOR]
+[ROOTCAUSE] race condition
+
+CVE-2022-20038,
+[WEAKNESS] memory corruption
+[PRODUCT] Android
+[COMPONENT] ccu driver
+[VERSION]
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] incorrect bounds check
+
+CVE-2022-20040,
+[WEAKNESS] stack-based buffer overflow
+[PRODUCT] Android
+[COMPONENT] power_hal_manager_service
+[VERSION]
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE]
+
+CVE-2022-20046,
+[WEAKNESS] memory corruption
+[PRODUCT] Android
+[COMPONENT] Bluetooth
+[VERSION]
+[ATTACKER]
+[IMPACT] local denial of service
+[VECTOR]
+[ROOTCAUSE] logic error
+
+CVE-2022-20057,
+[WEAKNESS] memory corruption
+[PRODUCT] Android
+[COMPONENT] btif
+[VERSION]
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] incorrect error handling
+
+CVE-2022-2007,
+[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] WebGPU
+[VERSION] prior to 102.0.5005.115
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE]
+
+CVE-2022-20070,
+[WEAKNESS] out of bounds write
+[PRODUCT] Android
+[COMPONENT] ssmr
+[VERSION]
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] missing bounds check
+
+CVE-2022-20073,
+[WEAKNESS] out of bounds write
+[PRODUCT] Android
+[COMPONENT] preloader (usb)
+[VERSION]
+[ATTACKER] attacker with physical access
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] integer underflow
+
+CVE-2022-20076,
+[WEAKNESS] memory corruption
+[PRODUCT] Android
+[COMPONENT] ged
+[VERSION]
+[ATTACKER]
+[IMPACT] local information disclosure
+[VECTOR]
+[ROOTCAUSE] incorrect error handling
+
+CVE-2022-20077,
+[WEAKNESS] memory corruption
+[PRODUCT] Android
+[COMPONENT] vow
+[VERSION]
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] race condition
+
+CVE-2022-20078,
+[WEAKNESS] memory corruption
+[PRODUCT] Android
+[COMPONENT] vow
+[VERSION]
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] race condition
+
+CVE-2022-2008,
+[WEAKNESS] Double free
+[PRODUCT] Google Chrome
+[COMPONENT] WebGL
+[VERSION] prior to 102.0.5005.115
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE]
+
+CVE-2022-20080,
+[WEAKNESS] memory corruption
+[PRODUCT] Android
+[COMPONENT] SUB2AF
+[VERSION]
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] race condition
+
+CVE-2022-20082,
+[WEAKNESS] use after free
+[PRODUCT] Android
+[COMPONENT] GPU
+[VERSION]
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] race condition
+
+CVE-2022-20089,
+[WEAKNESS] memory corruption
+[PRODUCT] Android
+[COMPONENT] aee driver
+[VERSION]
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] active debug code
+
+CVE-2022-20105,
+[WEAKNESS] out of bounds write
+[PRODUCT] Android
+[COMPONENT] MM service
+[VERSION]
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] stack-based buffer overflow
+
+CVE-2022-20106,
+[WEAKNESS] out of bounds write
+[PRODUCT] Android
+[COMPONENT] MM service
+[VERSION]
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] heap-based buffer overflow
+
+CVE-2022-20108,
+[WEAKNESS] out of bounds write
+[PRODUCT] Android
+[COMPONENT] voice service
+[VERSION]
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] stack-based buffer overflow
+
+CVE-2022-2011,
+[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] ANGLE
+[VERSION] prior to 102.0.5005.115
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE]
+
+CVE-2022-20110,
+[WEAKNESS] use after free
+[PRODUCT] Android
+[COMPONENT] ion
+[VERSION]
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] race condition
+
+CVE-2022-20111,
+[WEAKNESS] use after free
+[PRODUCT] Android
+[COMPONENT] ion
+[VERSION]
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] incorrect error handling
+
+CVE-2022-20130,
+[WEAKNESS] out of bounds write
+[PRODUCT] Android
+[COMPONENT] transportDec_OutOfBandConfig of tpdec_lib.cpp
+[VERSION] Android-10 Android-11 Android-12 Android-12L
+[ATTACKER]
+[IMPACT] remote code execution
+[VECTOR]
+[ROOTCAUSE] heap buffer overflow
+
+CVE-2022-20131,
+[WEAKNESS] out of bounds read
+[PRODUCT] Android
+[COMPONENT] nci_proc_rf_management_ntf of nci_hrcv.cc
+[VERSION] Android-10 Android-11 Android-12 Android-12L
+[ATTACKER]
+[IMPACT] remote information disclosure
+[VECTOR]
+[ROOTCAUSE] missing bounds check
+
+CVE-2022-20141,
+[WEAKNESS] use after free
+[PRODUCT] Android
+[COMPONENT] ip_check_mc_rcu of igmp.c
+[VERSION] Android kernel
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR] opening and closing inet sockets
+[ROOTCAUSE] improper locking
+
+CVE-2022-20148,
+[WEAKNESS] use-after-free
+[PRODUCT] Android
+[COMPONENT]
+[VERSION] Android kernel
+[ATTACKER]
+[IMPACT] local escalation of privilege in the kernel
+[VECTOR]
+[ROOTCAUSE] race condition
+
+CVE-2022-20154,
+[WEAKNESS] use after free
+[PRODUCT] Android
+[COMPONENT] lock_sock_nested of sock.c
+[VERSION] Android kernel
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] race condition
+
+CVE-2022-20155,
+[WEAKNESS] use-after-free
+[PRODUCT] Android
+[COMPONENT] ipu_core_jqs_msg_transport_kernel_write_sync of ipu-core-jqs-msg-transport.c
+[VERSION] Android kernel
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] race condition
+
+CVE-2022-20166,
+[WEAKNESS] out of bounds write
+[PRODUCT] Android
+[COMPONENT] kernel base drivers
+[VERSION] Android kernel
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] heap buffer overflow
+
+CVE-2022-20201,
+[WEAKNESS] out of bounds read
+[PRODUCT] Android
+[COMPONENT] getAppSize of InstalldNativeService.cpp
+[VERSION] Android-12L
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR]
+[ROOTCAUSE] missing bounds check
+
+CVE-2022-20202,
+[WEAKNESS] out of bounds read
+[PRODUCT] Android
+[COMPONENT] ih264_resi_trans_quant_4x4_sse42 of ih264_resi_trans_quant_sse42.c
+[VERSION] Android-12L
+[ATTACKER]
+[IMPACT] remote information disclosure
+[VECTOR]
+[ROOTCAUSE] heap buffer overflow
+
+CVE-2022-20203,
+[WEAKNESS] memory corruption
+[PRODUCT] Android
+[COMPONENT] nanopb library
+[VERSION]
+[ATTACKER]
+[IMPACT] local escalation of privilege
+[VECTOR] decoding untrusted protobuf files
+[ROOTCAUSE]
+
+CVE-2022-20209,
+[WEAKNESS] out of bounds read
+[PRODUCT] Android
+[COMPONENT] hme_add_new_node_to_a_sorted_array of hme_utils.c
+[VERSION] Android-12L
+[ATTACKER]
+[IMPACT] remote information disclosure
+[VECTOR]
+[ROOTCAUSE] heap buffer overflow
+
+CVE-2022-20235,
+[WEAKNESS] memory corruption
+[PRODUCT] Android
+[COMPONENT] PowerVR GPU kernel driver
+[VERSION] prior to DDK 1.18
+[ATTACKER]
+[IMPACT]
+[VECTOR] user-space program writing arbitrary data to Information Page
+[ROOTCAUSE]
+
+CVE-2022-2156,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Core
+[VERSION] prior to 103.0.5060.53
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-2157,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Interest groups
+[VERSION] prior to 103.0.5060.53
+[ATTACKER] remote attacker who had compromised the renderer process
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-2158,"[WEAKNESS] Type confusion
+[PRODUCT] Google Chrome
+[COMPONENT] V8
+[VERSION] prior to 103.0.5060.53
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] crafted HTML page
+[ROOTCAUSE] "
+CVE-2022-2161,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] WebApp Provider
+[VERSION] prior to 103.0.5060.53
+[ATTACKER] remote attacker
+[IMPACT] potentially exploit heap corruption
+[VECTOR] specific UI interactions
+[ROOTCAUSE] "
+CVE-2022-2163,"[WEAKNESS] Use after free
+[PRODUCT] Google Chrome
+[COMPONENT] Cast UI and Toolbar
+[VERSION] prior to 103.0.5060.134
+[ATTACKER] attacker who convinced a user to install a malicious extension
+[IMPACT] potentially exploit heap corruption
+[VECTOR] UI interaction
+[ROOTCAUSE] "
+CVE-2022-21708,"[WEAKNESS] stack overflow
+[PRODUCT] graphql-go
+[COMPONENT] 
+[VERSION] prior to 1.3.0
+[ATTACKER] 
+[IMPACT] DoS vulnerability
+[VECTOR] specifically designed queries
+[ROOTCAUSE] bug in the library"
+CVE-2022-21729,"[WEAKNESS] division by zero
+[PRODUCT] Tensorflow
+[COMPONENT] UnravelIndex implementation
+[VERSION] 2.8.0, 2.7.1, 2.6.3, and 2.5.3
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] integer overflow bug"
+CVE-2022-21743,"[WEAKNESS] use after free
+[PRODUCT] Android
+[COMPONENT] ion
+[VERSION] 
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] integer overflow"
+CVE-2022-2175,"[WEAKNESS] Buffer Over-read
+[PRODUCT] vim
+[COMPONENT] 
+[VERSION] prior to 8.2
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] "
+CVE-2022-21765,"[WEAKNESS] out of bounds write
+[PRODUCT] Android
+[COMPONENT] CCCI
+[VERSION] 
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] missing bounds check"
+CVE-2022-21766,"[WEAKNESS] out of bounds write
+[PRODUCT] Android
+[COMPONENT] CCCI
+[VERSION] 
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] missing bounds check"
+CVE-2022-21771,"[WEAKNESS] use after free
+[PRODUCT] Android
+[COMPONENT] GED driver
+[VERSION] 
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] race condition"
+CVE-2022-21773,"[WEAKNESS] use after free
+[PRODUCT] Android
+[COMPONENT] TEEI driver
+[VERSION] 
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] race condition"
+CVE-2022-21774,"[WEAKNESS] use after free
+[PRODUCT] Android
+[COMPONENT] TEEI driver
+[VERSION] 
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] race condition"
+CVE-2022-21775,"[WEAKNESS] use after free
+[PRODUCT] Android
+[COMPONENT] sched driver
+[VERSION] 
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] improper locking"
+CVE-2022-21776,"[WEAKNESS] use after free
+[PRODUCT] Android
+[COMPONENT] MDP
+[VERSION] 
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] race condition"
+CVE-2022-21784,"[WEAKNESS] out of bounds write
+[PRODUCT] Android
+[COMPONENT] WLAN driver
+[VERSION] 
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] missing bounds check"
+CVE-2022-21786,"[WEAKNESS] memory corruption
+[PRODUCT] Android
+[COMPONENT] audio DSP
+[VERSION] 
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] improper casting"
+CVE-2022-21789,"[WEAKNESS] memory corruption
+[PRODUCT] Android
+[COMPONENT] audio ipi
+[VERSION] 
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] race condition"
+CVE-2022-21796,"[WEAKNESS] out-of-bounds write
+[PRODUCT] reolink RLC-410W
+[COMPONENT] netserver parse_command_list functionality
+[VERSION] v3.0.0.136_20121102
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] specially-crafted HTTP request
+[ROOTCAUSE] "
+CVE-2022-22057,"[WEAKNESS] Use after free
+[PRODUCT] Snapdragon
+[COMPONENT] graphics fence
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] race condition while closing fence file descriptor and destroy graphics timeline simultaneously"
+CVE-2022-22070,"[WEAKNESS] Memory corruption
+[PRODUCT] Snapdragon
+[COMPONENT] audio
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] lack of check of invalid routing address into APR Routing table"
+CVE-2022-22072,"[WEAKNESS] Buffer overflow
+[PRODUCT] Snapdragon
+[COMPONENT] 
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] improper validation of NDP application information length"
+CVE-2022-22074,"[WEAKNESS] Memory Corruption
+[PRODUCT] Snapdragon
+[COMPONENT] 
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] wma file playback
+[ROOTCAUSE] integer overflow"
+CVE-2022-20237,"[WEAKNESS] out of bounds write
+[PRODUCT] Android
+[COMPONENT] BuildDevIDResponse of miscdatabuilder.cpp
+[VERSION] Android kernel
+[ATTACKER] remote attacker
+[IMPACT] remote code execution
+[VECTOR] 
+[ROOTCAUSE] missing bounds check"
+CVE-2022-20247,"[WEAKNESS] out of bounds read
+[PRODUCT] Android
+[COMPONENT] Media
+[VERSION] Android-13
+[ATTACKER] remote attacker
+[IMPACT] remote information disclosure
+[VECTOR] 
+[ROOTCAUSE] heap buffer overflow"
+CVE-2022-20256,"[WEAKNESS] out of bounds write
+[PRODUCT] Android
+[COMPONENT] Audio HAL
+[VERSION] Android-13
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] race condition"
+CVE-2022-20273,"[WEAKNESS] out of bounds read
+[PRODUCT] Android
+[COMPONENT] Bluetooth
+[VERSION] Android-13
+[ATTACKER] remote attacker
+[IMPACT] remote information disclosure
+[VECTOR] 
+[ROOTCAUSE] heap buffer overflow"
+CVE-2022-20371,"[WEAKNESS] use after free
+[PRODUCT] Android
+[COMPONENT] dm_bow_dtr and related functions of dm-bow.c
+[VERSION] Android kernel
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] race condition"
+CVE-2022-20373,"[WEAKNESS] use after free
+[PRODUCT] Android
+[COMPONENT] st21nfc_loc_set_polaritymode of fc/st21nfc.c
+[VERSION] Android kernel
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] race condition"
+CVE-2022-20382,"[WEAKNESS] out of bounds write
+[PRODUCT] Android
+[COMPONENT] 
+[VERSION] Android kernel
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] kernel stack overflow"
+CVE-2022-20393,"[WEAKNESS] out of bounds read
+[PRODUCT] Android
+[COMPONENT] extract3GPPGlobalDescriptions of TextDescriptions.cpp
+[VERSION] Android-11 Android-12 Android-12L
+[ATTACKER] 
+[IMPACT] local information disclosure
+[VECTOR] 
+[ROOTCAUSE] integer overflow"
+CVE-2022-20422,"[WEAKNESS] memory corruption
+[PRODUCT] Android
+[COMPONENT] emulation_proc_handler of armv8_deprecated.c
+[VERSION] Android kernel
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] race condition"
+CVE-2022-20447,"[WEAKNESS] out of bounds read
+[PRODUCT] Android
+[COMPONENT] PAN_WriteBuf of pan_api.cc
+[VERSION] Android-13
+[ATTACKER] 
+[IMPACT] remote information disclosure over Bluetooth
+[VECTOR] 
+[ROOTCAUSE] use after free"
+CVE-2022-20461,"[WEAKNESS] out of bounds read
+[PRODUCT] Android
+[COMPONENT] pinReplyNative of com_android_bluetooth_btservice_AdapterService.cpp
+[VERSION] Android-10 Android-11 Android-12 Android-12L Android-13
+[ATTACKER] 
+[IMPACT] local escalation of privilege of BLE
+[VECTOR] 
+[ROOTCAUSE] type confusion"
+CVE-2022-20483,"[WEAKNESS] out of bounds reads
+[PRODUCT] Android
+[COMPONENT] avrc response parsing in avrc_pars_ct.cc and related files
+[VERSION] Android-10 Android-11 Android-12 Android-12L Android-13
+[ATTACKER] remote attacker
+[IMPACT] remote information disclosure
+[VECTOR] 
+[ROOTCAUSE] integer overflows"
+CVE-2022-20513,"[WEAKNESS] out of bounds read
+[PRODUCT] Android
+[COMPONENT] decrypt_1_2 of CryptoPlugin.cpp
+[VERSION] Android-13
+[ATTACKER] 
+[IMPACT] local information disclosure
+[VECTOR] 
+[ROOTCAUSE] missing bounds check"
+CVE-2022-20516,"[WEAKNESS] out of bounds read
+[PRODUCT] Android
+[COMPONENT] rw_t3t_act_handle_check_ndef_rsp of rw_t3t.cc
+[VERSION] Android-13
+[ATTACKER] remote attacker
+[IMPACT] remote information disclosure
+[VECTOR] 
+[ROOTCAUSE] integer overflow"
+CVE-2022-20542,"[WEAKNESS] out of bounds write
+[PRODUCT] Android
+[COMPONENT] parseParamsBlob of types.cpp
+[VERSION] Android-13
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] missing bounds check"
+CVE-2022-20552,"[WEAKNESS] out of bounds read
+[PRODUCT] Android
+[COMPONENT] btif_a2dp_sink_command_ready of btif_a2dp_sink.cc
+[VERSION] Android-13
+[ATTACKER] 
+[IMPACT] local information disclosure
+[VECTOR] 
+[ROOTCAUSE] use after free"
+CVE-2022-20554,"[WEAKNESS] OOB read
+[PRODUCT] Android
+[COMPONENT] removeEventHubDevice of InputDevice.cpp
+[VERSION] Android-13
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] use after free"
+CVE-2022-20567,"[WEAKNESS] use after free
+[PRODUCT] Android
+[COMPONENT] pppol2tp_create of l2tp_ppp.c
+[VERSION] Android kernel
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] race condition"
+CVE-2022-20569,"[WEAKNESS] out of bounds write
+[PRODUCT] Android
+[COMPONENT] thermal_cooling_device_stats_update of thermal_sysfs.c
+[VERSION] Android kernel
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] improper input validation"
+CVE-2022-20574,"[WEAKNESS] out of bounds read
+[PRODUCT] Android
+[COMPONENT] sec_sysmmu_info of drm_fw.c
+[VERSION] Android kernel
+[ATTACKER] 
+[IMPACT] local information disclosure
+[VECTOR] 
+[ROOTCAUSE] improper input validation"
+CVE-2022-20581,"[WEAKNESS] use after free
+[PRODUCT] Android
+[COMPONENT] Pixel camera driver
+[VERSION] Android kernel
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] logic error"
+CVE-2022-20600,"[WEAKNESS] out of bounds write
+[PRODUCT] Android
+[COMPONENT] 
+[VERSION] Android kernel
+[ATTACKER] 
+[IMPACT] local escalation of privilege
+[VECTOR] 
+[ROOTCAUSE] memory corruption"
+CVE-2022-20689,"[WEAKNESS] out-of-bounds read
+[PRODUCT] Cisco ATA 190 Series Analog Telephone Adapter
+[COMPONENT] Cisco Discovery Protocol functionality
+[VERSION] 
+[ATTACKER] unauthenticated, adjacent attacker
+[IMPACT] Cisco Discovery Protocol memory corruption
+[VECTOR] malicious Cisco Discovery Protocol packet
+[ROOTCAUSE] missing length validation checks"
+CVE-2022-20690,"[WEAKNESS] out-of-bounds read
+[PRODUCT] Cisco ATA 190 Series Analog Telephone Adapter
+[COMPONENT] Cisco Discovery Protocol functionality
+[VERSION] 
+[ATTACKER] unauthenticated, adjacent attacker
+[IMPACT] Cisco Discovery Protocol memory corruption
+[VECTOR] malicious Cisco Discovery Protocol packet
+[ROOTCAUSE] missing length validation checks"
+CVE-2022-22088,"[WEAKNESS] Memory corruption
+[PRODUCT] Snapdragon
+[COMPONENT] Bluetooth HOST
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] command response received from remote
+[ROOTCAUSE] buffer overflow while parsing"
+CVE-2022-22093,"[WEAKNESS] Memory corruption
+[PRODUCT] Snapdragon Compute, Snapdragon Connectivity, Snapdragon Industrial IOT, Snapdragon Mobile
+[COMPONENT] hypervisor
+[VERSION] 
+[ATTACKER] 
+[IMPACT] Memory corruption or temporary denial of service
+[VECTOR] 
+[ROOTCAUSE] improper handling of concurrent operations to attach or detach IRQs from virtual interrupt sources"
+CVE-2022-22094,"[WEAKNESS] memory corruption
+[PRODUCT] Snapdragon Compute, Snapdragon Connectivity, Snapdragon Industrial IOT, Snapdragon Mobile
+[COMPONENT] Kernel
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] race condition while getting mapping reference"
+CVE-2022-22098,"[WEAKNESS] Memory corruption
+[PRODUCT] Snapdragon Auto
+[COMPONENT] multimedia driver
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] untrusted pointer dereference while reading data from socket"
+CVE-2022-22100,"[WEAKNESS] Memory corruption
+[PRODUCT] Snapdragon Auto
+[COMPONENT] multimedia
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] improper check on received export descriptors"
+CVE-2022-22102,"[WEAKNESS] Memory corruption
+[PRODUCT] Snapdragon Auto
+[COMPONENT] multimedia
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] incorrect type conversion while adding data"
+CVE-2022-22104,"[WEAKNESS] Memory corruption
+[PRODUCT] Snapdragon Auto
+[COMPONENT] multimedia
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] improper check on the messages received"
+CVE-2022-22106,"[WEAKNESS] Memory corruption
+[PRODUCT] Snapdragon Auto
+[COMPONENT] multimedia
+[VERSION] 
+[ATTACKER] 
+[IMPACT] 
+[VECTOR] 
+[ROOTCAUSE] improper length check while copying the data"
+CVE-2022-22137,"[WEAKNESS] memory corruption
+[PRODUCT] Accusoft ImageGear
+[COMPONENT] ioca_mys_rgb_allocate functionality
+[VERSION] 19.10
+[ATTACKER] 
+[IMPACT] arbitrary free
+[VECTOR] specially-crafted malformed file
+[ROOTCAUSE] "
+CVE-2022-22150,"[WEAKNESS] memory corruption
+[PRODUCT] Foxit Software's PDF Reader
+[COMPONENT] JavaScript engine
+[VERSION] 11.1.0.52543
+[ATTACKER] 
+[IMPACT] arbitrary code execution
+[VECTOR] specially-crafted PDF document or malicious site
+[ROOTCAUSE] improper handling of exception"

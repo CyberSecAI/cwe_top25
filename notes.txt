@@ -1,0 +1,19 @@
+
+
+"CVE-2021-21832","CWE-190","A memory corruption vulnerability exists in the ISO Parsing functionality of Disc Soft Ltd Deamon Tools Pro 8.3.0.0767. A specially crafted malformed file can lead to an out-of-bounds write. An attacker can provide a malicious file to trigger this vulnerability.","CWE-190->CWE-122","memory corruption ... out-of-bounds write"
+CVE-2021-21832,"[WEAKNESS] out-of-bounds write
+[PRODUCT] Disc Soft Ltd Deamon Tools Pro
+[COMPONENT] ISO Parsing functionality
+[VERSION] 8.3.0.0767
+[ATTACKER] 
+[IMPACT] memory corruption
+[VECTOR] specially crafted malformed file
+[ROOTCAUSE] "
+
+"CWE-190" is not in the description
+
+
+
+[WEAKNESS] memory corruption is not correct 
+
+support multiple impacts and weaknesses
