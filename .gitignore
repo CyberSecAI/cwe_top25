@@ -11,3 +11,4 @@ data_out/CVSSData.csv.gz
 tmp/
 nvd/jsondata
 data_out/CVSSData.csv.gz
+nvd/cleaned_optimized_fuzzy_deduplicated_file.csv
