@@ -1,5784 +1,6748 @@
 [
   {
     "ID": "1004",
+    "Name": "Sensitive Cookie Without 'HttpOnly' Flag",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1007",
+    "Name": "Insufficient Visual Distinction of Homoglyphs Presented to User",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "102",
+    "Name": "Struts: Duplicate Validation Forms",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1021",
+    "Name": "Improper Restriction of Rendered UI Layers or Frames",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "1022",
+    "Name": "Use of Web Link to Untrusted Target with window.opener Access",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1023",
+    "Name": "Incomplete Comparison with Missing Factors",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "1024",
+    "Name": "Comparison of Incompatible Types",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1025",
+    "Name": "Comparison Using Wrong Factors",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "103",
+    "Name": "Struts: Incomplete validate() Method Definition",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1037",
+    "Name": "Processor Optimization Removal or Modification of Security-critical Code",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1038",
+    "Name": "Insecure Automated Optimizations",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "1039",
+    "Name": "Automated Recognition Mechanism with Inadequate Detection or Handling of Adversarial Input Perturbations",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "104",
+    "Name": "Struts: Form Bean Does Not Extend Validation Class",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1041",
+    "Name": "Use of Redundant Code",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1042",
+    "Name": "Static Member Data Element outside of a Singleton Class Element",
     "Abstraction": "Variant",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1043",
+    "Name": "Data Element Aggregating an Excessively Large Number of Non-Primitive Elements",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1044",
+    "Name": "Architecture with Number of Horizontal Layers Outside of Expected Range",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1045",
+    "Name": "Parent Class with a Virtual Destructor and a Child Class without a Virtual Destructor",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1046",
+    "Name": "Creation of Immutable Text Using String Concatenation",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1047",
+    "Name": "Modules with Circular Dependencies",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1048",
+    "Name": "Invokable Control Element with Large Number of Outward Calls",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1049",
+    "Name": "Excessive Data Query Operations in a Large Data Table",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "105",
+    "Name": "Struts: Form Field Without Validator",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1050",
+    "Name": "Excessive Platform Resource Consumption within a Loop",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1051",
+    "Name": "Initialization with Hard-Coded Network Resource Configuration Data",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1052",
+    "Name": "Excessive Use of Hard-Coded Literals in Initialization",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1053",
+    "Name": "Missing Documentation for Design",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1054",
+    "Name": "Invocation of a Control Element at an Unnecessarily Deep Horizontal Layer",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1055",
+    "Name": "Multiple Inheritance from Concrete Classes",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1056",
+    "Name": "Invokable Control Element with Variadic Parameters",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1057",
+    "Name": "Data Access Operations Outside of Expected Data Manager Component",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1058",
+    "Name": "Invokable Control Element in Multi-Thread Context with non-Final Static Storable or Member Element",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1059",
+    "Name": "Insufficient Technical Documentation",
     "Abstraction": "Class",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "106",
+    "Name": "Struts: Plug-in Framework not in Use",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1060",
+    "Name": "Excessive Number of Inefficient Server-Side Data Accesses",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1061",
+    "Name": "Insufficient Encapsulation",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "1062",
+    "Name": "Parent Class with References to Child Class",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1063",
+    "Name": "Creation of Class Instance within a Static Code Block",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1064",
+    "Name": "Invokable Control Element with Signature Containing an Excessive Number of Parameters",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1065",
+    "Name": "Runtime Resource Management Control Element in a Component Built to Run on Application Servers",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1066",
+    "Name": "Missing Serialization Control Element",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1067",
+    "Name": "Excessive Execution of Sequential Searches of Data Resource",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1068",
+    "Name": "Inconsistency Between Implementation and Documented Design",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1069",
+    "Name": "Empty Exception Block",
     "Abstraction": "Variant",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "107",
+    "Name": "Struts: Unused Validation Form",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1070",
+    "Name": "Serializable Data Element Containing non-Serializable Item Elements",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1071",
+    "Name": "Empty Code Block",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1072",
+    "Name": "Data Resource Access without Use of Connection Pooling",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1073",
+    "Name": "Non-SQL Invokable Control Element with Excessive Number of Data Resource Accesses",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1074",
+    "Name": "Class with Excessively Deep Inheritance",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1075",
+    "Name": "Unconditional Control Flow Transfer outside of Switch Block",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1076",
+    "Name": "Insufficient Adherence to Expected Conventions",
     "Abstraction": "Class",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1077",
+    "Name": "Floating Point Comparison with Incorrect Operator",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1078",
+    "Name": "Inappropriate Source Code Style or Formatting",
     "Abstraction": "Class",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1079",
+    "Name": "Parent Class without Virtual Destructor Method",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "108",
+    "Name": "Struts: Unvalidated Action Form",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1080",
+    "Name": "Source Code File with Excessive Number of Lines of Code",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1082",
+    "Name": "Class Instance Self Destruction Control Element",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1083",
+    "Name": "Data Access from Outside Expected Data Manager Component",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1084",
+    "Name": "Invokable Control Element with Excessive File or Data Access Operations",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1085",
+    "Name": "Invokable Control Element with Excessive Volume of Commented-out Code",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1086",
+    "Name": "Class with Excessive Number of Child Classes",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1087",
+    "Name": "Class with Virtual Method without a Virtual Destructor",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1088",
+    "Name": "Synchronous Access of Remote Resource without Timeout",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1089",
+    "Name": "Large Data Table with Excessive Number of Indices",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "109",
+    "Name": "Struts: Validator Turned Off",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1090",
+    "Name": "Method Containing Access of a Member Element from Another Class",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1091",
+    "Name": "Use of Object without Invoking Destructor Method",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1092",
+    "Name": "Use of Same Invokable Control Element in Multiple Architectural Layers",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1093",
+    "Name": "Excessively Complex Data Representation",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "1094",
+    "Name": "Excessive Index Range Scan for a Data Resource",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1095",
+    "Name": "Loop Condition Value Update within the Loop",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1096",
+    "Name": "Singleton Class Instance Creation without Proper Locking or Synchronization",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1097",
+    "Name": "Persistent Storable Data Element without Associated Comparison Control Element",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1098",
+    "Name": "Data Element containing Pointer Item without Proper Copy Control Element",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1099",
+    "Name": "Inconsistent Naming Conventions for Identifiers",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "11",
+    "Name": "ASP.NET Misconfiguration: Creating Debug Binary",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "110",
+    "Name": "Struts: Validator Without Form Field",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1100",
+    "Name": "Insufficient Isolation of System-Dependent Functions",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1101",
+    "Name": "Reliance on Runtime Component in Generated Code",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1102",
+    "Name": "Reliance on Machine-Dependent Data Representation",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1103",
+    "Name": "Use of Platform-Dependent Third Party Components",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1104",
+    "Name": "Use of Unmaintained Third Party Components",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1105",
+    "Name": "Insufficient Encapsulation of Machine-Dependent Functionality",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1106",
+    "Name": "Insufficient Use of Symbolic Constants",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1107",
+    "Name": "Insufficient Isolation of Symbolic Constant Definitions",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1108",
+    "Name": "Excessive Reliance on Global Variables",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1109",
+    "Name": "Use of Same Variable for Multiple Purposes",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "111",
+    "Name": "Direct Use of Unsafe JNI",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1110",
+    "Name": "Incomplete Design Documentation",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1111",
+    "Name": "Incomplete I/O Documentation",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1112",
+    "Name": "Incomplete Documentation of Program Execution",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1113",
+    "Name": "Inappropriate Comment Style",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1114",
+    "Name": "Inappropriate Whitespace Style",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1115",
+    "Name": "Source Code Element without Standard Prologue",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1116",
+    "Name": "Inaccurate Comments",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1117",
+    "Name": "Callable with Insufficient Behavioral Summary",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1118",
+    "Name": "Insufficient Documentation of Error Handling Techniques",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1119",
+    "Name": "Excessive Use of Unconditional Branching",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "112",
+    "Name": "Missing XML Validation",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1120",
+    "Name": "Excessive Code Complexity",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "1121",
+    "Name": "Excessive McCabe Cyclomatic Complexity",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1122",
+    "Name": "Excessive Halstead Complexity",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1123",
+    "Name": "Excessive Use of Self-Modifying Code",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1124",
+    "Name": "Excessively Deep Nesting",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1125",
+    "Name": "Excessive Attack Surface",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1126",
+    "Name": "Declaration of Variable with Unnecessarily Wide Scope",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1127",
+    "Name": "Compilation with Insufficient Warnings or Errors",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "113",
+    "Name": "Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting')",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "114",
+    "Name": "Process Control",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "115",
+    "Name": "Misinterpretation of Input",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "116",
+    "Name": "Improper Encoding or Escaping of Output",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "1164",
+    "Name": "Irrelevant Code",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "117",
+    "Name": "Improper Output Neutralization for Logs",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1173",
+    "Name": "Improper Use of Validation Framework",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1174",
+    "Name": "ASP.NET Misconfiguration: Improper Model Validation",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1176",
+    "Name": "Inefficient CPU Computation",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "1177",
+    "Name": "Use of Prohibited Code",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "118",
+    "Name": "Incorrect Access of Indexable Resource ('Range Error')",
     "Abstraction": "Class",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "1187",
+    "Name": "DEPRECATED: Use of Uninitialized Resource",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1188",
+    "Name": "Initialization of a Resource with an Insecure Default",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "1189",
+    "Name": "Improper Isolation of Shared Resources on System-on-a-Chip (SoC)",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "119",
+    "Name": "Improper Restriction of Operations within the Bounds of a Memory Buffer",
     "Abstraction": "Class",
     "Usage": "Discouraged",
     "1003_view": true
   },
   {
     "ID": "1190",
+    "Name": "DMA Device Enabled Too Early in Boot Phase",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1191",
+    "Name": "On-Chip Debug and Test Interface With Improper Access Control",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1192",
+    "Name": "Improper Identifier for IP Block used in System-On-Chip (SOC)",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1193",
+    "Name": "Power-On of Untrusted Execution Core Before Enabling Fabric Access Control",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "12",
+    "Name": "ASP.NET Misconfiguration: Missing Custom Error Page",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "120",
+    "Name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')",
     "Abstraction": "Base",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "1204",
+    "Name": "Generation of Weak Initialization Vector (IV)",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1209",
+    "Name": "Failure to Disable Reserved Bits",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "121",
+    "Name": "Stack-based Buffer Overflow",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "122",
+    "Name": "Heap-based Buffer Overflow",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1220",
+    "Name": "Insufficient Granularity of Access Control",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1221",
+    "Name": "Incorrect Register Defaults or Module Parameters",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1222",
+    "Name": "Insufficient Granularity of Address Regions Protected by Register Locks",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1223",
+    "Name": "Race Condition for Write-Once Attributes",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1224",
+    "Name": "Improper Restriction of Write-Once Bit Fields",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1229",
+    "Name": "Creation of Emergent Resource",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "123",
+    "Name": "Write-what-where Condition",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1230",
+    "Name": "Exposure of Sensitive Information Through Metadata",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1231",
+    "Name": "Improper Prevention of Lock Bit Modification",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1232",
+    "Name": "Improper Lock Behavior After Power State Transition",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1233",
+    "Name": "Security-Sensitive Hardware Controls with Missing Lock Bit Protection",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1234",
+    "Name": "Hardware Internal or Debug Modes Allow Override of Locks",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1235",
+    "Name": "Incorrect Use of Autoboxing and Unboxing for Performance Critical Operations",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1236",
+    "Name": "Improper Neutralization of Formula Elements in a CSV File",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "1239",
+    "Name": "Improper Zeroization of Hardware Register",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "124",
+    "Name": "Buffer Underwrite ('Buffer Underflow')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1240",
+    "Name": "Use of a Cryptographic Primitive with a Risky Implementation",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1241",
+    "Name": "Use of Predictable Algorithm in Random Number Generator",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1242",
+    "Name": "Inclusion of Undocumented Features or Chicken Bits",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1243",
+    "Name": "Sensitive Non-Volatile Information Not Protected During Debug",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1244",
+    "Name": "Internal Asset Exposed to Unsafe Debug Access Level or State",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1245",
+    "Name": "Improper Finite State Machines (FSMs) in Hardware Logic",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1246",
+    "Name": "Improper Write Handling in Limited-write Non-Volatile Memories",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1247",
+    "Name": "Improper Protection Against Voltage and Clock Glitches",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1248",
+    "Name": "Semiconductor Defects in Hardware Logic with Security-Sensitive Implications",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1249",
+    "Name": "Application-Level Admin Tool with Inconsistent View of Underlying Operating System",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "125",
+    "Name": "Out-of-bounds Read",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "1250",
+    "Name": "Improper Preservation of Consistency Between Independent Representations of Shared State",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1251",
+    "Name": "Mirrored Regions with Different Values",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1252",
+    "Name": "CPU Hardware Not Configured to Support Exclusivity of Write and Execute Operations",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1253",
+    "Name": "Incorrect Selection of Fuse Values",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1254",
+    "Name": "Incorrect Comparison Logic Granularity",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1255",
+    "Name": "Comparison Logic is Vulnerable to Power Side-Channel Attacks",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1256",
+    "Name": "Improper Restriction of Software Interfaces to Hardware Features",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1257",
+    "Name": "Improper Access Control Applied to Mirrored or Aliased Memory Regions",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1258",
+    "Name": "Exposure of Sensitive System Information Due to Uncleared Debug Information",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1259",
+    "Name": "Improper Restriction of Security Token Assignment",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "126",
+    "Name": "Buffer Over-read",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1260",
+    "Name": "Improper Handling of Overlap Between Protected Memory Ranges",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1261",
+    "Name": "Improper Handling of Single Event Upsets",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1262",
+    "Name": "Improper Access Control for Register Interface",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1263",
+    "Name": "Improper Physical Access Control",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "1264",
+    "Name": "Hardware Logic with Insecure De-Synchronization between Control and Data Channels",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1265",
+    "Name": "Unintended Reentrant Invocation of Non-reentrant Code Via Nested Calls",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1266",
+    "Name": "Improper Scrubbing of Sensitive Data from Decommissioned Device",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1267",
+    "Name": "Policy Uses Obsolete Encoding",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1268",
+    "Name": "Policy Privileges are not Assigned Consistently Between Control and Data Agents",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1269",
+    "Name": "Product Released in Non-Release Configuration",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "127",
+    "Name": "Buffer Under-read",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1270",
+    "Name": "Generation of Incorrect Security Tokens",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1271",
+    "Name": "Uninitialized Value on Reset for Registers Holding Security Settings",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1272",
+    "Name": "Sensitive Information Uncleared Before Debug/Power State Transition",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1273",
+    "Name": "Device Unlock Credential Sharing",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1274",
+    "Name": "Improper Access Control for Volatile Memory Containing Boot Code",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1275",
+    "Name": "Sensitive Cookie with Improper SameSite Attribute",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1276",
+    "Name": "Hardware Child Block Incorrectly Connected to Parent System",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1277",
+    "Name": "Firmware Not Updateable",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1278",
+    "Name": "Missing Protection Against Hardware Reverse Engineering Using Integrated Circuit (IC) Imaging Techniques",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1279",
+    "Name": "Cryptographic Operations are run Before Supporting Units are Ready",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "128",
+    "Name": "Wrap-around Error",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1280",
+    "Name": "Access Control Check Implemented After Asset is Accessed",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1281",
+    "Name": "Sequence of Processor Instructions Leads to Unexpected Behavior",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1282",
+    "Name": "Assumed-Immutable Data is Stored in Writable Memory",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1283",
+    "Name": "Mutable Attestation or Measurement Reporting Data",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1284",
+    "Name": "Improper Validation of Specified Quantity in Input",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "1285",
+    "Name": "Improper Validation of Specified Index, Position, or Offset in Input",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1286",
+    "Name": "Improper Validation of Syntactic Correctness of Input",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1287",
+    "Name": "Improper Validation of Specified Type of Input",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1288",
+    "Name": "Improper Validation of Consistency within Input",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1289",
+    "Name": "Improper Validation of Unsafe Equivalence in Input",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "129",
+    "Name": "Improper Validation of Array Index",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "1290",
+    "Name": "Incorrect Decoding of Security Identifiers ",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1291",
+    "Name": "Public Key Re-Use for Signing both Debug and Production Code",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1292",
+    "Name": "Incorrect Conversion of Security Identifiers",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1293",
+    "Name": "Missing Source Correlation of Multiple Independent Data",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1294",
+    "Name": "Insecure Security Identifier Mechanism",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "1295",
+    "Name": "Debug Messages Revealing Unnecessary Information",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1296",
+    "Name": "Incorrect Chaining or Granularity of Debug Components",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1297",
+    "Name": "Unprotected Confidential Information on Device is Accessible by OSAT Vendors",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1298",
+    "Name": "Hardware Logic Contains Race Conditions",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1299",
+    "Name": "Missing Protection Mechanism for Alternate Hardware Interface",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "13",
+    "Name": "ASP.NET Misconfiguration: Password in Configuration File",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "130",
+    "Name": "Improper Handling of Length Parameter Inconsistency",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1300",
+    "Name": "Improper Protection of Physical Side Channels",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1301",
+    "Name": "Insufficient or Incomplete Data Removal within Hardware Component",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1302",
+    "Name": "Missing Source Identifier in Entity Transactions on a System-On-Chip (SOC)",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1303",
+    "Name": "Non-Transparent Sharing of Microarchitectural Resources",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1304",
+    "Name": "Improperly Preserved Integrity of Hardware Configuration State During a Power Save/Restore Operation",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "131",
+    "Name": "Incorrect Calculation of Buffer Size",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "1310",
+    "Name": "Missing Ability to Patch ROM Code",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1311",
+    "Name": "Improper Translation of Security Attributes by Fabric Bridge",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1312",
+    "Name": "Missing Protection for Mirrored Regions in On-Chip Fabric Firewall",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1313",
+    "Name": "Hardware Allows Activation of Test or Debug Logic at Runtime",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1314",
+    "Name": "Missing Write Protection for Parametric Data Values",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1315",
+    "Name": "Improper Setting of Bus Controlling Capability in Fabric End-point",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1316",
+    "Name": "Fabric-Address Map Allows Programming of Unwarranted Overlaps of Protected and Unprotected Ranges",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1317",
+    "Name": "Improper Access Control in Fabric Bridge",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1318",
+    "Name": "Missing Support for Security Features in On-chip Fabrics or Buses",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1319",
+    "Name": "Improper Protection against Electromagnetic Fault Injection (EM-FI)",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "132",
+    "Name": "DEPRECATED: Miscalculated Null Termination",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1320",
+    "Name": "Improper Protection for Outbound Error Messages and Alert Signals",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1321",
+    "Name": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "1322",
+    "Name": "Use of Blocking Code in Single-threaded, Non-blocking Context",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1323",
+    "Name": "Improper Management of Sensitive Trace Data",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1324",
+    "Name": "DEPRECATED: Sensitive Information Accessible by Physical Probing of JTAG Interface",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "1325",
+    "Name": "Improperly Controlled Sequential Memory Allocation",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1326",
+    "Name": "Missing Immutable Root of Trust in Hardware",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1327",
+    "Name": "Binding to an Unrestricted IP Address",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1328",
+    "Name": "Security Version Number Mutable to Older Versions",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1329",
+    "Name": "Reliance on Component That is Not Updateable",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1330",
+    "Name": "Remanent Data Readable after Memory Erase",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1331",
+    "Name": "Improper Isolation of Shared Resources in Network On Chip (NoC)",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1332",
+    "Name": "Improper Handling of Faults that Lead to Instruction Skips",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1333",
+    "Name": "Inefficient Regular Expression Complexity",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "1334",
+    "Name": "Unauthorized Error Injection Can Degrade Hardware Redundancy",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1335",
+    "Name": "Incorrect Bitwise Shift of Integer",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1336",
+    "Name": "Improper Neutralization of Special Elements Used in a Template Engine",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1338",
+    "Name": "Improper Protections Against Hardware Overheating",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1339",
+    "Name": "Insufficient Precision or Accuracy of a Real Number",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "134",
+    "Name": "Use of Externally-Controlled Format String",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "1341",
+    "Name": "Multiple Releases of Same Resource or Handle",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1342",
+    "Name": "Information Exposure through Microarchitectural State after Transient Execution",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "135",
+    "Name": "Incorrect Calculation of Multi-Byte String Length",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1351",
+    "Name": "Improper Handling of Hardware Behavior in Exceptionally Cold Environments",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1357",
+    "Name": "Reliance on Insufficiently Trustworthy Component",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "138",
+    "Name": "Improper Neutralization of Special Elements",
     "Abstraction": "Class",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "1384",
+    "Name": "Improper Handling of Physical or Environmental Conditions",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "1385",
+    "Name": "Missing Origin Validation in WebSockets",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1386",
+    "Name": "Insecure Operation on Windows Junction / Mount Point",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1389",
+    "Name": "Incorrect Parsing of Numbers with Different Radices",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1390",
+    "Name": "Weak Authentication",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "1391",
+    "Name": "Use of Weak Credentials",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "1392",
+    "Name": "Use of Default Credentials",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1393",
+    "Name": "Use of Default Password",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1394",
+    "Name": "Use of Default Cryptographic Key",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1395",
+    "Name": "Dependency on Vulnerable Third-Party Component",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "14",
+    "Name": "Compiler Removal of Code to Clear Buffers",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "140",
+    "Name": "Improper Neutralization of Delimiters",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "141",
+    "Name": "Improper Neutralization of Parameter/Argument Delimiters",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1419",
+    "Name": "Incorrect Initialization of Resource",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "142",
+    "Name": "Improper Neutralization of Value Delimiters",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1420",
+    "Name": "Exposure of Sensitive Information during Transient Execution",
     "Abstraction": "Base",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "1421",
+    "Name": "Exposure of Sensitive Information in Shared Microarchitectural Structures during Transient Execution",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1422",
+    "Name": "Exposure of Sensitive Information caused by Incorrect Data Forwarding during Transient Execution",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1423",
+    "Name": "Exposure of Sensitive Information caused by Shared Microarchitectural Predictor State that Influences Transient Execution",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "1426",
+    "Name": "Improper Validation of Generative AI Output",
     "Abstraction": "Base",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "143",
+    "Name": "Improper Neutralization of Record Delimiters",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "144",
+    "Name": "Improper Neutralization of Line Delimiters",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "145",
+    "Name": "Improper Neutralization of Section Delimiters",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "146",
+    "Name": "Improper Neutralization of Expression/Command Delimiters",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "147",
+    "Name": "Improper Neutralization of Input Terminators",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "148",
+    "Name": "Improper Neutralization of Input Leaders",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "149",
+    "Name": "Improper Neutralization of Quoting Syntax",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "15",
+    "Name": "External Control of System or Configuration Setting",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "150",
+    "Name": "Improper Neutralization of Escape, Meta, or Control Sequences",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "151",
+    "Name": "Improper Neutralization of Comment Delimiters",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "152",
+    "Name": "Improper Neutralization of Macro Symbols",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "153",
+    "Name": "Improper Neutralization of Substitution Characters",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "154",
+    "Name": "Improper Neutralization of Variable Name Delimiters",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "155",
+    "Name": "Improper Neutralization of Wildcards or Matching Symbols",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "156",
+    "Name": "Improper Neutralization of Whitespace",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "157",
+    "Name": "Failure to Sanitize Paired Delimiters",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "158",
+    "Name": "Improper Neutralization of Null Byte or NUL Character",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "159",
+    "Name": "Improper Handling of Invalid Use of Special Elements",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "160",
+    "Name": "Improper Neutralization of Leading Special Elements",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "161",
+    "Name": "Improper Neutralization of Multiple Leading Special Elements",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "162",
+    "Name": "Improper Neutralization of Trailing Special Elements",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "163",
+    "Name": "Improper Neutralization of Multiple Trailing Special Elements",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "164",
+    "Name": "Improper Neutralization of Internal Special Elements",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "165",
+    "Name": "Improper Neutralization of Multiple Internal Special Elements",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "166",
+    "Name": "Improper Handling of Missing Special Element",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "167",
+    "Name": "Improper Handling of Additional Special Element",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "168",
+    "Name": "Improper Handling of Inconsistent Special Elements",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "170",
+    "Name": "Improper Null Termination",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "172",
+    "Name": "Encoding Error",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "173",
+    "Name": "Improper Handling of Alternate Encoding",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "174",
+    "Name": "Double Decoding of the Same Data",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "175",
+    "Name": "Improper Handling of Mixed Encoding",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "176",
+    "Name": "Improper Handling of Unicode Encoding",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "177",
+    "Name": "Improper Handling of URL Encoding (Hex Encoding)",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "178",
+    "Name": "Improper Handling of Case Sensitivity",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "179",
+    "Name": "Incorrect Behavior Order: Early Validation",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "180",
+    "Name": "Incorrect Behavior Order: Validate Before Canonicalize",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "181",
+    "Name": "Incorrect Behavior Order: Validate Before Filter",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "182",
+    "Name": "Collapse of Data into Unsafe Value",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "183",
+    "Name": "Permissive List of Allowed Inputs",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "184",
+    "Name": "Incomplete List of Disallowed Inputs",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "185",
+    "Name": "Incorrect Regular Expression",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "186",
+    "Name": "Overly Restrictive Regular Expression",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "187",
+    "Name": "Partial String Comparison",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "188",
+    "Name": "Reliance on Data/Memory Layout",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "190",
+    "Name": "Integer Overflow or Wraparound",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "191",
+    "Name": "Integer Underflow (Wrap or Wraparound)",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "192",
+    "Name": "Integer Coercion Error",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "193",
+    "Name": "Off-by-one Error",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "194",
+    "Name": "Unexpected Sign Extension",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "195",
+    "Name": "Signed to Unsigned Conversion Error",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "196",
+    "Name": "Unsigned to Signed Conversion Error",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "197",
+    "Name": "Numeric Truncation Error",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "198",
+    "Name": "Use of Incorrect Byte Ordering",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "20",
+    "Name": "Improper Input Validation",
     "Abstraction": "Class",
     "Usage": "Discouraged",
     "1003_view": true
   },
   {
     "ID": "200",
+    "Name": "Exposure of Sensitive Information to an Unauthorized Actor",
     "Abstraction": "Class",
     "Usage": "Discouraged",
     "1003_view": true
   },
   {
     "ID": "201",
+    "Name": "Insertion of Sensitive Information Into Sent Data",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "202",
+    "Name": "Exposure of Sensitive Information Through Data Queries",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "203",
+    "Name": "Observable Discrepancy",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "204",
+    "Name": "Observable Response Discrepancy",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "205",
+    "Name": "Observable Behavioral Discrepancy",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "206",
+    "Name": "Observable Internal Behavioral Discrepancy",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "207",
+    "Name": "Observable Behavioral Discrepancy With Equivalent Products",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "208",
+    "Name": "Observable Timing Discrepancy",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "209",
+    "Name": "Generation of Error Message Containing Sensitive Information",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "210",
+    "Name": "Self-generated Error Message Containing Sensitive Information",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "211",
+    "Name": "Externally-Generated Error Message Containing Sensitive Information",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "212",
+    "Name": "Improper Removal of Sensitive Information Before Storage or Transfer",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "213",
+    "Name": "Exposure of Sensitive Information Due to Incompatible Policies",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "214",
+    "Name": "Invocation of Process Using Visible Sensitive Information",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "215",
+    "Name": "Insertion of Sensitive Information Into Debugging Code",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "216",
+    "Name": "DEPRECATED: Containment Errors (Container Errors)",
     "Abstraction": "Class",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "217",
+    "Name": "DEPRECATED: Failure to Protect Stored Data from Modification",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "218",
+    "Name": "DEPRECATED: Failure to provide confidentiality for stored data",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "219",
+    "Name": "Storage of File with Sensitive Data Under Web Root",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "22",
+    "Name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "220",
+    "Name": "Storage of File With Sensitive Data Under FTP Root",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "221",
+    "Name": "Information Loss or Omission",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "222",
+    "Name": "Truncation of Security-relevant Information",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "223",
+    "Name": "Omission of Security-relevant Information",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "224",
+    "Name": "Obscured Security-relevant Information by Alternate Name",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "225",
+    "Name": "DEPRECATED: General Information Management Problems",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "226",
+    "Name": "Sensitive Information in Resource Not Removed Before Reuse",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "228",
+    "Name": "Improper Handling of Syntactically Invalid Structure",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "229",
+    "Name": "Improper Handling of Values",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "23",
+    "Name": "Relative Path Traversal",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "230",
+    "Name": "Improper Handling of Missing Values",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "231",
+    "Name": "Improper Handling of Extra Values",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "232",
+    "Name": "Improper Handling of Undefined Values",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "233",
+    "Name": "Improper Handling of Parameters",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "234",
+    "Name": "Failure to Handle Missing Parameter",
     "Abstraction": "Variant",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "235",
+    "Name": "Improper Handling of Extra Parameters",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "236",
+    "Name": "Improper Handling of Undefined Parameters",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "237",
+    "Name": "Improper Handling of Structural Elements",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "238",
+    "Name": "Improper Handling of Incomplete Structural Elements",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "239",
+    "Name": "Failure to Handle Incomplete Element",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "24",
+    "Name": "Path Traversal: '../filedir'",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "240",
+    "Name": "Improper Handling of Inconsistent Structural Elements",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "241",
+    "Name": "Improper Handling of Unexpected Data Type",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "242",
+    "Name": "Use of Inherently Dangerous Function",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "243",
+    "Name": "Creation of chroot Jail Without Changing Working Directory",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "244",
+    "Name": "Improper Clearing of Heap Memory Before Release ('Heap Inspection')",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "245",
+    "Name": "J2EE Bad Practices: Direct Management of Connections",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "246",
+    "Name": "J2EE Bad Practices: Direct Use of Sockets",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "247",
+    "Name": "DEPRECATED: Reliance on DNS Lookups in a Security Decision",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "248",
+    "Name": "Uncaught Exception",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "249",
+    "Name": "DEPRECATED: Often Misused: Path Manipulation",
     "Abstraction": "Variant",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "25",
+    "Name": "Path Traversal: '/../filedir'",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "250",
+    "Name": "Execution with Unnecessary Privileges",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "252",
+    "Name": "Unchecked Return Value",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "253",
+    "Name": "Incorrect Check of Function Return Value",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "256",
+    "Name": "Plaintext Storage of a Password",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "257",
+    "Name": "Storing Passwords in a Recoverable Format",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "258",
+    "Name": "Empty Password in Configuration File",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "259",
+    "Name": "Use of Hard-coded Password",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "26",
+    "Name": "Path Traversal: '/dir/../filename'",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "260",
+    "Name": "Password in Configuration File",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "261",
+    "Name": "Weak Encoding for Password",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "262",
+    "Name": "Not Using Password Aging",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "263",
+    "Name": "Password Aging with Long Expiration",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "266",
+    "Name": "Incorrect Privilege Assignment",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "267",
+    "Name": "Privilege Defined With Unsafe Actions",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "268",
+    "Name": "Privilege Chaining",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "269",
+    "Name": "Improper Privilege Management",
     "Abstraction": "Class",
     "Usage": "Discouraged",
     "1003_view": true
   },
   {
     "ID": "27",
+    "Name": "Path Traversal: 'dir/../../filename'",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "270",
+    "Name": "Privilege Context Switching Error",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "271",
+    "Name": "Privilege Dropping / Lowering Errors",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "272",
+    "Name": "Least Privilege Violation",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "273",
+    "Name": "Improper Check for Dropped Privileges",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "274",
+    "Name": "Improper Handling of Insufficient Privileges",
     "Abstraction": "Base",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "276",
+    "Name": "Incorrect Default Permissions",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "277",
+    "Name": "Insecure Inherited Permissions",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "278",
+    "Name": "Insecure Preserved Inherited Permissions",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "279",
+    "Name": "Incorrect Execution-Assigned Permissions",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "28",
+    "Name": "Path Traversal: '..\\filedir'",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "280",
+    "Name": "Improper Handling of Insufficient Permissions or Privileges ",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "281",
+    "Name": "Improper Preservation of Permissions",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "282",
+    "Name": "Improper Ownership Management",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "283",
+    "Name": "Unverified Ownership",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "284",
+    "Name": "Improper Access Control",
     "Abstraction": "Pillar",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "285",
+    "Name": "Improper Authorization",
     "Abstraction": "Class",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "286",
+    "Name": "Incorrect User Management",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "287",
+    "Name": "Improper Authentication",
     "Abstraction": "Class",
     "Usage": "Discouraged",
     "1003_view": true
   },
   {
     "ID": "288",
+    "Name": "Authentication Bypass Using an Alternate Path or Channel",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "289",
+    "Name": "Authentication Bypass by Alternate Name",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "29",
+    "Name": "Path Traversal: '\\..\\filename'",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "290",
+    "Name": "Authentication Bypass by Spoofing",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "291",
+    "Name": "Reliance on IP Address for Authentication",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "292",
+    "Name": "DEPRECATED: Trusting Self-reported DNS Name",
     "Abstraction": "Variant",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "293",
+    "Name": "Using Referer Field for Authentication",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "294",
+    "Name": "Authentication Bypass by Capture-replay",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "295",
+    "Name": "Improper Certificate Validation",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "296",
+    "Name": "Improper Following of a Certificate's Chain of Trust",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "297",
+    "Name": "Improper Validation of Certificate with Host Mismatch",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "298",
+    "Name": "Improper Validation of Certificate Expiration",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "299",
+    "Name": "Improper Check for Certificate Revocation",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "30",
+    "Name": "Path Traversal: '\\dir\\..\\filename'",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "300",
+    "Name": "Channel Accessible by Non-Endpoint",
     "Abstraction": "Class",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "301",
+    "Name": "Reflection Attack in an Authentication Protocol",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "302",
+    "Name": "Authentication Bypass by Assumed-Immutable Data",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "303",
+    "Name": "Incorrect Implementation of Authentication Algorithm",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "304",
+    "Name": "Missing Critical Step in Authentication",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "305",
+    "Name": "Authentication Bypass by Primary Weakness",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "306",
+    "Name": "Missing Authentication for Critical Function",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "307",
+    "Name": "Improper Restriction of Excessive Authentication Attempts",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "308",
+    "Name": "Use of Single-factor Authentication",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "309",
+    "Name": "Use of Password System for Primary Authentication",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "31",
+    "Name": "Path Traversal: 'dir\\..\\..\\filename'",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "311",
+    "Name": "Missing Encryption of Sensitive Data",
     "Abstraction": "Class",
     "Usage": "Discouraged",
     "1003_view": true
   },
   {
     "ID": "312",
+    "Name": "Cleartext Storage of Sensitive Information",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "313",
+    "Name": "Cleartext Storage in a File or on Disk",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "314",
+    "Name": "Cleartext Storage in the Registry",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "315",
+    "Name": "Cleartext Storage of Sensitive Information in a Cookie",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "316",
+    "Name": "Cleartext Storage of Sensitive Information in Memory",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "317",
+    "Name": "Cleartext Storage of Sensitive Information in GUI",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "318",
+    "Name": "Cleartext Storage of Sensitive Information in Executable",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "319",
+    "Name": "Cleartext Transmission of Sensitive Information",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "32",
+    "Name": "Path Traversal: '...' (Triple Dot)",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "321",
+    "Name": "Use of Hard-coded Cryptographic Key",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "322",
+    "Name": "Key Exchange without Entity Authentication",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "323",
+    "Name": "Reusing a Nonce, Key Pair in Encryption",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "324",
+    "Name": "Use of a Key Past its Expiration Date",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "325",
+    "Name": "Missing Cryptographic Step",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "326",
+    "Name": "Inadequate Encryption Strength",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "327",
+    "Name": "Use of a Broken or Risky Cryptographic Algorithm",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "328",
+    "Name": "Use of Weak Hash",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "329",
+    "Name": "Generation of Predictable IV with CBC Mode",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "33",
+    "Name": "Path Traversal: '....' (Multiple Dot)",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "330",
+    "Name": "Use of Insufficiently Random Values",
     "Abstraction": "Class",
     "Usage": "Discouraged",
     "1003_view": true
   },
   {
     "ID": "331",
+    "Name": "Insufficient Entropy",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "332",
+    "Name": "Insufficient Entropy in PRNG",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "333",
+    "Name": "Improper Handling of Insufficient Entropy in TRNG",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "334",
+    "Name": "Small Space of Random Values",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "335",
+    "Name": "Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG)",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "336",
+    "Name": "Same Seed in Pseudo-Random Number Generator (PRNG)",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "337",
+    "Name": "Predictable Seed in Pseudo-Random Number Generator (PRNG)",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "338",
+    "Name": "Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG)",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "339",
+    "Name": "Small Seed Space in PRNG",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "34",
+    "Name": "Path Traversal: '....//'",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "340",
+    "Name": "Generation of Predictable Numbers or Identifiers",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "341",
+    "Name": "Predictable from Observable State",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "342",
+    "Name": "Predictable Exact Value from Previous Values",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "343",
+    "Name": "Predictable Value Range from Previous Values",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "344",
+    "Name": "Use of Invariant Value in Dynamically Changing Context",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "345",
+    "Name": "Insufficient Verification of Data Authenticity",
     "Abstraction": "Class",
     "Usage": "Discouraged",
     "1003_view": true
   },
   {
     "ID": "346",
+    "Name": "Origin Validation Error",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "347",
+    "Name": "Improper Verification of Cryptographic Signature",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "348",
+    "Name": "Use of Less Trusted Source",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "349",
+    "Name": "Acceptance of Extraneous Untrusted Data With Trusted Data",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "35",
+    "Name": "Path Traversal: '.../...//'",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "350",
+    "Name": "Reliance on Reverse DNS Resolution for a Security-Critical Action",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "351",
+    "Name": "Insufficient Type Distinction",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "352",
+    "Name": "Cross-Site Request Forgery (CSRF)",
     "Abstraction": "Compound",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "353",
+    "Name": "Missing Support for Integrity Check",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "354",
+    "Name": "Improper Validation of Integrity Check Value",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "356",
+    "Name": "Product UI does not Warn User of Unsafe Actions",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "357",
+    "Name": "Insufficient UI Warning of Dangerous Operations",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "358",
+    "Name": "Improperly Implemented Security Check for Standard",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "359",
+    "Name": "Exposure of Private Personal Information to an Unauthorized Actor",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "36",
+    "Name": "Absolute Path Traversal",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "360",
+    "Name": "Trust of System Event Data",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "362",
+    "Name": "Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "363",
+    "Name": "Race Condition Enabling Link Following",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "364",
+    "Name": "Signal Handler Race Condition",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "365",
+    "Name": "DEPRECATED: Race Condition in Switch",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "366",
+    "Name": "Race Condition within a Thread",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "367",
+    "Name": "Time-of-check Time-of-use (TOCTOU) Race Condition",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "368",
+    "Name": "Context Switching Race Condition",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "369",
+    "Name": "Divide By Zero",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "37",
+    "Name": "Path Traversal: '/absolute/pathname/here'",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "370",
+    "Name": "Missing Check for Certificate Revocation after Initial Check",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "372",
+    "Name": "Incomplete Internal State Distinction",
     "Abstraction": "Base",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "373",
+    "Name": "DEPRECATED: State Synchronization Error",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "374",
+    "Name": "Passing Mutable Objects to an Untrusted Method",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "375",
+    "Name": "Returning a Mutable Object to an Untrusted Caller",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "377",
+    "Name": "Insecure Temporary File",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "378",
+    "Name": "Creation of Temporary File With Insecure Permissions",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "379",
+    "Name": "Creation of Temporary File in Directory with Insecure Permissions",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "38",
+    "Name": "Path Traversal: '\\absolute\\pathname\\here'",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "382",
+    "Name": "J2EE Bad Practices: Use of System.exit()",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "383",
+    "Name": "J2EE Bad Practices: Direct Use of Threads",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "384",
+    "Name": "Session Fixation",
     "Abstraction": "Compound",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "385",
+    "Name": "Covert Timing Channel",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "386",
+    "Name": "Symbolic Name not Mapping to Correct Object",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "39",
+    "Name": "Path Traversal: 'C:dirname'",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "390",
+    "Name": "Detection of Error Condition Without Action",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "391",
+    "Name": "Unchecked Error Condition",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "392",
+    "Name": "Missing Report of Error Condition",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "393",
+    "Name": "Return of Wrong Status Code",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "394",
+    "Name": "Unexpected Status Code or Return Value",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "395",
+    "Name": "Use of NullPointerException Catch to Detect NULL Pointer Dereference",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "396",
+    "Name": "Declaration of Catch for Generic Exception",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "397",
+    "Name": "Declaration of Throws for Generic Exception",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "40",
+    "Name": "Path Traversal: '\\\\UNC\\share\\name\\' (Windows UNC Share)",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "400",
+    "Name": "Uncontrolled Resource Consumption",
     "Abstraction": "Class",
     "Usage": "Discouraged",
     "1003_view": true
   },
   {
     "ID": "401",
+    "Name": "Missing Release of Memory after Effective Lifetime",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "402",
+    "Name": "Transmission of Private Resources into a New Sphere ('Resource Leak')",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "403",
+    "Name": "Exposure of File Descriptor to Unintended Control Sphere ('File Descriptor Leak')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "404",
+    "Name": "Improper Resource Shutdown or Release",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "405",
+    "Name": "Asymmetric Resource Consumption (Amplification)",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "406",
+    "Name": "Insufficient Control of Network Message Volume (Network Amplification)",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "407",
+    "Name": "Inefficient Algorithmic Complexity",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "408",
+    "Name": "Incorrect Behavior Order: Early Amplification",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "409",
+    "Name": "Improper Handling of Highly Compressed Data (Data Amplification)",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "41",
+    "Name": "Improper Resolution of Path Equivalence",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "410",
+    "Name": "Insufficient Resource Pool",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "412",
+    "Name": "Unrestricted Externally Accessible Lock",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "413",
+    "Name": "Improper Resource Locking",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "414",
+    "Name": "Missing Lock Check",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "415",
+    "Name": "Double Free",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "416",
+    "Name": "Use After Free",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "419",
+    "Name": "Unprotected Primary Channel",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "42",
+    "Name": "Path Equivalence: 'filename.' (Trailing Dot)",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "420",
+    "Name": "Unprotected Alternate Channel",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "421",
+    "Name": "Race Condition During Access to Alternate Channel",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "422",
+    "Name": "Unprotected Windows Messaging Channel ('Shatter')",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "423",
+    "Name": "DEPRECATED: Proxied Trusted Channel",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "424",
+    "Name": "Improper Protection of Alternate Path",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "425",
+    "Name": "Direct Request ('Forced Browsing')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "426",
+    "Name": "Untrusted Search Path",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "427",
+    "Name": "Uncontrolled Search Path Element",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "428",
+    "Name": "Unquoted Search Path or Element",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "43",
+    "Name": "Path Equivalence: 'filename....' (Multiple Trailing Dot)",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "430",
+    "Name": "Deployment of Wrong Handler",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "431",
+    "Name": "Missing Handler",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "432",
+    "Name": "Dangerous Signal Handler not Disabled During Sensitive Operations",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "433",
+    "Name": "Unparsed Raw Web Content Delivery",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "434",
+    "Name": "Unrestricted Upload of File with Dangerous Type",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "435",
+    "Name": "Improper Interaction Between Multiple Correctly-Behaving Entities",
     "Abstraction": "Pillar",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "436",
+    "Name": "Interpretation Conflict",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "437",
+    "Name": "Incomplete Model of Endpoint Features",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "439",
+    "Name": "Behavioral Change in New Version or Environment",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "44",
+    "Name": "Path Equivalence: 'file.name' (Internal Dot)",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "440",
+    "Name": "Expected Behavior Violation",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "441",
+    "Name": "Unintended Proxy or Intermediary ('Confused Deputy')",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "443",
+    "Name": "DEPRECATED: HTTP response splitting",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "444",
+    "Name": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "446",
+    "Name": "UI Discrepancy for Security Feature",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "447",
+    "Name": "Unimplemented or Unsupported Feature in UI",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "448",
+    "Name": "Obsolete Feature in UI",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "449",
+    "Name": "The UI Performs the Wrong Action",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "45",
+    "Name": "Path Equivalence: 'file...name' (Multiple Internal Dot)",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "450",
+    "Name": "Multiple Interpretations of UI Input",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "451",
+    "Name": "User Interface (UI) Misrepresentation of Critical Information",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "453",
+    "Name": "Insecure Default Variable Initialization",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "454",
+    "Name": "External Initialization of Trusted Variables or Data Stores",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "455",
+    "Name": "Non-exit on Failed Initialization",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "456",
+    "Name": "Missing Initialization of a Variable",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "457",
+    "Name": "Use of Uninitialized Variable",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "458",
+    "Name": "DEPRECATED: Incorrect Initialization",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "459",
+    "Name": "Incomplete Cleanup",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "46",
+    "Name": "Path Equivalence: 'filename ' (Trailing Space)",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "460",
+    "Name": "Improper Cleanup on Thrown Exception",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "462",
+    "Name": "Duplicate Key in Associative List (Alist)",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "463",
+    "Name": "Deletion of Data Structure Sentinel",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "464",
+    "Name": "Addition of Data Structure Sentinel",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "466",
+    "Name": "Return of Pointer Value Outside of Expected Range",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "467",
+    "Name": "Use of sizeof() on a Pointer Type",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "468",
+    "Name": "Incorrect Pointer Scaling",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "469",
+    "Name": "Use of Pointer Subtraction to Determine Size",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "47",
+    "Name": "Path Equivalence: ' filename' (Leading Space)",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "470",
+    "Name": "Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "471",
+    "Name": "Modification of Assumed-Immutable Data (MAID)",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "472",
+    "Name": "External Control of Assumed-Immutable Web Parameter",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "473",
+    "Name": "PHP External Variable Modification",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "474",
+    "Name": "Use of Function with Inconsistent Implementations",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "475",
+    "Name": "Undefined Behavior for Input to API",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "476",
+    "Name": "NULL Pointer Dereference",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "477",
+    "Name": "Use of Obsolete Function",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "478",
+    "Name": "Missing Default Case in Multiple Condition Expression",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "479",
+    "Name": "Signal Handler Use of a Non-reentrant Function",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "48",
+    "Name": "Path Equivalence: 'file name' (Internal Whitespace)",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "480",
+    "Name": "Use of Incorrect Operator",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "481",
+    "Name": "Assigning instead of Comparing",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "482",
+    "Name": "Comparing instead of Assigning",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "483",
+    "Name": "Incorrect Block Delimitation",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "484",
+    "Name": "Omitted Break Statement in Switch",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "486",
+    "Name": "Comparison of Classes by Name",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "487",
+    "Name": "Reliance on Package-level Scope",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "488",
+    "Name": "Exposure of Data Element to Wrong Session",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "489",
+    "Name": "Active Debug Code",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "49",
+    "Name": "Path Equivalence: 'filename/' (Trailing Slash)",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "491",
+    "Name": "Public cloneable() Method Without Final ('Object Hijack')",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "492",
+    "Name": "Use of Inner Class Containing Sensitive Data",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "493",
+    "Name": "Critical Public Variable Without Final Modifier",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "494",
+    "Name": "Download of Code Without Integrity Check",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "495",
+    "Name": "Private Data Structure Returned From A Public Method",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "496",
+    "Name": "Public Data Assigned to Private Array-Typed Field",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "497",
+    "Name": "Exposure of Sensitive System Information to an Unauthorized Control Sphere",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "498",
+    "Name": "Cloneable Class Containing Sensitive Information",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "499",
+    "Name": "Serializable Class Containing Sensitive Data",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "5",
+    "Name": "J2EE Misconfiguration: Data Transmission Without Encryption",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "50",
+    "Name": "Path Equivalence: '//multiple/leading/slash'",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "500",
+    "Name": "Public Static Field Not Marked Final",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "501",
+    "Name": "Trust Boundary Violation",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "502",
+    "Name": "Deserialization of Untrusted Data",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "506",
+    "Name": "Embedded Malicious Code",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "507",
+    "Name": "Trojan Horse",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "508",
+    "Name": "Non-Replicating Malicious Code",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "509",
+    "Name": "Replicating Malicious Code (Virus or Worm)",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "51",
+    "Name": "Path Equivalence: '/multiple//internal/slash'",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "510",
+    "Name": "Trapdoor",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "511",
+    "Name": "Logic/Time Bomb",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "512",
+    "Name": "Spyware",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "514",
+    "Name": "Covert Channel",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "515",
+    "Name": "Covert Storage Channel",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "516",
+    "Name": "DEPRECATED: Covert Timing Channel",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "52",
+    "Name": "Path Equivalence: '/multiple/trailing/slash//'",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "520",
+    "Name": ".NET Misconfiguration: Use of Impersonation",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "521",
+    "Name": "Weak Password Requirements",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "522",
+    "Name": "Insufficiently Protected Credentials",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "523",
+    "Name": "Unprotected Transport of Credentials",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "524",
+    "Name": "Use of Cache Containing Sensitive Information",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "525",
+    "Name": "Use of Web Browser Cache Containing Sensitive Information",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "526",
+    "Name": "Cleartext Storage of Sensitive Information in an Environment Variable",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "527",
+    "Name": "Exposure of Version-Control Repository to an Unauthorized Control Sphere",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "528",
+    "Name": "Exposure of Core Dump File to an Unauthorized Control Sphere",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "529",
+    "Name": "Exposure of Access Control List Files to an Unauthorized Control Sphere",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "53",
+    "Name": "Path Equivalence: '\\multiple\\\\internal\\backslash'",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "530",
+    "Name": "Exposure of Backup File to an Unauthorized Control Sphere",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "531",
+    "Name": "Inclusion of Sensitive Information in Test Code",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "532",
+    "Name": "Insertion of Sensitive Information into Log File",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "533",
+    "Name": "DEPRECATED: Information Exposure Through Server Log Files",
     "Abstraction": "Variant",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "534",
+    "Name": "DEPRECATED: Information Exposure Through Debug Log Files",
     "Abstraction": "Variant",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "535",
+    "Name": "Exposure of Information Through Shell Error Message",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "536",
+    "Name": "Servlet Runtime Error Message Containing Sensitive Information",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "537",
+    "Name": "Java Runtime Error Message Containing Sensitive Information",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "538",
+    "Name": "Insertion of Sensitive Information into Externally-Accessible File or Directory",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "539",
+    "Name": "Use of Persistent Cookies Containing Sensitive Information",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "54",
+    "Name": "Path Equivalence: 'filedir\\' (Trailing Backslash)",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "540",
+    "Name": "Inclusion of Sensitive Information in Source Code",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "541",
+    "Name": "Inclusion of Sensitive Information in an Include File",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "542",
+    "Name": "DEPRECATED: Information Exposure Through Cleanup Log Files",
     "Abstraction": "Variant",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "543",
+    "Name": "Use of Singleton Pattern Without Synchronization in a Multithreaded Context",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "544",
+    "Name": "Missing Standardized Error Handling Mechanism",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "545",
+    "Name": "DEPRECATED: Use of Dynamic Class Loading",
     "Abstraction": "Variant",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "546",
+    "Name": "Suspicious Comment",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "547",
+    "Name": "Use of Hard-coded, Security-relevant Constants",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "548",
+    "Name": "Exposure of Information Through Directory Listing",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "549",
+    "Name": "Missing Password Field Masking",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "55",
+    "Name": "Path Equivalence: '/./' (Single Dot Directory)",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "550",
+    "Name": "Server-generated Error Message Containing Sensitive Information",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "551",
+    "Name": "Incorrect Behavior Order: Authorization Before Parsing and Canonicalization",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "552",
+    "Name": "Files or Directories Accessible to External Parties",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "553",
+    "Name": "Command Shell in Externally Accessible Directory",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "554",
+    "Name": "ASP.NET Misconfiguration: Not Using Input Validation Framework",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "555",
+    "Name": "J2EE Misconfiguration: Plaintext Password in Configuration File",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "556",
+    "Name": "ASP.NET Misconfiguration: Use of Identity Impersonation",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "558",
+    "Name": "Use of getlogin() in Multithreaded Application",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "56",
+    "Name": "Path Equivalence: 'filedir*' (Wildcard)",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "560",
+    "Name": "Use of umask() with chmod-style Argument",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "561",
+    "Name": "Dead Code",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "562",
+    "Name": "Return of Stack Variable Address",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "563",
+    "Name": "Assignment to Variable without Use",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "564",
+    "Name": "SQL Injection: Hibernate",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "565",
+    "Name": "Reliance on Cookies without Validation and Integrity Checking",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "566",
+    "Name": "Authorization Bypass Through User-Controlled SQL Primary Key",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "567",
+    "Name": "Unsynchronized Access to Shared Data in a Multithreaded Context",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "568",
+    "Name": "finalize() Method Without super.finalize()",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "57",
+    "Name": "Path Equivalence: 'fakedir/../realdir/filename'",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "570",
+    "Name": "Expression is Always False",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "571",
+    "Name": "Expression is Always True",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "572",
+    "Name": "Call to Thread run() instead of start()",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "573",
+    "Name": "Improper Following of Specification by Caller",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "574",
+    "Name": "EJB Bad Practices: Use of Synchronization Primitives",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "575",
+    "Name": "EJB Bad Practices: Use of AWT Swing",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "576",
+    "Name": "EJB Bad Practices: Use of Java I/O",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "577",
+    "Name": "EJB Bad Practices: Use of Sockets",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "578",
+    "Name": "EJB Bad Practices: Use of Class Loader",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "579",
+    "Name": "J2EE Bad Practices: Non-serializable Object Stored in Session",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "58",
+    "Name": "Path Equivalence: Windows 8.3 Filename",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "580",
+    "Name": "clone() Method Without super.clone()",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "581",
+    "Name": "Object Model Violation: Just One of Equals and Hashcode Defined",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "582",
+    "Name": "Array Declared Public, Final, and Static",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "583",
+    "Name": "finalize() Method Declared Public",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "584",
+    "Name": "Return Inside Finally Block",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "585",
+    "Name": "Empty Synchronized Block",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "586",
+    "Name": "Explicit Call to Finalize()",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "587",
+    "Name": "Assignment of a Fixed Address to a Pointer",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "588",
+    "Name": "Attempt to Access Child of a Non-structure Pointer",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "589",
+    "Name": "Call to Non-ubiquitous API",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "59",
+    "Name": "Improper Link Resolution Before File Access ('Link Following')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "590",
+    "Name": "Free of Memory not on the Heap",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "591",
+    "Name": "Sensitive Data Storage in Improperly Locked Memory",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "592",
+    "Name": "DEPRECATED: Authentication Bypass Issues",
     "Abstraction": "Class",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "593",
+    "Name": "Authentication Bypass: OpenSSL CTX Object Modified after SSL Objects are Created",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "594",
+    "Name": "J2EE Framework: Saving Unserializable Objects to Disk",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "595",
+    "Name": "Comparison of Object References Instead of Object Contents",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "596",
+    "Name": "DEPRECATED: Incorrect Semantic Object Comparison",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "597",
+    "Name": "Use of Wrong Operator in String Comparison",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "598",
+    "Name": "Use of GET Request Method With Sensitive Query Strings",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "599",
+    "Name": "Missing Validation of OpenSSL Certificate",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "6",
+    "Name": "J2EE Misconfiguration: Insufficient Session-ID Length",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "600",
+    "Name": "Uncaught Exception in Servlet ",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "601",
+    "Name": "URL Redirection to Untrusted Site ('Open Redirect')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "602",
+    "Name": "Client-Side Enforcement of Server-Side Security",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "603",
+    "Name": "Use of Client-Side Authentication",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "605",
+    "Name": "Multiple Binds to the Same Port",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "606",
+    "Name": "Unchecked Input for Loop Condition",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "607",
+    "Name": "Public Static Final Field References Mutable Object",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "608",
+    "Name": "Struts: Non-private Field in ActionForm Class",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "609",
+    "Name": "Double-Checked Locking",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "61",
+    "Name": "UNIX Symbolic Link (Symlink) Following",
     "Abstraction": "Compound",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "610",
+    "Name": "Externally Controlled Reference to a Resource in Another Sphere",
     "Abstraction": "Class",
     "Usage": "Discouraged",
     "1003_view": true
   },
   {
     "ID": "611",
+    "Name": "Improper Restriction of XML External Entity Reference",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "612",
+    "Name": "Improper Authorization of Index Containing Sensitive Information",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "613",
+    "Name": "Insufficient Session Expiration",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "614",
+    "Name": "Sensitive Cookie in HTTPS Session Without 'Secure' Attribute",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "615",
+    "Name": "Inclusion of Sensitive Information in Source Code Comments",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "616",
+    "Name": "Incomplete Identification of Uploaded File Variables (PHP)",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "617",
+    "Name": "Reachable Assertion",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "618",
+    "Name": "Exposed Unsafe ActiveX Method",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "619",
+    "Name": "Dangling Database Cursor ('Cursor Injection')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "62",
+    "Name": "UNIX Hard Link",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "620",
+    "Name": "Unverified Password Change",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "621",
+    "Name": "Variable Extraction Error",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "622",
+    "Name": "Improper Validation of Function Hook Arguments",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "623",
+    "Name": "Unsafe ActiveX Control Marked Safe For Scripting",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "624",
+    "Name": "Executable Regular Expression Error",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "625",
+    "Name": "Permissive Regular Expression",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "626",
+    "Name": "Null Byte Interaction Error (Poison Null Byte)",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "627",
+    "Name": "Dynamic Variable Evaluation",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "628",
+    "Name": "Function Call with Incorrectly Specified Arguments",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "636",
+    "Name": "Not Failing Securely ('Failing Open')",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "637",
+    "Name": "Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism')",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "638",
+    "Name": "Not Using Complete Mediation",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "639",
+    "Name": "Authorization Bypass Through User-Controlled Key",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "64",
+    "Name": "Windows Shortcut Following (.LNK)",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "640",
+    "Name": "Weak Password Recovery Mechanism for Forgotten Password",
     "Abstraction": "Base",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "641",
+    "Name": "Improper Restriction of Names for Files and Other Resources",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "642",
+    "Name": "External Control of Critical State Data",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "643",
+    "Name": "Improper Neutralization of Data within XPath Expressions ('XPath Injection')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "644",
+    "Name": "Improper Neutralization of HTTP Headers for Scripting Syntax",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "645",
+    "Name": "Overly Restrictive Account Lockout Mechanism",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "646",
+    "Name": "Reliance on File Name or Extension of Externally-Supplied File",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "647",
+    "Name": "Use of Non-Canonical URL Paths for Authorization Decisions",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "648",
+    "Name": "Incorrect Use of Privileged APIs",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "649",
+    "Name": "Reliance on Obfuscation or Encryption of Security-Relevant Inputs without Integrity Checking",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "65",
+    "Name": "Windows Hard Link",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "650",
+    "Name": "Trusting HTTP Permission Methods on the Server Side",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "651",
+    "Name": "Exposure of WSDL File Containing Sensitive Information",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "652",
+    "Name": "Improper Neutralization of Data within XQuery Expressions ('XQuery Injection')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "653",
+    "Name": "Improper Isolation or Compartmentalization",
     "Abstraction": "Class",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "654",
+    "Name": "Reliance on a Single Factor in a Security Decision",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "655",
+    "Name": "Insufficient Psychological Acceptability",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "656",
+    "Name": "Reliance on Security Through Obscurity",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "657",
+    "Name": "Violation of Secure Design Principles",
     "Abstraction": "Class",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "66",
+    "Name": "Improper Handling of File Names that Identify Virtual Resources",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "662",
+    "Name": "Improper Synchronization",
     "Abstraction": "Class",
     "Usage": "Discouraged",
     "1003_view": true
   },
   {
     "ID": "663",
+    "Name": "Use of a Non-reentrant Function in a Concurrent Context",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "664",
+    "Name": "Improper Control of a Resource Through its Lifetime",
     "Abstraction": "Pillar",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "665",
+    "Name": "Improper Initialization",
     "Abstraction": "Class",
     "Usage": "Discouraged",
     "1003_view": true
   },
   {
     "ID": "666",
+    "Name": "Operation on Resource in Wrong Phase of Lifetime",
     "Abstraction": "Class",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "667",
+    "Name": "Improper Locking",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "668",
+    "Name": "Exposure of Resource to Wrong Sphere",
     "Abstraction": "Class",
     "Usage": "Discouraged",
     "1003_view": true
   },
   {
     "ID": "669",
+    "Name": "Incorrect Resource Transfer Between Spheres",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "67",
+    "Name": "Improper Handling of Windows Device Names",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "670",
+    "Name": "Always-Incorrect Control Flow Implementation",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "671",
+    "Name": "Lack of Administrator Control over Security",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "672",
+    "Name": "Operation on a Resource after Expiration or Release",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "673",
+    "Name": "External Influence of Sphere Definition",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "674",
+    "Name": "Uncontrolled Recursion",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "675",
+    "Name": "Multiple Operations on Resource in Single-Operation Context",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "676",
+    "Name": "Use of Potentially Dangerous Function",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "680",
+    "Name": "Integer Overflow to Buffer Overflow",
     "Abstraction": "Compound",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "681",
+    "Name": "Incorrect Conversion between Numeric Types",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "682",
+    "Name": "Incorrect Calculation",
     "Abstraction": "Pillar",
     "Usage": "Discouraged",
     "1003_view": true
   },
   {
     "ID": "683",
+    "Name": "Function Call With Incorrect Order of Arguments",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "684",
+    "Name": "Incorrect Provision of Specified Functionality",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "685",
+    "Name": "Function Call With Incorrect Number of Arguments",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "686",
+    "Name": "Function Call With Incorrect Argument Type",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "687",
+    "Name": "Function Call With Incorrectly Specified Argument Value",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "688",
+    "Name": "Function Call With Incorrect Variable or Reference as Argument",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "689",
+    "Name": "Permission Race Condition During Resource Copy",
     "Abstraction": "Compound",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "69",
+    "Name": "Improper Handling of Windows ::DATA Alternate Data Stream",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "690",
+    "Name": "Unchecked Return Value to NULL Pointer Dereference",
     "Abstraction": "Compound",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "691",
+    "Name": "Insufficient Control Flow Management",
     "Abstraction": "Pillar",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "692",
+    "Name": "Incomplete Denylist to Cross-Site Scripting",
     "Abstraction": "Compound",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "693",
+    "Name": "Protection Mechanism Failure",
     "Abstraction": "Pillar",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "694",
+    "Name": "Use of Multiple Resources with Duplicate Identifier",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "695",
+    "Name": "Use of Low-Level Functionality",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "696",
+    "Name": "Incorrect Behavior Order",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "697",
+    "Name": "Incorrect Comparison",
     "Abstraction": "Pillar",
     "Usage": "Discouraged",
     "1003_view": true
   },
   {
     "ID": "698",
+    "Name": "Execution After Redirect (EAR)",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "7",
+    "Name": "J2EE Misconfiguration: Missing Custom Error Page",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "703",
+    "Name": "Improper Check or Handling of Exceptional Conditions",
     "Abstraction": "Pillar",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "704",
+    "Name": "Incorrect Type Conversion or Cast",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "705",
+    "Name": "Incorrect Control Flow Scoping",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "706",
+    "Name": "Use of Incorrectly-Resolved Name or Reference",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "707",
+    "Name": "Improper Neutralization",
     "Abstraction": "Pillar",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "708",
+    "Name": "Incorrect Ownership Assignment",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "71",
+    "Name": "DEPRECATED: Apple '.DS_Store'",
     "Abstraction": "Variant",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "710",
+    "Name": "Improper Adherence to Coding Standards",
     "Abstraction": "Pillar",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "72",
+    "Name": "Improper Handling of Apple HFS+ Alternate Data Stream Path",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "73",
+    "Name": "External Control of File Name or Path",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "732",
+    "Name": "Incorrect Permission Assignment for Critical Resource",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "733",
+    "Name": "Compiler Optimization Removal or Modification of Security-critical Code",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "74",
+    "Name": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')",
     "Abstraction": "Class",
     "Usage": "Discouraged",
     "1003_view": true
   },
   {
     "ID": "749",
+    "Name": "Exposed Dangerous Method or Function",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "75",
+    "Name": "Failure to Sanitize Special Elements into a Different Plane (Special Element Injection)",
     "Abstraction": "Class",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "754",
+    "Name": "Improper Check for Unusual or Exceptional Conditions",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "755",
+    "Name": "Improper Handling of Exceptional Conditions",
     "Abstraction": "Class",
     "Usage": "Discouraged",
     "1003_view": true
   },
   {
     "ID": "756",
+    "Name": "Missing Custom Error Page",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "757",
+    "Name": "Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "758",
+    "Name": "Reliance on Undefined, Unspecified, or Implementation-Defined Behavior",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "759",
+    "Name": "Use of a One-Way Hash without a Salt",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "76",
+    "Name": "Improper Neutralization of Equivalent Special Elements",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "760",
+    "Name": "Use of a One-Way Hash with a Predictable Salt",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "761",
+    "Name": "Free of Pointer not at Start of Buffer",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "762",
+    "Name": "Mismatched Memory Management Routines",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "763",
+    "Name": "Release of Invalid Pointer or Reference",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "764",
+    "Name": "Multiple Locks of a Critical Resource",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "765",
+    "Name": "Multiple Unlocks of a Critical Resource",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "766",
+    "Name": "Critical Data Element Declared Public",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "767",
+    "Name": "Access to Critical Private Variable via Public Method",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "768",
+    "Name": "Incorrect Short Circuit Evaluation",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "769",
+    "Name": "DEPRECATED: Uncontrolled File Descriptor Consumption",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "77",
+    "Name": "Improper Neutralization of Special Elements used in a Command ('Command Injection')",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "770",
+    "Name": "Allocation of Resources Without Limits or Throttling",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "771",
+    "Name": "Missing Reference to Active Allocated Resource",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "772",
+    "Name": "Missing Release of Resource after Effective Lifetime",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "773",
+    "Name": "Missing Reference to Active File Descriptor or Handle",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "774",
+    "Name": "Allocation of File Descriptors or Handles Without Limits or Throttling",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "775",
+    "Name": "Missing Release of File Descriptor or Handle after Effective Lifetime",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "776",
+    "Name": "Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "777",
+    "Name": "Regular Expression without Anchors",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "778",
+    "Name": "Insufficient Logging",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "779",
+    "Name": "Logging of Excessive Data",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "78",
+    "Name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "780",
+    "Name": "Use of RSA Algorithm without OAEP",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "781",
+    "Name": "Improper Address Validation in IOCTL with METHOD_NEITHER I/O Control Code",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "782",
+    "Name": "Exposed IOCTL with Insufficient Access Control",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "783",
+    "Name": "Operator Precedence Logic Error",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "784",
+    "Name": "Reliance on Cookies without Validation and Integrity Checking in a Security Decision",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "785",
+    "Name": "Use of Path Manipulation Function without Maximum-sized Buffer",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "786",
+    "Name": "Access of Memory Location Before Start of Buffer",
     "Abstraction": "Base",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "787",
+    "Name": "Out-of-bounds Write",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "788",
+    "Name": "Access of Memory Location After End of Buffer",
     "Abstraction": "Base",
     "Usage": "Discouraged",
     "1003_view": false
   },
   {
     "ID": "789",
+    "Name": "Memory Allocation with Excessive Size Value",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "79",
+    "Name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "790",
+    "Name": "Improper Filtering of Special Elements",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "791",
+    "Name": "Incomplete Filtering of Special Elements",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "792",
+    "Name": "Incomplete Filtering of One or More Instances of Special Elements",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "793",
+    "Name": "Only Filtering One Instance of a Special Element",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "794",
+    "Name": "Incomplete Filtering of Multiple Instances of Special Elements",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "795",
+    "Name": "Only Filtering Special Elements at a Specified Location",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "796",
+    "Name": "Only Filtering Special Elements Relative to a Marker",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "797",
+    "Name": "Only Filtering Special Elements at an Absolute Position",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "798",
+    "Name": "Use of Hard-coded Credentials",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "799",
+    "Name": "Improper Control of Interaction Frequency",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "8",
+    "Name": "J2EE Misconfiguration: Entity Bean Declared Remote",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "80",
+    "Name": "Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS)",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "804",
+    "Name": "Guessable CAPTCHA",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "805",
+    "Name": "Buffer Access with Incorrect Length Value",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "806",
+    "Name": "Buffer Access Using Size of Source Buffer",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "807",
+    "Name": "Reliance on Untrusted Inputs in a Security Decision",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "81",
+    "Name": "Improper Neutralization of Script in an Error Message Web Page",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "82",
+    "Name": "Improper Neutralization of Script in Attributes of IMG Tags in a Web Page",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "820",
+    "Name": "Missing Synchronization",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "821",
+    "Name": "Incorrect Synchronization",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "822",
+    "Name": "Untrusted Pointer Dereference",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "823",
+    "Name": "Use of Out-of-range Pointer Offset",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "824",
+    "Name": "Access of Uninitialized Pointer",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "825",
+    "Name": "Expired Pointer Dereference",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "826",
+    "Name": "Premature Release of Resource During Expected Lifetime",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "827",
+    "Name": "Improper Control of Document Type Definition",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "828",
+    "Name": "Signal Handler with Functionality that is not Asynchronous-Safe",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "829",
+    "Name": "Inclusion of Functionality from Untrusted Control Sphere",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "83",
+    "Name": "Improper Neutralization of Script in Attributes in a Web Page",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "830",
+    "Name": "Inclusion of Web Functionality from an Untrusted Source",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "831",
+    "Name": "Signal Handler Function Associated with Multiple Signals",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "832",
+    "Name": "Unlock of a Resource that is not Locked",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "833",
+    "Name": "Deadlock",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "834",
+    "Name": "Excessive Iteration",
     "Abstraction": "Class",
     "Usage": "Discouraged",
     "1003_view": true
   },
   {
     "ID": "835",
+    "Name": "Loop with Unreachable Exit Condition ('Infinite Loop')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "836",
+    "Name": "Use of Password Hash Instead of Password for Authentication",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "837",
+    "Name": "Improper Enforcement of a Single, Unique Action",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "838",
+    "Name": "Inappropriate Encoding for Output Context",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "839",
+    "Name": "Numeric Range Comparison Without Minimum Check",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "84",
+    "Name": "Improper Neutralization of Encoded URI Schemes in a Web Page",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "841",
+    "Name": "Improper Enforcement of Behavioral Workflow",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "842",
+    "Name": "Placement of User into Incorrect Group",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "843",
+    "Name": "Access of Resource Using Incompatible Type ('Type Confusion')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "85",
+    "Name": "Doubled Character XSS Manipulations",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "86",
+    "Name": "Improper Neutralization of Invalid Characters in Identifiers in Web Pages",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "862",
+    "Name": "Missing Authorization",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "863",
+    "Name": "Incorrect Authorization",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "87",
+    "Name": "Improper Neutralization of Alternate XSS Syntax",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "88",
+    "Name": "Improper Neutralization of Argument Delimiters in a Command ('Argument Injection')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "89",
+    "Name": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "9",
+    "Name": "J2EE Misconfiguration: Weak Access Permissions for EJB Methods",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "90",
+    "Name": "Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "908",
+    "Name": "Use of Uninitialized Resource",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "909",
+    "Name": "Missing Initialization of Resource",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "91",
+    "Name": "XML Injection (aka Blind XPath Injection)",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "910",
+    "Name": "Use of Expired File Descriptor",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "911",
+    "Name": "Improper Update of Reference Count",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "912",
+    "Name": "Hidden Functionality",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "913",
+    "Name": "Improper Control of Dynamically-Managed Code Resources",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "914",
+    "Name": "Improper Control of Dynamically-Identified Variables",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "915",
+    "Name": "Improperly Controlled Modification of Dynamically-Determined Object Attributes",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "916",
+    "Name": "Use of Password Hash With Insufficient Computational Effort",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "917",
+    "Name": "Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "918",
+    "Name": "Server-Side Request Forgery (SSRF)",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "92",
+    "Name": "DEPRECATED: Improper Sanitization of Custom Special Characters",
     "Abstraction": "Base",
     "Usage": "Prohibited",
     "1003_view": false
   },
   {
     "ID": "920",
+    "Name": "Improper Restriction of Power Consumption",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "921",
+    "Name": "Storage of Sensitive Data in a Mechanism without Access Control",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "922",
+    "Name": "Insecure Storage of Sensitive Information",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": true
   },
   {
     "ID": "923",
+    "Name": "Improper Restriction of Communication Channel to Intended Endpoints",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "924",
+    "Name": "Improper Enforcement of Message Integrity During Transmission in a Communication Channel",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "925",
+    "Name": "Improper Verification of Intent by Broadcast Receiver",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "926",
+    "Name": "Improper Export of Android Application Components",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "927",
+    "Name": "Use of Implicit Intent for Sensitive Communication",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "93",
+    "Name": "Improper Neutralization of CRLF Sequences ('CRLF Injection')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "939",
+    "Name": "Improper Authorization in Handler for Custom URL Scheme",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "94",
+    "Name": "Improper Control of Generation of Code ('Code Injection')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": true
   },
   {
     "ID": "940",
+    "Name": "Improper Verification of Source of a Communication Channel",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "941",
+    "Name": "Incorrectly Specified Destination in a Communication Channel",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "942",
+    "Name": "Permissive Cross-domain Policy with Untrusted Domains",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "943",
+    "Name": "Improper Neutralization of Special Elements in Data Query Logic",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
   },
   {
     "ID": "95",
+    "Name": "Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "96",
+    "Name": "Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection')",
     "Abstraction": "Base",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "97",
+    "Name": "Improper Neutralization of Server-Side Includes (SSI) Within a Web Page",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "98",
+    "Name": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion')",
     "Abstraction": "Variant",
     "Usage": "Allowed",
     "1003_view": false
   },
   {
     "ID": "99",
+    "Name": "Improper Control of Resource Identifiers ('Resource Injection')",
     "Abstraction": "Class",
     "Usage": "Allowed-with-Review",
     "1003_view": false
