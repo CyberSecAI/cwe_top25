@@ -1,0 +1,5786 @@
+[
+  {
+    "ID": "1004",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1007",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "102",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1021",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "1022",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1023",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "1024",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1025",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "103",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1037",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1038",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "1039",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "104",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1041",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1042",
+    "Abstraction": "Variant",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1043",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1044",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1045",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1046",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1047",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1048",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1049",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "105",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1050",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1051",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1052",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1053",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1054",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1055",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1056",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1057",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1058",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1059",
+    "Abstraction": "Class",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "106",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1060",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1061",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "1062",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1063",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1064",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1065",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1066",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1067",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1068",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1069",
+    "Abstraction": "Variant",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "107",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1070",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1071",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1072",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1073",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1074",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1075",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1076",
+    "Abstraction": "Class",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1077",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1078",
+    "Abstraction": "Class",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1079",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "108",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1080",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1082",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1083",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1084",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1085",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1086",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1087",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1088",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1089",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "109",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1090",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1091",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1092",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1093",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "1094",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1095",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1096",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1097",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1098",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1099",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "11",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "110",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1100",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1101",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1102",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1103",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1104",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1105",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1106",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1107",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1108",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1109",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "111",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1110",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1111",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1112",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1113",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1114",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1115",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1116",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1117",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1118",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1119",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "112",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1120",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "1121",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1122",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1123",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1124",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1125",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1126",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1127",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "113",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "114",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "115",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "116",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "1164",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "117",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1173",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1174",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1176",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "1177",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "118",
+    "Abstraction": "Class",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "1187",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1188",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "1189",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "119",
+    "Abstraction": "Class",
+    "Usage": "Discouraged",
+    "1003_view": true
+  },
+  {
+    "ID": "1190",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1191",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1192",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1193",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "12",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "120",
+    "Abstraction": "Base",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "1204",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1209",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "121",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "122",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1220",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1221",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1222",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1223",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1224",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1229",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "123",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1230",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1231",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1232",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1233",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1234",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1235",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1236",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "1239",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "124",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1240",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1241",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1242",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1243",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1244",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1245",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1246",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1247",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1248",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1249",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "125",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "1250",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1251",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1252",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1253",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1254",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1255",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1256",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1257",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1258",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1259",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "126",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1260",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1261",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1262",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1263",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "1264",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1265",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1266",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1267",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1268",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1269",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "127",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1270",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1271",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1272",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1273",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1274",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1275",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1276",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1277",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1278",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1279",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "128",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1280",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1281",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1282",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1283",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1284",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "1285",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1286",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1287",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1288",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1289",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "129",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "1290",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1291",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1292",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1293",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1294",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "1295",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1296",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1297",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1298",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1299",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "13",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "130",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1300",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1301",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1302",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1303",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1304",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "131",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "1310",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1311",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1312",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1313",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1314",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1315",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1316",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1317",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1318",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1319",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "132",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1320",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1321",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "1322",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1323",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1324",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "1325",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1326",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1327",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1328",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1329",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1330",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1331",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1332",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1333",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "1334",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1335",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1336",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1338",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1339",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "134",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "1341",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1342",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "135",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1351",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1357",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "138",
+    "Abstraction": "Class",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "1384",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "1385",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1386",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1389",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1390",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "1391",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "1392",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1393",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1394",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1395",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "14",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "140",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "141",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1419",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "142",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1420",
+    "Abstraction": "Base",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "1421",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1422",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1423",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "1426",
+    "Abstraction": "Base",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "143",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "144",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "145",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "146",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "147",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "148",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "149",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "15",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "150",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "151",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "152",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "153",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "154",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "155",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "156",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "157",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "158",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "159",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "160",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "161",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "162",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "163",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "164",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "165",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "166",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "167",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "168",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "170",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "172",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "173",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "174",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "175",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "176",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "177",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "178",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "179",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "180",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "181",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "182",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "183",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "184",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "185",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "186",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "187",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "188",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "190",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "191",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "192",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "193",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "194",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "195",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "196",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "197",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "198",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "20",
+    "Abstraction": "Class",
+    "Usage": "Discouraged",
+    "1003_view": true
+  },
+  {
+    "ID": "200",
+    "Abstraction": "Class",
+    "Usage": "Discouraged",
+    "1003_view": true
+  },
+  {
+    "ID": "201",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "202",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "203",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "204",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "205",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "206",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "207",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "208",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "209",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "210",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "211",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "212",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "213",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "214",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "215",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "216",
+    "Abstraction": "Class",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "217",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "218",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "219",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "22",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "220",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "221",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "222",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "223",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "224",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "225",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "226",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "228",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "229",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "23",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "230",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "231",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "232",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "233",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "234",
+    "Abstraction": "Variant",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "235",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "236",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "237",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "238",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "239",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "24",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "240",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "241",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "242",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "243",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "244",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "245",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "246",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "247",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "248",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "249",
+    "Abstraction": "Variant",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "25",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "250",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "252",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "253",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "256",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "257",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "258",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "259",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "26",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "260",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "261",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "262",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "263",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "266",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "267",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "268",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "269",
+    "Abstraction": "Class",
+    "Usage": "Discouraged",
+    "1003_view": true
+  },
+  {
+    "ID": "27",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "270",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "271",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "272",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "273",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "274",
+    "Abstraction": "Base",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "276",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "277",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "278",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "279",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "28",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "280",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "281",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "282",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "283",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "284",
+    "Abstraction": "Pillar",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "285",
+    "Abstraction": "Class",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "286",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "287",
+    "Abstraction": "Class",
+    "Usage": "Discouraged",
+    "1003_view": true
+  },
+  {
+    "ID": "288",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "289",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "29",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "290",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "291",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "292",
+    "Abstraction": "Variant",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "293",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "294",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "295",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "296",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "297",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "298",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "299",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "30",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "300",
+    "Abstraction": "Class",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "301",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "302",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "303",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "304",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "305",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "306",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "307",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "308",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "309",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "31",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "311",
+    "Abstraction": "Class",
+    "Usage": "Discouraged",
+    "1003_view": true
+  },
+  {
+    "ID": "312",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "313",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "314",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "315",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "316",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "317",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "318",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "319",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "32",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "321",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "322",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "323",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "324",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "325",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "326",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "327",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "328",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "329",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "33",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "330",
+    "Abstraction": "Class",
+    "Usage": "Discouraged",
+    "1003_view": true
+  },
+  {
+    "ID": "331",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "332",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "333",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "334",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "335",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "336",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "337",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "338",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "339",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "34",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "340",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "341",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "342",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "343",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "344",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "345",
+    "Abstraction": "Class",
+    "Usage": "Discouraged",
+    "1003_view": true
+  },
+  {
+    "ID": "346",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "347",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "348",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "349",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "35",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "350",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "351",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "352",
+    "Abstraction": "Compound",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "353",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "354",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "356",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "357",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "358",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "359",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "36",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "360",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "362",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "363",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "364",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "365",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "366",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "367",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "368",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "369",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "37",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "370",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "372",
+    "Abstraction": "Base",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "373",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "374",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "375",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "377",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "378",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "379",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "38",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "382",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "383",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "384",
+    "Abstraction": "Compound",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "385",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "386",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "39",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "390",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "391",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "392",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "393",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "394",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "395",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "396",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "397",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "40",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "400",
+    "Abstraction": "Class",
+    "Usage": "Discouraged",
+    "1003_view": true
+  },
+  {
+    "ID": "401",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "402",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "403",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "404",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "405",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "406",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "407",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "408",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "409",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "41",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "410",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "412",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "413",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "414",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "415",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "416",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "419",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "42",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "420",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "421",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "422",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "423",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "424",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "425",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "426",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "427",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "428",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "43",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "430",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "431",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "432",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "433",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "434",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "435",
+    "Abstraction": "Pillar",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "436",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "437",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "439",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "44",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "440",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "441",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "443",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "444",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "446",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "447",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "448",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "449",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "45",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "450",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "451",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "453",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "454",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "455",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "456",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "457",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "458",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "459",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "46",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "460",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "462",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "463",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "464",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "466",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "467",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "468",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "469",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "47",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "470",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "471",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "472",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "473",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "474",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "475",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "476",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "477",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "478",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "479",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "48",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "480",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "481",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "482",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "483",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "484",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "486",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "487",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "488",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "489",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "49",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "491",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "492",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "493",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "494",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "495",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "496",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "497",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "498",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "499",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "5",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "50",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "500",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "501",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "502",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "506",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "507",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "508",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "509",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "51",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "510",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "511",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "512",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "514",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "515",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "516",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "52",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "520",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "521",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "522",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "523",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "524",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "525",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "526",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "527",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "528",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "529",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "53",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "530",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "531",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "532",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "533",
+    "Abstraction": "Variant",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "534",
+    "Abstraction": "Variant",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "535",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "536",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "537",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "538",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "539",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "54",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "540",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "541",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "542",
+    "Abstraction": "Variant",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "543",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "544",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "545",
+    "Abstraction": "Variant",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "546",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "547",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "548",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "549",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "55",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "550",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "551",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "552",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "553",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "554",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "555",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "556",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "558",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "56",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "560",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "561",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "562",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "563",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "564",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "565",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "566",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "567",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "568",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "57",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "570",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "571",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "572",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "573",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "574",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "575",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "576",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "577",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "578",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "579",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "58",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "580",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "581",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "582",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "583",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "584",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "585",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "586",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "587",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "588",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "589",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "59",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "590",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "591",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "592",
+    "Abstraction": "Class",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "593",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "594",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "595",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "596",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "597",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "598",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "599",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "6",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "600",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "601",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "602",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "603",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "605",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "606",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "607",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "608",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "609",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "61",
+    "Abstraction": "Compound",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "610",
+    "Abstraction": "Class",
+    "Usage": "Discouraged",
+    "1003_view": true
+  },
+  {
+    "ID": "611",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "612",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "613",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "614",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "615",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "616",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "617",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "618",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "619",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "62",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "620",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "621",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "622",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "623",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "624",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "625",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "626",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "627",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "628",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "636",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "637",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "638",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "639",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "64",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "640",
+    "Abstraction": "Base",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "641",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "642",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "643",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "644",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "645",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "646",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "647",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "648",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "649",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "65",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "650",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "651",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "652",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "653",
+    "Abstraction": "Class",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "654",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "655",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "656",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "657",
+    "Abstraction": "Class",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "66",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "662",
+    "Abstraction": "Class",
+    "Usage": "Discouraged",
+    "1003_view": true
+  },
+  {
+    "ID": "663",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "664",
+    "Abstraction": "Pillar",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "665",
+    "Abstraction": "Class",
+    "Usage": "Discouraged",
+    "1003_view": true
+  },
+  {
+    "ID": "666",
+    "Abstraction": "Class",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "667",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "668",
+    "Abstraction": "Class",
+    "Usage": "Discouraged",
+    "1003_view": true
+  },
+  {
+    "ID": "669",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "67",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "670",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "671",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "672",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "673",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "674",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "675",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "676",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "680",
+    "Abstraction": "Compound",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "681",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "682",
+    "Abstraction": "Pillar",
+    "Usage": "Discouraged",
+    "1003_view": true
+  },
+  {
+    "ID": "683",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "684",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "685",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "686",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "687",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "688",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "689",
+    "Abstraction": "Compound",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "69",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "690",
+    "Abstraction": "Compound",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "691",
+    "Abstraction": "Pillar",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "692",
+    "Abstraction": "Compound",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "693",
+    "Abstraction": "Pillar",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "694",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "695",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "696",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "697",
+    "Abstraction": "Pillar",
+    "Usage": "Discouraged",
+    "1003_view": true
+  },
+  {
+    "ID": "698",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "7",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "703",
+    "Abstraction": "Pillar",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "704",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "705",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "706",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "707",
+    "Abstraction": "Pillar",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "708",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "71",
+    "Abstraction": "Variant",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "710",
+    "Abstraction": "Pillar",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "72",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "73",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "732",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "733",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "74",
+    "Abstraction": "Class",
+    "Usage": "Discouraged",
+    "1003_view": true
+  },
+  {
+    "ID": "749",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "75",
+    "Abstraction": "Class",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "754",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "755",
+    "Abstraction": "Class",
+    "Usage": "Discouraged",
+    "1003_view": true
+  },
+  {
+    "ID": "756",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "757",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "758",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "759",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "76",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "760",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "761",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "762",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "763",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "764",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "765",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "766",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "767",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "768",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "769",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "77",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "770",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "771",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "772",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "773",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "774",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "775",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "776",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "777",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "778",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "779",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "78",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "780",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "781",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "782",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "783",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "784",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "785",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "786",
+    "Abstraction": "Base",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "787",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "788",
+    "Abstraction": "Base",
+    "Usage": "Discouraged",
+    "1003_view": false
+  },
+  {
+    "ID": "789",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "79",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "790",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "791",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "792",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "793",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "794",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "795",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "796",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "797",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "798",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "799",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "8",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "80",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "804",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "805",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "806",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "807",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "81",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "82",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "820",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "821",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "822",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "823",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "824",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "825",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "826",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "827",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "828",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "829",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "83",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "830",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "831",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "832",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "833",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "834",
+    "Abstraction": "Class",
+    "Usage": "Discouraged",
+    "1003_view": true
+  },
+  {
+    "ID": "835",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "836",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "837",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "838",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "839",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "84",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "841",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "842",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "843",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "85",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "86",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "862",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "863",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "87",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "88",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "89",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "9",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "90",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "908",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "909",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "91",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "910",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "911",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "912",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "913",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "914",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "915",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "916",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "917",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "918",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "92",
+    "Abstraction": "Base",
+    "Usage": "Prohibited",
+    "1003_view": false
+  },
+  {
+    "ID": "920",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "921",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "922",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": true
+  },
+  {
+    "ID": "923",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "924",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "925",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "926",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "927",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "93",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "939",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "94",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": true
+  },
+  {
+    "ID": "940",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "941",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "942",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "943",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  },
+  {
+    "ID": "95",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "96",
+    "Abstraction": "Base",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "97",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "98",
+    "Abstraction": "Variant",
+    "Usage": "Allowed",
+    "1003_view": false
+  },
+  {
+    "ID": "99",
+    "Abstraction": "Class",
+    "Usage": "Allowed-with-Review",
+    "1003_view": false
+  }
+]
