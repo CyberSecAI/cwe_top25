@@ -23,7 +23,6 @@ CWE-1037,CVE-2017-5753,"Intel, ARM, and AMD processor optimizations related to s
 CWE-1037,CVE-2017-5754,"Intel processor optimizations related to speculative execution cause access control checks to be bypassed when placing data into the cache. Often known as ""Meltdown""."
 CWE-1038,CVE-2017-5715,"Intel, ARM, and AMD processor optimizations related to speculative execution and branch prediction cause access control checks to be bypassed when placing data into the cache. Often known as ""Spectre""."
 CWE-1038,CVE-2008-1685,"C compiler optimization, as allowed by specifications, removes code that is used to perform checks to detect integer overflows."
-CWE-1059,CVE-2022-3203,"A wireless access point manual specifies that the only method of configuration is via web interface (CWE-1059), but there is an undisclosed telnet server that was activated by default (CWE-912)."
 CWE-1061,CVE-2010-3860,variables declared public allow remote read of system properties such as user name and home directory.
 CWE-113,CVE-2020-15811,"Chain: Proxy uses a substring search instead of parsing the Transfer-Encoding header (CWE-697), allowing request splitting (CWE-113) and cache poisoning"
 CWE-113,CVE-2021-41084,"Scala-based HTTP interface allows request splitting and response splitting through header names, header values, status reasons, and URIs"
