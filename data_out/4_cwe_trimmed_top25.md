@@ -14,14 +14,6 @@ CVE-2022-21999: Windows Print Spooler Elevation of Privilege Vulnerability
 
 CVE-2022-1128: Inappropriate implementation in Web Share API in Google Chrome on Windows prior to 100.0.4896.60 allowed an attacker on the local network segment to leak cross-origin data via a crafted HTML page.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-400 Uncontrolled Resource Consumption
 
 ## Description
@@ -246,14 +238,6 @@ CVE-2022-39158: Affected devices improperly handle partial HTTP requests which m
 
 CVE-2022-41333: An uncontrolled resource consumption vulnerability [CWE-400] in FortiRecorder version 6.4.3 and below, 6.0.11 and below login authentication mechanism may allow an unauthenticated attacker to make the device unavailable via crafted GET requests.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-401 Missing Release of Memory after Effective Lifetime
 
 ## Description
@@ -310,14 +294,6 @@ CVE-2021-3690: A flaw was found in Undertow. A buffer leak on the incoming WebSo
 
 CVE-2022-38371: A vulnerability has been identified in APOGEE MBC (PPC) (BACnet) (All versions), APOGEE MBC (PPC) (P2 Ethernet) (All versions), APOGEE MEC (PPC) (BACnet) (All versions), APOGEE MEC (PPC) (P2 Ethernet) (All versions), APOGEE PXC Compact (BACnet) (All versions < V3.5.7), APOGEE PXC Compact (P2 Ethernet) (All versions < V2.8.21), APOGEE PXC Modular (BACnet) (All versions < V3.5.7), APOGEE PXC Modular (P2 Ethernet) (All versions < V2.8.21), Desigo PXC00-E.D (All versions >= V2.3), Desigo PXC00-U (All versions >= V2.3), Desigo PXC001-E.D (All versions >= V2.3), Desigo PXC100-E.D (All versions >= V2.3), Desigo PXC12-E.D (All versions >= V2.3), Desigo PXC128-U (All versions >= V2.3), Desigo PXC200-E.D (All versions >= V2.3), Desigo PXC22-E.D (All versions >= V2.3), Desigo PXC22.1-E.D (All versions >= V2.3), Desigo PXC36.1-E.D (All versions >= V2.3), Desigo PXC50-E.D (All versions >= V2.3), Desigo PXC64-U (All versions >= V2.3), Desigo PXM20-E (All versions >= V2.3), Nucleus NET for Nucleus PLUS V1 (All versions < V5.2a), Nucleus NET for Nucleus PLUS V2 (All versions < V5.4), Nucleus ReadyStart V3 V2012 (All versions < V2012.08.1), Nucleus ReadyStart V3 V2017 (All versions < V2017.02.4), Nucleus Source Code (All versions including affected FTP server), TALON TC Compact (BACnet) (All versions < V3.5.7), TALON TC Modular (BACnet) (All versions < V3.5.7). The FTP server does not properly release memory resources that were reserved for incomplete connection attempts by FTP clients. This could allow a remote attacker to generate a denial of service condition on devices that incorporate a vulnerable version of the FTP server.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: Yes
-
 # CWE-402 Transmission of Private Resources into a New Sphere ('Resource Leak')
 
 ## Description
@@ -333,14 +309,6 @@ CVE-2004-1033: File descriptor leak allows read of restricted files.
 ## Top 25 Examples
 
 CVE-2022-30231: A vulnerability has been identified in SICAM GridEdge Essential ARM (All versions < V2.6.6), SICAM GridEdge Essential Intel (All versions < V2.6.6), SICAM GridEdge Essential with GDS ARM (All versions < V2.6.6), SICAM GridEdge Essential with GDS Intel (All versions < V2.6.6). The affected software discloses password hashes of other users upon request. This could allow an authenticated user to retrieve another users password hash.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-403 Exposure of File Descriptor to Unintended Control Sphere ('File Descriptor Leak')
 
@@ -367,14 +335,6 @@ CVE-2003-0937: User bypasses restrictions by obtaining a file descriptor then ca
 CVE-2004-2215: Terminal manager does not properly close file descriptors, allowing attackers to access terminals of other users.
 
 CVE-2006-5397: Module opens a file for reading twice, allowing attackers to read files.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-404 Improper Resource Shutdown or Release
 
@@ -410,14 +370,6 @@ CVE-2022-33746: P2M pool freeing may take excessively long The P2M pool backing 
 
 CVE-2022-33747: Arm: unbounded memory consumption for 2nd-level page tables Certain actions require e.g. removing pages from a guest's P2M (Physical-to-Machine) mapping. When large pages are in use to map guest pages in the 2nd-stage page tables, such a removal operation may incur a memory allocation (to replace a large mapping with individual smaller ones). These memory allocations are taken from the global memory pool. A malicious guest might be able to cause the global memory pool to be exhausted by manipulating its own P2M mappings.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-405 Asymmetric Resource Consumption (Amplification)
 
 ## Description
@@ -444,14 +396,6 @@ CVE-2002-20001: Diffie-Hellman (DHE) Key Agreement Protocol allows attackers to 
 
 CVE-2022-40735: The Diffie-Hellman Key Agreement Protocol allows use of long exponents, which are more computationally expensive than using certain "short exponents" with particular properties.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-406 Insufficient Control of Network Message Volume (Network Amplification)
 
 ## Description
@@ -475,14 +419,6 @@ CVE-2013-5211: composite: NTP feature generates large responses (high amplificat
 ## Top 25 Examples
 
 CVE-2022-0028: A PAN-OS URL filtering policy misconfiguration could allow a network-based attacker to conduct reflected and amplified TCP denial-of-service (RDoS) attacks. The DoS attack would appear to originate from a Palo Alto Networks PA-Series (hardware), VM-Series (virtual) and CN-Series (container) firewall against an attacker-specified target. To be misused by an external attacker, the firewall configuration must have a URL filtering profile with one or more blocked categories assigned to a source zone that has an external facing interface. This configuration is not typical for URL filtering and, if set, is likely unintended by the administrator. If exploited, this issue would not impact the confidentiality, integrity, or availability of our products. However, the resulting denial-of-service (DoS) attack may help obfuscate the identity of the attacker and implicate the firewall as the source of the attack. We have taken prompt action to address this issue in our PAN-OS software. All software updates for this issue are expected to be released no later than the week of August 15, 2022. This issue does not impact Panorama M-Series or Panorama virtual appliances. This issue has been resolved for all Cloud NGFW and Prisma Access customers and no additional action is required from them.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-407 Inefficient Algorithmic Complexity
 
@@ -532,14 +468,6 @@ CVE-2022-40188: Knot Resolver before 5.5.3 allows remote attackers to cause a de
 
 CVE-2022-45061: An issue was discovered in Python before 3.11.1. An unnecessary quadratic algorithm exists in one path when processing some inputs to the IDNA (RFC 3490) decoder, such that a crafted, unreasonably long name being presented to the decoder could lead to a CPU denial of service. Hostnames are often supplied by remote servers that could be controlled by a malicious actor; in such a scenario, they could trigger excessive CPU consumption on the client attempting to make use of an attacker-supplied supposed hostname. For example, the attack payload could be placed in the Location header of an HTTP response with status code 302. A fix is planned in 3.11.1, 3.10.9, 3.9.16, 3.8.16, and 3.7.16.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-408 Incorrect Behavior Order: Early Amplification
 
 ## Description
@@ -553,14 +481,6 @@ CVE-2004-2458: Tool creates directories before authenticating user.
 ## Top 25 Examples
 
 CVE-2022-2576: In Eclipse Californium version 2.0.0 to 2.7.2 and 3.0.0-3.5.0 a DTLS resumption handshake falls back to a DTLS full handshake on a parameter mismatch without using a HelloVerifyRequest. Especially, if used with certificate based cipher suites, that results in message amplification (DDoS other peers) and high CPU load (DoS own peer). The misbehavior occurs only with DTLS_VERIFY_PEERS_ON_RESUMPTION_THRESHOLD values larger than 0.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-409 Improper Handling of Highly Compressed Data (Data Amplification)
 
@@ -583,14 +503,6 @@ CVE-2022-22780: The Zoom Client for Meetings chat functionality was susceptible 
 CVE-2022-29225: Envoy is a cloud-native high-performance proxy. In versions prior to 1.22.1 secompressors accumulate decompressed data into an intermediate buffer before overwriting the body in the decode/encodeBody. This may allow an attacker to zip bomb the decompressor by sending a small highly compressed payload. Maliciously constructed zip files may exhaust system memory and cause a denial of service. Users are advised to upgrade. Users unable to upgrade may consider disabling decompression.
 
 CVE-2022-36114: Cargo is a package manager for the rust programming language. It was discovered that Cargo did not limit the amount of data extracted from compressed archives. An attacker could upload to an alternate registry a specially crafted package that extracts way more data than its size (also known as a "zip bomb"), exhausting the disk space on the machine using Cargo to download the package. Note that by design Cargo allows code execution at build time, due to build scripts and procedural macros. The vulnerabilities in this advisory allow performing a subset of the possible damage in a harder to track down way. Your dependencies must still be trusted if you want to be protected from attacks, as it's possible to perform the same attacks with build scripts and procedural macros. The vulnerability is present in all versions of Cargo. Rust 1.64, to be released on September 22nd, will include a fix for it. Since the vulnerability is just a more limited way to accomplish what a malicious build scripts or procedural macros can do, we decided not to publish Rust point releases backporting the security fix. Patch files are available for Rust 1.63.0 are available in the wg-security-response repository for people building their own toolchain. We recommend users of alternate registries to excercise care in which package they download, by only including trusted dependencies in their projects. Please note that even with these vulnerabilities fixed, by design Cargo allows arbitrary code execution at build time thanks to build scripts and procedural macros: a malicious dependency will be able to cause damage regardless of these vulnerabilities. crates.io implemented server-side checks to reject these kinds of packages years ago, and there are no packages on crates.io exploiting these vulnerabilities. crates.io users still need to excercise care in choosing their dependencies though, as the same concerns about build scripts and procedural macros apply here.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-41 Improper Resolution of Path Equivalence
 
@@ -706,14 +618,6 @@ CVE-2005-0471: Multi-Factor Vulnerability. Product generates temporary filenames
 
 CVE-2021-37315: Incorrect Access Control issue discoverd in Cloud Disk in ASUS RT-AC68U router firmware version before 3.0.0.4.386.41634 allows remote attackers to write arbitrary files via improper sanitation on the source for COPY and MOVE operations.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-410 Insufficient Resource Pool
 
 ## Description
@@ -737,14 +641,6 @@ CVE-2022-46679:  Dell PowerScale OneFS 8.2.x, 9.0.0.x - 9.4.0.x, contain an insu
 CVE-2022-2048: In Eclipse Jetty HTTP/2 server implementation, when encountering an invalid HTTP/2 request, the error handling has a bug that can wind up not properly cleaning up the active connections and associated resources. This can lead to a Denial of Service scenario where there are no enough resources left to process good requests.
 
 CVE-2022-22191: A Denial of Service (DoS) vulnerability in the processing of a flood of specific ARP traffic in Juniper Networks Junos OS on the EX4300 switch, sent from the local broadcast domain, may allow an unauthenticated network-adjacent attacker to trigger a PFEMAN watchdog timeout, causing the Packet Forwarding Engine (PFE) to crash and restart. After the restart, transit traffic will be temporarily interrupted until the PFE is reprogrammed. In a virtual chassis (VC), the impacted Flexible PIC Concentrator (FPC) may split from the VC temporarily, and join back into the VC once the PFE restarts. Continued receipt and processing of these packets will create a sustained Denial of Service (DoS) condition. This issue affects Juniper Networks Junos OS on the EX4300: All versions prior to 15.1R7-S12; 18.4 versions prior to 18.4R2-S10, 18.4R3-S11; 19.1 versions prior to 19.1R3-S8; 19.2 versions prior to 19.2R1-S9, 19.2R3-S4; 19.3 versions prior to 19.3R3-S5; 19.4 versions prior to 19.4R2-S6, 19.4R3-S7; 20.1 versions prior to 20.1R3-S3; 20.2 versions prior to 20.2R3-S3; 20.3 versions prior to 20.3R3-S2; 20.4 versions prior to 20.4R3-S1; 21.1 versions prior to 21.1R3; 21.2 versions prior to 21.2R2-S1, 21.2R3; 21.3 versions prior to 21.3R1-S2, 21.3R2.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-412 Unrestricted Externally Accessible Lock
 
@@ -770,14 +666,6 @@ CVE-2000-1198: Chain: Lock files with predictable names. Resultant from randomne
 
 CVE-2002-1869: Product does not check if it can write to a log file, allowing attackers to avoid logging by accessing the file using an exclusive lock. Overlaps unchecked error condition. This is not quite CWE-412, but close.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-413 Improper Resource Locking
 
 ## Description
@@ -800,14 +688,6 @@ CVE-2022-20422: In emulation_proc_handler of armv8_deprecated.c, there is a poss
 
 CVE-2022-24946: Improper Resource Locking vulnerability in Mitsubishi Electric MELSEC iQ-R Series R12CCPU-V firmware versions "16" and prior, Mitsubishi Electric MELSEC-Q Series Q03UDECPU the first 5 digits of serial No. "24061" and prior, Mitsubishi Electric MELSEC-Q Series Q04/06/10/13/20/26/50/100UDEHCPU the first 5 digits of serial No. "24061" and prior, Mitsubishi Electric MELSEC-Q Series Q03/04/06/13/26UDVCPU the first 5 digits of serial number "24051" and prior, Mitsubishi Electric MELSEC-Q Series Q04/06/13/26UDPVCPU the first 5 digits of serial number "24051" and prior, Mitsubishi Electric MELSEC-Q Series Q12DCCPU-V all versions, Mitsubishi Electric MELSEC-Q Series Q24DHCCPU-V(G) all versions, Mitsubishi Electric MELSEC-Q Series Q24/26DHCCPU-LS all versions, Mitsubishi Electric MELSEC-L series L02/06/26CPU(-P) the first 5 digits of serial number "24051" and prior, Mitsubishi Electric MELSEC-L series L26CPU-(P)BT the first 5 digits of serial number "24051" and prior and Mitsubishi Electric MELIPC Series MI5122-VW firmware versions "05" and prior allows a remote unauthenticated attacker to cause a denial of service (DoS) condition in Ethernet communications by sending specially crafted packets. A system reset of the products is required for recovery.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-414 Missing Lock Check
 
 ## Description
@@ -817,14 +697,6 @@ A product does not check to see if a lock is present before performing sensitive
 ## Observed Examples
 
 CVE-2004-1056: Product does not properly check if a lock is present, allowing other attackers to access functionality.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-415 Double Free
 
@@ -859,14 +731,6 @@ CVE-2021-23158: A flaw was found in htmldoc in v1.9.12. Double-free in function 
 CVE-2022-2008: Double free in WebGL in Google Chrome prior to 102.0.5005.115 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
 
 CVE-2022-40304: An issue was discovered in libxml2 before 2.10.3. Certain invalid XML entity definitions can corrupt a hash table key, potentially leading to subsequent logic errors. In one case, a double-free can be provoked.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: Yes
 
 # CWE-416 Use After Free
 
@@ -1380,14 +1244,6 @@ CVE-2021-30262: Improper validation of a socket state when socket events are bei
 
 CVE-2022-35254: An unauthenticated attacker can cause a denial-of-service to the following products: Ivanti Connect Secure (ICS) in versions prior to 9.1R14.3, 9.1R15.2, 9.1R16.2, and 22.2R4, Ivanti Policy Secure (IPS) in versions prior to 9.1R17 and 22.3R1, and Ivanti Neurons for Zero-Trust Access in versions prior to 22.3R1.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: Yes
-
 # CWE-419 Unprotected Primary Channel
 
 ## Description
@@ -1397,14 +1253,6 @@ The product uses a primary channel for administration or restricted functionalit
 ## Top 25 Examples
 
 CVE-2022-33932: Dell PowerScale OneFS, versions 9.0.0 up to and including 9.1.0.19, 9.2.1.12, 9.3.0.6, and 9.4.0.2, contain an unprotected primary channel vulnerability. An unauthenticated network malicious attacker may potentially exploit this vulnerability, leading to a denial of filesystem services.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-42 Path Equivalence: 'filename.' (Trailing Dot)
 
@@ -1427,14 +1275,6 @@ CVE-2004-0061: Bypass directory access restrictions using trailing dot in URL
 CVE-2000-1133: Bypass directory access restrictions using trailing dot in URL
 
 CVE-2001-1386: Bypass check for ".lnk" extension using ".lnk."
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-420 Unprotected Alternate Channel
 
@@ -1462,14 +1302,6 @@ CVE-2004-1461: Router management interface spawns a separate TCP connection afte
 
 CVE-2022-25786: Unprotected Alternate Channel vulnerability in debug console of GateManager allows system administrator to obtain sensitive information. This issue affects: GateManager all versions prior to 9.7.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-421 Race Condition During Access to Alternate Channel
 
 ## Description
@@ -1483,14 +1315,6 @@ This creates a race condition that allows an attacker to access the channel befo
 CVE-1999-0351: FTP "Pizza Thief" vulnerability. Attacker can connect to a port that was intended for use by another client.
 
 CVE-2003-0230: Product creates Windows named pipe during authentication that another attacker can hijack by connecting to it.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-422 Unprotected Windows Messaging Channel ('Shatter')
 
@@ -1512,14 +1336,6 @@ CVE-2004-0213: Attacker uses Shatter attack to bypass GUI-enforced protection fo
 
 CVE-2004-0207: User can call certain API functions to modify certain properties of privileged programs.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-424 Improper Protection of Alternate Path
 
 ## Description
@@ -1533,14 +1349,6 @@ CVE-2022-29238: Access-control setting in web-based document collaboration tool 
 ## Top 25 Examples
 
 CVE-2022-24932: Improper Protection of Alternate Path vulnerability in Setup wizard process prior to SMR Mar-2022 Release 1 allows physical attacker package installation before finishing Setup wizard.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-425 Direct Request ('Forced Browsing')
 
@@ -1640,14 +1448,6 @@ CVE-2022-1551: The SP Project & Document Manager WordPress plugin before 4.58 us
 
 CVE-2022-4057: The Autoptimize WordPress plugin before 3.1.0 uses an easily guessable path to store plugin's exported settings and logs.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-426 Untrusted Search Path
 
 ## Description
@@ -1695,14 +1495,6 @@ CVE-2022-25366: Cryptomator through 1.6.5 allows DYLIB injection because, althou
 CVE-2022-39245: Mist is the command-line interface for the makedeb Package Repository. Prior to version 0.9.5, a user-provided `sudo` binary via the `PATH` variable can allow a local user to run arbitrary commands on the user's system with root permissions. Versions 0.9.5 and later contain a patch. No known workarounds exist.
 
 CVE-2021-21817: An information disclosure vulnerability exists in the Zebra IP Routing Manager functionality of D-LINK DIR-3040 1.13B03. A specially crafted network request can lead to the disclosure of sensitive information. An attacker can send a sequence of requests to trigger this vulnerability.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
 
 # CWE-427 Uncontrolled Search Path Element
 
@@ -1826,14 +1618,6 @@ CVE-2022-23853: The LSP (Language Server Protocol) plugin in KDE Kate before 21.
 
 CVE-2022-22528: SAP Adaptive Server Enterprise (ASE) - version 16.0, installation makes an entry in the system PATH environment variable in Windows platform which, under certain conditions, allows a Standard User to execute malicious Windows binaries which may lead to privilege escalation on the local system. The issue is with the ASE installer and does not impact other ASE binaries. 
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-428 Unquoted Search Path or Element
 
 ## Description
@@ -1854,14 +1638,6 @@ CVE-2000-1128: Applies to "Common Files" folder, with a malicious common.exe, in
 
 CVE-2022-39959: Panini Everest Engine 2.0.4 allows unprivileged users to create a file named Everest.exe in the %PROGRAMDATA%\\Panini folder. This leads to privilege escalation because a service, running as SYSTEM, uses the unquoted path of %PROGRAMDATA%\\Panini\\Everest Engine\\EverestEngine.exe and therefore a Trojan horse %PROGRAMDATA%\\Panini\\Everest.exe may be executed instead of the intended vendor-supplied EverestEngine.exe file.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-43 Path Equivalence: 'filename....' (Multiple Trailing Dot)
 
 ## Description
@@ -1871,14 +1647,6 @@ The product accepts path input in the form of multiple trailing dot ('filedir...
 ## Observed Examples
 
 CVE-2004-0281: Multiple trailing dot allows directory listing
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-430 Deployment of Wrong Handler
 
@@ -1898,14 +1666,6 @@ CVE-2000-1052: Source code disclosure by directly invoking a servlet.
 
 CVE-2002-1742: Arbitrary Perl functions can be loaded by calling a non-existent function that activates a handler.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-431 Missing Handler
 
 ## Description
@@ -1922,14 +1682,6 @@ CVE-2022-25302: SDK for OPC Unified Architecture (OPC UA) is missing a handler f
 
 CVE-2022-25302: All versions of package asneg/opcuastack are vulnerable to Denial of Service (DoS) due to a missing handler for failed casting when unvalidated data is forwarded to boost::get function in OpcUaNodeIdBase.h. Exploiting this vulnerability is possible when sending a specifically crafted OPC UA message with a special encoded NodeId.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-432 Dangerous Signal Handler not Disabled During Sensitive Operations
 
 ## Description
@@ -1937,14 +1689,6 @@ CVE-2022-25302: All versions of package asneg/opcuastack are vulnerable to Denia
 The product uses a signal handler that shares state with other signal handlers, but it does not properly mask or prevent those signal handlers from being invoked while the original signal handler is still running.
 
 During the execution of a signal handler, it can be interrupted by another handler when a different signal is sent. If the two handlers share state - such as global variables - then an attacker can corrupt the state by sending another signal before the first handler has completed execution.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-433 Unparsed Raw Web Content Delivery
 
@@ -1969,14 +1713,6 @@ CVE-2002-0614: .inc file
 CVE-2004-2353: unparsed config.conf file
 
 CVE-2007-3365: Chain: uppercase file extensions causes web server to return script source code instead of executing the script.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-434 Unrestricted Upload of File with Dangerous Type
 
@@ -2040,14 +1776,6 @@ CVE-2022-3458: A vulnerability has been found in SourceCodester Human Resource M
 
 CVE-2022-3770: A vulnerability classified as critical was found in Yunjing CMS. This vulnerability affects unknown code of the file /index/user/upload_img.html. The manipulation of the argument file leads to unrestricted upload. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-212500.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-435 Improper Interaction Between Multiple Correctly-Behaving Entities
 
 ## Description
@@ -2061,14 +1789,6 @@ When a system or process combines multiple independent components, this often pr
 CVE-2002-0485: Anti-virus product allows bypass via Content-Type and Content-Disposition headers that are mixed case, which are still processed by some clients.
 
 CVE-2003-0411: chain: Code was ported from a case-sensitive Unix platform to a case-insensitive Windows platform where filetype handlers treat .jsp and .JSP as different extensions. JSP source code may be read because .JSP defaults to the filetype "text".
-
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Pillar
-
-- 1003 view: No
 
 # CWE-436 Interpretation Conflict
 
@@ -2102,27 +1822,11 @@ CVE-2005-4080: Interpretation conflict (non-standard behavior) enables XSS becau
 
 CVE-2022-48279: In ModSecurity before 2.9.6 and 3.x before 3.0.8, HTTP multipart requests were incorrectly parsed and could bypass the Web Application Firewall. NOTE: this is related to CVE-2022-39956 but can be considered independent changes to the ModSecurity (C language) codebase.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-437 Incomplete Model of Endpoint Features
 
 ## Description
 
 A product acts as an intermediary or monitor between two or more endpoints, but it does not have a complete model of an endpoint's features, behaviors, or state, potentially causing the product to perform incorrect actions based on this incomplete model.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-439 Behavioral Change in New Version or Environment
 
@@ -2138,27 +1842,11 @@ CVE-2005-1711: Product uses defunct method from another product that does not re
 
 CVE-2003-0411: chain: Code was ported from a case-sensitive Unix platform to a case-insensitive Windows platform where filetype handlers treat .jsp and .JSP as different extensions. JSP source code may be read because .JSP defaults to the filetype "text".
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-44 Path Equivalence: 'file.name' (Internal Dot)
 
 ## Description
 
 The product accepts path input in the form of internal dot ('file.ordir') without appropriate validation, which can lead to ambiguous path resolution and allow an attacker to traverse the file system to unintended locations or access arbitrary files.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-440 Expected Behavior Violation
 
@@ -2173,14 +1861,6 @@ CVE-2003-0187: Program uses large timeouts on unconfirmed connections resulting 
 CVE-2003-0465: "strncpy" in Linux kernel acts different than libc on x86, leading to expected behavior difference - sort of a multiple interpretation error?
 
 CVE-2005-3265: Buffer overflow in product stems the use of a third party library function that is expected to have internal protection against overflows, but doesn't.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-441 Unintended Proxy or Intermediary ('Confused Deputy')
 
@@ -2225,14 +1905,6 @@ CVE-2022-36537: ZK Framework v9.6.1, 9.6.0.1, 9.5.1.3, 9.0.1.2 and 8.6.4.1 allow
 CVE-2021-20042: An unauthenticated remote attacker can use SMA 100 as an unintended proxy or intermediary undetectable proxy to bypass firewall rules. This vulnerability affected SMA 200, 210, 400, 410 and 500v appliances.
 
 CVE-2021-36190: A unintended proxy or intermediary ('confused deputy') in Fortinet FortiWeb version 6.4.1 and below, 6.3.15 and below allows an unauthenticated attacker to access protected hosts via crafted HTTP requests.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-444 Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling')
 
@@ -2281,14 +1953,6 @@ CVE-2021-46825: Symantec Advanced Secure Gateway (ASG) and ProxySG are susceptib
 
 CVE-2022-2466: It was found that Quarkus 2.10.x does not terminate HTTP requests header context which may lead to unpredictable behavior.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-446 UI Discrepancy for Security Feature
 
 ## Description
@@ -2300,14 +1964,6 @@ When the user interface does not properly reflect what the user asks of it, then
 ## Observed Examples
 
 CVE-1999-1446: UI inconsistency; visited URLs list not cleared when "Clear History" option is selected.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-447 Unimplemented or Unsupported Feature in UI
 
@@ -2325,27 +1981,11 @@ CVE-2001-0865: Router does not implement a specific keyword when it is used in a
 
 CVE-2004-0979: Web browser does not properly modify security setting when the user sets it.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-448 Obsolete Feature in UI
 
 ## Description
 
 A UI function is obsolete and the product does not warn the user.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-449 The UI Performs the Wrong Action
 
@@ -2361,41 +2001,17 @@ CVE-2001-0081: Command line option correctly suppresses a user prompt but does n
 
 CVE-2002-1977: Product does not "time out" according to user specification, leaving sensitive data available after it has expired.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-45 Path Equivalence: 'file...name' (Multiple Internal Dot)
 
 ## Description
 
 The product accepts path input in the form of multiple internal dot ('file...dir') without appropriate validation, which can lead to ambiguous path resolution and allow an attacker to traverse the file system to unintended locations or access arbitrary files.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-450 Multiple Interpretations of UI Input
 
 ## Description
 
 The UI has multiple interpretations of user input but does not prompt the user when it selects the less secure interpretation.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-451 User Interface (UI) Misrepresentation of Critical Information
 
@@ -2493,14 +2109,6 @@ CVE-2022-22660: This issue was addressed with a new entitlement. This issue is f
 
 CVE-2022-3660: Inappropriate implementation in Full screen mode in Google Chrome on Android prior to 107.0.5304.62 allowed a remote attacker to hide the contents of the Omnibox (URL bar) via a crafted HTML page. (Chromium security severity: Medium)
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-453 Insecure Default Variable Initialization
 
 ## Description
@@ -2522,14 +2130,6 @@ CVE-2022-46831: In JetBrains TeamCity between 2022.10 and 2022.10.1 connecting t
 CVE-2022-36349: Insecure default variable initialization in BIOS firmware for some Intel(R) NUC Boards and Intel(R) NUC Kits before version MYi30060 may allow an authenticated user to potentially enable denial of service via local access.
 
 CVE-2022-4224: In multiple products of CODESYS v3 in multiple versions a remote low privileged user could utilize this vulnerability to read and modify system files and OS resources or DoS the device.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-454 External Initialization of Trusted Variables or Data Stores
 
@@ -2555,14 +2155,6 @@ CVE-2001-0084: Specify arbitrary modules using environment variable.
 
 CVE-2022-43468: External initialization of trusted variables or data stores vulnerability exists in WordPress Popular Posts 6.0.5 and earlier, therefore the vulnerable product accepts untrusted external inputs to update certain internal variables. As a result, the number of views for an article may be manipulated through a crafted input.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-455 Non-exit on Failed Initialization
 
 ## Description
@@ -2572,14 +2164,6 @@ The product does not exit or otherwise modify its operation when security-releva
 ## Observed Examples
 
 CVE-2005-1345: Product does not trigger a fatal error if missing or invalid ACLs are in a configuration file.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-456 Missing Initialization of a Variable
 
@@ -2606,14 +2190,6 @@ CVE-2005-2193: Array variable not initialized in PHP application, leading to res
 CVE-2021-22482: There is an Uninitialized variable vulnerability in Huawei Smartphone.Successful exploitation of this vulnerability may cause transmission of invalid data.
 
 CVE-2022-22704: The zabbix-agent2 package before 5.4.9-r1 for Alpine Linux sometimes allows privilege escalation to root because the design incorrectly expected that systemd would (in effect) determine part of the configuration.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-457 Use of Uninitialized Variable
 
@@ -2655,14 +2231,6 @@ CVE-2022-47012: Use of uninitialized variable in function gen_eth_recv in GNS3 d
 
 CVE-2022-40768: drivers/scsi/stex.c in the Linux kernel through 5.19.9 allows local users to obtain sensitive information from kernel memory because stex_queuecommand_lck lacks a memset for the PASSTHRU_CMD case.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-459 Incomplete Cleanup
 
 ## Description
@@ -2701,14 +2269,6 @@ CVE-2022-29160: Nextcloud Android is the Android client for Nextcloud, a self-ho
 
 CVE-2022-25664: Information disclosure due to exposure of information while GPU reads the data in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Wearables
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-46 Path Equivalence: 'filename ' (Trailing Space)
 
 ## Description
@@ -2737,14 +2297,6 @@ CVE-2001-0054: Multi-Factor Vulnerability (MFV). directory traversal and other i
 
 CVE-2002-1451: Trailing space ("+" in query string) leads to source code disclosure.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-460 Improper Cleanup on Thrown Exception
 
 ## Description
@@ -2757,14 +2309,6 @@ Often, when functions or loops become complicated, some level of resource cleanu
 
 CVE-2022-22150: A memory corruption vulnerability exists in the JavaScript engine of Foxit Software’s PDF Reader, version 11.1.0.52543. A specially-crafted PDF document can trigger an exception which is improperly handled, leaving the engine in an invalid state, which can lead to memory corruption and arbitrary code execution. An attacker needs to trick the user to open the malicious file to trigger this vulnerability. Exploitation is also possible if a user visits a specially-crafted, malicious site if the browser plugin extension is enabled.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-462 Duplicate Key in Associative List (Alist)
 
 ## Description
@@ -2772,14 +2316,6 @@ CVE-2022-22150: A memory corruption vulnerability exists in the JavaScript engin
 Duplicate keys in associative lists can lead to non-unique keys being mistaken for an error.
 
 A duplicate key entry -- if the alist is designed properly -- could be used as a constant time replace function. However, duplicate key entries could be inserted by mistake. Because of this ambiguity, duplicate key entries in an association list are not recommended and should not be allowed.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-463 Deletion of Data Structure Sentinel
 
@@ -2789,14 +2325,6 @@ The accidental deletion of a data-structure sentinel can cause serious programmi
 
 Often times data-structure sentinels are used to mark structure of the data structure. A common example of this is the null character at the end of strings. Another common example is linked lists which may contain a sentinel to mark the end of the list. It is dangerous to allow this type of control data to be easily accessible. Therefore, it is important to protect from the deletion or modification outside of some wrapper interface which provides safety.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-464 Addition of Data Structure Sentinel
 
 ## Description
@@ -2805,27 +2333,11 @@ The accidental addition of a data-structure sentinel can cause serious programmi
 
 Data-structure sentinels are often used to mark the structure of data. A common example of this is the null character at the end of strings or a special sentinel to mark the end of a linked list. It is dangerous to allow this type of control data to be easily accessible. Therefore, it is important to protect from the addition or modification of sentinels.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-466 Return of Pointer Value Outside of Expected Range
 
 ## Description
 
 A function can return a pointer to memory that is outside of the buffer that the pointer is expected to reference.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-467 Use of sizeof() on a Pointer Type
 
@@ -2835,27 +2347,11 @@ The code calls sizeof() on a malloced pointer type, which always returns the wor
 
 The use of sizeof() on a pointer can sometimes generate useful information. An obvious case is to find out the wordsize on a platform. More often than not, the appearance of sizeof(pointer) indicates a bug.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-468 Incorrect Pointer Scaling
 
 ## Description
 
 In C and C++, one may often accidentally refer to the wrong memory due to the semantics of when math operations are implicitly scaled.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-469 Use of Pointer Subtraction to Determine Size
 
@@ -2863,27 +2359,11 @@ In C and C++, one may often accidentally refer to the wrong memory due to the se
 
 The product subtracts one pointer from another in order to determine size, but this calculation can be incorrect if the pointers do not exist in the same memory chunk.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-47 Path Equivalence: ' filename' (Leading Space)
 
 ## Description
 
 The product accepts path input in the form of leading space (' filedir') without appropriate validation, which can lead to ambiguous path resolution and allow an attacker to traverse the file system to unintended locations or access arbitrary files.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-470 Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection')
 
@@ -2903,14 +2383,6 @@ CVE-2004-2331: Database system allows attackers to bypass sandbox restrictions b
 
 CVE-2021-21327: GLPI is an open-source asset and IT management software package that provides ITIL Service Desk features, licenses tracking and software auditing. In GLPI before version 9.5.4 non-authenticated user can remotely instantiate object of any class existing in the GLPI environment that can be used to carry out malicious attacks, or to start a “POP chain”. As an example of direct impact, this vulnerability affects integrity of the GLPI core platform and third-party plugins runtime misusing classes which implement some sensitive operations in their constructors or destructors. This is fixed in version 9.5.4.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-471 Modification of Assumed-Immutable Data (MAID)
 
 ## Description
@@ -2924,14 +2396,6 @@ This occurs when a particular input is critical enough to the functioning of the
 CVE-2002-1757: Relies on $PHP_SELF variable for authentication.
 
 CVE-2005-1905: Gain privileges by modifying assumed-immutable code addresses that are accessed by a driver.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-472 External Control of Assumed-Immutable Web Parameter
 
@@ -2988,14 +2452,6 @@ CVE-2021-27770: The vulnerability was discovered within the “FaviconService”
 
 CVE-2021-39409: A vulnerability exists in Online Student Rate System v1.0 that allows any user to register as an administrator without needing to be authenticated.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-473 PHP External Variable Modification
 
 ## Description
@@ -3013,14 +2469,6 @@ CVE-2002-0764: PHP remote file inclusion by modified assumed-immutable variable.
 CVE-2001-1025: Modify key variable when calling scripts that don't load a library that initializes it.
 
 CVE-2003-0754: Authentication bypass by modifying array used for authentication.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-474 Use of Function with Inconsistent Implementations
 
@@ -3042,27 +2490,11 @@ The implementation of many functions varies by platform, and at times, even by d
 
   - The function might change which return codes it can provide, or change the meaning of its return codes.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-475 Undefined Behavior for Input to API
 
 ## Description
 
 The behavior of this function is undefined unless its control parameter is set to a specific value.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-476 NULL Pointer Dereference
 
@@ -3182,14 +2614,6 @@ CVE-2022-38307: LIEF commit 5d1d643 was discovered to contain a segmentation vio
 
 CVE-2022-38497: LIEF commit 365a16a was discovered to contain a segmentation violation via the component CoreFile.tcc:69.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-477 Use of Obsolete Function
 
 ## Description
@@ -3207,14 +2631,6 @@ As programming languages evolve, functions occasionally become obsolete due to:
 
 Functions that are removed are usually replaced by newer counterparts that perform the same task in some different and hopefully improved way.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-478 Missing Default Case in Multiple Condition Expression
 
 ## Description
@@ -3222,14 +2638,6 @@ Functions that are removed are usually replaced by newer counterparts that perfo
 The code does not have a default case in an expression with multiple conditions, such as a switch statement.
 
 If a multiple-condition expression (such as a switch in C) omits the default case but does not consider or handle all possible values that could occur, then this might lead to complex logical errors and resultant weaknesses. Because of this, further decisions are made based on poor information, and cascading failure results. This cascading failure may result in any number of security issues, and constitutes a significant failure in the system.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-479 Signal Handler Use of a Non-reentrant Function
 
@@ -3248,14 +2656,6 @@ CVE-2005-0893: signal handler calls function that ultimately uses malloc()
 
 CVE-2004-2259: SIGCHLD signal to FTP server can cause crash under heavy load while executing non-reentrant functions like malloc/free.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-48 Path Equivalence: 'file name' (Internal Whitespace)
 
 ## Description
@@ -3267,14 +2667,6 @@ The product accepts path input in the form of internal space ('file(SPACE)name')
 CVE-2000-0293: Filenames with spaces allow arbitrary file deletion when the product does not properly quote them; some overlap with path traversal.
 
 CVE-2001-1567: "+" characters in query string converted to spaces before sensitive file/extension (internal space), leading to bypass of access restrictions to the file.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-480 Use of Incorrect Operator
 
@@ -3294,14 +2686,6 @@ CVE-2021-3116: Chain: Python-based HTTP Proxy server uses the wrong boolean oper
 
 CVE-2021-32648: octobercms in a CMS platform based on the Laravel PHP Framework. In affected versions of the october/system package an attacker can request an account password reset and then gain access to the account using a specially crafted request. The issue has been patched in Build 472 and v1.1.5.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-481 Assigning instead of Comparing
 
 ## Description
@@ -3310,14 +2694,6 @@ The code uses an operator for assignment when the intention was to perform a com
 
 In many languages the compare statement is very close in appearance to the assignment statement and are often confused. This bug is generally the result of a typo and usually causes obvious problems with program execution. If the comparison is in an if statement, the if statement will usually evaluate the value of the right-hand side of the predicate.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-482 Comparing instead of Assigning
 
 ## Description
@@ -3325,14 +2701,6 @@ In many languages the compare statement is very close in appearance to the assig
 The code uses an operator for comparison when the intention was to perform an assignment.
 
 In many languages, the compare statement is very close in appearance to the assignment statement; they are often confused.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-483 Incorrect Block Delimitation
 
@@ -3346,14 +2714,6 @@ In some languages, braces (or other delimiters) are optional for blocks. When th
 
 CVE-2014-1266: incorrect indentation of "goto" statement makes it more difficult to detect an incorrect goto (Apple's "goto fail")
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-484 Omitted Break Statement in Switch
 
 ## Description
@@ -3361,14 +2721,6 @@ CVE-2014-1266: incorrect indentation of "goto" statement makes it more difficult
 The product omits a break statement within a switch or similar construct, causing code associated with multiple conditions to execute. This can cause problems when the programmer only intended to execute code associated with one condition.
 
 This can lead to critical code executing in situations where it should not.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-486 Comparison of Classes by Name
 
@@ -3378,14 +2730,6 @@ The product compares classes by name, which can cause it to use the wrong class 
 
 If the decision to trust the methods and data of an object is based on the name of a class, it is possible for malicious users to send objects of the same name as trusted classes and thereby gain the trust afforded to known classes and types.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-487 Reliance on Package-level Scope
 
 ## Description
@@ -3393,14 +2737,6 @@ If the decision to trust the methods and data of an object is based on the name 
 Java packages are not inherently closed; therefore, relying on them for code security is not a good practice.
 
 The purpose of package scope is to prevent accidental access by other parts of a program. This is an ease-of-software-development feature but not a security feature.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-488 Exposure of Data Element to Wrong Session
 
@@ -3416,14 +2752,6 @@ In the case of Servlets, developers sometimes do not understand that, unless a S
 ## Top 25 Examples
 
 CVE-2022-23505: Passport-wsfed-saml2 is a ws-federation protocol and SAML2 tokens authentication provider for Passport. In versions prior to 4.6.3, a remote attacker may be able to bypass WSFed authentication on a website using passport-wsfed-saml2. A successful attack requires that the attacker is in possession of an arbitrary IDP signed assertion. Depending on the IDP used, fully unauthenticated attacks (e.g without access to a valid user) might also be feasible if generation of a signed message can be triggered. This issue is patched in version 4.6.3. Use of SAML2 authentication instead of WSFed is a workaround.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-489 Active Debug Code
 
@@ -3445,14 +2773,6 @@ CVE-2022-36348: Active debug code in some Intel (R) SPS firmware before version 
 
 CVE-2022-24797: Pomerium is an identity-aware access proxy. In distributed service mode, Pomerium's Authenticate service exposes pprof debug and prometheus metrics handlers to untrusted traffic. This can leak potentially sensitive environmental information or lead to limited denial of service conditions. This issue is patched in version v0.17.1 Workarounds: Block access to `/debug` and `/metrics` paths on the authenticate service. This can be done with any L7 proxy, including Pomerium's own proxy service.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-49 Path Equivalence: 'filename/' (Trailing Slash)
 
 ## Description
@@ -3473,27 +2793,11 @@ CVE-2001-0892: Web server allows remote attackers to view sensitive files under 
 
 CVE-2004-1814: Directory traversal vulnerability in server allows remote attackers to read protected files via .. (dot dot) sequences in an HTTP request.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-491 Public cloneable() Method Without Final ('Object Hijack')
 
 ## Description
 
 A class has a cloneable() method that is not declared final, which allows an object to be created without calling the constructor. This can cause the object to be in an unexpected state.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-492 Use of Inner Class Containing Sensitive Data
 
@@ -3502,14 +2806,6 @@ A class has a cloneable() method that is not declared final, which allows an obj
 Inner classes are translated into classes that are accessible at package scope and may expose code that the programmer intended to keep private to attackers.
 
 Inner classes quietly introduce several security concerns because of the way they are translated into Java bytecode. In Java source code, it appears that an inner class can be declared to be accessible only by the enclosing class, but Java bytecode has no concept of an inner class, so the compiler must transform an inner class declaration into a peer class with package level access to the original outer class. More insidiously, since an inner class can access private fields in its enclosing class, once an inner class becomes a peer class in bytecode, the compiler converts private fields accessed by the inner class into protected fields.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-493 Critical Public Variable Without Final Modifier
 
@@ -3521,14 +2817,6 @@ If a field is non-final and public, it can be changed once the value is set by a
 
 Mobile code, such as a Java Applet, is code that is transmitted across a network and executed on a remote machine. Because mobile code developers have little if any control of the environment in which their code will execute, special security concerns become relevant. One of the biggest environmental threats results from the risk that the mobile code will run side-by-side with other, potentially malicious, mobile code. Because all of the popular web browsers execute code from multiple sources together in the same JVM, many of the security guidelines for mobile code are focused on preventing manipulation of your objects' state and behavior by adversaries who have access to the same virtual machine where your program is running.
 Final provides security by only allowing non-mutable objects to be changed after being set. However, only objects which are not extended can be made final.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-494 Download of Code Without Integrity Check
 
@@ -3556,41 +2844,17 @@ CVE-2002-0671: VOIP phone downloads applications from web sites without verifyin
 
 CVE-2021-44168: A download of code without integrity check vulnerability in the "execute restore src-vis" command of FortiOS before 7.0.3 may allow a local authenticated attacker to download arbitrary files on the device via specially crafted update packages.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-495 Private Data Structure Returned From A Public Method
 
 ## Description
 
 The product has a method that is declared public, but returns a reference to a private data structure, which could then be modified in unexpected ways.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-496 Public Data Assigned to Private Array-Typed Field
 
 ## Description
 
 Assigning public data to a private array is equivalent to giving public access to the array.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-497 Exposure of Sensitive System Information to an Unauthorized Control Sphere
 
@@ -3619,14 +2883,6 @@ CVE-2022-28651: In JetBrains IntelliJ IDEA before 2021.3.3 it was possible to ge
 
 CVE-2022-20734: A vulnerability in Cisco SD-WAN vManage Software could allow an authenticated, local attacker to view sensitive information on an affected system. This vulnerability is due to insufficient file system restrictions. An authenticated attacker with netadmin privileges could exploit this vulnerability by accessing the vshell of an affected system. A successful exploit could allow the attacker to read sensitive information on the underlying operating system.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-498 Cloneable Class Containing Sensitive Information
 
 ## Description
@@ -3635,14 +2891,6 @@ The code contains a class with sensitive data, but the class is cloneable. The d
 
 Cloneable classes are effectively open classes, since data cannot be hidden in them. Classes that do not explicitly deny cloning can be cloned by any other class without running the constructor.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-499 Serializable Class Containing Sensitive Data
 
 ## Description
@@ -3650,12 +2898,4 @@ Cloneable classes are effectively open classes, since data cannot be hidden in t
 The code contains a class with sensitive data, but the class does not explicitly deny serialization. The data can be accessed by serializing the class through another class.
 
 Serializable classes are effectively open classes since data cannot be hidden in them. Classes that do not explicitly deny serialization can be serialized by any other class, which can then in turn use the data stored inside it.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 

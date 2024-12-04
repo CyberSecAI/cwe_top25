@@ -4,14 +4,6 @@
 
 Information sent over a network can be compromised while in transit. An attacker may be able to read or modify the contents if the data are sent in plaintext or are weakly encrypted.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-50 Path Equivalence: '//multiple/leading/slash'
 
 ## Description
@@ -42,14 +34,6 @@ CVE-2001-1072: Bypass access restrictions via multiple leading slash, which caus
 
 CVE-2004-0235: Archive extracts to arbitrary files using multiple leading slash in filenames in the archive.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-500 Public Static Field Not Marked Final
 
 ## Description
@@ -60,14 +44,6 @@ Public static variables can be read without an accessor and changed without a mu
 
 When a field is declared public but not final, the field can be read and written to by arbitrary Java code.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-501 Trust Boundary Violation
 
 ## Description
@@ -75,14 +51,6 @@ When a field is declared public but not final, the field can be read and written
 The product mixes trusted and untrusted data in the same data structure or structured message.
 
 A trust boundary can be thought of as line drawn through a program. On one side of the line, data is untrusted. On the other side of the line, data is assumed to be trustworthy. The purpose of validation logic is to allow data to safely cross the trust boundary - to move from untrusted to trusted. A trust boundary violation occurs when a program blurs the line between what is trusted and what is untrusted. By combining trusted and untrusted data in the same data structure, it becomes easier for programmers to mistakenly trust unvalidated data.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-502 Deserialization of Untrusted Data
 
@@ -172,14 +140,6 @@ CVE-2022-47986:  IBM Aspera Faspex 4.4.2 Patch Level 1 and earlier could allow a
 
 CVE-2022-36006: Arvados is an open source platform for managing, processing, and sharing genomic and other large scientific and biomedical data. A remote code execution (RCE) vulnerability in the Arvados Workbench allows authenticated attackers to execute arbitrary code via specially crafted JSON payloads. This exists in all versions up to 2.4.1 and is fixed in 2.4.2. This vulnerability is specific to the Ruby on Rails Workbench application (“Workbench 1”). We do not believe any other Arvados components, including the TypesScript browser-based Workbench application (“Workbench 2”) or API Server, are vulnerable to this attack. For versions of Arvados earlier than 2.4.2: remove the Ruby-based "Workbench 1" app ("apt-get remove arvados-workbench") from your installation as a workaround.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-506 Embedded Malicious Code
 
 ## Description
@@ -202,27 +162,11 @@ CVE-2022-42042: The d8s-networking package for Python, as distributed on PyPI, i
 
 CVE-2022-30877: The keep for python, as distributed on PyPI, included a code-execution backdoor inserted by a third party. The current version, without this backdoor, is 1.2.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-507 Trojan Horse
 
 ## Description
 
 The product appears to contain benign or useful functionality, but it also contains code that is hidden from normal operation that violates the intended security policy of the user or the system administrator.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-508 Non-Replicating Malicious Code
 
@@ -230,27 +174,11 @@ The product appears to contain benign or useful functionality, but it also conta
 
 Non-replicating malicious code only resides on the target system or product that is attacked; it does not attempt to spread to other systems.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-509 Replicating Malicious Code (Virus or Worm)
 
 ## Description
 
 Replicating malicious code, including viruses and worms, will attempt to attack other systems once it has successfully compromised the target system or the product.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-51 Path Equivalence: '/multiple//internal/slash'
 
@@ -262,27 +190,11 @@ The product accepts path input in the form of multiple internal slash ('/multipl
 
 CVE-2002-1483: Read files with full pathname using multiple internal slash.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-510 Trapdoor
 
 ## Description
 
 A trapdoor is a hidden piece of code that responds to a special input, allowing its user access to resources without passing through the normal security enforcement mechanism.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-511 Logic/Time Bomb
 
@@ -292,14 +204,6 @@ The product contains code that is designed to disrupt the legitimate operation o
 
 When the time bomb or logic bomb is detonated, it may perform a denial of service such as crashing the system, deleting critical data, or degrading system response time. This bomb might be placed within either a replicating or non-replicating Trojan horse.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-512 Spyware
 
 ## Description
@@ -307,14 +211,6 @@ When the time bomb or logic bomb is detonated, it may perform a denial of servic
 The product collects personally identifiable information about a human user or the user's activities, but the product accesses this information using other resources besides itself, and it does not require that user's explicit approval or direct input into the product.
 
 "Spyware" is a commonly used term with many definitions and interpretations. In general, it is meant to refer to products that collect information or install functionality that human users might not allow if they were fully aware of the actions being taken by the software. For example, a user might expect that tax software would collect a social security number and include it when filing a tax return, but that same user would not expect gaming software to obtain the social security number from that tax software's data.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-514 Covert Channel
 
@@ -336,14 +232,6 @@ CVE-2022-20289: In PackageInstaller, there is a possible way to determine whethe
 
 CVE-2022-20332: In PackageManager, there is a possible way to determine whether an app is installed, without query permissions, due to side channel information disclosure. This could lead to local information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-13Android ID: A-180019130
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-515 Covert Storage Channel
 
 ## Description
@@ -351,14 +239,6 @@ CVE-2022-20332: In PackageManager, there is a possible way to determine whether 
 A covert storage channel transfers information through the setting of bits by one program and the reading of those bits by another. What distinguishes this case from that of ordinary operation is that the bits are used to convey encoded information.
 
 Covert storage channels occur when out-of-band data is stored in messages for the purpose of memory reuse. Covert channels are frequently classified as either storage or timing channels. Examples would include using a file intended to hold only audit information to convey user passwords--using the name of a file or perhaps status bits associated with it that can be read by all users to signal the contents of the file. Steganography, concealing information in such a manner that no one but the intended recipient knows of the existence of the message, is a good example of a covert storage channel.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-52 Path Equivalence: '/multiple/trailing/slash//'
 
@@ -370,14 +250,6 @@ The product accepts path input in the form of multiple trailing slash ('/multipl
 
 CVE-2002-1078: Directory listings in web server using multiple trailing slash
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-520 .NET Misconfiguration: Use of Impersonation
 
 ## Description
@@ -385,14 +257,6 @@ CVE-2002-1078: Directory listings in web server using multiple trailing slash
 Allowing a .NET application to run at potentially escalated levels of access to the underlying operating and file systems can be dangerous and result in various forms of attacks.
 
 .NET server applications can optionally execute using the identity of the user authenticated to the client. The intention of this functionality is to bypass authentication and access control checks within the .NET application code. Authentication is done by the underlying web server (Microsoft Internet Information Service IIS), which passes the authenticated token, or unauthenticated anonymous token, to the .NET application. Using the token to impersonate the client, the application then relies on the settings within the NTFS directories and files to control access. Impersonation enables the application, on the server running the .NET application, to both execute code and access resources in the context of the authenticated and authorized user.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-521 Weak Password Requirements
 
@@ -409,14 +273,6 @@ CVE-2020-4574: key server application does not require strong passwords
 ## Top 25 Examples
 
 CVE-2021-36689: An issue discovered in com.samourai.wallet.PinEntryActivity.java in Streetside Samourai Wallet 0.99.96i allows attackers to view sensitive information and decrypt data via a brute force attack that uses a recovered samourai.dat file. The PIN is 5 to 8 digits, which may be insufficient in this situation.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
 
 # CWE-522 Insufficiently Protected Credentials
 
@@ -556,14 +412,6 @@ CVE-2022-30601: Insufficiently protected credentials for Intel(R) AMT and Intel(
 
 CVE-2022-30587: Gradle Enterprise through 2022.2.2 has Incorrect Access Control that leads to information disclosure.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-523 Unprotected Transport of Credentials
 
 ## Description
@@ -577,14 +425,6 @@ SSL (Secure Socket Layer) provides data confidentiality and integrity to HTTP. B
 CVE-2021-20826: Unprotected transport of credentials vulnerability in IDEC PLCs (FC6A Series MICROSmart All-in-One CPU module v2.32 and earlier, FC6A Series MICROSmart Plus CPU module v1.91 and earlier, WindLDR v8.19.1 and earlier, WindEDIT Lite v1.3.1 and earlier, and Data File Manager v2.12.1 and earlier) allows an attacker to obtain the PLC Web server user credentials from the communication between the PLC and the software. As a result, the complete access privileges to the PLC Web server may be obtained, and manipulation of the PLC output and/or suspension of the PLC may be conducted.
 
 CVE-2022-34371: Dell PowerScale OneFS, versions 9.0.0 up to and including 9.1.0.19, 9.2.1.12, 9.3.0.6, and 9.4.0.3, contain an unprotected transport of credentials vulnerability. A malicious unprivileged network attacker could potentially exploit this vulnerability, leading to full system compromise.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-524 Use of Cache Containing Sensitive Information
 
@@ -600,14 +440,6 @@ CVE-2021-44854: An issue was discovered in MediaWiki before 1.35.5, 1.36.x befor
 
 CVE-2022-23498: Grafana is an open-source platform for monitoring and observability. When datasource query caching is enabled, Grafana caches all headers, including `grafana_session`. As a result, any user that queries a datasource where the caching is enabled can acquire another user’s session. To mitigate the vulnerability you can disable datasource query caching for all datasources. This issue has been patched in versions 9.2.10 and 9.3.4. 
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-525 Use of Web Browser Cache Containing Sensitive Information
 
 ## Description
@@ -619,14 +451,6 @@ The web application does not use an appropriate caching policy that specifies th
 CVE-2022-24742: Sylius is an open source eCommerce platform. Prior to versions 1.9.10, 1.10.11, and 1.11.2, any other user can view the data if browser tab remains unclosed after log out. The issue is fixed in versions 1.9.10, 1.10.11, and 1.11.2. A workaround is available. The application must strictly redirect to login page even browser back button is pressed. Another possibility is to set more strict cache policies for restricted content.
 
 CVE-2022-24747: Shopware is an open commerce platform based on the Symfony php Framework and the Vue javascript framework. Affected versions of shopware do no properly set sensitive HTTP headers to be non-cacheable. If there is an HTTP cache between the server and client then headers may be exposed via HTTP caches. This issue has been resolved in version 6.4.8.2. There are no known workarounds.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-526 Cleartext Storage of Sensitive Information in an Environment Variable
 
@@ -650,14 +474,6 @@ CVE-2022-46155: Airtable.js is the JavaScript client for Airtable. Prior to vers
 
 CVE-2022-2739: The version of podman as released for Red Hat Enterprise Linux 7 Extras via RHSA-2022:2190 advisory included an incorrect version of podman missing the fix for CVE-2020-14370, which was previously fixed via RHSA-2020:5056. This issue could possibly allow an attacker to gain access to sensitive information stored in environment variables.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-527 Exposure of Version-Control Repository to an Unauthorized Control Sphere
 
 ## Description
@@ -666,27 +482,11 @@ The product stores a CVS, git, or other repository in a directory, archive, or o
 
 Version control repositories such as CVS or git store version-specific metadata and other details within subdirectories. If these subdirectories are stored on a web server or added to an archive, then these could be used by an attacker. This information may include usernames, filenames, path root, IP addresses, and detailed "diff" data about how files have been changed - which could reveal source code snippets that were never intended to be made public.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-528 Exposure of Core Dump File to an Unauthorized Control Sphere
 
 ## Description
 
 The product generates a core dump file in a directory, archive, or other resource that is stored, transferred, or otherwise made accessible to unauthorized actors.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-529 Exposure of Access Control List Files to an Unauthorized Control Sphere
 
@@ -696,27 +496,11 @@ The product stores access control list files in a directory or other container t
 
 Exposure of these access control list files may give the attacker information about the configuration of the site or system. This information may then be used to bypass the intended security policy or identify trusted systems from which an attack can be launched.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-53 Path Equivalence: '\multiple\\internal\backslash'
 
 ## Description
 
 The product accepts path input in the form of multiple internal backslash ('\multiple\trailing\\slash') without appropriate validation, which can lead to ambiguous path resolution and allow an attacker to traverse the file system to unintended locations or access arbitrary files.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-530 Exposure of Backup File to an Unauthorized Control Sphere
 
@@ -726,27 +510,11 @@ A backup file is stored in a directory or archive that is made accessible to una
 
 Often, older backup files are renamed with an extension such as .~bk to distinguish them from production files. The source code for old files that have been renamed in this manner and left in the webroot can often be retrieved. This renaming may have been performed automatically by the web server, or manually by the administrator.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-531 Inclusion of Sensitive Information in Test Code
 
 ## Description
 
 Accessible test applications can pose a variety of security risks. Since developers or administrators rarely consider that someone besides themselves would even know about the existence of these applications, it is common for them to contain sensitive information or functions.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-532 Insertion of Sensitive Information into Log File
 
@@ -826,27 +594,11 @@ CVE-2022-39043: Juiker app stores debug logs which contains sensitive informatio
 
 CVE-2022-42439:  IBM App Connect Enterprise 11.0.0.17 through 11.0.0.19 and 12.0.4.0 and 12.0.5.0 contains an unspecified vulnerability in the Discovery Connector nodes which may cause a 3rd party system’s credentials to be exposed to a privileged attacker. IBM X-Force ID: 238211. 
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-535 Exposure of Information Through Shell Error Message
 
 ## Description
 
 A command shell error message indicates that there exists an unhandled exception in the web application code. In many cases, an attacker can leverage the conditions that cause these errors in order to gain unauthorized access to the system.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-536 Servlet Runtime Error Message Containing Sensitive Information
 
@@ -854,27 +606,11 @@ A command shell error message indicates that there exists an unhandled exception
 
 A servlet error message indicates that there exists an unhandled exception in your web application code and may provide useful information to an attacker.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-537 Java Runtime Error Message Containing Sensitive Information
 
 ## Description
 
 In many cases, an attacker can leverage the conditions that cause unhandled exception errors in order to gain unauthorized access to the system.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-538 Insertion of Sensitive Information into Externally-Accessible File or Directory
 
@@ -896,14 +632,6 @@ CVE-2022-0013: A file information exposure vulnerability exists in the Palo Alto
 
 CVE-2022-24782: Discourse is an open source discussion platform. Versions 2.8.2 and prior in the `stable` branch, 2.9.0.beta3 and prior in the `beta` branch, and 2.9.0.beta3 and prior in the `tests-passed` branch are vulnerable to a data leak. Users can request an export of their own activity. Sometimes, due to category settings, they may have category membership for a secure category. The name of this secure category is shown to the user in the export. The same thing occurs when the user's post has been moved to a secure category. A patch for this issue is available in the `main` branch of Discourse's GitHub repository and is anticipated to be part of future releases.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-539 Use of Persistent Cookies Containing Sensitive Information
 
 ## Description
@@ -911,14 +639,6 @@ CVE-2022-24782: Discourse is an open source discussion platform. Versions 2.8.2 
 The web application uses persistent cookies, but the cookies contain sensitive information.
 
 Cookies are small bits of data that are sent by the web application but stored locally in the browser. This lets the application use the cookie to pass information between pages and store variable information. The web application controls what information is stored in a cookie and how it is used. Typical types of information stored in cookies are session identifiers, personalization and customization information, and in rare cases even usernames to enable automated logins. There are two different types of cookies: session cookies and persistent cookies. Session cookies just live in the browser's memory and are not stored anywhere, but persistent cookies are stored on the browser's hard drive. This can cause security and privacy issues depending on the information stored in the cookie and how it is accessed.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-54 Path Equivalence: 'filedir\' (Trailing Backslash)
 
@@ -931,14 +651,6 @@ The product accepts path input in the form of trailing backslash ('filedir\') wi
 CVE-2004-0847: web framework for .NET allows remote attackers to bypass authentication for .aspx files in restricted directories via a request containing a (1) "\" (backslash) or (2) "%5C" (encoded backslash)
 
 CVE-2004-0061: Bypass directory access restrictions using trailing dot in URL
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-540 Inclusion of Sensitive Information in Source Code
 
@@ -964,27 +676,11 @@ CVE-2022-43959: Insufficiently Protected Credentials in the AD/LDAP server setti
 
 CVE-2022-25512: FreeTAKServer-UI v1.9.8 was discovered to leak sensitive API and Websocket keys.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-541 Inclusion of Sensitive Information in an Include File
 
 ## Description
 
 If an include file source is accessible, the file can contain usernames and passwords, as well as sensitive information pertaining to the application and system.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-543 Use of Singleton Pattern Without Synchronization in a Multithreaded Context
 
@@ -994,14 +690,6 @@ The product uses the singleton pattern when creating a resource within a multith
 
 The use of a singleton pattern may not be thread-safe.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-544 Missing Standardized Error Handling Mechanism
 
 ## Description
@@ -1009,14 +697,6 @@ The use of a singleton pattern may not be thread-safe.
 The product does not use a standardized method for handling errors throughout the code, which might introduce inconsistent error handling and resultant weaknesses.
 
 If the product handles error messages individually, on a one-by-one basis, this is likely to result in inconsistent error handling. The causes of errors may be lost. Also, detailed information about the causes of an error may be unintentionally returned to the user.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-546 Suspicious Comment
 
@@ -1026,14 +706,6 @@ The code contains comments that suggest the presence of bugs, incomplete functio
 
 Many suspicious comments, such as BUG, HACK, FIXME, LATER, LATER2, TODO, in the code indicate missing security functionality and checking. Others indicate code problems that programmers should fix, such as hard-coded variables, error handling, not using stored procedures, and performance issues.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-547 Use of Hard-coded, Security-relevant Constants
 
 ## Description
@@ -1041,14 +713,6 @@ Many suspicious comments, such as BUG, HACK, FIXME, LATER, LATER2, TODO, in the 
 The product uses hard-coded constants instead of symbolic names for security-critical values, which increases the likelihood of mistakes during code maintenance or security policy change.
 
 If the developer does not find all occurrences of the hard-coded constants, an incorrect policy decision may be made if one of the constants is not changed. Making changes to these values will require code changes that may be difficult or impossible once the system is released to the field. In addition, these hard-coded values may become available to attackers if the code is ever disclosed.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-548 Exposure of Information Through Directory Listing
 
@@ -1067,14 +731,6 @@ CVE-2021-45421: Emerson Dixell XWEB-500 products are affected by information dis
 CVE-2022-2558: The Simple Job Board WordPress plugin before 2.10.0 is susceptible to Directory Listing which allows the public listing of uploaded resumes in certain configurations.
 
 CVE-2022-30625: Directory listing is a web server function that displays the directory contents when there is no index file in a specific website directory. A directory listing provides an attacker with the complete index of all the resources located inside of the directory. The specific risks and consequences vary depending on which files are listed and accessible.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-549 Missing Password Field Masking
 
@@ -1095,14 +751,6 @@ CVE-2022-20914: A vulnerability in the External RESTful Services (ERS) API of Ci
 CVE-2022-22550: Dell PowerScale OneFS, versions 8.2.2 and above, contain a password disclosure vulnerability. An unprivileged local attacker could potentially exploit this vulnerability, leading to account take over.
 
 CVE-2022-23109: Jenkins HashiCorp Vault Plugin 3.7.0 and earlier does not mask Vault credentials in Pipeline build logs or in Pipeline step descriptions when Pipeline: Groovy Plugin 2.85 or later is installed.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-55 Path Equivalence: '/./' (Single Dot Directory)
 
@@ -1126,14 +774,6 @@ CVE-2002-0112: Server allows remote attackers to view password protected files v
 
 CVE-2021-40539: Zoho ManageEngine ADSelfService Plus version 6113 and prior is vulnerable to REST API authentication bypass with resultant remote code execution.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-550 Server-generated Error Message Containing Sensitive Information
 
 ## Description
@@ -1141,14 +781,6 @@ CVE-2021-40539: Zoho ManageEngine ADSelfService Plus version 6113 and prior is v
 Certain conditions, such as network failure, will cause a server error message to be displayed.
 
 While error messages in and of themselves are not dangerous, per se, it is what an attacker can glean from them that might cause eventual problems.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-551 Incorrect Behavior Order: Authorization Before Parsing and Canonicalization
 
@@ -1161,14 +793,6 @@ For instance, the character strings /./ and / both mean current directory. If /S
 ## Top 25 Examples
 
 CVE-2021-32777: Envoy is an open source L7 proxy and communication bus designed for large modern service oriented architectures. In affected versions when ext-authz extension is sending request headers to the external authorization service it must merge multiple value headers according to the HTTP spec. However, only the last header value is sent. This may allow specifically crafted requests to bypass authorization. Attackers may be able to escalate privileges when using ext-authz extension or back end service that uses multiple value headers for authorization. A specifically constructed request may be delivered by an untrusted downstream peer in the presence of ext-authz extension. Envoy versions 1.19.1, 1.18.4, 1.17.4, 1.16.5 contain fixes to the ext-authz extension to correctly merge multiple request header values, when sending request for authorization.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-552 Files or Directories Accessible to External Parties
 
@@ -1195,41 +819,17 @@ CVE-2022-23621: XWiki Platform is a generic wiki platform offering runtime servi
 
 CVE-2022-2834: The Helpful WordPress plugin before 4.5.26 puts the exported logs and feedbacks in a publicly accessible location and guessable names, which could allow attackers to download them and retrieve sensitive information such as IP, Names and Email Address depending on the plugin's settings
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-553 Command Shell in Externally Accessible Directory
 
 ## Description
 
 A possible shell file exists in /cgi-bin/ or other accessible directories. This is extremely dangerous and can be used by an attacker to execute commands on the web server.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-554 ASP.NET Misconfiguration: Not Using Input Validation Framework
 
 ## Description
 
 The ASP.NET application does not use an input validation framework.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-555 J2EE Misconfiguration: Plaintext Password in Configuration File
 
@@ -1239,14 +839,6 @@ The J2EE application stores a plaintext password in a configuration file.
 
 Storing a plaintext password in a configuration file allows anyone who can read the file to access the password-protected resource, making it an easy target for attackers.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-556 ASP.NET Misconfiguration: Use of Identity Impersonation
 
 ## Description
@@ -1255,14 +847,6 @@ Configuring an ASP.NET application to run with impersonated credentials may give
 
 The use of impersonated credentials allows an ASP.NET application to run with either the privileges of the client on whose behalf it is executing or with arbitrary privileges granted in its configuration.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-558 Use of getlogin() in Multithreaded Application
 
 ## Description
@@ -1270,14 +854,6 @@ The use of impersonated credentials allows an ASP.NET application to run with ei
 The product uses the getlogin() function in a multithreaded context, potentially causing it to return incorrect values.
 
 The getlogin() function returns a pointer to a string that contains the name of the user associated with the calling process. The function is not reentrant, meaning that if it is called from another process, the contents are not locked out and the value of the string can be changed by another process. This makes it very risky to use because the username can be changed by other processes, so the results of the function cannot be trusted.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-56 Path Equivalence: 'filedir*' (Wildcard)
 
@@ -1291,27 +867,11 @@ CVE-2004-0696: List directories using desired path and "*"
 
 CVE-2002-0433: List files in web server using "*.ext"
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-560 Use of umask() with chmod-style Argument
 
 ## Description
 
 The product calls umask() with an incorrect argument that is specified as if it is an argument to chmod().
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-561 Dead Code
 
@@ -1325,14 +885,6 @@ Dead code is code that can never be executed in a running program. The surroundi
 
 CVE-2014-1266: chain: incorrect "goto" in Apple SSL product bypasses certificate validation, allowing Adversary-in-the-Middle (AITM) attack (Apple "goto fail" bug). CWE-705 (Incorrect Control Flow Scoping) -> CWE-561 (Dead Code) -> CWE-295 (Improper Certificate Validation) -> CWE-393 (Return of Wrong Status Code) -> CWE-300 (Channel Accessible by Non-Endpoint).
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-562 Return of Stack Variable Address
 
 ## Description
@@ -1340,14 +892,6 @@ CVE-2014-1266: chain: incorrect "goto" in Apple SSL product bypasses certificate
 A function returns the address of a stack variable, which will cause unintended program behavior, typically in the form of a crash.
 
 Because local variables are allocated on the stack, when a program returns a pointer to a local variable, it is returning a stack address. A subsequent function call is likely to re-use this same stack address, thereby overwriting the value of the pointer, which no longer corresponds to the same variable since a function's stack frame is invalidated when it returns. At best this will cause the value of the pointer to change unexpectedly. In many cases it causes the program to crash the next time the pointer is dereferenced.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-563 Assignment to Variable without Use
 
@@ -1357,27 +901,11 @@ The variable's value is assigned but never used, making it a dead store.
 
 After the assignment, the variable is either assigned another value or goes out of scope. It is likely that the variable is simply vestigial, but it is also possible that the unused variable points out a bug.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-564 SQL Injection: Hibernate
 
 ## Description
 
 Using Hibernate to execute a dynamic SQL statement built with user-controlled input can allow an attacker to modify the statement's meaning or to execute arbitrary SQL commands.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-565 Reliance on Cookies without Validation and Integrity Checking
 
@@ -1394,14 +922,6 @@ CVE-2008-5784: e-dating application allows admin privileges by setting the admin
 ## Top 25 Examples
 
 CVE-2022-1148: Improper authorization in GitLab Pages included with GitLab CE/EE affecting all versions from 11.5 prior to 14.7.7, 14.8 prior to 14.8.5, and 14.9 prior to 14.9.2 allowed an attacker to steal a user's access token on an attacker-controlled private GitLab Pages website and reuse that token on the victim's other private websites
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
 
 # CWE-566 Authorization Bypass Through User-Controlled SQL Primary Key
 
@@ -1421,14 +941,6 @@ Database access control errors occur when:
 
   - The untrusted source does not have the permissions to be able to access all rows in the associated table.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-567 Unsynchronized Access to Shared Data in a Multithreaded Context
 
 ## Description
@@ -1440,14 +952,6 @@ Within servlets, shared static variables are not protected from concurrent acces
 
 Note that this weakness is not unique to servlets.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-568 finalize() Method Without super.finalize()
 
 ## Description
@@ -1455,14 +959,6 @@ Note that this weakness is not unique to servlets.
 The product contains a finalize() method that does not call super.finalize().
 
 The Java Language Specification states that it is a good practice for a finalize() method to call super.finalize().
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-57 Path Equivalence: 'fakedir/../realdir/filename'
 
@@ -1478,41 +974,17 @@ CVE-2000-0191: application check access for restricted URL before canonicalizati
 
 CVE-2005-1366: CGI source disclosure using "dirname/../cgi-bin"
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-570 Expression is Always False
 
 ## Description
 
 The product contains an expression that will always evaluate to false.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-571 Expression is Always True
 
 ## Description
 
 The product contains an expression that will always evaluate to true.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-572 Call to Thread run() instead of start()
 
@@ -1521,14 +993,6 @@ The product contains an expression that will always evaluate to true.
 The product calls a thread's run() method instead of calling start(), which causes the code to run in the thread of the caller instead of the callee.
 
 In most cases a direct call to a Thread object's run() method is a bug. The programmer intended to begin a new thread of control, but accidentally called run() instead of start(), so the run() method will execute in the caller's thread of control.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-573 Improper Following of Specification by Caller
 
@@ -1544,14 +1008,6 @@ CVE-2006-7140: Crypto implementation removes padding when it shouldn't, allowing
 
 CVE-2006-4339: Crypto implementation removes padding when it shouldn't, allowing forged signatures
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-574 EJB Bad Practices: Use of Synchronization Primitives
 
 ## Description
@@ -1559,14 +1015,6 @@ CVE-2006-4339: Crypto implementation removes padding when it shouldn't, allowing
 The product violates the Enterprise JavaBeans (EJB) specification by using thread synchronization primitives.
 
 The Enterprise JavaBeans specification requires that every bean provider follow a set of programming guidelines designed to ensure that the bean will be portable and behave consistently in any EJB container. In this case, the product violates the following EJB guideline: "An enterprise bean must not use thread synchronization primitives to synchronize execution of multiple instances." The specification justifies this requirement in the following way: "This rule is required to ensure consistent runtime semantics because while some EJB containers may use a single JVM to execute all enterprise bean's instances, others may distribute the instances across multiple JVMs."
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-575 EJB Bad Practices: Use of AWT Swing
 
@@ -1576,14 +1024,6 @@ The product violates the Enterprise JavaBeans (EJB) specification by using AWT/S
 
 The Enterprise JavaBeans specification requires that every bean provider follow a set of programming guidelines designed to ensure that the bean will be portable and behave consistently in any EJB container. In this case, the product violates the following EJB guideline: "An enterprise bean must not use the AWT functionality to attempt to output information to a display, or to input information from a keyboard." The specification justifies this requirement in the following way: "Most servers do not allow direct interaction between an application program and a keyboard/display attached to the server system."
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-576 EJB Bad Practices: Use of Java I/O
 
 ## Description
@@ -1591,14 +1031,6 @@ The Enterprise JavaBeans specification requires that every bean provider follow 
 The product violates the Enterprise JavaBeans (EJB) specification by using the java.io package.
 
 The Enterprise JavaBeans specification requires that every bean provider follow a set of programming guidelines designed to ensure that the bean will be portable and behave consistently in any EJB container. In this case, the product violates the following EJB guideline: "An enterprise bean must not use the java.io package to attempt to access files and directories in the file system." The specification justifies this requirement in the following way: "The file system APIs are not well-suited for business components to access data. Business components should use a resource manager API, such as JDBC, to store data."
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-577 EJB Bad Practices: Use of Sockets
 
@@ -1608,14 +1040,6 @@ The product violates the Enterprise JavaBeans (EJB) specification by using socke
 
 The Enterprise JavaBeans specification requires that every bean provider follow a set of programming guidelines designed to ensure that the bean will be portable and behave consistently in any EJB container. In this case, the product violates the following EJB guideline: "An enterprise bean must not attempt to listen on a socket, accept connections on a socket, or use a socket for multicast." The specification justifies this requirement in the following way: "The EJB architecture allows an enterprise bean instance to be a network socket client, but it does not allow it to be a network server. Allowing the instance to become a network server would conflict with the basic function of the enterprise bean-- to serve the EJB clients."
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-578 EJB Bad Practices: Use of Class Loader
 
 ## Description
@@ -1624,14 +1048,6 @@ The product violates the Enterprise JavaBeans (EJB) specification by using the c
 
 The Enterprise JavaBeans specification requires that every bean provider follow a set of programming guidelines designed to ensure that the bean will be portable and behave consistently in any EJB container. In this case, the product violates the following EJB guideline: "The enterprise bean must not attempt to create a class loader; obtain the current class loader; set the context class loader; set security manager; create a new security manager; stop the JVM; or change the input, output, and error streams." The specification justifies this requirement in the following way: "These functions are reserved for the EJB container. Allowing the enterprise bean to use these functions could compromise security and decrease the container's ability to properly manage the runtime environment."
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-579 J2EE Bad Practices: Non-serializable Object Stored in Session
 
 ## Description
@@ -1639,14 +1055,6 @@ The Enterprise JavaBeans specification requires that every bean provider follow 
 The product stores a non-serializable object as an HttpSession attribute, which can hurt reliability.
 
 A J2EE application can make use of multiple JVMs in order to improve application reliability and performance. In order to make the multiple JVMs appear as a single application to the end user, the J2EE container can replicate an HttpSession object across multiple JVMs so that if one JVM becomes unavailable another can step in and take its place without disrupting the flow of the application. This is only possible if all session data is serializable, allowing the session to be duplicated between the JVMs.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-58 Path Equivalence: Windows 8.3 Filename
 
@@ -1664,14 +1072,6 @@ CVE-2001-0795: Source code disclosure using 8.3 file name.
 
 CVE-2005-0471: Multi-Factor Vulnerability. Product generates temporary filenames using long filenames, which become predictable in 8.3 format.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-580 clone() Method Without super.clone()
 
 ## Description
@@ -1680,14 +1080,6 @@ The product contains a clone() method that does not call super.clone() to obtain
 
 All implementations of clone() should obtain the new object by calling super.clone(). If a class does not follow this convention, a subclass's clone() method will return an object of the wrong type.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-581 Object Model Violation: Just One of Equals and Hashcode Defined
 
 ## Description
@@ -1695,14 +1087,6 @@ All implementations of clone() should obtain the new object by calling super.clo
 The product does not maintain equal hashcodes for equal objects.
 
 Java objects are expected to obey a number of invariants related to equality. One of these invariants is that equal objects must have equal hashcodes. In other words, if a.equals(b) == true then a.hashCode() == b.hashCode().
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-582 Array Declared Public, Final, and Static
 
@@ -1714,14 +1098,6 @@ Because arrays are mutable objects, the final constraint requires that the array
 
 Mobile code, in this case a Java Applet, is code that is transmitted across a network and executed on a remote machine. Because mobile code developers have little if any control of the environment in which their code will execute, special security concerns become relevant. One of the biggest environmental threats results from the risk that the mobile code will run side-by-side with other, potentially malicious, mobile code. Because all of the popular web browsers execute code from multiple sources together in the same JVM, many of the security guidelines for mobile code are focused on preventing manipulation of your objects' state and behavior by adversaries who have access to the same virtual machine where your product is running.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-583 finalize() Method Declared Public
 
 ## Description
@@ -1730,27 +1106,11 @@ The product violates secure coding principles for mobile code by declaring a fin
 
 A product should never call finalize explicitly, except to call super.finalize() inside an implementation of finalize(). In mobile code situations, the otherwise error prone practice of manual garbage collection can become a security threat if an attacker can maliciously invoke a finalize() method because it is declared with public access.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-584 Return Inside Finally Block
 
 ## Description
 
 The code has a return statement inside a finally block, which will cause any thrown exception in the try block to be discarded.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-585 Empty Synchronized Block
 
@@ -1760,14 +1120,6 @@ The product contains an empty synchronized block.
 
 An empty synchronized block does not actually accomplish any synchronization and may indicate a troubled section of code. An empty synchronized block can occur because code no longer needed within the synchronized block is commented out without removing the synchronized block.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-586 Explicit Call to Finalize()
 
 ## Description
@@ -1776,14 +1128,6 @@ The product makes an explicit call to the finalize() method from outside the fin
 
 While the Java Language Specification allows an object's finalize() method to be called from outside the finalizer, doing so is usually a bad idea. For example, calling finalize() explicitly means that finalize() will be called more than once: the first time will be the explicit call and the last time will be the call that is made after the object is garbage collected.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-587 Assignment of a Fixed Address to a Pointer
 
 ## Description
@@ -1791,14 +1135,6 @@ While the Java Language Specification allows an object's finalize() method to be
 The product sets a pointer to a specific address other than NULL or 0.
 
 Using a fixed address is not portable, because that address will probably not be valid in all environments or platforms.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-588 Attempt to Access Child of a Non-structure Pointer
 
@@ -1814,14 +1150,6 @@ CVE-2021-3510: JSON decoder accesses a C union using an invalid offset to an obj
 
 CVE-2021-3510: Zephyr JSON decoder incorrectly decodes array of array. Zephyr versions >= >1.14.0, >= >2.5.0 contain Attempt to Access Child of a Non-structure Pointer (CWE-588). For more information, see https://github.com/zephyrproject-rtos/zephyr/security/advisories/GHSA-289f-7mw3-2qf4
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-589 Call to Non-ubiquitous API
 
 ## Description
@@ -1829,14 +1157,6 @@ CVE-2021-3510: Zephyr JSON decoder incorrectly decodes array of array. Zephyr ve
 The product uses an API function that does not exist on all versions of the target platform. This could cause portability problems or inconsistencies that allow denial of service or other consequences.
 
 Some functions that offer security features supported by the OS are not available on all versions of the OS in common use. Likewise, functions are often deprecated or made obsolete for security reasons and should not be used.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-59 Improper Link Resolution Before File Access ('Link Following')
 
@@ -1920,14 +1240,6 @@ CVE-2022-31219: Vulnerabilities in the Drive Composer allow a low privileged att
 
 CVE-2022-21997: Windows Print Spooler Elevation of Privilege Vulnerability
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-590 Free of Memory not on the Heap
 
 ## Description
@@ -1935,14 +1247,6 @@ CVE-2022-21997: Windows Print Spooler Elevation of Privilege Vulnerability
 The product calls free() on a pointer to memory that was not allocated using associated heap allocation functions such as malloc(), calloc(), or realloc().
 
 When free() is called on an invalid pointer, the program's memory management data structures may become corrupted. This corruption can cause the program to crash or, in some circumstances, an attacker may be able to cause free() to operate on controllable memory locations to modify critical program variables or execute code.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-591 Sensitive Data Storage in Improperly Locked Memory
 
@@ -1952,14 +1256,6 @@ The product stores sensitive data in memory that is not locked, or that has been
 
 On Windows systems the VirtualLock function can lock a page of memory to ensure that it will remain present in memory and not be swapped to disk. However, on older versions of Windows, such as 95, 98, or Me, the VirtualLock() function is only a stub and provides no protection. On POSIX systems the mlock() call ensures that a page will stay resident in memory but does not guarantee that the page will not appear in the swap. Therefore, it is unsuitable for use as a protection mechanism for sensitive data. Some platforms, in particular Linux, do make the guarantee that the page will not be swapped, but this is non-standard and is not portable. Calls to mlock() also require supervisor privilege. Return values for both of these calls must be checked to ensure that the lock operation was actually successful.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-593 Authentication Bypass: OpenSSL CTX Object Modified after SSL Objects are Created
 
 ## Description
@@ -1967,14 +1263,6 @@ On Windows systems the VirtualLock function can lock a page of memory to ensure 
 The product modifies the SSL context after connection creation has begun.
 
 If the program modifies the SSL_CTX object after creating SSL objects from it, there is the possibility that older SSL objects created from the original context could all be affected by that change.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-594 J2EE Framework: Saving Unserializable Objects to Disk
 
@@ -1984,14 +1272,6 @@ When the J2EE container attempts to write unserializable objects to disk there i
 
 In heavy load conditions, most J2EE application frameworks flush objects to disk to manage memory requirements of incoming requests. For example, session scoped objects, and even application scoped objects, are written to disk when required. While these application frameworks do the real work of writing objects to disk, they do not enforce that those objects be serializable, thus leaving the web application vulnerable to crashes induced by serialization failure. An attacker may be able to mount a denial of service attack by sending enough requests to the server to force the web application to save objects to disk.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-595 Comparison of Object References Instead of Object Contents
 
 ## Description
@@ -1999,14 +1279,6 @@ In heavy load conditions, most J2EE application frameworks flush objects to disk
 The product compares object references instead of the contents of the objects themselves, preventing it from detecting equivalent objects.
 
 For example, in Java, comparing objects using == usually produces deceptive results, since the == operator compares object references rather than values; often, this means that using == for strings is actually comparing the strings' references, not their values.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-597 Use of Wrong Operator in String Comparison
 
@@ -2023,14 +1295,6 @@ CVE-2022-36072: SilverwareGames.io is a social network for users to play video g
 CVE-2021-3797: hestiacp is vulnerable to Use of Wrong Operator in String Comparison
 
 CVE-2022-1715: Account Takeover in GitHub repository neorazorx/facturascripts prior to 2022.07.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-598 Use of GET Request Method With Sensitive Query Strings
 
@@ -2056,14 +1320,6 @@ CVE-2022-24414: Dell EMC CloudLink 7.1.3 and all earlier versions, Auth Token is
 
 CVE-2022-25787: Information Exposure Through Query Strings in GET Request vulnerability in LMM API of Secomea GateManager allows system administrator to hijack connection. This issue affects: Secomea GateManager all versions prior to 9.7.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-599 Missing Validation of OpenSSL Certificate
 
 ## Description
@@ -2071,12 +1327,4 @@ CVE-2022-25787: Information Exposure Through Query Strings in GET Request vulner
 The product uses OpenSSL and trusts or uses a certificate without using the SSL_get_verify_result() function to ensure that the certificate satisfies all necessary security requirements.
 
 This could allow an attacker to use an invalid certificate to claim to be a trusted host, use expired certificates, or conduct other attacks that could be detected if the certificate is properly validated.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 

@@ -6,14 +6,6 @@ If elevated access rights are assigned to EJB methods, then an attacker can take
 
 If the EJB deployment descriptor contains one or more method permissions that grant access to the special ANYONE role, it indicates that access control for the application has not been fully thought through or that the application is structured in such a way that reasonable access control restrictions are impossible.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-90 Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection')
 
 ## Description
@@ -37,14 +29,6 @@ CVE-2022-24832: GoCD is an open source a continuous delivery server. The bundled
 CVE-2022-22975: An issue was discovered in the Pinniped Supervisor with either LADPIdentityProvider or ActiveDirectoryIdentityProvider resources. An attack would involve the malicious user changing the common name (CN) of their user entry on the LDAP or AD server to include special characters, which could be used to perform LDAP query injection on the Supervisor's LDAP query which determines their Kubernetes group membership.
 
 CVE-2022-31088: LDAP Account Manager (LAM) is a webfrontend for managing entries (e.g. users, groups, DHCP settings) stored in an LDAP directory. In versions prior to 8.0 the user name field at login could be used to enumerate LDAP data. This is only the case for LDAP search configuration. This issue has been fixed in version 8.0.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-908 Use of Uninitialized Resource
 
@@ -106,14 +90,6 @@ CVE-2022-38668: HTTP applications (servers) based on Crow through 1.0+4 may reve
 
 CVE-2022-0494: A kernel information leak flaw was identified in the scsi_ioctl function in drivers/scsi/scsi_ioctl.c in the Linux kernel. This flaw allows a local attacker with a special user privilege (CAP_SYS_ADMIN or CAP_SYS_RAWIO) to create issues with confidentiality.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-909 Missing Initialization of Resource
 
 ## Description
@@ -140,14 +116,6 @@ CVE-2021-0946: The method PVRSRVBridgePMRPDumpSymbolicAddr allocates puiMemspace
 
 CVE-2021-0947: The method PVRSRVBridgeTLDiscoverStreams allocates puiStreamsInt on the heap, fills the contents of the buffer via TLServerDiscoverStreamsKM, and then copies the buffer to userspace. The method TLServerDiscoverStreamsKM may fail for several reasons including invalid sizes. If this method fails the buffer will be left uninitialized and despite the error will still be copied to userspace. Kernel leak of uninitialized heap data with no privs required.Product: AndroidVersions: Android SoCAndroid ID: A-236838960
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-91 XML Injection (aka Blind XPath Injection)
 
 ## Description
@@ -156,14 +124,6 @@ The product does not properly neutralize special elements that are used in XML, 
 
 Within XML, special elements could include reserved words or characters such as "<", ">", """, and "&", which could then be used to add new data or modify XML syntax.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-910 Use of Expired File Descriptor
 
 ## Description
@@ -171,14 +131,6 @@ Within XML, special elements could include reserved words or characters such as 
 The product uses or accesses a file descriptor after it has been closed.
 
 After a file descriptor for a particular file or device has been released, it can be reused. The code might not write to the original file, since the reused file descriptor might reference a different file or device.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-911 Improper Update of Reference Count
 
@@ -236,14 +188,6 @@ CVE-2022-38999: The AOD module has the improper update of reference count vulner
 
 CVE-2022-3910: Use After Free vulnerability in Linux Kernel allows Privilege Escalation. An improper Update of Reference Count in io_uring leads to Use-After-Free and Local Privilege Escalation. When io_msg_ring was invoked with a fixed file, it called io_fput_file() which improperly decreased its reference count (leading to Use-After-Free and Local Privilege Escalation). Fixed files are permanently registered to the ring, and should not be put separately. We recommend upgrading past commit https://github.com/torvalds/linux/commit/fc7222c3a9f56271fba02aabbfbae999042f1679 https://github.com/torvalds/linux/commit/fc7222c3a9f56271fba02aabbfbae999042f1679 
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-912 Hidden Functionality
 
 ## Description
@@ -280,14 +224,6 @@ CVE-2022-26581: PAX A930 device with PayDroid_7.1.1_Virgo_V04.3.26T1_20210419 ca
 
 CVE-2022-29855: Mitel 6800 and 6900 Series SIP phone devices through 2022-04-27 have "undocumented functionality." A vulnerability in Mitel 6800 Series and 6900 Series SIP phones excluding 6970, versions 5.1 SP8 (5.1.0.8016) and earlier, and 6.0 (6.0.0.368) through 6.1 HF4 (6.1.0.165), could allow a unauthenticated attacker with physical access to the phone to gain root access due to insufficient access control for test functionality during system startup. A successful exploit could allow access to sensitive information and code execution.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-913 Improper Control of Dynamically-Managed Code Resources
 
 ## Description
@@ -313,14 +249,6 @@ CVE-2012-2055: Source version control product allows modification of trusted key
 CVE-2022-40634: Improper Control of Dynamically-Managed Code Resources vulnerability in Crafter Studio of Crafter CMS allows authenticated developers to execute OS commands via FreeMarker SSTI.
 
 CVE-2022-25355: EC-CUBE 3.0.0 to 3.0.18-p3 and EC-CUBE 4.0.0 to 4.1.1 improperly handle HTTP Host header values, which may lead a remote unauthenticated attacker to direct the vulnerable version of EC-CUBE to send an Email with some forged reissue-password URL to EC-CUBE users.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
 
 # CWE-914 Improper Control of Dynamically-Identified Variables
 
@@ -349,14 +277,6 @@ CVE-2007-2431: Chain: dynamic variable evaluation in PHP program used to modify 
 CVE-2006-4904: Chain: dynamic variable evaluation in PHP program used to conduct remote file inclusion.
 
 CVE-2006-4019: Dynamic variable evaluation in mail program allows reading and modifying attachments and preferences of other users.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-915 Improperly Controlled Modification of Dynamically-Determined Object Attributes
 
@@ -410,14 +330,6 @@ CVE-2008-1013: Media library allows deserialization of objects by untrusted Java
 ## Top 25 Examples
 
 CVE-2022-3225: Improper Control of Dynamically-Managed Code Resources in GitHub repository budibase/budibase prior to 1.3.20. 
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-916 Use of Password Hash With Insufficient Computational Effort
 
@@ -474,14 +386,6 @@ CVE-2022-40258: AMI Megarac Weak password hashes for Redfish & API
 
 CVE-2022-24041: A vulnerability has been identified in Desigo DXR2 (All versions < V01.21.142.5-22), Desigo PXC3 (All versions < V01.21.142.4-18), Desigo PXC4 (All versions < V02.20.142.10-10884), Desigo PXC5 (All versions < V02.20.142.10-10884). The web application stores the PBKDF2 derived key of users passwords with a low iteration count. An attacker with user profile access privilege can retrieve the stored password hashes of other accounts and then successfully perform an offline cracking attack and recover the plaintext passwords of other users.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-917 Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection')
 
 ## Description
@@ -515,14 +419,6 @@ CVE-2021-44228: Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security relea
 CVE-2022-34466: A vulnerability has been identified in Mendix Applications using Mendix 9 (All versions >= V9.11 < V9.15), Mendix Applications using Mendix 9 (V9.12) (All versions < V9.12.3). An expression injection vulnerability was discovered in the Workflow subsystem of Mendix Runtime, that can affect the running applications. The vulnerability could allow a malicious user to leak sensitive information in a certain configuration.
 
 CVE-2022-26111: The BeanShell components of IRISNext through 9.8.28 allow execution of arbitrary commands on the target server by creating a custom search (or editing an existing/predefined search) of the documents. The search components permit adding BeanShell expressions that result in Remote Code Execution in the context of the IRISNext application user, running on the web server.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
 
 # CWE-918 Server-Side Request Forgery (SSRF)
 
@@ -584,14 +480,6 @@ CVE-2022-1815: Exposure of Sensitive Information to an Unauthorized Actor in Git
 
 CVE-2021-20325: Missing fixes for CVE-2021-40438 and CVE-2021-26691 in the versions of httpd, as shipped in Red Hat Enterprise Linux 8.5.0, causes a security regression compared to the versions shipped in Red Hat Enterprise Linux 8.4. A user who installs or updates to Red Hat Enterprise Linux 8.5.0 would be vulnerable to the mentioned CVEs, even if they were properly fixed in Red Hat Enterprise Linux 8.4. CVE-2021-20325 was assigned to that Red Hat specific security regression and it does not affect the upstream versions of httpd.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-920 Improper Restriction of Power Consumption
 
 ## Description
@@ -618,14 +506,6 @@ Normal operation of an application will consume power. However, in some cases, a
 
   - USB interface
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-921 Storage of Sensitive Data in a Mechanism without Access Control
 
 ## Description
@@ -636,14 +516,6 @@ While many modern file systems or devices utilize some form of access control in
 
 
 On Android devices, external storage is typically globally readable and writable by other applications on the device. External storage may also be easily accessible through the mobile device's USB connection or physically accessible through the device's memory card port.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-922 Insecure Storage of Sensitive Information
 
@@ -664,14 +536,6 @@ CVE-2022-1257: Insecure storage of sensitive information vulnerability in MA for
 CVE-2022-34354:  IBM Sterling Partner Engagement Manager 2.0 allows encrypted storage of client data to be stored locally which can be read by another user on the system. IBM X-Force ID: 230424. 
 
 CVE-2022-41876: ezplatform-graphql is a GraphQL server implementation for Ibexa DXP and Ibexa Open Source. Versions prior to 2.3.12 and 1.0.13 are subject to Insecure Storage of Sensitive Information. Unauthenticated GraphQL queries for user accounts can expose password hashes of users that have created or modified content, typically administrators and editors. This issue has been patched in versions 2.3.12, and 1.0.13 on the 1.X branch. Users unable to upgrade can remove the "passwordHash" entry from "src/bundle/Resources/config/graphql/User.types.yaml" in the GraphQL package, and other properties like hash type, email, login if you prefer.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
 
 # CWE-923 Improper Restriction of Communication Channel to Intended Endpoints
 
@@ -718,14 +582,6 @@ CVE-2022-3057: Inappropriate implementation in iframe Sandbox in Google Chrome p
 
 CVE-2022-31055: kCTF is a Kubernetes-based infrastructure for capture the flag (CTF) competitions. Prior to version 1.6.0, the kctf cluster set-src-ip-ranges was broken and allowed traffic from any IP. The problem has been patched in v1.6.0. As a workaround, those who want to test challenges privately can mark them as `public: false` and use `kctf chal debug port-forward` to connect.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-924 Improper Enforcement of Message Integrity During Transmission in a Communication Channel
 
 ## Description
@@ -734,14 +590,6 @@ The product establishes a communication channel with an endpoint and receives a 
 
 Attackers might be able to modify the message and spoof the endpoint by interfering with the data as it crosses the network or by redirecting the connection to a system under their control.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-925 Improper Verification of Intent by Broadcast Receiver
 
 ## Description
@@ -749,14 +597,6 @@ Attackers might be able to modify the message and spoof the endpoint by interfer
 The Android application uses a Broadcast Receiver that receives an Intent but does not properly verify that the Intent came from an authorized source.
 
 Certain types of Intents, identified by action string, can only be broadcast by the operating system itself, not by third-party applications. However, when an application registers to receive these implicit system intents, it is also registered to receive any explicit intents. While a malicious application cannot send an implicit system intent, it can send an explicit intent to the target application, which may assume that any received intent is a valid implicit system intent and not an explicit intent from another application. This may lead to unintended behavior.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-926 Improper Export of Android Application Components
 
@@ -791,14 +631,6 @@ There are three types of components that can be exported in an Android applicati
 CVE-2021-25527: Improper export of Android application components vulnerability in Samsung Pay (India only) prior to version 4.1.77 allows attacker to access Bill Pay and Recharge menu without authentication.
 
 CVE-2022-25817: Improper authentication in One UI Home prior to SMR Mar-2022 Release 1 allows attacker to generate pinned-shortcut without user consent.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-927 Use of Implicit Intent for Sensitive Communication
 
@@ -849,14 +681,6 @@ CVE-2022-33733: Sensitive information exposure in onCharacteristicRead in Charm 
 
 CVE-2022-33734: Sensitive information exposure in onCharacteristicChanged in Charm by Samsung prior to version 1.2.3 allows attacker to get bluetooth connection information without permission.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-93 Improper Neutralization of CRLF Sequences ('CRLF Injection')
 
 ## Description
@@ -901,14 +725,6 @@ CVE-2022-24838: Nextcloud Calendar is a calendar application for the nextcloud f
 
 CVE-2022-2992: A vulnerability in GitLab CE/EE affecting all versions from 11.10 prior to 15.1.6, 15.2 to 15.2.4, 15.3 to 15.3.2 allows an authenticated user to achieve remote code execution via the Import from GitHub API endpoint.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-939 Improper Authorization in Handler for Custom URL Scheme
 
 ## Description
@@ -928,14 +744,6 @@ CVE-2013-5726: URL scheme has action follow and favorite which allows remote att
 CVE-2022-20736: A vulnerability in the web-based management interface of Cisco AppDynamics Controller Software could allow an unauthenticated, remote attacker to access a configuration file and the login page for an administrative console that they would not normally have authorization to access. This vulnerability is due to improper authorization checking for HTTP requests that are submitted to the affected web-based management interface. An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected instance of AppDynamics Controller. A successful exploit could allow the attacker to access the login page for an administrative console. AppDynamics has released software updates that address this vulnerability.
 
 CVE-2022-41797: Improper authorization in handler for custom URL scheme vulnerability in Lemon8 App for Android versions prior to 3.3.5 and Lemon8 App for iOS versions prior to 3.3.5 allows a remote attacker to lead a user to access an arbitrary website via the vulnerable App. As a result, the user may become a victim of a phishing attack.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-94 Improper Control of Generation of Code ('Code Injection')
 
@@ -1090,14 +898,6 @@ CVE-2022-24295: Okta Advanced Server Access Client for Windows prior to version 
 
 CVE-2022-21122: The package metacalc before 0.0.2 are vulnerable to Arbitrary Code Execution when it exposes JavaScript's Math class to the v8 context. As the Math class is exposed to user-land, it can be used to get access to JavaScript's Function constructor.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-940 Improper Verification of Source of a Communication Channel
 
 ## Description
@@ -1119,14 +919,6 @@ CVE-2001-1452: DNS server caches glue records received from non-delegated name s
 CVE-2022-27491: A improper verification of source of a communication channel in Fortinet FortiOS with IPS engine version 7.201 through 7.214, 7.001 through 7.113, 6.001 through 6.121, 5.001 through 5.258 and before 4.086 allows a remote and unauthenticated attacker to trigger the sending of "blocked page" HTML data to an arbitrary victim via crafted TCP requests, potentially flooding the victim.
 
 CVE-2022-29235: BigBlueButton is an open source web conferencing system. Starting in version 2.2 and prior to versions 2.3.18 and 2.4-rc-6, an attacker who is able to obtain the meeting identifier for a meeting on a server can find information related to an external video being shared, like the current timestamp and play/pause. The problem has been patched in versions 2.3.18 and 2.4-rc-6 by modifying the stream to send the data only for users in the meeting. There are currently no known workarounds.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-941 Incorrectly Specified Destination in a Communication Channel
 
@@ -1158,14 +950,6 @@ CVE-2022-21671: @replit/crosis is a JavaScript client that speaks Replit's conta
 
 CVE-2022-21673: Grafana is an open-source platform for monitoring and observability. In affected versions when a data source has the Forward OAuth Identity feature enabled, sending a query to that datasource with an API token (and no other user credentials) will forward the OAuth Identity of the most recently logged-in user. This can allow API token holders to retrieve data for which they may not have intended access. This attack relies on the Grafana instance having data sources that support the Forward OAuth Identity feature, the Grafana instance having a data source with the Forward OAuth Identity feature toggled on, the Grafana instance having OAuth enabled, and the Grafana instance having usable API keys. This issue has been patched in versions 7.5.13 and 8.3.4.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-942 Permissive Cross-domain Policy with Untrusted Domains
 
 ## Description
@@ -1194,14 +978,6 @@ CVE-2007-6243: Chain: Adobe Flash Player does not sufficiently restrict the inte
 CVE-2008-4822: Chain: Adobe Flash Player and earlier does not properly interpret policy files, which allows remote attackers to bypass a non-root domain policy.
 
 CVE-2010-3636: Chain: Adobe Flash Player does not properly handle unspecified encodings during the parsing of a cross-domain policy file, which allows remote web servers to bypass intended access restrictions via unknown vectors.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-943 Improper Neutralization of Special Elements in Data Query Logic
 
@@ -1239,14 +1015,6 @@ CVE-2022-35246: A NoSQL-Injection information disclosure vulnerability vulnerabi
 CVE-2022-36084: cruddl is software for creating a GraphQL API for a database, using the GraphQL SDL to model a schema. If cruddl starting with version 1.1.0 and prior to versions 2.7.0 and 3.0.2 is used to generate a schema that uses `@flexSearchFulltext`, users of that schema may be able to inject arbitrary AQL queries that will be forwarded to and executed by ArangoDB. Schemas that do not use `@flexSearchFulltext` are not affected. The attacker needs to have `READ` permission to at least one root entity type that has `@flexSearchFulltext` enabled. The issue has been fixed in version 3.0.2 and in version 2.7.0 of cruddl. As a workaround, users can temporarily remove `@flexSearchFulltext` from their schemas.
 
 CVE-2022-47909: Livestatus Query Language (LQL) injection in the AuthUser HTTP query header of Tribe29's Checkmk <= 2.1.0p11, Checkmk <= 2.0.0p28, and all versions of Checkmk 1.6.0 (EOL) allows an attacker to perform direct queries to the application's core from localhost.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-95 Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')
 
@@ -1322,14 +1090,6 @@ CVE-2022-46333: The admin user interface in Proofpoint Enterprise Protection (PP
 
 CVE-2022-48175: Rukovoditel v3.2.1 was discovered to contain a remote code execution (RCE) vulnerability in the component /rukovoditel/index.php?module=dashboard/ajax_request.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-96 Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection')
 
 ## Description
@@ -1382,14 +1142,6 @@ CVE-2021-41402: flatCore-CMS v2.0.8 has a code execution vulnerability, which co
 
 CVE-2022-25498: CuppaCMS v1.0 was discovered to contain a remote code execution (RCE) vulnerability via the saveConfigData function in /classes/ajax/Functions.php.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-97 Improper Neutralization of Server-Side Includes (SSI) Within a Web Page
 
 ## Description
@@ -1399,14 +1151,6 @@ The product generates a web page, but does not neutralize or incorrectly neutral
 ## Top 25 Examples
 
 CVE-2022-43660: Improper neutralization of Server-Side Includes (SSW) within a web page in Movable Type series allows a remote authenticated attacker with Privilege of 'Manage of Content Types' may execute an arbitrary Perl script and/or an arbitrary OS command. Affected products/versions are as follows: Movable Type 7 r.5301 and earlier (Movable Type 7 Series), Movable Type Advanced 7 r.5301 and earlier (Movable Type Advanced 7 Series), Movable Type Premium 1.53 and earlier, and Movable Type Premium Advanced 1.53 and earlier.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-98 Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion')
 
@@ -1462,14 +1206,6 @@ CVE-2009-1936: chain: library file sends a redirect if it is directly requested 
 
 CVE-2022-22308: IBM Planning Analytics 2.0 is vulnerable to a Remote File Include (RFI) attack. User input could be passed into file include commands and the web application could be tricked into including remote files with malicious code. IBM X-Force ID: 216891.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-99 Improper Control of Resource Identifiers ('Resource Injection')
 
 ## Description
@@ -1492,12 +1228,4 @@ CVE-2013-4787: chain: mobile OS verifies cryptographic signature of file in an a
 ## Top 25 Examples
 
 CVE-2022-1287: A vulnerability classified as critical was found in School Club Application System 1.0. This vulnerability affects a request to the file /scas/classes/Users.php?f=save_user. The manipulation with a POST request leads to privilege escalation. The attack can be initiated remotely and does not require authentication. The exploit has been disclosed to the public and may be used.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 

@@ -13,14 +13,6 @@ This is similar to CWE-26, except using "\" instead of "/". The '\dir\..\filenam
 
 CVE-2002-1987: Protection mechanism checks for "/.." but doesn't account for Windows-specific "\.." allowing read of arbitrary files.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-300 Channel Accessible by Non-Endpoint
 
 ## Description
@@ -37,14 +29,6 @@ CVE-2014-1266: chain: incorrect "goto" in Apple SSL product bypasses certificate
 
 CVE-2021-3716: A flaw was found in nbdkit due to to improperly caching plaintext state across the STARTTLS encryption boundary. A MitM attacker could use this flaw to inject a plaintext NBD_OPT_STRUCTURED_REPLY before proxying everything else a client sends to the server, potentially leading the client to terminate the NBD session. The highest threat from this vulnerability is to system availability.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-301 Reflection Attack in an Authentication Protocol
 
 ## Description
@@ -59,14 +43,6 @@ Reflection attacks capitalize on mutual authentication schemes in order to trick
 ## Observed Examples
 
 CVE-2005-3435: product authentication succeeds if user-provided MD5 hash matches the hash in its database; this can be subjected to replay attacks.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-302 Authentication Bypass by Assumed-Immutable Data
 
@@ -104,14 +80,6 @@ CVE-2022-2133: The OAuth Single Sign On WordPress plugin before 6.22.6 doesn't v
 
 CVE-2022-22729: CAMS for HIS Server contained in the following Yokogawa Electric products improperly authenticate the receiving packets. The authentication may be bypassed via some crafted packets: CENTUM CS 3000 versions from R3.08.10 to R3.09.00, CENTUM VP versions from R4.01.00 to R4.03.00, from R5.01.00 to R5.04.20, and from R6.01.00 to R6.08.00, and Exaopc versions from R3.72.00 to R3.79.00.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-303 Incorrect Implementation of Authentication Algorithm
 
 ## Description
@@ -136,14 +104,6 @@ CVE-2022-4861: Incorrect implementation in authentication protocol in M-Files Cl
 
 CVE-2022-29865: OPC UA .NET Standard Stack allows a remote attacker to bypass the application authentication check via crafted fake credentials.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-304 Missing Critical Step in Authentication
 
 ## Description
@@ -163,14 +123,6 @@ CVE-2005-3327: Chain: Authentication bypass by skipping the first startup step a
 CVE-2022-48195: An issue was discovered in Mellium mellium.im/sasl before 0.3.1. When performing SCRAM-based SASL authentication, if the remote end advertises support for channel binding, no random nonce is generated (instead, the nonce is empty). This causes authentication to fail in the best case, but (if paired with a remote end that does not validate the length of the nonce) could lead to insufficient randomness being used during authentication.
 
 CVE-2022-2302: Multiple Lenze products of the cabinet series skip the password verification upon second login. After a user has been logged on to the device once, a remote attacker can get full access without knowledge of the password.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-305 Authentication Bypass by Primary Weakness
 
@@ -197,14 +149,6 @@ CVE-2022-38064: OpenHarmony-v3.1.2 and prior versions have a permission bypass v
 CVE-2022-38081: OpenHarmony-v3.1.2 and prior versions have a permission bypass vulnerability. LAN attackers can bypass the distributed permission control.To take advantage of this weakness, attackers need another vulnerability to obtain system.
 
 CVE-2022-38700: OpenHarmony-v3.1.1 and prior versions have a permission bypass vulnerability. LAN attackers can bypass permission control and get control of camera service.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-306 Missing Authentication for Critical Function
 
@@ -430,14 +374,6 @@ CVE-2022-25508: An access control issue in the component /ManageRoute/postRoute 
 
 CVE-2021-21816: An information disclosure vulnerability exists in the Syslog functionality of D-LINK DIR-3040 1.13B03. A specially crafted network request can lead to the disclosure of sensitive information. An attacker can send an HTTP request to trigger this vulnerability.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-307 Improper Restriction of Excessive Authentication Attempts
 
 ## Description
@@ -470,14 +406,6 @@ CVE-2022-22487: An IBM Spectrum Protect storage agent could allow a remote attac
 
 CVE-2022-35925: BookWyrm is a social network for tracking reading. Versions prior to 0.4.5 were found to lack rate limiting on authentication views which allows brute-force attacks. This issue has been patched in version 0.4.5. Admins with existing instances will need to update their `nginx.conf` file that was created when the instance was set up. Users are advised advised to upgrade. Users unable to upgrade may update their nginx.conf files with the changes manually.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-308 Use of Single-factor Authentication
 
 ## Description
@@ -494,14 +422,6 @@ CVE-2022-35248: Chat application skips validation when Central Authentication Se
 
 CVE-2022-35248: A improper authentication vulnerability exists in Rocket.Chat <v5, <v4.8.2 and <v4.7.5 that allowed two factor authentication can be bypassed when telling the server to use CAS during login.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-309 Use of Password System for Primary Authentication
 
 ## Description
@@ -509,14 +429,6 @@ CVE-2022-35248: A improper authentication vulnerability exists in Rocket.Chat <v
 The use of password systems as the primary means of authentication may be subject to several flaws or shortcomings, each reducing the effectiveness of the mechanism.
 
 Password systems are the simplest and most ubiquitous authentication mechanisms. However, they are subject to such well known attacks,and such frequent compromise that their use in the most simple implementation is not practical.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-31 Path Traversal: 'dir\..\..\filename'
 
@@ -532,14 +444,6 @@ The 'dir\..\..\filename' manipulation is useful for bypassing some path traversa
 ## Observed Examples
 
 CVE-2002-0160: The administration function in Access Control Server allows remote attackers to read HTML, Java class, and image files outside the web root via a "..\.." sequence in the URL to port 2002.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-311 Missing Encryption of Sensitive Data
 
@@ -609,14 +513,6 @@ CVE-2022-30237: A CWE-311: Missing Encryption of Sensitive Data vulnerability ex
 
 CVE-2022-39014: Under certain conditions SAP BusinessObjects Business Intelligence Platform Central Management Console (CMC) - version 430, allows an attacker to access certain unencrypted sensitive parameters which would otherwise be restricted.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-312 Cleartext Storage of Sensitive Information
 
 ## Description
@@ -685,14 +581,6 @@ CVE-2022-20219: In multiple functions of StorageManagerService.java and UserMana
 
 CVE-2022-29959: Emerson OpenBSI through 2022-04-29 mishandles credential storage. It is an engineering environment for the ControlWave and Bristol Babcock line of RTUs. This environment provides access control functionality through user authentication and privilege management. The credentials for various users are stored insecurely in the SecUsers.ini file by using a simple string transformation rather than a cryptographic mechanism.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-313 Cleartext Storage in a File or on Disk
 
 ## Description
@@ -717,14 +605,6 @@ CVE-2004-2397: Cleartext storage of private key and passphrase in log file when 
 
 CVE-2022-42931: Logins saved by Firefox should be managed by the Password Manager component which uses encryption to save files on-disk. Instead, the username (not password) was saved by the Form Manager to an unencrypted file on disk. This vulnerability affects Firefox < 106.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-314 Cleartext Storage in the Registry
 
 ## Description
@@ -740,14 +620,6 @@ CVE-2005-2227: Cleartext passwords in registry key.
 ## Top 25 Examples
 
 CVE-2022-22031: Windows Credential Guard Domain-joined Public Key Elevation of Privilege Vulnerability
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-315 Cleartext Storage of Sensitive Information in a Cookie
 
@@ -770,14 +642,6 @@ CVE-2005-2160: Authentication information stored in cleartext in a cookie.
 ## Top 25 Examples
 
 CVE-2021-45025: ASG technologies ( A Rocket Software Company) ASG-Zena Cross Platform Server Enterprise Edition 4.2.1 is vulnerable to Cleartext Storage of Sensitive Information in a Cookie.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-316 Cleartext Storage of Sensitive Information in Memory
 
@@ -804,14 +668,6 @@ CVE-2022-29832: Cleartext Storage of Sensitive Information in Memory vulnerabili
 
 CVE-2022-31205: In Omron CS series, CJ series, and CP series PLCs through 2022-05-18, the password for access to the Web UI is stored in memory area D1449...D1452 and can be read out using the Omron FINS protocol without any further authentication.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-317 Cleartext Storage of Sensitive Information in GUI
 
 ## Description
@@ -823,14 +679,6 @@ An attacker can often obtain data from a GUI, even if hidden, by using an API to
 ## Observed Examples
 
 CVE-2002-1848: Unencrypted passwords stored in GUI dialog may allow local users to access the passwords.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-318 Cleartext Storage of Sensitive Information in Executable
 
@@ -845,14 +693,6 @@ Attackers can reverse engineer binary code to obtain secret data. This is especi
 CVE-2005-1794: Product stores RSA private key in a DLL and uses it to sign a certificate, allowing spoofing of servers and Adversary-in-the-Middle (AITM) attacks.
 
 CVE-2001-1527: administration passwords in cleartext in executable
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-319 Cleartext Transmission of Sensitive Information
 
@@ -950,14 +790,6 @@ CVE-2022-2083: The Simple Single Sign On WordPress plugin through 4.1.0 leaks it
 
 CVE-2021-45081: An issue was discovered in Cobbler through 3.3.1. Routines in several files use the HTTP protocol instead of the more secure HTTPS.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-32 Path Traversal: '...' (Triple Dot)
 
 ## Description
@@ -988,14 +820,6 @@ CVE-2002-0288: read files using "." and Unicode-encoded "/" or "\" characters in
 CVE-2003-0313: Directory listing of web server using "..."
 
 CVE-2005-1658: Triple dot
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-321 Use of Hard-coded Cryptographic Key
 
@@ -1095,14 +919,6 @@ CVE-2021-40903: A vulnerability in Antminer Monitor 0.50.0 exists because of bac
 
 CVE-2022-26020: An information disclosure vulnerability exists in the router configuration export functionality of InHand Networks InRouter302 V3.5.4. A specially-crafted network request can lead to increased privileges. An attacker can send an HTTP request to trigger this vulnerability.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-322 Key Exchange without Entity Authentication
 
 ## Description
@@ -1119,14 +935,6 @@ CVE-2021-38878: IBM QRadar 7.3, 7.4, and 7.5 could allow a malicious actor to im
 
 CVE-2022-39254: matrix-nio is a Python Matrix client library, designed according to sans I/O principles. Prior to version 0.20, when a users requests a room key from their devices, the software correctly remember the request. Once they receive a forwarded room key, they accept it without checking who the room key came from. This allows homeservers to try to insert room keys of questionable validity, potentially mounting an impersonation attack. Version 0.20 fixes the issue.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-323 Reusing a Nonce, Key Pair in Encryption
 
 ## Description
@@ -1134,14 +942,6 @@ CVE-2022-39254: matrix-nio is a Python Matrix client library, designed according
 Nonces should be used for the present occasion and only once.
 
 Nonces are often bundled with a key in a communication exchange to produce a new session key for each exchange.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-324 Use of a Key Past its Expiration Date
 
@@ -1158,14 +958,6 @@ CVE-2021-33020: Picture Archiving and Communication System (PACS) system for hos
 ## Top 25 Examples
 
 CVE-2021-33020: Philips Vue PACS versions 12.2.x.x and prior uses a cryptographic key or password past its expiration date, which diminishes its safety significantly by increasing the timing window for cracking attacks against that key.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-325 Missing Cryptographic Step
 
@@ -1194,14 +986,6 @@ CVE-2021-26099: Missing cryptographic steps in the Identity-Based Encryption ser
 CVE-2021-32591: A missing cryptographic steps vulnerability in the function that encrypts users' LDAP and RADIUS credentials in FortiSandbox before 4.0.1, FortiWeb before 6.3.12, FortiADC before 6.2.1, FortiMail 7.0.1 and earlier may allow an attacker in possession of the password store to compromise the confidentiality of the encrypted secrets.
 
 CVE-2021-3798: A flaw was found in openCryptoki. The openCryptoki Soft token does not check if an EC key is valid when an EC key is created via C_CreateObject, nor when C_DeriveKey is used with ECDH public data. This may allow a malicious user to extract the private key by performing an invalid curve attack.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-326 Inadequate Encryption Strength
 
@@ -1268,14 +1052,6 @@ CVE-2022-41209: SAP Customer Data Cloud (Gigya mobile app for Android) - version
 CVE-2021-27450: SSH server configuration file does not implement some best practices. This could lead to a weakening of the SSH protocol strength, which could lead to additional misconfiguration or be leveraged as part of a larger attack on the MU320E (all firmware versions prior to v04A00.1).
 
 CVE-2021-37209: A vulnerability has been identified in RUGGEDCOM i800 (All versions < V4.3.8), RUGGEDCOM i801 (All versions < V4.3.8), RUGGEDCOM i802 (All versions < V4.3.8), RUGGEDCOM i803 (All versions < V4.3.8), RUGGEDCOM M2100 (All versions < V4.3.8), RUGGEDCOM M2200 (All versions < V4.3.8), RUGGEDCOM M969 (All versions < V4.3.8), RUGGEDCOM RMC30 (All versions < V4.3.8), RUGGEDCOM RMC8388 V4.X (All versions < V4.3.8), RUGGEDCOM RMC8388 V5.X (All versions < V5.7.0), RUGGEDCOM RP110 (All versions < V4.3.8), RUGGEDCOM RS1600 (All versions < V4.3.8), RUGGEDCOM RS1600F (All versions < V4.3.8), RUGGEDCOM RS1600T (All versions < V4.3.8), RUGGEDCOM RS400 (All versions < V4.3.8), RUGGEDCOM RS401 (All versions < V4.3.8), RUGGEDCOM RS416 (All versions < V4.3.8), RUGGEDCOM RS416P (All versions < V4.3.8), RUGGEDCOM RS416Pv2 V4.X (All versions < V4.3.8), RUGGEDCOM RS416Pv2 V5.X (All versions < V5.7.0), RUGGEDCOM RS416v2 V4.X (All versions < V4.3.8), RUGGEDCOM RS416v2 V5.X (All versions < V5.7.0), RUGGEDCOM RS8000 (All versions < V4.3.8), RUGGEDCOM RS8000A (All versions < V4.3.8), RUGGEDCOM RS8000H (All versions < V4.3.8), RUGGEDCOM RS8000T (All versions < V4.3.8), RUGGEDCOM RS900 (All versions < V4.3.8), RUGGEDCOM RS900 (32M) V4.X (All versions < V4.3.8), RUGGEDCOM RS900 (32M) V5.X (All versions < V5.7.0), RUGGEDCOM RS900G (All versions < V4.3.8), RUGGEDCOM RS900G (32M) V4.X (All versions < V4.3.8), RUGGEDCOM RS900G (32M) V5.X (All versions < V5.7.0), RUGGEDCOM RS900GP (All versions < V4.3.8), RUGGEDCOM RS900L (All versions < V4.3.8), RUGGEDCOM RS900M-GETS-C01 (All versions < V4.3.8), RUGGEDCOM RS900M-GETS-XX (All versions < V4.3.8), RUGGEDCOM RS900M-STND-C01 (All versions < V4.3.8), RUGGEDCOM RS900M-STND-XX (All versions < V4.3.8), RUGGEDCOM RS900W (All versions < V4.3.8), RUGGEDCOM RS910 (All versions < V4.3.8), RUGGEDCOM RS910L (All versions < V4.3.8), RUGGEDCOM RS910W (All versions < V4.3.8), RUGGEDCOM RS920L (All versions < V4.3.8), RUGGEDCOM RS920W (All versions < V4.3.8), RUGGEDCOM RS930L (All versions < V4.3.8), RUGGEDCOM RS930W (All versions < V4.3.8), RUGGEDCOM RS940G (All versions < V4.3.8), RUGGEDCOM RS969 (All versions < V4.3.8), RUGGEDCOM RSG2100 (All versions < V4.3.8), RUGGEDCOM RSG2100 (32M) V4.X (All versions < V4.3.8), RUGGEDCOM RSG2100 (32M) V5.X (All versions < V5.7.0), RUGGEDCOM RSG2100P (All versions < V4.3.8), RUGGEDCOM RSG2200 (All versions < V4.3.8), RUGGEDCOM RSG2288 V4.X (All versions < V4.3.8), RUGGEDCOM RSG2288 V5.X (All versions < V5.7.0), RUGGEDCOM RSG2300 V4.X (All versions < V4.3.8), RUGGEDCOM RSG2300 V5.X (All versions < V5.7.0), RUGGEDCOM RSG2300P V4.X (All versions < V4.3.8), RUGGEDCOM RSG2300P V5.X (All versions < V5.7.0), RUGGEDCOM RSG2488 V4.X (All versions < V4.3.8), RUGGEDCOM RSG2488 V5.X (All versions < V5.7.0), RUGGEDCOM RSG907R (All versions < V5.7.0), RUGGEDCOM RSG908C (All versions < V5.7.0), RUGGEDCOM RSG909R (All versions < V5.7.0), RUGGEDCOM RSG910C (All versions < V5.7.0), RUGGEDCOM RSG920P V4.X (All versions < V4.3.8), RUGGEDCOM RSG920P V5.X (All versions < V5.7.0), RUGGEDCOM RSL910 (All versions < V5.7.0), RUGGEDCOM RST2228 (All versions < V5.7.0), RUGGEDCOM RST2228P (All versions < V5.7.0), RUGGEDCOM RST916C (All versions < V5.7.0), RUGGEDCOM RST916P (All versions < V5.7.0). The SSH server on affected devices is configured to offer weak ciphers by default. This could allow an unauthorized attacker in a man-in-the-middle position to read and modify any data passed over the connection between legitimate clients and the affected device.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
 
 # CWE-327 Use of a Broken or Risky Cryptographic Algorithm
 
@@ -1480,14 +1256,6 @@ CVE-2022-46833: Use of a Broken or Risky Cryptographic Algorithm in SICK RFU63x 
 
 CVE-2022-46834: Use of a Broken or Risky Cryptographic Algorithm in SICK RFU65x firmware version < v2.21 allows a low-privileged remote attacker to decrypt the encrypted data if the user requested weak cipher suites to be used for encryption via the SSH interface. The patch and installation procedure for the firmware update is available from the responsible SICK customer contact person.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-328 Use of Weak Hash
 
 ## Description
@@ -1576,14 +1344,6 @@ CVE-2022-45141: Since the Windows Kerberos RC4-HMAC Elevation of Privilege Vulne
 
 CVE-2022-47931: IO FinNet tss-lib before 2.0.0 allows a collision of hash values.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-329 Generation of Predictable IV with CBC Mode
 
 ## Description
@@ -1614,14 +1374,6 @@ CVE-2007-3528: Blowfish-CBC implementation constructs an IV where each byte is c
 
 CVE-2011-3389: BEAST attack in SSL 3.0 / TLS 1.0. In CBC mode, chained initialization vectors are non-random, allowing decryption of HTTPS traffic using a chosen plaintext attack.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-33 Path Traversal: '....' (Multiple Dot)
 
 ## Description
@@ -1646,14 +1398,6 @@ CVE-2004-2121: read files via "......" in web server (doubled triple dot?)
 CVE-2001-0491: multiple attacks using "..", "...", and "...." in different commands
 
 CVE-2001-0615: "..." or "...." in chat server
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-330 Use of Insufficiently Random Values
 
@@ -1729,14 +1473,6 @@ CVE-2021-45487: In NetBSD through 9.2, the IPv4 ID generation algorithm does not
 
 CVE-2021-45488: In NetBSD through 9.2, there is an information leak in the TCP ISN (ISS) generation algorithm.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-331 Insufficient Entropy
 
 ## Description
@@ -1761,14 +1497,6 @@ CVE-2022-37401: Apache OpenOffice supports the storage of passwords for web conn
 
 CVE-2021-31797: The user identification mechanism used by CyberArk Credential Provider prior to 12.1 is susceptible to a local host race condition, leading to password disclosure.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-332 Insufficient Entropy in PRNG
 
 ## Description
@@ -1781,14 +1509,6 @@ The lack of entropy available for, or used by, a Pseudo-Random Number Generator 
 
 CVE-2019-1715: security product has insufficient entropy in the DRBG, allowing collisions and private key discovery
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-333 Improper Handling of Insufficient Entropy in TRNG
 
 ## Description
@@ -1796,14 +1516,6 @@ CVE-2019-1715: security product has insufficient entropy in the DRBG, allowing c
 True random number generators (TRNG) generally have a limited source of entropy and therefore can fail or block.
 
 The rate at which true random numbers can be generated is limited. It is important that one uses them only when they are needed for security.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-334 Small Space of Random Values
 
@@ -1826,14 +1538,6 @@ CVE-2004-0230: Complex predictability / randomness (reduced space).
 CVE-2021-44151: An issue was discovered in Reprise RLM 14.2. As the session cookies are small, an attacker can hijack any existing sessions by bruteforcing the 4 hex-character session cookie on the Windows version (the Linux version appears to have 8 characters). An attacker can obtain the static part of the cookie (cookie name) by first making a request to any page on the application (e.g., /goforms/menu) and saving the name of the cookie sent with the response. The attacker can then use the name of the cookie and try to request that same page, setting a random value for the cookie. If any user has an active session, the page should return with the authorized content, when a valid cookie value is hit.
 
 CVE-2022-3959: A vulnerability, which was classified as problematic, has been found in drogon up to 1.8.1. Affected by this issue is some unknown functionality of the component Session Hash Handler. The manipulation leads to small space of random values. The attack may be launched remotely. Upgrading to version 1.8.2 is able to address this issue. The name of the patch is c0d48da99f66aaada17bcd28b07741cac8697647. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-213464.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-335 Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG)
 
@@ -1871,14 +1575,6 @@ CVE-2021-34600: Telenot CompasX versions prior to 32.0 use a weak seed for rando
 
 CVE-2021-41117: keypair is a a RSA PEM key generator written in javascript. keypair implements a lot of cryptographic primitives on its own or by borrowing from other libraries where possible, including node-forge. An issue was discovered where this library was generating identical RSA keys used in SSH. This would mean that the library is generating identical P, Q (and thus N) values which, in practical terms, is impossible with RSA-2048 keys. Generating identical values, repeatedly, usually indicates an issue with poor random number generation, or, poor handling of CSPRNG output. Issue 1: Poor random number generation (`GHSL-2021-1012`). The library does not rely entirely on a platform provided CSPRNG, rather, it uses it's own counter-based CMAC approach. Where things go wrong is seeding the CMAC implementation with "true" random data in the function `defaultSeedFile`. In order to seed the AES-CMAC generator, the library will take two different approaches depending on the JavaScript execution environment. In a browser, the library will use [`window.crypto.getRandomValues()`](https://github.com/juliangruber/keypair/blob/87c62f255baa12c1ec4f98a91600f82af80be6db/index.js#L971). However, in a nodeJS execution environment, the `window` object is not defined, so it goes down a much less secure solution, also of which has a bug in it. It does look like the library tries to use node's CSPRNG when possible unfortunately, it looks like the `crypto` object is null because a variable was declared with the same name, and set to `null`. So the node CSPRNG path is never taken. However, when `window.crypto.getRandomValues()` is not available, a Lehmer LCG random number generator is used to seed the CMAC counter, and the LCG is seeded with `Math.random`. While this is poor and would likely qualify in a security bug in itself, it does not explain the extreme frequency in which duplicate keys occur. The main flaw: The output from the Lehmer LCG is encoded incorrectly. The specific [line][https://github.com/juliangruber/keypair/blob/87c62f255baa12c1ec4f98a91600f82af80be6db/index.js#L1008] with the flaw is: `b.putByte(String.fromCharCode(next & 0xFF))` The [definition](https://github.com/juliangruber/keypair/blob/87c62f255baa12c1ec4f98a91600f82af80be6db/index.js#L350-L352) of `putByte` is `util.ByteBuffer.prototype.putByte = function(b) {this.data += String.fromCharCode(b);};`. Simplified, this is `String.fromCharCode(String.fromCharCode(next & 0xFF))`. The double `String.fromCharCode` is almost certainly unintentional and the source of weak seeding. Unfortunately, this does not result in an error. Rather, it results most of the buffer containing zeros. Since we are masking with 0xFF, we can determine that 97% of the output from the LCG are converted to zeros. The only outputs that result in meaningful values are outputs 48 through 57, inclusive. The impact is that each byte in the RNG seed has a 97% chance of being 0 due to incorrect conversion. When it is not, the bytes are 0 through 9. In summary, there are three immediate concerns: 1. The library has an insecure random number fallback path. Ideally the library would require a strong CSPRNG instead of attempting to use a LCG and `Math.random`. 2. The library does not correctly use a strong random number generator when run in NodeJS, even though a strong CSPRNG is available. 3. The fallback path has an issue in the implementation where a majority of the seed data is going to effectively be zero. Due to the poor random number generation, keypair generates RSA keys that are relatively easy to guess. This could enable an attacker to decrypt confidential messages or gain authorized access to an account belonging to the victim.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-336 Same Seed in Pseudo-Random Number Generator (PRNG)
 
 ## Description
@@ -1894,14 +1590,6 @@ CVE-2022-39218: SDK for JavaScript app builder for serverless code uses the same
 ## Top 25 Examples
 
 CVE-2022-39218: The JS Compute Runtime for Fastly's Compute@Edge platform provides the environment JavaScript is executed in when using the Compute@Edge JavaScript SDK. In versions prior to 0.5.3, the `Math.random` and `crypto.getRandomValues` methods fail to use sufficiently random values. The initial value to seed the PRNG (pseudorandom number generator) is baked-in to the final WebAssembly module, making the sequence of random values for that specific WebAssembly module predictable. An attacker can use the fixed seed to predict random numbers generated by these functions and bypass cryptographic security controls, for example to disclose sensitive data encrypted by functions that use these generators. The problem has been patched in version 0.5.3. No known workarounds exist.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-337 Predictable Seed in Pseudo-Random Number Generator (PRNG)
 
@@ -1934,14 +1622,6 @@ CVE-2022-31034: Argo CD is a declarative, GitOps continuous delivery tool for Ku
 CVE-2022-42159: D-Link COVR 1200,1202,1203 v1.08 was discovered to have a predictable seed in a Pseudo-Random Number Generator.
 
 CVE-2022-40267: Predictable Seed in Pseudo-Random Number Generator (PRNG) vulnerability in Mitsubishi Electric Corporation MELSEC iQ-F Series FX5U-xMy/z (x=32,64,80, y=T,R, z=ES,DS,ESS,DSS) with serial number 17X**** or later, and versions 1.280 and prior, Mitsubishi Electric Corporation MELSEC iQ-F Series FX5U-xMy/z (x=32,64,80, y=T,R, z=ES,DS,ESS,DSS) with serial number 179**** and prior, and versions 1.074 and prior, Mitsubishi Electric Corporation MELSEC iQ-F Series FX5UC-xMy/z (x=32,64,96, y=T, z=D,DSS)) with serial number 17X**** or later, and versions 1.280 and prior, Mitsubishi Electric Corporation MELSEC iQ-F Series FX5UC-xMy/z (x=32,64,96, y=T, z=D,DSS)) with serial number 179**** and prior, and versions 1.074 and prior, Mitsubishi Electric Corporation MELSEC iQ-F Series FX5UC-32MT/DS-TS versions 1.280 and prior, Mitsubishi Electric Corporation MELSEC iQ-F Series FX5UC-32MT/DSS-TS versions 1.280 and prior, Mitsubishi Electric Corporation MELSEC iQ-F Series FX5UJ-xMy/z (x=24,40,60, y=T,R, z=ES,ESS) versions 1.042 and prior, Mitsubishi Electric Corporation MELSEC iQ-F Series FX5UJ-xMy/ES-A (x=24,40,60, y=T,R) versions 1.043 and prior, Mitsubishi Electric Corporation MELSEC iQ-F Series FX5S-xMy/z (x=30,40,60,80, y=T,R, z=ES,ESS) versions 1.003 and prior, Mitsubishi Electric Corporation MELSEC iQ-F Series FX5UC-32MR/DS-TS versions 1.280 and prior, Mitsubishi Electric Corporation MELSEC iQ-R Series R00/01/02CPU versions 33 and prior, Mitsubishi Electric Corporation MELSEC iQ-R Series R04/08/16/32/120(EN)CPU versions 66 and prior allows a remote unauthenticated attacker to access the Web server function by guessing the random numbers used for authentication from several used random numbers.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-338 Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG)
 
@@ -1984,14 +1664,6 @@ CVE-2022-0828: The Download Manager WordPress plugin before 3.2.34 uses the uniq
 
 CVE-2021-22948: Vulnerability in the generation of session IDs in revive-adserver < 5.3.0, based on the cryptographically insecure uniqid() PHP function. Under some circumstances, an attacker could theoretically be able to brute force session IDs in order to take over a specific account.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-339 Small Seed Space in PRNG
 
 ## Description
@@ -2003,14 +1675,6 @@ PRNGs are entirely deterministic once seeded, so it should be extremely difficul
 ## Observed Examples
 
 CVE-2019-10908: product generates passwords via org.apache.commons.lang.RandomStringUtils, which uses java.util.Random internally. This PRNG has only a 48-bit seed.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-34 Path Traversal: '....//'
 
@@ -2026,14 +1690,6 @@ The '....//' manipulation is useful for bypassing some path traversal protection
 ## Observed Examples
 
 CVE-2004-1670: Mail server allows remote attackers to create arbitrary directories via a ".." or rename arbitrary files via a "....//" in user supplied parameters.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-340 Generation of Predictable Numbers or Identifiers
 
@@ -2056,14 +1712,6 @@ CVE-2022-26317: A vulnerability has been identified in Mendix Applications using
 CVE-2022-29330: Missing access control in the backup system of Telesoft VitalPBX before 3.2.1 allows attackers to access the PJSIP and SIP extension credentials, cryptographic keys and voicemails files via unspecified vectors.
 
 CVE-2022-38970: ieGeek IG20 hipcam RealServer V1.0 is vulnerable to Incorrect Access Control. The algorithm used to generate device IDs (UIDs) for devices that utilize Shenzhen Yunni Technology iLnkP2P suffers from a predictability flaw that allows remote attackers to establish direct connections to arbitrary devices.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-341 Predictable from Observable State
 
@@ -2089,14 +1737,6 @@ CVE-2021-4277: A vulnerability, which was classified as problematic, has been fo
 
 CVE-2022-36536: An issue in the component post_applogin.php of Super Flexible Software GmbH & Co. KG Syncovery 9 for Linux v9.47x and below allows attackers to escalate privileges via creating crafted session tokens.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-342 Predictable Exact Value from Previous Values
 
 ## Description
@@ -2113,14 +1753,6 @@ CVE-1999-0077: Predictable TCP sequence numbers allow spoofing.
 
 CVE-2000-0335: DNS resolver uses predictable IDs, allowing a local user to spoof DNS query results.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-343 Predictable Value Range from Previous Values
 
 ## Description
@@ -2128,14 +1760,6 @@ CVE-2000-0335: DNS resolver uses predictable IDs, allowing a local user to spoof
 The product's random number generator produces a series of values which, when observed, can be used to infer a relatively small range of possibilities for the next value that could be generated.
 
 The output of a random number generator should not be predictable based on observations of previous values. In some cases, an attacker cannot predict the exact value that will be produced next, but can narrow down the possibilities significantly. This reduces the amount of effort to perform a brute force attack. For example, suppose the product generates random numbers between 1 and 100, but it always produces a larger value until it reaches 100. If the generator produces an 80, then the attacker knows that the next value will be somewhere between 81 and 100. Instead of 100 possibilities, the attacker only needs to consider 20.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-344 Use of Invariant Value in Dynamically Changing Context
 
@@ -2146,14 +1770,6 @@ The product uses a constant value, name, or reference, but this value can (or sh
 ## Observed Examples
 
 CVE-2002-0980: Component for web browser writes an error message to a known location, which can then be referenced by attackers to process HTML/script in a less restrictive context
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-345 Insufficient Verification of Data Authenticity
 
@@ -2199,14 +1815,6 @@ CVE-2022-28370: On Verizon 5G Home LVSKIHP OutDoorUnit (ODU) 3.33.101.0 devices,
 
 CVE-2021-45419: Certain Starcharge products are affected by Improper Input Validation. The affected products include: Nova 360 Cabinet <= 1.3.0.0.7b102 - Fixed: Beta1.3.0.1.0 and Titan 180 Premium <= 1.3.0.0.6 - Fixed: 1.3.0.0.9.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-346 Origin Validation Error
 
 ## Description
@@ -2240,14 +1848,6 @@ CVE-2021-38507: The Opportunistic Encryption feature of HTTP2 (RFC 8164) allows 
 CVE-2022-24762: sysend.js is a library that allows a user to send messages between pages that are open in the same browser. Users that use cross-origin communication may have their communications intercepted. Impact is limited by the communication occurring in the same browser. This issue has been patched in sysend.js version 1.10.0. The only currently known workaround is to avoid sending communications that a user does not want to have intercepted via sysend messages.
 
 CVE-2021-33959: Plex media server 1.21 and before is vulnerable to ddos reflection attack via plex service.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
 
 # CWE-347 Improper Verification of Cryptographic Signature
 
@@ -2309,14 +1909,6 @@ CVE-2022-23540: In versions `<=8.5.1` of `jsonwebtoken` library, lack of algorit
 
 CVE-2022-42793: An issue in code signature validation was addressed with improved checks. This issue is fixed in macOS Big Sur 11.7, macOS Ventura 13, iOS 16, iOS 15.7 and iPadOS 15.7, macOS Monterey 12.6. An app may be able to bypass code signing checks.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-348 Use of Less Trusted Source
 
 ## Description
@@ -2333,14 +1925,6 @@ CVE-2001-0908: Product logs IP address specified by the client instead of obtain
 
 CVE-2006-1126: PHP application uses IP address from X-Forwarded-For HTTP header, instead of REMOTE_ADDR.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-349 Acceptance of Extraneous Untrusted Data With Trusted Data
 
 ## Description
@@ -2352,14 +1936,6 @@ The product, when processing trusted data, accepts any untrusted data that is al
 CVE-2002-0018: Does not verify that trusted entity is authoritative for all entities in its response.
 
 CVE-2006-5462: use of extra data in a signature allows certificate signature forging
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-35 Path Traversal: '.../...//'
 
@@ -2377,14 +1953,6 @@ The '.../...//' manipulation is useful for bypassing some path traversal protect
 CVE-2005-2169: chain: ".../...//" bypasses protection mechanism using regexp's that remove "../" resulting in collapse into an unsafe value "../" (CWE-182) and resultant path traversal.
 
 CVE-2005-0202: ".../....///" bypasses regexp's that remove "./" and "../"
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-350 Reliance on Reverse DNS Resolution for a Security-Critical Action
 
@@ -2416,14 +1984,6 @@ CVE-2004-0892: Reverse DNS lookup used to spoof trusted content in intermediary.
 
 CVE-2003-0981: Product records the reverse DNS name of a visitor in the logs, allowing spoofing and resultant XSS.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-351 Insufficient Type Distinction
 
 ## Description
@@ -2435,14 +1995,6 @@ The product does not properly distinguish between different types of elements in
 CVE-2005-2260: Browser user interface does not distinguish between user-initiated and synthetic events.
 
 CVE-2005-2801: Product does not compare all required data in two separate elements, causing it to think they are the same, leading to loss of ACLs. Similar to Same Name error.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-352 Cross-Site Request Forgery (CSRF)
 
@@ -2606,14 +2158,6 @@ CVE-2022-3451: The Product Stock Manager WordPress plugin before 1.0.5 does not 
 
 CVE-2021-27885: usersettings.php in e107 through 2.3.0 lacks a certain e_TOKEN protection mechanism.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Compound
-
-- 1003 view: Yes
-
 # CWE-353 Missing Support for Integrity Check
 
 ## Description
@@ -2626,14 +2170,6 @@ If integrity check values or "checksums" are omitted from a protocol, there is n
 
 CVE-2022-2793: Emerson Electric's Proficy Machine Edition Version 9.00 and prior is vulenrable to CWE-353 Missing Support for Integrity Check, and has no authentication or authorization of data packets after establishing a connection for the SRTP protocol.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-354 Improper Validation of Integrity Check Value
 
 ## Description
@@ -2641,14 +2177,6 @@ CVE-2022-2793: Emerson Electric's Proficy Machine Edition Version 9.00 and prior
 The product does not validate or incorrectly validates the integrity check values or "checksums" of a message. This may prevent it from detecting if the data has been modified or corrupted in transmission.
 
 Improper validation of checksums before use results in an unnecessary risk that can easily be mitigated. The protocol specification describes the algorithm used for calculating the checksum. It is then a simple matter of implementing the calculation and verifying that the calculated checksum and the received checksum match. Improper verification of the calculated checksum and the received checksum can lead to far greater consequences.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
 
 # CWE-356 Product UI does not Warn User of Unsafe Actions
 
@@ -2684,14 +2212,6 @@ CVE-2022-3316: Insufficient validation of untrusted input in Safe Browsing in Go
 
 CVE-2022-3317: Insufficient validation of untrusted input in Intents in Google Chrome on Android prior to 106.0.5249.62 allowed a remote attacker to bypass navigation restrictions via a crafted HTML page. (Chromium security severity: Low)
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-357 Insufficient UI Warning of Dangerous Operations
 
 ## Description
@@ -2709,14 +2229,6 @@ CVE-2021-42292: Microsoft Excel Security Feature Bypass Vulnerability
 CVE-2022-41904: Element iOS is an iOS Matrix client provided by Element. It is based on MatrixSDK. Prior to version 1.9.7, events encrypted using Megolm for which trust could not be established did not get decorated accordingly (with warning shields). Therefore a malicious homeserver could inject messages into the room without the user being alerted that the messages were not sent by a verified group member, even if the user has previously verified all group members. This issue has been patched in Element iOS 1.9.7. There are currently no known workarounds.
 
 CVE-2022-3443: Insufficient data validation in File System API in Google Chrome prior to 106.0.5249.62 allowed a remote attacker to bypass File System restrictions via a crafted HTML page. (Chromium security severity: Low)
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-358 Improperly Implemented Security Check for Standard
 
@@ -2745,14 +2257,6 @@ CVE-2005-2298: Security check not applied to all components, allowing bypass.
 ## Top 25 Examples
 
 CVE-2022-3056: Insufficient policy enforcement in Content Security Policy in Google Chrome prior to 105.0.5195.52 allowed a remote attacker to bypass content security policy via a crafted HTML page.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-359 Exposure of Private Personal Information to an Unauthorized Actor
 
@@ -2803,14 +2307,6 @@ CVE-2021-46687: JFrog Artifactory prior to version 7.31.10 and 6.23.38 is vulner
 CVE-2022-24866: Discourse Assign is a plugin for assigning users to a topic in Discourse, an open-source messaging platform. Prior to version 1.0.1, the UserBookmarkSerializer serialized the whole User / Group object, which leaked some private information. The data was only being serialized to people who could view assignment info, which is limited to staff by default. For the vast majority of sites, this data was only leaked to trusted staff member, but for sites with assign features enabled publicly, the data was accessible to more people than just staff. Version 1.0.1 contains a patch. There are currently no known workarounds.
 
 CVE-2022-31185: mprweb is a hosting platform for the makedeb Package Repository. Email addresses were found to not have been hidden, even if a user had clicked the `Hide Email Address` checkbox on their account page, or during signup. This could lead to an account's email being leaked, which may be problematic if your email needs to remain private for any reason. Users hosting their own mprweb instance will need to upgrade to the latest commit to get this fixed. Users on the official instance will already have this issue fixed.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-36 Absolute Path Traversal
 
@@ -3046,14 +2542,6 @@ CVE-2022-4123: A flaw was found in Buildah. The local path and the lowest subdir
 
 CVE-2022-2943: The WordPress Infinite Scroll – Ajax Load More plugin for Wordpress is vulnerable to arbitrary file reading in versions up to, and including, 5.5.3 due to insufficient file path validation on the alm_repeaters_export() function. This makes it possible for authenticated attackers, with administrative privileges, to download arbitrary files hosted on the server that may contain sensitive content, such as the wp-config.php file.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-360 Trust of System Event Data
 
 ## Description
@@ -3065,14 +2553,6 @@ Events are a messaging system which may provide control data to programs listeni
 ## Observed Examples
 
 CVE-2004-0213: Attacker uses Shatter attack to bypass GUI-enforced protection for CVE-2003-0908.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-362 Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')
 
@@ -3295,14 +2775,6 @@ CVE-2022-3564: A vulnerability classified as critical was found in Linux Kernel.
 
 CVE-2022-3635: A vulnerability, which was classified as critical, has been found in Linux Kernel. Affected by this issue is the function tst_timer of the file drivers/atm/idt77252.c of the component IPsec. The manipulation leads to use after free. It is recommended to apply a patch to fix this issue. VDB-211934 is the identifier assigned to this vulnerability.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-363 Race Condition Enabling Link Following
 
 ## Description
@@ -3310,14 +2782,6 @@ CVE-2022-3635: A vulnerability, which was classified as critical, has been found
 The product checks the status of a file or directory before accessing it, which produces a race condition in which the file can be replaced with a link before the access is performed, causing the product to access the wrong file.
 
 While developers might expect that there is a very narrow time window between the time of check and time of use, there is still a race condition. An attacker could cause the product to slow down (e.g. with memory consumption), causing the time window to become larger. Alternately, in some situations, the attacker could win the race by performing a large number of attacks.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-364 Signal Handler Race Condition
 
@@ -3368,14 +2832,6 @@ CVE-2004-0794: SIGURG can be used to remotely interrupt signal handler; other va
 
 CVE-2004-2259: SIGCHLD signal to FTP server can cause crash under heavy load while executing non-reentrant functions like malloc/free.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-366 Race Condition within a Thread
 
 ## Description
@@ -3411,14 +2867,6 @@ CVE-2022-2854: Use after free in SwiftShader in Google Chrome prior to 104.0.511
 CVE-2022-3049: Use after free in SplitScreen in Google Chrome on Chrome OS, Lacros prior to 105.0.5195.52 allowed a remote attacker who convinced a user to engage in specific UI interactions to potentially exploit heap corruption via a crafted HTML page.
 
 CVE-2022-3071: Use after free in Tab Strip in Google Chrome on Chrome OS, Lacros prior to 105.0.5195.52 allowed a remote attacker who convinced a user to engage in specific UI interactions to potentially exploit heap corruption via crafted UI interaction.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-367 Time-of-check Time-of-use (TOCTOU) Race Condition
 
@@ -3522,14 +2970,6 @@ CVE-2022-23563: Tensorflow is an Open Source Machine Learning Framework. In mult
 
 CVE-2021-4098: Insufficient data validation in Mojo in Google Chrome prior to 96.0.4664.110 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-368 Context Switching Race Condition
 
 ## Description
@@ -3548,14 +2988,6 @@ CVE-2004-0191: XSS when web browser executes Javascript events in the context of
 
 CVE-2004-2491: Web browser fills in address bar of clicked-on link before page has been loaded, and doesn't update afterward.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-369 Divide By Zero
 
 ## Description
@@ -3571,14 +3003,6 @@ CVE-2007-3268: Invalid size value leads to divide by zero.
 CVE-2007-2723: "Empty" content triggers divide by zero.
 
 CVE-2007-2237: Height value of 0 triggers divide by zero.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
 
 # CWE-37 Path Traversal: '/absolute/pathname/here'
 
@@ -3600,14 +3024,6 @@ CVE-2005-2147: Path traversal using absolute pathname
 
 CVE-2000-0614: Arbitrary files may be overwritten via compressed attachments that specify absolute path names for the decompressed output.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-370 Missing Check for Certificate Revocation after Initial Check
 
 ## Description
@@ -3615,14 +3031,6 @@ CVE-2000-0614: Arbitrary files may be overwritten via compressed attachments tha
 The product does not check the revocation status of a certificate after its initial revocation check, which can cause the product to perform privileged actions even after the certificate is revoked at a later time.
 
 If the revocation status of a certificate is not checked before each action that requires privileges, the system may be subject to a race condition. If a certificate is revoked after the initial check, all subsequent actions taken with the owner of the revoked certificate will lose all benefits guaranteed by the certificate. In fact, it is almost certain that the use of a revoked certificate indicates malicious activity.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-372 Incomplete Internal State Distinction
 
@@ -3633,14 +3041,6 @@ The product does not properly determine which state it is in, causing it to assu
 ## Top 25 Examples
 
 CVE-2021-25735: A security issue was discovered in kube-apiserver that could allow node updates to bypass a Validating Admission Webhook. Clusters are only affected by this vulnerability if they run a Validating Admission Webhook for Nodes that denies admission based at least partially on the old state of the Node object. Validating Admission Webhook does not observe some previous fields.
-
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-374 Passing Mutable Objects to an Untrusted Method
 
@@ -3654,14 +3054,6 @@ The function or method that has been called can alter or delete the mutable data
 
 CVE-2022-1488: Inappropriate implementation in Extensions API in Google Chrome prior to 101.0.4951.41 allowed an attacker who convinced a user to install a malicious extension to leak cross-origin data via a crafted Chrome Extension.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-375 Returning a Mutable Object to an Untrusted Caller
 
 ## Description
@@ -3669,14 +3061,6 @@ CVE-2022-1488: Inappropriate implementation in Extensions API in Google Chrome p
 Sending non-cloned mutable data as a return value may result in that data being altered or deleted by the calling function.
 
 In situations where functions return references to mutable data, it is possible that the external code which called the function may make changes to the data sent. If this data was not previously cloned, the class will then be using modified data which may violate assumptions about its internal state.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-377 Insecure Temporary File
 
@@ -3699,14 +3083,6 @@ CVE-2022-27772: spring-boot versions prior to version v2.2.11.RELEASE was vulner
 CVE-2022-34387:  Dell SupportAssist for Home PCs (version 3.11.4 and prior) and SupportAssist for Business PCs (version 3.2.0 and prior) contain a privilege escalation vulnerability. A local authenticated malicious user could potentially exploit this vulnerability to elevate privileges and gain total control of the system. 
 
 CVE-2022-41954: MPXJ is an open source library to read and write project plans from a variety of file formats and databases. On Unix-like operating systems (not Windows or macos), MPXJ's use of `File.createTempFile(..)` results in temporary files being created with the permissions `-rw-r--r--`. This means that any other user on the system can read the contents of this file. When MPXJ is reading a schedule file which requires the creation of a temporary file or directory, a knowledgeable local user could locate these transient files while they are in use and would then be able to read the schedule being processed by MPXJ. The problem has been patched, MPXJ version 10.14.1 and later includes the necessary changes. Users unable to upgrade may set `java.io.tmpdir` to a directory to which only the user running the application has access will prevent other users from accessing these temporary files.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-378 Creation of Temporary File With Insecure Permissions
 
@@ -3731,14 +3107,6 @@ CVE-2021-22572: On unix-like systems, the system temporary directory is shared b
 CVE-2022-24823: Netty is an open-source, asynchronous event-driven network application framework. The package `io.netty:netty-codec-http` prior to version 4.1.77.Final contains an insufficient fix for CVE-2021-21290. When Netty's multipart decoders are used local information disclosure can occur via the local system temporary directory if temporary storing uploads on the disk is enabled. This only impacts applications running on Java version 6 and lower. Additionally, this vulnerability impacts code running on Unix-like systems, and very old versions of Mac OSX and Windows as they all share the system temporary directory between all users. Version 4.1.77.Final contains a patch for this vulnerability. As a workaround, specify one's own `java.io.tmpdir` when starting the JVM or use DefaultHttpDataFactory.setBaseDir(...) to set the directory to something that is only readable by the current user.
 
 CVE-2022-24411: Dell PowerScale OneFS 8.2.2 and above contain an elevation of privilege vulnerability. A local attacker with ISI_PRIV_LOGIN_SSH and/or ISI_PRIV_LOGIN_CONSOLE could potentially exploit this vulnerability, leading to elevation of privilege. This could potentially allow users to circumvent PowerScale Compliance Mode guarantees.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-379 Creation of Temporary File in Directory with Insecure Permissions
 
@@ -3784,14 +3152,6 @@ CVE-2022-28226: Local privilege vulnerability in Yandex Browser for Windows prio
 
 CVE-2022-41946: pgjdbc is an open source postgresql JDBC Driver. In affected versions a prepared statement using either `PreparedStatement.setText(int, InputStream)` or `PreparedStatemet.setBytea(int, InputStream)` will create a temporary file if the InputStream is larger than 2k. This will create a temporary file which is readable by other users on Unix like systems, but not MacOS. On Unix like systems, the system's temporary directory is shared between all users on that system. Because of this, when files and directories are written into this directory they are, by default, readable by other users on that same system. This vulnerability does not allow other users to overwrite the contents of these directories or files. This is purely an information disclosure vulnerability. Because certain JDK file system APIs were only added in JDK 1.7, this this fix is dependent upon the version of the JDK you are using. Java 1.7 and higher users: this vulnerability is fixed in 4.5.0. Java 1.6 and lower users: no patch is available. If you are unable to patch, or are stuck running on Java 1.6, specifying the java.io.tmpdir system environment variable to a directory that is exclusively owned by the executing user will mitigate this vulnerability.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-38 Path Traversal: '\absolute\pathname\here'
 
 ## Description
@@ -3806,14 +3166,6 @@ CVE-2003-0753: Remote attackers can read arbitrary files via a full pathname to 
 
 CVE-2002-1525: Remote attackers can read arbitrary files via an absolute pathname.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-382 J2EE Bad Practices: Use of System.exit()
 
 ## Description
@@ -3822,14 +3174,6 @@ A J2EE application uses System.exit(), which also shuts down its container.
 
 It is never a good idea for a web application to attempt to shut down the application container. Access to a function that can shut down the application is an avenue for Denial of Service (DoS) attacks.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-383 J2EE Bad Practices: Direct Use of Threads
 
 ## Description
@@ -3837,14 +3181,6 @@ It is never a good idea for a web application to attempt to shut down the applic
 Thread management in a Web application is forbidden in some circumstances and is always highly error prone.
 
 Thread management in a web application is forbidden by the J2EE standard in some circumstances and is always highly error prone. Managing threads is difficult and is likely to interfere in unpredictable ways with the behavior of the application container. Even without interfering with the container, thread management usually leads to bugs that are hard to detect and diagnose like deadlock, race conditions, and other synchronization errors.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-384 Session Fixation
 
@@ -3875,14 +3211,6 @@ CVE-2022-31798: Nortek Linear eMerge E3-Series 0.32-07p devices are vulnerable t
 
 CVE-2022-26591: FANTEC GmbH MWiD25-DS Firmware v2.000.030 allows unauthenticated attackers to access and download arbitrary files via a crafted GET request.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Compound
-
-- 1003 view: Yes
-
 # CWE-385 Covert Timing Channel
 
 ## Description
@@ -3898,27 +3226,11 @@ Covert channels are frequently classified as either storage or timing channels. 
 
 CVE-2022-24409: Dell BSAFE SSL-J contains remediation for a covert timing channel vulnerability that may be exploited by malicious users to compromise the affected system. Only customers with active BSAFE maintenance contracts can receive details about this vulnerability. Public disclosure of the vulnerability details will be shared at a later date.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-386 Symbolic Name not Mapping to Correct Object
 
 ## Description
 
 A constant symbolic reference to an object is used, even though the reference can resolve to a different object over time.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-39 Path Traversal: 'C:dirname'
 
@@ -3952,14 +3264,6 @@ CVE-2022-36687: Ingredients Stock Management System v1.0 was discovered to conta
 
 CVE-2022-44280: Automotive Shop Management System v1.0 is vulnerable to Delete any file via /asms/classes/Master.php?f=delete_img.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-390 Detection of Error Condition Without Action
 
 ## Description
@@ -3977,14 +3281,6 @@ CVE-2022-20057: In btif, there is a possible memory corruption due to incorrect 
 CVE-2021-1906: Improper handling of address deregistration on failure can lead to new GPU address allocation failure. in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables
 
 CVE-2022-21820: NVIDIA DCGM contains a vulnerability in nvhostengine, where a network user can cause detection of error conditions without action, which may lead to limited code execution, some denial of service, escalation of privileges, and limited impacts to both data confidentiality and integrity.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-392 Missing Report of Error Condition
 
@@ -4008,14 +3304,6 @@ CVE-2005-2459: Function returns non-error value when a particular erroneous cond
 
 CVE-2022-24448: An issue was discovered in fs/nfs/dir.c in the Linux kernel before 5.16.5. If an application sets the O_DIRECTORY flag, and tries to open a regular file, nfs_atomic_open() performs a regular lookup. If a regular file is found, ENOTDIR should occur, but the server instead returns uninitialized data in the file descriptor.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-393 Return of Wrong Status Code
 
 ## Description
@@ -4033,14 +3321,6 @@ CVE-2001-1509: Hardware-specific implementation of system call causes incorrect 
 CVE-2001-1559: Chain: System call returns wrong value (CWE-393), leading to a resultant NULL dereference (CWE-476).
 
 CVE-2014-1266: chain: incorrect "goto" in Apple SSL product bypasses certificate validation, allowing Adversary-in-the-Middle (AITM) attack (Apple "goto fail" bug). CWE-705 (Incorrect Control Flow Scoping) -> CWE-561 (Dead Code) -> CWE-295 (Improper Certificate Validation) -> CWE-393 (Return of Wrong Status Code) -> CWE-300 (Channel Accessible by Non-Endpoint).
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-394 Unexpected Status Code or Return Value
 
@@ -4070,14 +3350,6 @@ CVE-2005-1267: Resultant infinite loop when function call returns -1 value.
 
 CVE-2021-32846: HyperKit is a toolkit for embedding hypervisor capabilities in an application. In versions 0.20210107, function `pci_vtsock_proc_tx` in `virtio-sock` can lead to to uninitialized memory use. In this situation, there is a check for the return value to be less or equal to `VTSOCK_MAXSEGS`, but that check is not sufficient because the function can return `-1` if it finds an error it cannot recover from. Moreover, the negative return value will be used by `iovec_pull` in a while condition that can further lead to more corruption because the function is not designed to handle a negative `iov_len`. This issue may lead to a guest crashing the host causing a denial of service and, under certain circumstance, memory corruption. This issue is fixed in commit af5eba2360a7351c08dfd9767d9be863a50ebaba.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-395 Use of NullPointerException Catch to Detect NULL Pointer Dereference
 
 ## Description
@@ -4095,14 +3367,6 @@ Programmers typically catch NullPointerException under three circumstances:
 
 Of these three circumstances, only the last is acceptable.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-396 Declaration of Catch for Generic Exception
 
 ## Description
@@ -4111,14 +3375,6 @@ Catching overly broad exceptions promotes complex error handling code that is mo
 
 Multiple catch blocks can get ugly and repetitive, but "condensing" catch blocks by catching a high-level class like Exception can obscure exceptions that deserve special treatment or that should not be caught at this point in the program. Catching an overly broad exception essentially defeats the purpose of a language's typed exceptions, and can become particularly dangerous if the program grows and begins to throw new types of exceptions. The new exception types will not receive any attention.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-397 Declaration of Throws for Generic Exception
 
 ## Description
@@ -4126,12 +3382,4 @@ Multiple catch blocks can get ugly and repetitive, but "condensing" catch blocks
 Throwing overly broad exceptions promotes complex error handling code that is more likely to contain security vulnerabilities.
 
 Declaring a method to throw Exception or Throwable makes it difficult for callers to perform proper error handling and error recovery. Java's exception mechanism, for example, is set up to make it easy for callers to anticipate what can go wrong and write code to handle each specific exceptional circumstance. Declaring that a method throws a generic form of exception defeats this system.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 

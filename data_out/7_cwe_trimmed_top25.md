@@ -9,14 +9,6 @@ A Web application must define a default error page for 4xx errors (e.g. 404), 5x
 
 When an attacker explores a web site looking for vulnerabilities, the amount of information that the site provides is crucial to the eventual success or failure of any attempted attacks.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-703 Improper Check or Handling of Exceptional Conditions
 
 ## Description
@@ -44,14 +36,6 @@ CVE-2022-22265: An improper check or handling of exceptional conditions in NPU d
 CVE-2022-39911: Improper check or handling of exceptional conditions vulnerability in Samsung Pass prior to version 4.0.06.1 allows attacker to access Samsung Pass.
 
 CVE-2022-41777: Improper check or handling of exceptional conditions vulnerability in Nako3edit, editor component of nadesiko3 (PC Version) v3.3.74 and earlier allows a remote attacker to inject an invalid value to decodeURIComponent of nako3edit, which may lead the server to crash.
-
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Pillar
-
-- 1003 view: No
 
 # CWE-704 Incorrect Type Conversion or Cast
 
@@ -85,14 +69,6 @@ CVE-2022-3979: A vulnerability was found in NagVis up to 1.9.33 and classified a
 
 CVE-2021-39989: The HwNearbyMain module has a Exposure of Sensitive Information to an Unauthorized Actor vulnerability.Successful exploitation of this vulnerability may cause a process to restart.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-705 Incorrect Control Flow Scoping
 
 ## Description
@@ -111,27 +87,11 @@ CVE-2022-2841: A vulnerability was found in CrowdStrike Falcon 6.31.14505.0/6.42
 
 CVE-2021-41250: Python discord bot is the community bot for the Python Discord community. In affected versions when a non-blacklisted URL and an otherwise triggering filter token is included in the same message the token filter does not trigger. This means that by including any non-blacklisted URL moderation filters can be bypassed. This issue has been resolved in commit 67390298852513d13e0213870e50fb3cff1424e0
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-706 Use of Incorrectly-Resolved Name or Reference
 
 ## Description
 
 The product uses a name or reference to access a resource, but the name/reference resolves to a resource that is outside of the intended control sphere.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
 
 # CWE-707 Improper Neutralization
 
@@ -159,14 +119,6 @@ This weakness typically applies in cases where the product prepares a control me
 
 CVE-2022-25809: Improper Neutralization of audio output from 3rd and 4th Generation Amazon Echo Dot devices allows arbitrary voice command execution on these devices via a malicious skill (in the case of remote attackers) or by pairing a malicious Bluetooth device (in the case of physically proximate attackers), aka an "Alexa versus Alexa (AvA)" attack.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Pillar
-
-- 1003 view: No
-
 # CWE-708 Incorrect Ownership Assignment
 
 ## Description
@@ -189,27 +141,11 @@ CVE-2005-1064: Product changes the ownership of files that a symlink points to, 
 
 CVE-2011-1551: Component assigns ownership of sensitive directory tree to a user account, which can be leveraged to perform privileged operations.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-710 Improper Adherence to Coding Standards
 
 ## Description
 
 The product does not follow certain coding rules for development, which can lead to resultant weaknesses or increase the severity of the associated vulnerabilities.
-
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Pillar
-
-- 1003 view: No
 
 # CWE-72 Improper Handling of Apple HFS+ Alternate Data Stream Path
 
@@ -241,14 +177,6 @@ Programs need to control access to these paths, if the processing of a file syst
 ## Observed Examples
 
 CVE-2004-1084: Server allows remote attackers to read files and resource fork content via HTTP requests to certain special file names related to multiple data streams in HFS+.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-73 External Control of File Name or Path
 
@@ -288,14 +216,6 @@ CVE-2022-45918: ILIAS before 7.16 allows External Control of File Name or Path.
 CVE-2022-23118: Jenkins Debian Package Builder Plugin 1.6.11 and earlier implements functionality that allows agents to invoke command-line `git` at an attacker-specified path on the controller, allowing attackers able to control agent processes to invoke arbitrary OS commands on the controller.
 
 CVE-2022-25643: seatd-launch in seatd 0.6.x before 0.6.4 allows removing files with escalated privileges when installed setuid root. The attack vector is a user-supplied socket pathname.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-732 Incorrect Permission Assignment for Critical Resource
 
@@ -495,14 +415,6 @@ CVE-2022-22411: IBM Spectrum Scale Data Access Services (DAS) 5.1.3.1 could allo
 
 CVE-2022-41926: Nextcould talk android is the android OS implementation of the nextcloud talk chat system. In affected versions the receiver is not protected by broadcastPermission allowing malicious apps to monitor communication. It is recommended that the Nextcloud Talk Android is upgraded to 14.1.0. There are no known workarounds for this issue.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-733 Compiler Optimization Removal or Modification of Security-critical Code
 
 ## Description
@@ -518,14 +430,6 @@ CVE-2019-1010006: Chain: compiler optimization (CWE-733) removes or modifies cod
 ## Top 25 Examples
 
 CVE-2021-20320: A flaw was found in s390 eBPF JIT in bpf_jit_insn in arch/s390/net/bpf_jit_comp.c in the Linux kernel. In this flaw, a local attacker with special user privilege can circumvent the verifier and may lead to a confidentiality problem.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-74 Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')
 
@@ -589,14 +493,6 @@ CVE-2022-33012: Microweber v1.2.15 was discovered to allow attackers to perform 
 
 CVE-2022-37108: An injection vulnerability in the syslog-ng configuration wizard in Securonix Snypr 6.4 allows an application user with the "Manage Ingesters" permission to execute arbitrary code on remote ingesters by appending arbitrary text to text files that are executed by the system, such as users' crontab files. The patch for this was present in SNYPR version 6.4 Jun 2022 R3_[06170871], but may have been introduced sooner.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-749 Exposed Dangerous Method or Function
 
 ## Description
@@ -627,14 +523,6 @@ CVE-2021-23556: The package guake before 3.8.5 are vulnerable to Exposed Dangero
 
 CVE-2022-43138: Dolibarr Open Source ERP & CRM for Business before v14.0.1 allows attackers to escalate privileges via a crafted API.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-75 Failure to Sanitize Special Elements into a Different Plane (Special Element Injection)
 
 ## Description
@@ -644,14 +532,6 @@ The product does not adequately filter user-controlled input for special element
 ## Top 25 Examples
 
 CVE-2022-3607: Failure to Sanitize Special Elements into a Different Plane (Special Element Injection) in GitHub repository octoprint/octoprint prior to 1.8.3.
-
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-754 Improper Check for Unusual or Exceptional Conditions
 
@@ -685,14 +565,6 @@ CVE-2022-20130: In transportDec_OutOfBandConfig of tpdec_lib.cpp, there is a pos
 CVE-2021-3560: It was found that polkit could be tricked into bypassing the credential checks for D-Bus requests, elevating the privileges of the requestor to the root user. This flaw could be used by an unprivileged local attacker to, for example, create a new local administrator. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.
 
 CVE-2022-20426: In multiple functions of many files, there is a possible obstruction of the user's ability to select a phone account due to resource exhaustion. This could lead to local denial of service with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-12L Android-13Android ID: A-236263294
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
 
 # CWE-755 Improper Handling of Exceptional Conditions
 
@@ -750,14 +622,6 @@ CVE-2022-20748: A vulnerability in the local malware analysis process of Cisco F
 
 CVE-2022-20854: A vulnerability in the processing of SSH connections of Cisco Firepower Management Center (FMC) and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device. This vulnerability is due to improper error handling when an SSH session fails to be established. An attacker could exploit this vulnerability by sending a high rate of crafted SSH connections to the instance. A successful exploit could allow the attacker to cause resource exhaustion, resulting in a reboot on the affected device.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-756 Missing Custom Error Page
 
 ## Description
@@ -767,14 +631,6 @@ The product does not return custom error pages to the user, possibly exposing se
 ## Top 25 Examples
 
 CVE-2022-3175: Missing Custom Error Page in GitHub repository ikus060/rdiffweb prior to 2.4.2.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-757 Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade')
 
@@ -802,14 +658,6 @@ CVE-2022-36436: OSU Open Source Lab VNCAuthProxy through 1.1.1 is affected by an
 
 CVE-2022-28860: An authentication downgrade in the server in Citilog 8.0 allows an attacker (in a man in the middle position between the server and its smart camera Axis M1125) to achieve HTTP access to the camera.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-758 Reliance on Undefined, Unspecified, or Implementation-Defined Behavior
 
 ## Description
@@ -821,14 +669,6 @@ This can lead to resultant weaknesses when the required properties change, such 
 ## Observed Examples
 
 CVE-2006-1902: Change in C compiler behavior causes resultant buffer overflows in programs that depend on behaviors that were undefined in the C standard.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-759 Use of a One-Way Hash without a Salt
 
@@ -853,14 +693,6 @@ CVE-2006-1058: Router does not use a salt with a hash, making it easier to crack
 
 CVE-2022-40295:  The application was vulnerable to an authenticated information disclosure, allowing administrators to view unsalted user passwords, which could lead to the compromise of plaintext passwords via offline attacks. 
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-76 Improper Neutralization of Equivalent Special Elements
 
 ## Description
@@ -868,14 +700,6 @@ CVE-2022-40295:  The application was vulnerable to an authenticated information 
 The product correctly neutralizes certain special elements, but it improperly neutralizes equivalent special elements.
 
 The product may have a fixed list of special characters it believes is complete. However, there may be alternate encodings, or representations that also have the same meaning. For example, the product may filter out a leading slash (/) to prevent absolute path names, but does not account for a tilde (~) followed by a user name, which on some *nix systems could be expanded to an absolute pathname. Alternately, the product might filter a dangerous "-e" command-line switch when calling an external program, but it might not account for "--exec" or other switches that have the same semantics.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-760 Use of a One-Way Hash with a Predictable Salt
 
@@ -906,14 +730,6 @@ CVE-2021-26113: A use of a one-way hash with a predictable salt vulnerability [C
 
 CVE-2021-38314: The Gutenberg Template Library & Redux Framework plugin <= 4.2.11 for WordPress registered several AJAX actions available to unauthenticated users in the `includes` function in `redux-core/class-redux-core.php` that were unique to a given site but deterministic and predictable given that they were based on an md5 hash of the site URL with a known salt value of '-redux' and an md5 hash of the previous hash with a known salt value of '-support'. These AJAX actions could be used to retrieve a list of active plugins and their versions, the site's PHP version, and an unsalted md5 hash of site’s `AUTH_KEY` concatenated with the `SECURE_AUTH_KEY`.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-761 Free of Pointer not at Start of Buffer
 
 ## Description
@@ -929,14 +745,6 @@ This weakness often occurs when the memory is allocated explicitly on the heap w
 
 CVE-2019-11930: function "internally calls 'calloc' and returns a pointer at an index... inside the allocated buffer. This led to freeing invalid memory."
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-762 Mismatched Memory Management Routines
 
 ## Description
@@ -951,14 +759,6 @@ This weakness can be generally described as mismatching memory management routin
   - The memory was allocated explicitly using one set of memory management functions, and deallocated using a different set. For example, memory might be allocated with malloc() in C++ instead of the new operator, and then deallocated with the delete operator.
 
 When the memory management functions are mismatched, the consequences may be as severe as code execution, memory corruption, or program crash. Consequences and ease of exploit will vary depending on the implementation of the routines and the object being managed.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-763 Release of Invalid Pointer or Reference
 
@@ -981,14 +781,6 @@ CVE-2019-11930: function "internally calls 'calloc' and returns a pointer at an 
 
 CVE-2021-41073: loop_rw_iter in fs/io_uring.c in the Linux kernel 5.10 through 5.14.6 allows local users to gain privileges by using IORING_OP_PROVIDE_BUFFERS to trigger a free of a kernel buffer, as demonstrated by using /proc/<pid>/maps for exploitation.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-764 Multiple Locks of a Critical Resource
 
 ## Description
@@ -996,14 +788,6 @@ CVE-2021-41073: loop_rw_iter in fs/io_uring.c in the Linux kernel 5.10 through 5
 The product locks a critical resource more times than intended, leading to an unexpected state in the system.
 
 When a product is operating in a concurrent environment and repeatedly locks a critical resource, the consequences will vary based on the type of lock, the lock's implementation, and the resource being protected. In some situations such as with semaphores, the resources are pooled and extra locking calls will reduce the size of the total available pool, possibly leading to degraded performance or a denial of service. If this can be triggered by an attacker, it will be similar to an unrestricted lock (CWE-412). In the context of a binary lock, it is likely that any duplicate locking attempts will never succeed since the lock is already held and progress may not be possible.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-765 Multiple Unlocks of a Critical Resource
 
@@ -1017,14 +801,6 @@ When the product is operating in a concurrent environment and repeatedly unlocks
 
 CVE-2009-0935: Attacker provides invalid address to a memory-reading function, causing a mutex to be unlocked twice
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-766 Critical Data Element Declared Public
 
 ## Description
@@ -1037,14 +813,6 @@ This issue makes it more difficult to maintain the product, which indirectly aff
 
 CVE-2010-3860: variables declared public allow remote read of system properties such as user name and home directory.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-767 Access to Critical Private Variable via Public Method
 
 ## Description
@@ -1052,14 +820,6 @@ CVE-2010-3860: variables declared public allow remote read of system properties 
 The product defines a public method that reads or modifies a private variable.
 
 If an attacker modifies the variable to contain unexpected values, this could violate assumptions from other parts of the code. Additionally, if an attacker can read the private variable, it may expose sensitive information or make it easier to launch further attacks.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-768 Incorrect Short Circuit Evaluation
 
@@ -1074,14 +834,6 @@ If the first condition of an "or" statement is assumed to be true under normal c
 
 
 Finally, the usage of short circuit evaluation may decrease the maintainability of the code.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-77 Improper Neutralization of Special Elements used in a Command ('Command Injection')
 
@@ -1315,14 +1067,6 @@ CVE-2022-31874: ASUS RT-N53 3.0.0.4.376.3754 has a command injection vulnerabili
 
 CVE-2022-45063: xterm before 375 allows code execution via font ops, e.g., because an OSC 50 response may have Ctrl-g and therefore lead to command execution within the vi line-editing mode of Zsh. NOTE: font ops are not allowed in the xterm default configurations of some Linux distributions.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-770 Allocation of Resources Without Limits or Throttling
 
 ## Description
@@ -1429,14 +1173,6 @@ CVE-2022-43686: In Concrete CMS (formerly concrete5) below 8.5.10 and between 9.
 
 CVE-2022-41725: A denial of service is possible from excessive resource consumption in net/http and mime/multipart. Multipart form parsing with mime/multipart.Reader.ReadForm can consume largely unlimited amounts of memory and disk files. This also affects form parsing in the net/http package with the Request methods FormFile, FormValue, ParseMultipartForm, and PostFormValue. ReadForm takes a maxMemory parameter, and is documented as storing "up to maxMemory bytes +10MB (reserved for non-file parts) in memory". File parts which cannot be stored in memory are stored on disk in temporary files. The unconfigurable 10MB reserved for non-file parts is excessively large and can potentially open a denial of service vector on its own. However, ReadForm did not properly account for all memory consumed by a parsed form, such as map entry overhead, part names, and MIME headers, permitting a maliciously crafted form to consume well over 10MB. In addition, ReadForm contained no limit on the number of disk files created, permitting a relatively small request body to create a large number of disk temporary files. With fix, ReadForm now properly accounts for various forms of memory overhead, and should now stay within its documented limit of 10MB + maxMemory bytes of memory consumption. Users should still be aware that this limit is high and may still be hazardous. In addition, ReadForm now creates at most one on-disk temporary file, combining multiple form parts into a single temporary file. The mime/multipart.File interface type's documentation states, "If stored on disk, the File's underlying concrete type will be an *os.File.". This is no longer the case when a form contains more than one file part, due to this coalescing of parts into a single file. The previous behavior of using distinct files for each form part may be reenabled with the environment variable GODEBUG=multipartfiles=distinct. Users should be aware that multipart.ReadForm and the http.Request methods that call it do not limit the amount of disk consumed by temporary files. Callers can limit the size of form data with http.MaxBytesReader.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-771 Missing Reference to Active Allocated Resource
 
 ## Description
@@ -1444,14 +1180,6 @@ CVE-2022-41725: A denial of service is possible from excessive resource consumpt
 The product does not properly maintain a reference to a resource that has been allocated, which prevents the resource from being reclaimed.
 
 This does not necessarily apply in languages or frameworks that automatically perform garbage collection, since the removal of all references may act as a signal that the resource is ready to be reclaimed.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-772 Missing Release of Resource after Effective Lifetime
 
@@ -1485,14 +1213,6 @@ CVE-2022-31222: Dell BIOS versions contain a Missing Release of Resource after E
 
 CVE-2022-41952: Synapse before 1.52.0 with URL preview functionality enabled will attempt to generate URL previews for media stream URLs without properly limiting connection time. Connections will only be terminated after `max_spider_size` (default: 10M) bytes have been downloaded, which can in some cases lead to long-lived connections towards the streaming media server (for instance, Icecast). This can cause excessive traffic and connections toward such servers if their stream URL is, for example, posted to a large room with many Synapse instances with URL preview enabled. Version 1.52.0 implements a timeout mechanism which will terminate URL preview connections after 30 seconds. Since generating URL previews for media streams is not supported and always fails, 1.53.0 additionally implements an allow list for content types for which Synapse will even attempt to generate a URL preview. Upgrade to 1.53.0 to fully resolve the issue. As a workaround, turn off URL preview functionality by setting `url_preview_enabled: false` in the Synapse configuration file.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-773 Missing Reference to Active File Descriptor or Handle
 
 ## Description
@@ -1501,14 +1221,6 @@ The product does not properly maintain references to a file descriptor or handle
 
 This can cause the product to consume all available file descriptors or handles, which can prevent other processes from performing critical file processing operations.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-774 Allocation of File Descriptors or Handles Without Limits or Throttling
 
 ## Description
@@ -1516,14 +1228,6 @@ This can cause the product to consume all available file descriptors or handles,
 The product allocates file descriptors or handles on behalf of an actor without imposing any restrictions on how many descriptors can be allocated, in violation of the intended security policy for that actor.
 
 This can cause the product to consume all available file descriptors or handles, which can prevent other processes from performing critical file processing operations.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-775 Missing Release of File Descriptor or Handle after Effective Lifetime
 
@@ -1540,14 +1244,6 @@ CVE-2007-0897: Chain: anti-virus product encounters a malformed file but returns
 ## Top 25 Examples
 
 CVE-2022-22215: A Missing Release of File Descriptor or Handle after Effective Lifetime vulnerability in plugable authentication module (PAM) of Juniper Networks Junos OS and Junos OS Evolved allows a locally authenticated attacker with low privileges to cause a Denial of Service (DoS). It is possible that after the termination of a gRPC connection the respective/var/run/<pid>.env file is not getting deleted which if occurring repeatedly can cause inode exhaustion. Inode exhaustion can present itself in two different ways: 1. The following log message can be observed: host kernel: pid <pid> (<process>), uid <uid> inumber <number> on /.mount/var: out of inodes which by itself is a clear indication. 2. The following log message can be observed: host <process>[<pid>]: ... : No space left on device which is not deterministic and just a representation of a write error which could have several reasons. So the following check needs to be done: user@host> show system storage no-forwarding Filesystem Size Used Avail Capacity Mounted on /dev/ada1p1 475M 300M 137M 69% /.mount/var which indicates that the write error is not actually due to a lack of disk space. If either 1. or 2. has been confirmed, then the output of: user@host> file list /var/run/*.env | count need to be checked and if it indicates a high (>10000) number of files the system has been affected by this issue. This issue affects: Juniper Networks Junos OS All versions prior to 19.1R3-S8; 19.2 versions prior to 19.2R3-S6; 19.3 versions prior to 19.3R3-S5; 19.4 versions prior to 19.4R2-S6, 19.4R3-S7; 20.1 version 20.1R1 and later versions; 20.2 versions prior to 20.2R3-S5; 20.3 versions prior to 20.3R3-S4; 20.4 versions prior to 20.4R3; 21.1 versions prior to 21.1R3; 21.2 versions prior to 21.2R2. Juniper Networks Junos OS Evolved All versions prior to 20.4R3-EVO; 21.1 versions prior to 21.1R3-S1-EVO; 21.2 versions prior to 21.2R1-S1-EVO, 21.2R2-EVO.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-776 Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion')
 
@@ -1579,14 +1275,6 @@ CVE-2021-41559: Silverstripe silverstripe/framework 4.8.1 has a quadratic blowup
 
 CVE-2022-25857: The package org.yaml:snakeyaml from 0 and before 1.31 are vulnerable to Denial of Service (DoS) due missing to nested depth limitation for collections.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-777 Regular Expression without Anchors
 
 ## Description
@@ -1606,14 +1294,6 @@ CVE-2022-30034: Chain: Web UI for a Python RPC framework does not use regex anch
 CVE-2021-28965: The REXML gem before 3.2.5 in Ruby before 2.6.7, 2.7.x before 2.7.3, and 3.x before 3.0.1 does not properly address XML round-trip issues. An incorrect document can be produced after parsing and serializing.
 
 CVE-2022-30688: needrestart 0.8 through 3.5 before 3.6 is prone to local privilege escalation. Regexes to detect the Perl, Python, and Ruby interpreters are not anchored, allowing a local user to escalate privileges when needrestart tries to detect if interpreters are using old source files.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-778 Insufficient Logging
 
@@ -1644,14 +1324,6 @@ CVE-2022-30305: An insufficient logging [CWE-778] vulnerability in FortiSandbox 
 
 CVE-2022-25783: Insufficient Logging vulnerability in web server of Secomea GateManager allows logged in user to issue improper queries without logging. This issue affects: Secomea GateManager versions prior to 9.7.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-779 Logging of Excessive Data
 
 ## Description
@@ -1671,14 +1343,6 @@ CVE-2002-1154: chain: application does not restrict access to front-end for upda
 CVE-2022-22291: Logging of excessive data vulnerability in telephony prior to SMR Feb-2022 Release 1 allows privileged attackers to get Cell Location Information through log of user device.
 
 CVE-2022-25779: Logging of Excessive Data vulnerability in audit log of Secomea GateManager allows logged in user to write text entries in audit log. This issue affects: Secomea GateManager versions prior to 9.7.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-78 Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
 
@@ -2372,14 +2036,6 @@ CVE-2021-43033: An issue was discovered in Kaseya Unitrends Backup Appliance bef
 
 CVE-2022-26582: PAX A930 device with PayDroid_7.1.1_Virgo_V04.3.26T1_20210419 can allow an attacker to gain root access through command injection in systool client. The attacker must have shell access to the device in order to exploit this vulnerability.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-780 Use of RSA Algorithm without OAEP
 
 ## Description
@@ -2391,14 +2047,6 @@ Padding schemes are often used with cryptographic algorithms to make the plainte
 ## Top 25 Examples
 
 CVE-2022-25218: The use of the RSA algorithm without OAEP, or any other padding scheme, in telnetd_startup, allows an unauthenticated attacker on the local area network to achieve a significant degree of control over the "plaintext" to which an arbitrary blob of ciphertext will be decrypted by OpenSSL's RSA_public_decrypt() function. This weakness allows the attacker to manipulate the various iterations of the telnetd startup state machine and eventually obtain a root shell on the device, by means of an exchange of crafted UDP packets. In all versions but K2 22.5.9.163 and K3C 32.1.15.93 a successful attack also requires the exploitation of a null-byte interaction error (CVE-2022-25219).
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-781 Improper Address Validation in IOCTL with METHOD_NEITHER I/O Control Code
 
@@ -2419,14 +2067,6 @@ CVE-2009-0824: DVD software allows attackers to cause a crash.
 CVE-2008-5724: Personal firewall allows attackers to gain SYSTEM privileges.
 
 CVE-2007-5756: chain: device driver for packet-capturing software allows access to an unintended IOCTL with resultant array index error.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-782 Exposed IOCTL with Insufficient Access Control
 
@@ -2465,14 +2105,6 @@ CVE-2022-38582: Incorrect access control in the anti-virus driver wsdkd.sys of W
 
 CVE-2021-44852: An issue was discovered in BS_RCIO64.sys in Biostar RACING GT Evo 2.1.1905.1700. A low-integrity process can open the driver's device object and issue IOCTLs to read or write to arbitrary physical memory locations (or call an arbitrary address), leading to execution of arbitrary code. This is associated with 0x226040, 0x226044, and 0x226000.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-783 Operator Precedence Logic Error
 
 ## Description
@@ -2488,14 +2120,6 @@ CVE-2008-2516: Authentication module allows authentication bypass because it use
 CVE-2008-0599: Chain: Language interpreter calculates wrong buffer size (CWE-131) by using "size = ptr ? X : Y" instead of "size = (ptr ? X : Y)" expression.
 
 CVE-2001-1155: Chain: product does not properly check the result of a reverse DNS lookup because of operator precedence (CWE-783), allowing bypass of DNS-based access restrictions.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-784 Reliance on Cookies without Validation and Integrity Checking in a Security Decision
 
@@ -2527,14 +2151,6 @@ CVE-2022-30620: On Cellinx Camera with guest enabled, attacker with web access c
 
 CVE-2022-29248: Guzzle is a PHP HTTP client. Guzzle prior to versions 6.5.6 and 7.4.3 contains a vulnerability with the cookie middleware. The vulnerability is that it is not checked if the cookie domain equals the domain of the server which sets the cookie via the Set-Cookie header, allowing a malicious server to set cookies for unrelated domains. The cookie middleware is disabled by default, so most library consumers will not be affected by this issue. Only those who manually add the cookie middleware to the handler stack or construct the client with ['cookies' => true] are affected. Moreover, those who do not use the same Guzzle client to call multiple domains and have disabled redirect forwarding are not affected by this vulnerability. Guzzle versions 6.5.6 and 7.4.3 contain a patch for this issue. As a workaround, turn off the cookie middleware.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-785 Use of Path Manipulation Function without Maximum-sized Buffer
 
 ## Description
@@ -2544,14 +2160,6 @@ The product invokes a function for normalizing paths or file names, but it provi
 Passing an inadequately-sized output buffer to a path manipulation function can result in a buffer overflow. Such functions include realpath(), readlink(), PathAppend(), and others.
 
 Windows provides a large number of utility functions that manipulate buffers containing filenames. In most cases, the result is returned in a buffer that is passed in as input. (Usually the filename is modified in place.) Most functions require the buffer to be at least MAX_PATH bytes in length, but you should check the documentation for each function individually. If the buffer is not large enough to store the result of the manipulation, a buffer overflow can occur.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-786 Access of Memory Location Before Start of Buffer
 
@@ -2580,14 +2188,6 @@ CVE-2004-2620: Buffer underflow due to mishandled special characters
 ## Top 25 Examples
 
 CVE-2022-0351: Access of Memory Location Before Start of Buffer in GitHub repository vim/vim prior to 8.2.
-
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-787 Out-of-bounds Write
 
@@ -2777,14 +2377,6 @@ CVE-2022-35086: SWFTools commit 772e55a2 was discovered to contain a segmentatio
 
 CVE-2022-35101: SWFTools commit 772e55a2 was discovered to contain a segmentation violation via /multiarch/memset-vec-unaligned-erms.S.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-788 Access of Memory Location After End of Buffer
 
 ## Description
@@ -2869,14 +2461,6 @@ CVE-2021-43756: Adobe Media Encoder versions 22.0, 15.4.2 (and earlier) are affe
 
 CVE-2022-0521: Access of Memory Location After End of Buffer in GitHub repository radareorg/radare2 prior to 5.6.2.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-789 Memory Allocation with Excessive Size Value
 
 ## Description
@@ -2928,14 +2512,6 @@ CVE-2022-31080: KubeEdge is an open source system for extending native container
 CVE-2022-35922: Rust-WebSocket is a WebSocket (RFC6455) library written in Rust. In versions prior to 0.26.5 untrusted websocket connections can cause an out-of-memory (OOM) process abort in a client or a server. The root cause of the issue is during dataframe parsing. Affected versions would allocate a buffer based on the declared dataframe size, which may come from an untrusted source. When `Vec::with_capacity` fails to allocate, the default Rust allocator will abort the current process, killing all threads. This affects only sync (non-Tokio) implementation. Async version also does not limit memory, but does not use `with_capacity`, so DoS can happen only when bytes for oversized dataframe or message actually got delivered by the attacker. The crashes are fixed in version 0.26.5 by imposing default dataframe size limits. Affected users are advised to update to this version. Users unable to upgrade are advised to filter websocket traffic externally or to only accept trusted traffic.
 
 CVE-2022-41727: An attacker can craft a malformed TIFF image which will consume a significant amount of memory when passed to DecodeConfig. This could lead to a denial of service.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-79 Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
 
@@ -3230,14 +2806,6 @@ CVE-2022-0748: The package post-loader from 0.0.0 are vulnerable to Arbitrary Co
 
 CVE-2022-0121: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in hoppscotch hoppscotch/hoppscotch.This issue affects hoppscotch/hoppscotch before 2.1.1. 
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-790 Improper Filtering of Special Elements
 
 ## Description
@@ -3320,14 +2888,6 @@ CVE-2022-29639: TOTOLINK A3100R V4.1.2cu.5050_B20200504 and V4.1.2cu.5247_B20211
 
 CVE-2022-32228: An information disclosure vulnerability exists in Rocket.Chat <v5, <v4.8.2 and <v4.7.5 since the getReadReceipts Meteor server method does not properly filter user inputs that are passed to MongoDB queries, allowing $regex queries to enumerate arbitrary Message IDs.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-791 Incomplete Filtering of Special Elements
 
 ## Description
@@ -3341,14 +2901,6 @@ CVE-2022-25597: ASUS RT-AC86U’s LPD service has insufficient filtering for spe
 CVE-2022-39057: RAVA certificate validation system has insufficient filtering for special parameter of the web page input field. A remote attacker with administrator privilege can exploit this vulnerability to perform arbitrary system command and disrupt service.
 
 CVE-2022-27176: Incomplete filtering of special elements vulnerability exists in RevoWorks SCVX using 'File Sanitization Library' 1.043 and prior versions, RevoWorks Browser 2.2.67 and prior versions (when using 'File Sanitization Option'), and RevoWorks Desktop 2.1.84 and prior versions (when using 'File Sanitization Option'), which may allow an attacker to execute a malicious macro by having a user to download, import, and open a specially crafted file in the local environment.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-792 Incomplete Filtering of One or More Instances of Special Elements
 
@@ -3367,14 +2919,6 @@ Incomplete filtering of this nature involves either:
 
 CVE-2022-22297: An incomplete filtering of one or more instances of special elements vulnerability [CWE-792] in the command line interpreter of FortiWeb version 6.4.0 through 6.4.1, FortiWeb version 6.3.0 through 6.3.17, FortiWeb all versions 6.2, FortiWeb all versions 6.1, FortiWeb all versions 6.0, FortiRecorder version 6.4.0 through 6.4.3, FortiRecorder all versions 6.0, FortiRecorder all versions 2.7 may allow an authenticated user to read arbitrary files via specially crafted command arguments.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-793 Only Filtering One Instance of a Special Element
 
 ## Description
@@ -3382,14 +2926,6 @@ CVE-2022-22297: An incomplete filtering of one or more instances of special elem
 The product receives data from an upstream component, but only filters a single instance of a special element before sending it to a downstream component.
 
 Incomplete filtering of this nature may be location-dependent, as in only the first or last element is filtered.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-794 Incomplete Filtering of Multiple Instances of Special Elements
 
@@ -3403,14 +2939,6 @@ Incomplete filtering of this nature may be applied to:
   - sequential elements (special elements that appear next to each other) or
 
   - non-sequential elements (special elements that appear multiple times in different locations).
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-795 Only Filtering Special Elements at a Specified Location
 
@@ -3427,41 +2955,17 @@ A filter might only account for instances of special elements when they occur:
 
 This may leave special elements in the data that did not match the filter position, but still may be dangerous.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-796 Only Filtering Special Elements Relative to a Marker
 
 ## Description
 
 The product receives data from an upstream component, but only accounts for special elements positioned relative to a marker (e.g. "at the beginning/end of a string; the second argument"), thereby missing remaining special elements that may exist before sending it to a downstream component.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-797 Only Filtering Special Elements at an Absolute Position
 
 ## Description
 
 The product receives data from an upstream component, but only accounts for special elements at an absolute position (e.g. "byte number 10"), thereby missing remaining special elements that may exist before sending it to a downstream component.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-798 Use of Hard-coded Credentials
 
@@ -3544,14 +3048,6 @@ CVE-2022-43978: There is an improper authentication vulnerability in Pandora FMS
 
 CVE-2022-35582: Penta Security Systems Inc WAPPLES 4.0.*, 5.0.0.*, 5.0.12.* are vulnerable to Incorrect Access Control. The operating system that WAPPLES runs on has a built-in non-privileged user penta with a predefined password. The password for this user, as well as its existence, is not disclosed in the documentation. Knowing the credentials, attackers can use this feature to gain uncontrolled access to the device and therefore are considered an undocumented possibility for remote control.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-799 Improper Control of Interaction Frequency
 
 ## Description
@@ -3581,12 +3077,4 @@ CVE-2021-1624: A vulnerability in the Rate Limiting Network Address Translation 
 CVE-2022-21689: OnionShare is an open source tool that lets you securely and anonymously share files, host websites, and chat with friends using the Tor network. In affected versions the receive mode limits concurrent uploads to 100 per second and blocks other uploads in the same second, which can be triggered by a simple script. An adversary with access to the receive mode can block file upload for others. There is no way to block this attack in public mode due to the anonymity properties of the tor network.
 
 CVE-2022-40306: The login form /Login in ECi Printanista Hub (formerly FMAudit Printscout) through 2022-06-27 performs expensive RSA key-generation operations, which allows attackers to cause a denial of service (DoS) by requesting that form repeatedly.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 

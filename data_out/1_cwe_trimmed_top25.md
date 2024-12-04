@@ -46,14 +46,6 @@ CVE-2022-39284: CodeIgniter is a PHP full-stack web framework. In versions prior
 
 CVE-2022-26281: BigAnt Server v5.6.06 was discovered to contain an incorrect access control issue.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-1007 Insufficient Visual Distinction of Homoglyphs Presented to User
 
 ## Description
@@ -87,14 +79,6 @@ CVE-2022-26843: Insufficient visual distinction of homoglyphs presented to user 
 
 CVE-2022-47524: F-Secure SAFE Browser 19.1 before 19.2 for Android allows an IDN homograph attack.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-102 Struts: Duplicate Validation Forms
 
 ## Description
@@ -102,14 +86,6 @@ CVE-2022-47524: F-Secure SAFE Browser 19.1 before 19.2 for Android allows an IDN
 The product uses multiple validation forms with the same name, which might cause the Struts Validator to validate a form that the programmer does not expect.
 
 If two validation forms have the same name, the Struts Validator arbitrarily chooses one of the forms to use for input validation and discards the other. This decision might not correspond to the programmer's expectations, possibly leading to resultant weaknesses. Moreover, it indicates that the validation logic is not up-to-date, and can indicate that other, more subtle validation errors are present.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-1021 Improper Restriction of Rendered UI Layers or Frames
 
@@ -149,14 +125,6 @@ CVE-2022-0110: Incorrect security UI in Autofill in Google Chrome prior to 97.0.
 
 CVE-2022-0455: Inappropriate implementation in Full Screen Mode in Google Chrome on Android prior to 98.0.4758.80 allowed a remote attacker to spoof the contents of the Omnibox (URL bar) via a crafted HTML page.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-1022 Use of Web Link to Untrusted Target with window.opener Access
 
 ## Description
@@ -175,14 +143,6 @@ CVE-2022-4927: A vulnerability was found in ualbertalib NEOSDiscovery 1.0.70 and
 
 CVE-2022-30610: IBM Spectrum Copy Data Management 2.2.0.0 through 2.2.15.0 is vulnerable to reverse tabnabbing where it could allow a page linked to from within IBM Spectrum Copy Data Management to rewrite it. An administrator could enter a link to a malicious URL that another administrator could then click. Once clicked, that malicious URL could then rewrite the original page with a phishing page. IBM X-Force ID: 227363.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-1023 Incomplete Comparison with Missing Factors
 
 ## Description
@@ -197,14 +157,6 @@ CVE-2005-2782: PHP remote file inclusion in web application that filters "http" 
 
 CVE-2014-6394: Product does not prevent access to restricted directories due to partial string comparison with a public directory
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-1024 Comparison of Incompatible Types
 
 ## Description
@@ -216,14 +168,6 @@ In languages that are strictly typed but support casting/conversion, such as C o
 ## Top 25 Examples
 
 CVE-2022-43690: Concrete CMS (formerly concrete5) below 8.5.10 and between 9.0.0 and 9.1.2 did not use strict comparison for the legacy_salt so that limited authentication bypass could occur if using this functionality. Remediate by updating to Concrete CMS 9.1.3+ or 8.5.10+.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1025 Comparison Using Wrong Factors
 
@@ -237,14 +181,6 @@ This can lead to incorrect results and resultant weaknesses. For example, the co
 
 CVE-2022-2663: An issue was found in the Linux kernel in nf_conntrack_irc where the message handling can be confused and incorrectly matches the message. A firewall may be able to be bypassed when users are using unencrypted IRC with nf_conntrack_irc configured.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-103 Struts: Incomplete validate() Method Definition
 
 ## Description
@@ -254,14 +190,6 @@ The product has a validator form that either does not define a validate() method
 If the code does not call super.validate(), the Validation Framework cannot check the contents of the form against a validation form. In other words, the validation framework will be disabled for the given form.
 
 The Struts Validator uses a form's validate() method to check the contents of the form properties against the constraints specified in the associated validation form. That means the following classes have a validate() method that is part of the validation framework: ValidatorForm, ValidatorActionForm, DynaValidatorForm, and DynaValidatorActionForm. If the code creates a class that extends one of these classes, and if that class implements custom validation logic by overriding the validate() method, the code must call super.validate() in the validate() implementation.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-1037 Processor Optimization Removal or Modification of Security-critical Code
 
@@ -281,14 +209,6 @@ CVE-2017-5754: Intel processor optimizations related to speculative execution ca
 
 CVE-2022-21151: Processor optimization removal or modification of security-critical code for some Intel(R) Processors may allow an authenticated user to potentially enable information disclosure via local access.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1038 Insecure Automated Optimizations
 
 ## Description
@@ -300,14 +220,6 @@ The product uses a mechanism that automatically optimizes code, e.g. to improve 
 CVE-2017-5715: Intel, ARM, and AMD processor optimizations related to speculative execution and branch prediction cause access control checks to be bypassed when placing data into the cache. Often known as "Spectre".
 
 CVE-2008-1685: C compiler optimization, as allowed by specifications, removes code that is used to perform checks to detect integer overflows.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-1039 Automated Recognition Mechanism with Inadequate Detection or Handling of Adversarial Input Perturbations
 
@@ -327,14 +239,6 @@ Targeted technologies include, but are not necessarily limited to:
 
 For example, an attacker might modify road signs or road surface markings to trick autonomous vehicles into misreading the sign/marking and performing a dangerous action.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-104 Struts: Form Bean Does Not Extend Validation Class
 
 ## Description
@@ -342,14 +246,6 @@ For example, an attacker might modify road signs or road surface markings to tri
 If a form bean does not extend an ActionForm subclass of the Validator framework, it can expose the application to other weaknesses related to insufficient input validation.
 
 In order to use the Struts Validator, a form must extend one of the following: ValidatorForm, ValidatorActionForm, DynaValidatorActionForm, and DynaValidatorForm. One of these classes must be extended because the Struts Validator ties in to the application by implementing the validate() method in these classes. Forms derived from the ActionForm and DynaActionForm classes cannot use the Struts Validator.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-1045 Parent Class with a Virtual Destructor and a Child Class without a Virtual Destructor
 
@@ -359,14 +255,6 @@ A parent class has a virtual destructor method, but the parent has a child class
 
 This issue can prevent the product from running reliably, since the child might not perform essential destruction operations. If the relevant code is reachable by an attacker, then this reliability problem might introduce a vulnerability, such as a memory leak (CWE-401).
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1046 Creation of Immutable Text Using String Concatenation
 
 ## Description
@@ -374,14 +262,6 @@ This issue can prevent the product from running reliably, since the child might 
 The product creates an immutable text string using string concatenation operations.
 
 When building a string via a looping feature (e.g., a FOR or WHILE loop), the use of += to append to the existing string will result in the creation of a new object with each iteration. This programming pattern can be inefficient in comparison with use of text buffer data elements. This issue can make the product perform more slowly. If the relevant code is reachable by an attacker, then this could be influenced to create performance problem.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1049 Excessive Data Query Operations in a Large Data Table
 
@@ -395,14 +275,6 @@ This issue can make the product perform more slowly. If the relevant code is rea
 
 While the interpretation of "large data table" and "large number of joins or sub-queries" may vary for each product or developer, CISQ recommends a default of 1 million rows for a "large" data table, a default minimum of 5 joins, and a default minimum of 3 sub-queries.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-105 Struts: Form Field Without Validator
 
 ## Description
@@ -410,14 +282,6 @@ While the interpretation of "large data table" and "large number of joins or sub
 The product has a form field that is not validated by a corresponding validation form, which can introduce other weaknesses related to insufficient input validation.
 
 Omitting validation for even a single input field may give attackers the leeway they need to compromise the product. Although J2EE applications are not generally susceptible to memory corruption attacks, if a J2EE application interfaces with native code that does not perform array bounds checking, an attacker may be able to use an input validation mistake in the J2EE application to launch a buffer overflow attack.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-1050 Excessive Platform Resource Consumption within a Loop
 
@@ -429,14 +293,6 @@ The product has a loop body or loop condition that contains a control element th
 
 This issue can make the product perform more slowly. If an attacker can influence the number of iterations in the loop, then this performance problem might allow a denial of service by consuming more platform resources than intended.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1052 Excessive Use of Hard-Coded Literals in Initialization
 
 ## Description
@@ -445,14 +301,6 @@ The product initializes a data element using a hard-coded
 					literal that is not a simple integer or static constant element.
 
 This issue makes it more difficult to modify or maintain the product, which indirectly affects security by making it more difficult or time-consuming to find and/or fix vulnerabilities. It also might make it easier to introduce vulnerabilities.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1058 Invokable Control Element in Multi-Thread Context with non-Final Static Storable or Member Element
 
@@ -464,14 +312,6 @@ The code contains a function or method that
 
 This issue can prevent the product from running reliably. If the relevant code is reachable by an attacker, then this reliability problem might introduce a vulnerability.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-106 Struts: Plug-in Framework not in Use
 
 ## Description
@@ -482,14 +322,6 @@ Unchecked input is the leading cause of vulnerabilities in J2EE applications. Un
 
 
 Although J2EE applications are not generally susceptible to memory corruption attacks, if a J2EE application interfaces with native code that does not perform array bounds checking, an attacker may be able to use an input validation mistake in the J2EE application to launch a buffer overflow attack.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-1061 Insufficient Encapsulation
 
@@ -503,14 +335,6 @@ This issue makes it more difficult to maintain the product, which indirectly aff
 
 CVE-2010-3860: variables declared public allow remote read of system properties such as user name and home directory.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-1067 Excessive Execution of Sequential Searches of Data Resource
 
 ## Description
@@ -521,14 +345,6 @@ The product contains a data query against an SQL table or view
 
 This issue can make the product perform more slowly. If the relevant code is reachable by an attacker, then this performance problem might introduce a vulnerability.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-107 Struts: Unused Validation Form
 
 ## Description
@@ -537,14 +353,6 @@ An unused validation form indicates that validation logic is not up-to-date.
 
 It is easy for developers to forget to update validation logic when they remove or rename action form mappings. One indication that validation logic is not being properly maintained is the presence of an unused validation form.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-1071 Empty Code Block
 
 ## Description
@@ -552,14 +360,6 @@ It is easy for developers to forget to update validation logic when they remove 
 The source code contains a block that does not contain any code, i.e., the block is empty.
 
 Empty code blocks can occur in the bodies of conditionals, function or method definitions, exception handlers, etc. While an empty code block might be intentional, it might also indicate incomplete implementation, accidental code deletion, unexpected macro expansion, etc. For some programming languages and constructs, an empty block might be allowed by the syntax, but the lack of any behavior within the block might violate a convention or API in such a way that it is an error.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1075 Unconditional Control Flow Transfer outside of Switch Block
 
@@ -570,14 +370,6 @@ The product performs unconditional control transfer (such as a
 					block.
 
 This issue makes it more difficult to maintain the product, which indirectly affects security by making it more difficult or time-consuming to find and/or fix vulnerabilities. It also might make it easier to introduce vulnerabilities.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1077 Floating Point Comparison with Incorrect Operator
 
@@ -593,14 +385,6 @@ Numeric calculation using floating point values can generate imprecise results b
 
 This issue can prevent the product from running reliably. If the relevant code is reachable by an attacker, then this reliability problem might introduce a vulnerability.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-1079 Parent Class without Virtual Destructor Method
 
 ## Description
@@ -608,14 +392,6 @@ This issue can prevent the product from running reliably. If the relevant code i
 A parent class contains one or more child classes, but the parent class does not have a virtual destructor method.
 
 This issue can prevent the product from running reliably due to undefined or unexpected behaviors. If the relevant code is reachable by an attacker, then this reliability problem might introduce a vulnerability.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-108 Struts: Unvalidated Action Form
 
@@ -625,14 +401,6 @@ Every Action Form must have a corresponding validation form.
 
 If a Struts Action Form Mapping specifies a form, it must have a validation form defined under the Struts Validator.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-1087 Class with Virtual Method without a Virtual Destructor
 
 ## Description
@@ -641,14 +409,6 @@ A class contains a virtual method, but the method does not have an associated vi
 
 This issue can prevent the product from running reliably, e.g. due to undefined behavior. If the relevant code is reachable by an attacker, then this reliability problem might introduce a vulnerability.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1088 Synchronous Access of Remote Resource without Timeout
 
 ## Description
@@ -656,14 +416,6 @@ This issue can prevent the product from running reliably, e.g. due to undefined 
 The code has a synchronous call to a remote resource, but there is no timeout for the call, or the timeout is set to infinite.
 
 This issue can prevent the product from running reliably, since an outage for the remote resource can cause the product to hang. If the relevant code is reachable by an attacker, then this reliability problem might introduce a vulnerability.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1089 Large Data Table with Excessive Number of Indices
 
@@ -677,27 +429,11 @@ This issue can make the product perform more slowly. If the relevant code is rea
 
 While the interpretation of "large data table" and "excessively large number of indices" may vary for each product or developer, CISQ recommends a default threshold of 1000000 rows for a "large" table and a default threshold of 3 indices.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-109 Struts: Validator Turned Off
 
 ## Description
 
 Automatic filtering via a Struts bean has been turned off, which disables the Struts Validator and custom validation logic. This exposes the application to other weaknesses related to insufficient input validation.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-1091 Use of Object without Invoking Destructor Method
 
@@ -708,14 +444,6 @@ The product contains a method that accesses an object but does not later invoke
 
 This issue can make the product perform more slowly by retaining memory and/or other resources longer than necessary. If the relevant code is reachable by an attacker, then this performance problem might introduce a vulnerability.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1093 Excessively Complex Data Representation
 
 ## Description
@@ -723,14 +451,6 @@ This issue can make the product perform more slowly by retaining memory and/or o
 The product uses an unnecessarily complex internal representation for its data structures or interrelationships between those structures.
 
 This issue makes it more difficult to understand or maintain the product, which indirectly affects security by making it more difficult or time-consuming to find and/or fix vulnerabilities. It also might make it easier to introduce vulnerabilities.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-1096 Singleton Class Instance Creation without Proper Locking or Synchronization
 
@@ -740,14 +460,6 @@ The product implements a Singleton design pattern but does not use appropriate l
 
 This issue can prevent the product from running reliably, e.g. by making the instantiation process non-thread-safe and introducing deadlock (CWE-833) or livelock conditions. If the relevant code is reachable by an attacker, then this reliability problem might introduce a vulnerability.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-1098 Data Element containing Pointer Item without Proper Copy Control Element
 
 ## Description
@@ -755,14 +467,6 @@ This issue can prevent the product from running reliably, e.g. by making the ins
 The code contains a data element with a pointer that does not have an associated copy or constructor method.
 
 This issue can prevent the product from running reliably. If the relevant code is reachable by an attacker, then this reliability problem might introduce a vulnerability.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-11 ASP.NET Misconfiguration: Creating Debug Binary
 
@@ -773,14 +477,6 @@ Debugging messages help attackers learn about the system and plan a form of atta
 ASP .NET applications can be configured to produce debug binaries. These binaries give detailed debugging messages and should not be used in production environments. Debug binaries are meant to be used in a development or testing environment and can pose a security risk if they are deployed to production.
 
 The debug attribute of the <compilation> tag defines whether compiled binaries should include debugging information. The use of debug binaries causes an application to provide as much information about itself as possible to the user.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-110 Struts: Validator Without Form Field
 
@@ -793,14 +489,6 @@ It is easy for developers to forget to update validation logic when they make ch
 
 Although J2EE applications are not generally susceptible to memory corruption attacks, if a J2EE application interfaces with native code that does not perform array bounds checking, an attacker may be able to use an input validation mistake in the J2EE application to launch a buffer overflow attack.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-1100 Insufficient Isolation of System-Dependent Functions
 
 ## Description
@@ -809,14 +497,6 @@ The product or code does not isolate system-dependent
 					functionality into separate standalone modules.
 
 This issue makes it more difficult to maintain and/or port the product, which indirectly affects security by making it more difficult or time-consuming to find and/or fix vulnerabilities. It also might make it easier to introduce vulnerabilities.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1102 Reliance on Machine-Dependent Data Representation
 
@@ -827,14 +507,6 @@ The code uses a data representation that relies on low-level
 					physical machines, OSes, or other physical components.
 
 This issue makes it more difficult to maintain and/or port the product, which indirectly affects security by making it more difficult or time-consuming to find and/or fix vulnerabilities. It also might make it easier to introduce vulnerabilities.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1104 Use of Unmaintained Third Party Components
 
@@ -849,14 +521,6 @@ Reliance on components that are no longer maintained can make it difficult or im
 
 This issue makes it more difficult to maintain the product, which indirectly affects security by making it more difficult or time-consuming to find and/or fix vulnerabilities. It also might make it easier to introduce vulnerabilities.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1108 Excessive Reliance on Global Variables
 
 ## Description
@@ -868,14 +532,6 @@ The code is structured in a way that relies too much on using
 
 This issue makes it more difficult to maintain the product, which indirectly affects security by making it more difficult or time-consuming to find and/or fix vulnerabilities. It also might make it easier to introduce vulnerabilities.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-111 Direct Use of Unsafe JNI
 
 ## Description
@@ -883,14 +539,6 @@ This issue makes it more difficult to maintain the product, which indirectly aff
 When a Java application uses the Java Native Interface (JNI) to call code written in another programming language, it can expose the application to weaknesses in that code, even if those weaknesses cannot occur in Java.
 
 Many safety features that programmers may take for granted do not apply for native code, so you must carefully review all such code for potential problems. The languages used to implement native code may be more susceptible to buffer overflows and other attacks. Native code is unprotected by the security features enforced by the runtime environment, such as strong typing and array bounds checking.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-1116 Inaccurate Comments
 
@@ -904,14 +552,6 @@ When a comment does not accurately reflect the associated code elements, this ca
 
 
 This issue makes it more difficult to maintain the product, which indirectly affects security by making it more difficult or time-consuming to find and/or fix vulnerabilities. It also might make it easier to introduce vulnerabilities.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-112 Missing XML Validation
 
@@ -927,14 +567,6 @@ CVE-2021-1359: A vulnerability in the configuration management of Cisco AsyncOS 
 
 CVE-2022-39353: xmldom is a pure JavaScript W3C standard-based (XML DOM Level 2 Core) `DOMParser` and `XMLSerializer` module. xmldom parses XML that is not well-formed because it contains multiple top level elements, and adds all root nodes to the `childNodes` collection of the `Document`, without reporting any error or throwing. This breaks the assumption that there is only a single root node in the tree, which led to issuance of CVE-2022-39299 as it is a potential issue for dependents. Update to @xmldom/xmldom@~0.7.7, @xmldom/xmldom@~0.8.4 (dist-tag latest) or @xmldom/xmldom@>=0.9.0-beta.4 (dist-tag next). As a workaround, please one of the following approaches depending on your use case: instead of searching for elements in the whole DOM, only search in the `documentElement`or reject a document with a document that has more then 1 `childNode`.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1120 Excessive Code Complexity
 
 ## Description
@@ -947,14 +579,6 @@ This issue makes it more difficult to understand and/or maintain the product, wh
 
 This issue can make the product perform more slowly. If the relevant code is reachable by an attacker, then this performance problem might introduce a vulnerability.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-1123 Excessive Use of Self-Modifying Code
 
 ## Description
@@ -963,14 +587,6 @@ The product uses too much self-modifying
 					code.
 
 This issue makes it more difficult to understand or maintain the product, which indirectly affects security by making it more difficult or time-consuming to find and/or fix vulnerabilities. It also might make it easier to introduce vulnerabilities.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1126 Declaration of Variable with Unnecessarily Wide Scope
 
@@ -981,14 +597,6 @@ The source code declares a variable in one scope, but the
 
 This issue makes it more difficult to understand and/or maintain the product, which indirectly affects security by making it more difficult or time-consuming to find and/or fix vulnerabilities. It also might make it easier to introduce vulnerabilities.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1127 Compilation with Insufficient Warnings or Errors
 
 ## Description
@@ -998,14 +606,6 @@ The code is compiled without sufficient warnings enabled, which
 					issues.
 
 This issue makes it more difficult to maintain the product, which indirectly affects security by making it more difficult or time-consuming to find and/or fix vulnerabilities. It also might make it easier to introduce vulnerabilities.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-113 Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting')
 
@@ -1082,14 +682,6 @@ CVE-2022-3918: A program using FoundationNetworking in swift-corelibs-foundation
 
 CVE-2022-4188: Insufficient validation of untrusted input in CORS in Google Chrome on Android prior to 108.0.5359.71 allowed a remote attacker to bypass same origin policy via a crafted HTML page. (Chromium security severity: Medium)
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-114 Process Control
 
 ## Description
@@ -1103,14 +695,6 @@ Process control vulnerabilities take two forms:
   - An attacker can change the environment in which the command executes: the attacker implicitly controls what the command means.
 
 Process control vulnerabilities of the first type occur when either data enters the application from an untrusted source and the data is used as part of a string representing a command that is executed by the application. By executing the command, the application gives an attacker a privilege or capability that the attacker would not otherwise have.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-115 Misinterpretation of Input
 
@@ -1135,14 +719,6 @@ CVE-2022-48230: There is a misinterpretation of input vulnerability in BiSheng-W
 CVE-2022-48261: There is a misinterpretation of input vulnerability in BiSheng-WNM FW 3.0.0.325. Successful exploitation of this vulnerability may cause the printer service to be abnormal.
 
 CVE-2022-23773: cmd/go in Go before 1.16.14 and 1.17.x before 1.17.7 can misinterpret branch names that falsely appear to be version tags. This can lead to incorrect access control if an actor is supposed to be able to create branches but not tags.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-116 Improper Encoding or Escaping of Output
 
@@ -1238,14 +814,6 @@ CVE-2022-2619: Insufficient validation of untrusted input in Settings in Google 
 
 CVE-2021-4068: Insufficient data validation in new tab page in Google Chrome prior to 96.0.4664.93 allowed a remote attacker to leak cross-origin data via a crafted HTML page.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-1164 Irrelevant Code
 
 ## Description
@@ -1260,14 +828,6 @@ Irrelevant code could include dead code, initialization that is not used, empty 
 ## Observed Examples
 
 CVE-2014-1266: chain: incorrect "goto" in Apple SSL product bypasses certificate validation, allowing Adversary-in-the-Middle (AITM) attack (Apple "goto fail" bug). CWE-705 (Incorrect Control Flow Scoping) -> CWE-561 (Dead Code) -> CWE-295 (Improper Certificate Validation) -> CWE-393 (Return of Wrong Status Code) -> CWE-300 (Channel Accessible by Non-Endpoint).
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-117 Improper Output Neutralization for Logs
 
@@ -1299,14 +859,6 @@ CVE-2022-4011: A vulnerability was found in Simple History Plugin. It has been r
 
 CVE-2022-43883:  IBM Cognos Analytics 11.1.7, 11.2.0, and 11.2.1 could be vulnerable to a Log Injection attack by constructing URLs from user-controlled data. This could enable attackers to make arbitrary requests to the internal network or to the local file system. IBM X-Force ID: 240266. 
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1173 Improper Use of Validation Framework
 
 ## Description
@@ -1321,27 +873,11 @@ CVE-2021-0174: Improper Use of Validation Framework in firmware for some Intel(R
 
 CVE-2021-0179: Improper Use of Validation Framework in software for Intel(R) PROSet/Wireless Wi-Fi and Killer(TM) Wi-Fi in Windows 10 and 11 may allow an unauthenticated user to potentially enable denial of service via adjacent access.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1174 ASP.NET Misconfiguration: Improper Model Validation
 
 ## Description
 
 The ASP.NET application does not use, or incorrectly uses, the model validation framework.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-1176 Inefficient CPU Computation
 
@@ -1362,14 +898,6 @@ CVE-2022-37734: Chain: lexer in Java-based GraphQL server does not enforce maxim
 
 CVE-2022-44566: A denial of service vulnerability present in ActiveRecord's PostgreSQL adapter <7.0.4.1 and <6.1.7.1. When a value outside the range for a 64bit signed integer is provided to the PostgreSQL connection adapter, it will treat the target column type as numeric. Comparing integer values against numeric values can result in a slow sequential scan resulting in potential Denial of Service.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-1177 Use of Prohibited Code
 
 ## Description
@@ -1389,27 +917,11 @@ CVE-2007-1470: Library has multiple buffer overflows using sprintf() and strcpy(
 
 CVE-2007-4004: FTP client uses inherently insecure gets() function and is setuid root on some systems, allowing buffer overflow
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-118 Incorrect Access of Indexable Resource ('Range Error')
 
 ## Description
 
 The product does not restrict or incorrectly restricts operations within the boundaries of a resource that is accessed using an index or pointer, such as memory or files.
-
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-1188 Initialization of a Resource with an Insecure Default
 
@@ -1433,14 +945,6 @@ CVE-2022-42467: When running in prototype mode, the h2 webconsole module (access
 
 CVE-2022-25568: MotionEye v0.42.1 and below allows attackers to access sensitive information via a GET request to /config/list. To exploit this vulnerability, a regular user password must be unconfigured.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-1189 Improper Isolation of Shared Resources on System-on-a-Chip (SoC)
 
 ## Description
@@ -1454,14 +958,6 @@ A System-On-a-Chip (SoC) has a lot of functionality, but it may have a limited n
 CVE-2020-8698: Processor has improper isolation of shared resources allowing for information disclosure.
 
 CVE-2019-6260: Baseboard Management Controller (BMC) device implements Advanced High-performance Bus (AHB) bridges that do not require authentication for arbitrary read and write access to the BMC's physical address space from the host, and possibly the network [REF-1138].
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-119 Improper Restriction of Operations within the Bounds of a Memory Buffer
 
@@ -1667,14 +1163,6 @@ CVE-2022-39974: WASM3 v0.5.0 was discovered to contain a segmentation fault via 
 
 CVE-2022-22558: Dell PowerEdge Server BIOS and Dell Precision Workstation 7910 and 7920 Rack BIOS contain an Improper SMM communication buffer verification vulnerability. A Local High Privileged attacker could potentially exploit this vulnerability leading to arbitrary writes or denial of service.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-1190 DMA Device Enabled Too Early in Boot Phase
 
 ## Description
@@ -1682,14 +1170,6 @@ CVE-2022-22558: Dell PowerEdge Server BIOS and Dell Precision Workstation 7910 a
 The product enables a Direct Memory Access (DMA) capable device before the security configuration settings are established, which allows an attacker to extract data from or gain privileges on the product.
 
 DMA is included in a number of devices because it allows data transfer between the computer and the connected device, using direct hardware access to read or write directly to main memory without any OS interaction. An attacker could exploit this to access secrets. Several virtualization-based mitigations have been introduced to thwart DMA attacks. These are usually configured/setup during boot time. However, certain IPs that are powered up before boot is complete (known as early boot IPs) may be DMA capable. Such IPs, if not trusted, could launch DMA attacks and gain access to assets that should otherwise be protected.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1191 On-Chip Debug and Test Interface With Improper Access Control
 
@@ -1713,14 +1193,6 @@ CVE-2019-18827: chain: JTAG interface is not disabled (CWE-1191) during ROM code
 
 CVE-2022-45552: An Insecure Permissions vulnerability in Shenzhen Zhiboton Electronics ZBT WE1626 Router v 21.06.18 allows attackers to obtain sensitive information via SPI bus interface connected to pinout of the NAND flash memory.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1192 Improper Identifier for IP Block used in System-On-Chip (SOC)
 
 ## Description
@@ -1741,14 +1213,6 @@ There are several variants of this weakness:
 
   - An "ignored" identifier occurs when the SoC/IP has not applied any policies or does not act upon the identifier securely.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1193 Power-On of Untrusted Execution Core Before Enabling Fabric Access Control
 
 ## Description
@@ -1757,14 +1221,6 @@ The product enables components that contain untrusted firmware before memory and
 
 After initial reset, System-on-Chip (SoC) fabric access controls and other security features need to be programmed by trusted firmware as part of the boot sequence. If untrusted IPs or peripheral microcontrollers are enabled first, then the untrusted component can master transactions on the hardware bus and target memory or other assets to compromise the SoC boot firmware.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-12 ASP.NET Misconfiguration: Missing Custom Error Page
 
 ## Description
@@ -1772,14 +1228,6 @@ After initial reset, System-on-Chip (SoC) fabric access controls and other secur
 An ASP .NET application must enable custom error pages in order to prevent attackers from mining information from the framework's built-in responses.
 
 The mode attribute of the <customErrors> tag defines whether custom or default error pages are used.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-120 Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')
 
@@ -1923,14 +1371,6 @@ CVE-2022-24788: Vyper is a pythonic Smart Contract Language for the ethereum vir
 
 CVE-2022-3550: A vulnerability classified as critical was found in X.org Server. Affected by this vulnerability is the function _GetCountedString of the file xkb/xkb.c. The manipulation leads to buffer overflow. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-211051.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-1204 Generation of Weak Initialization Vector (IV)
 
 ## Description
@@ -1979,14 +1419,6 @@ CVE-2022-26306: LibreOffice supports the storage of passwords for web connection
 
 CVE-2022-37400: Apache OpenOffice supports the storage of passwords for web connections in the user's configuration database. The stored passwords are encrypted with a single master key provided by the user. A flaw in OpenOffice existed where the required initialization vector for encryption was always the same which weakens the security of the encryption making them vulnerable if an attacker has access to the user's configuration data. This issue affects: Apache OpenOffice versions prior to 4.1.13. Reference: CVE-2022-26306 - LibreOffice
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1209 Failure to Disable Reserved Bits
 
 ## Description
@@ -1994,14 +1426,6 @@ CVE-2022-37400: Apache OpenOffice supports the storage of passwords for web conn
 The reserved bits in a hardware design are not disabled prior to production. Typically, reserved bits are used for future capabilities and should not support any functional logic in the design.   However, designers might covertly use these bits to debug or further develop new capabilities in production hardware. Adversaries with access to these bits will write to them in hopes of compromising hardware state.
 
 Reserved bits are labeled as such so they can be allocated for a later purpose. They are not to do anything in the current design. However, designers might want to use these bits to debug or control/configure a future capability to help minimize time to market (TTM). If the logic being controlled by these bits is still enabled in production, an adversary could use the logic to induce unwanted/unsupported behavior in the hardware.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-121 Stack-based Buffer Overflow
 
@@ -2442,14 +1866,6 @@ CVE-2022-22899: Core FTP / SFTP Server v2 Build 725 was discovered to allow unau
 CVE-2022-41842: An issue was discovered in Xpdf 4.04. There is a crash in gfseek(_IO_FILE*, long, int) in goo/gfile.cc.
 
 CVE-2022-41844: An issue was discovered in Xpdf 4.04. There is a crash in XRef::fetch(int, int, Object*, int) in xpdf/XRef.cc, a different vulnerability than CVE-2018-16369 and CVE-2019-16088.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-122 Heap-based Buffer Overflow
 
@@ -2913,14 +2329,6 @@ CVE-2021-40647: In man2html 1.6g, a specific string being read in from a file wi
 
 CVE-2021-3567: A flaw was found in Caribou due to a regression of CVE-2020-25712 fix. An attacker could use this flaw to bypass screen-locking applications that leverage Caribou as an input mechanism. The highest threat from this vulnerability is to system availability.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-1220 Insufficient Granularity of Access Control
 
 ## Description
@@ -2952,14 +2360,6 @@ CVE-2022-1025: All unpatched versions of Argo CD starting with v1.0.0 are vulner
 
 CVE-2022-24985: Forms generated by JQueryForm.com before 2022-02-05 allows a remote authenticated attacker to bypass authentication and access the administrative section of other forms hosted on the same web server. This is relevant only when an organization hosts more than one of these forms on their server.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1221 Incorrect Register Defaults or Module Parameters
 
 ## Description
@@ -2970,14 +2370,6 @@ Integrated circuits and hardware IP software programmable controls and settings 
 
 
 The system security settings of a hardware design can be affected by incorrectly defined default values or IP parameters. The hardware IP would be in an insecure state at power reset, and this can be exposed or exploited by untrusted software running on the system. Both register defaults and parameters are hardcoded values, which cannot be changed using software or firmware patches but must be changed in hardware silicon. Thus, such security issues are considerably more difficult to address later in the lifecycle. Hardware designs can have a large number of such parameters and register defaults settings, and it is important to have design tool support to check these settings in an automated way and be able to identify which settings are security sensitive.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1222 Insufficient Granularity of Address Regions Protected by Register Locks
 
@@ -2994,14 +2386,6 @@ A problem can arise wherein the protected region definition is not granular enou
 
 CVE-2022-1733: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 8.2.4968.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-1223 Race Condition for Write-Once Attributes
 
 ## Description
@@ -3012,14 +2396,6 @@ Integrated circuits and hardware IP software programmable controls and settings 
 
 
 Implementation issues in hardware design of such controls can expose such registers to a race condition security flaw. For example, consider a hardware design that has two different software/firmware modules executing in parallel. One module is trusted (module A) and another is untrusted (module B). In this design it could be possible for Module B to send write cycles to the write-once register before Module A. Since the field is write-once the programmed value from Module A will be ignored and the pre-empted value programmed by Module B will be used by hardware.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1224 Improper Restriction of Write-Once Bit Fields
 
@@ -3032,14 +2408,6 @@ Integrated circuits and hardware IP software programmable controls and settings 
 
 Failure to implement write-once restrictions in hardware design can expose such registers to being re-programmed by software and written multiple times. For example, write-once fields could be implemented to only be write-protected if they have been set to value "1", wherein they would work as "write-1-once" and not "write-once".
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1229 Creation of Emergent Resource
 
 ## Description
@@ -3047,14 +2415,6 @@ Failure to implement write-once restrictions in hardware design can expose such 
 The product manages resources or behaves in a way that indirectly creates a new, distinct resource that can be used by attackers in violation of the intended policy.
 
 A product is only expected to behave in a way that was specifically intended by the developer. Resource allocation and management is expected to be performed explicitly by the associated code. However, in systems with complex behavior, the product might indirectly produce new kinds of resources that were never intended in the original design. For example, a covert channel is a resource that was never explicitly intended by the developer, but it is useful to attackers. "Parasitic computing," while not necessarily malicious in nature, effectively tricks a product into performing unintended computations on behalf of another party.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-123 Write-what-where Condition
 
@@ -3072,14 +2432,6 @@ CVE-2022-0545: Chain: 3D renderer has an integer overflow (CWE-190) leading to w
 
 CVE-2022-1523: Fuji Electric D300win prior to version 3.7.1.17 is vulnerable to a write-what-where condition, which could allow an attacker to overwrite program memory to manipulate the flow of information.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1230 Exposure of Sensitive Information Through Metadata
 
 ## Description
@@ -3093,14 +2445,6 @@ Developers might correctly prevent unauthorized access to a database or other re
 CVE-2022-20733: A vulnerability in the login page of Cisco Identity Services Engine (ISE) could allow an unauthenticated, remote attacker to log in without credentials and access all roles without any restrictions. This vulnerability is due to exposed sensitive Security Assertion Markup Language (SAML) metadata. An attacker could exploit this vulnerability by using the exposed SAML metadata to bypass authentication to the user portal. A successful exploit could allow the attacker to access all roles without any restrictions.
 
 CVE-2022-39397: aliyun-oss-client is a rust client for Alibaba Cloud OSS. Users of this library will be affected, the incoming secret will be disclosed unintentionally. This issue has been patched in version 0.8.1.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1231 Improper Prevention of Lock Bit Modification
 
@@ -3117,14 +2461,6 @@ This behavior is commonly implemented using a trusted lock bit. When set, the lo
 
 CVE-2017-6283: chip reset clears critical read/write lock permissions for RSA function
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1232 Improper Lock Behavior After Power State Transition
 
 ## Description
@@ -3135,14 +2471,6 @@ Devices may allow device configuration controls which need to be programmed afte
 
 
 After a power state transition, the lock bit is set to unlocked. Some common weaknesses that can exist in such a protection scheme are that the lock gets cleared, the values of the protected registers get reset, or the lock become programmable.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1233 Security-Sensitive Hardware Controls with Missing Lock Bit Protection
 
@@ -3161,14 +2489,6 @@ CVE-2018-9085: Certain servers leave a write protection lock bit unset after boo
 
 CVE-2014-8273: Chain: chipset has a race condition (CWE-362) between when an interrupt handler detects an attempt to write-enable the BIOS (in violation of the lock bit), and when the handler resets the write-enable bit back to 0, allowing attackers to issue BIOS writes during the timing window [REF-1237].
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1234 Hardware Internal or Debug Modes Allow Override of Locks
 
 ## Description
@@ -3176,14 +2496,6 @@ CVE-2014-8273: Chain: chipset has a race condition (CWE-362) between when an int
 System configuration protection may be bypassed during debug mode.
 
 Device configuration controls are commonly programmed after a device power reset by a trusted firmware or software module (e.g., BIOS/bootloader) and then locked from any further modification. This is commonly implemented using a trusted lock bit, which when set, disables writes to a protected set of registers or address regions. The lock protection is intended to prevent modification of certain system configuration (e.g., memory/memory protection unit configuration). If debug features supported by hardware or internal modes/system states are supported in the hardware design, modification of the lock protection may be allowed allowing access and modification of configuration information.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1235 Incorrect Use of Autoboxing and Unboxing for Performance Critical Operations
 
@@ -3195,14 +2507,6 @@ Languages such as Java and C# support automatic conversion through their respect
 
 
 However, this feature comes at a cost of performance and can lead to resource exhaustion and impact availability when used with generic collections. Therefore, they should not be used for scientific computing or other performance critical operations. They are only suited to support "impedance mismatch" between reference types and primitives.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1236 Improper Neutralization of Formula Elements in a CSV File
 
@@ -3226,14 +2530,6 @@ CVE-2022-27858: CSV Injection vulnerability in Activity Log Team Activity Log <=
 
 CVE-2022-1544: Formula Injection/CSV Injection due to Improper Neutralization of Formula Elements in CSV File in GitHub repository luyadev/yii-helpers prior to 1.2.1. Successful exploitation can lead to impacts such as client-sided command injection, code execution, or remote ex-filtration of contained confidential data.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-1239 Improper Zeroization of Hardware Register
 
 ## Description
@@ -3241,14 +2537,6 @@ CVE-2022-1544: Formula Injection/CSV Injection due to Improper Neutralization of
 The hardware product does not properly clear sensitive information from built-in registers when the user of the hardware block changes.
 
 Hardware logic operates on data stored in registers local to the hardware block. Most hardware IPs, including cryptographic accelerators, rely on registers to buffer I/O, store intermediate values, and interface with software. The result of this is that sensitive information, such as passwords or encryption keys, can exist in locations not transparent to the user of the hardware logic. When a different entity obtains access to the IP due to a change in operating mode or conditions, the new entity can extract information belonging to the previous user if no mechanisms are in place to clear register contents. It is important to clear information stored in the hardware if a physical attack on the product is detected, or if the user of the hardware block changes. The process of clearing register contents in a hardware IP is referred to as zeroization in standards for cryptographic hardware modules such as FIPS-140-2 [REF-267].
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-124 Buffer Underwrite ('Buffer Underflow')
 
@@ -3285,14 +2573,6 @@ CVE-2022-29777: Onlyoffice Document Server v6.0.0 and below and Core 6.1.0.26 an
 CVE-2022-3296: Stack-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0577.
 
 CVE-2022-46881: An optimization in WebGL was incorrect in some cases, and could have led to memory corruption and a potentially exploitable crash. *Note*: This advisory was added on December 13th, 2022 after we better understood the impact of the issue. The fix was included in the original release of Firefox 106. This vulnerability affects Firefox < 106, Firefox ESR < 102.6, and Thunderbird < 102.6.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1240 Use of a Cryptographic Primitive with a Risky Implementation
 
@@ -3343,14 +2623,6 @@ CVE-2014-4192: Dual_EC_DRBG implementation in RSA toolkit does not correctly han
 
 CVE-2007-6755: Recommendation for Dual_EC_DRBG algorithm contains point Q constants that could simplify decryption
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1241 Use of Predictable Algorithm in Random Number Generator
 
 ## Description
@@ -3369,14 +2641,6 @@ CVE-2021-4240: A vulnerability, which was classified as problematic, was found i
 
 CVE-2021-4241: A vulnerability, which was classified as problematic, was found in phpservermon. Affected is the function setUserLoggedIn of the file src/psm/Service/User.php. The manipulation leads to use of predictable algorithm in random number generator. The exploit has been disclosed to the public and may be used. The name of the patch is bb10a5f3c68527c58073258cb12446782d223bc3. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-213744.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1242 Inclusion of Undocumented Features or Chicken Bits
 
 ## Description
@@ -3389,14 +2653,6 @@ A common design practice is to use undocumented bits on a device that can be use
 
 CVE-2022-38372: A hidden functionality vulnerability [CWE-1242] in FortiTester CLI 2.3.0 through 3.9.1, 4.0.0 through 4.2.0, 7.0.0 through 7.1.0 may allow a local, privileged user to obtain a root shell on the device via an undocumented command.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1243 Sensitive Non-Volatile Information Not Protected During Debug
 
 ## Description
@@ -3404,14 +2660,6 @@ CVE-2022-38372: A hidden functionality vulnerability [CWE-1242] in FortiTester C
 Access to security-sensitive information stored in fuses is not limited during debug.
 
 Several security-sensitive values are programmed into fuses to be used during early-boot flows or later at runtime. Examples of these security-sensitive values include root keys, encryption keys, manufacturing-specific information, chip-manufacturer-specific information, and original-equipment-manufacturer (OEM) data. After the chip is powered on, these values are sensed from fuses and stored in temporary locations such as registers and local memories. These locations are typically access-control protected from untrusted agents capable of accessing them. Even to trusted agents, only read-access is provided. However, these locations are not blocked during debug operations, allowing a user to access this sensitive information.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1244 Internal Asset Exposed to Unsafe Debug Access Level or State
 
@@ -3436,14 +2684,6 @@ CVE-2019-18827: After ROM code execution, JTAG access is disabled. But before th
 
 CVE-2022-32259: A vulnerability has been identified in SINEMA Remote Connect Server (All versions < V3.1). The system images for installation or update of the affected application contain unit test scripts with sensitive information. An attacker could gain information about testing architecture and also tamper with test configuration.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1245 Improper Finite State Machines (FSMs) in Hardware Logic
 
 ## Description
@@ -3452,14 +2692,6 @@ Faulty finite state machines (FSMs) in the hardware logic allow an attacker to p
 
 The functionality and security of the system heavily depend on the implementation of FSMs. FSMs can be used to indicate the current security state of the system. Lots of secure data operations and data transfers rely on the state reported by the FSM. Faulty FSM designs that do not account for all states, either through undefined states (left as don't cares) or through incorrect implementation, might lead an attacker to drive the system into an unstable state from which the system cannot recover without a reset, thus causing a DoS. Depending on what the FSM is used for, an attacker might also gain additional privileges to launch further attacks and compromise the security guarantees.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1246 Improper Write Handling in Limited-write Non-Volatile Memories
 
 ## Description
@@ -3467,14 +2699,6 @@ The functionality and security of the system heavily depend on the implementatio
 The product does not implement or incorrectly implements wear leveling operations in limited-write non-volatile memories.
 
 Non-volatile memories such as NAND Flash, EEPROM, etc. have individually erasable segments, each of which can be put through a limited number of program/erase or write cycles. For example, the device can only endure a limited number of writes, after which the device becomes unreliable. In order to wear out the cells in a uniform manner, non-volatile memory and storage products based on the above-mentioned technologies implement a technique called wear leveling. Once a set threshold is reached, wear leveling maps writes of a logical block to a different physical block. This prevents a single physical block from prematurely failing due to a high concentration of writes. If wear leveling is improperly implemented, attackers may be able to programmatically cause the storage to become unreliable within a much shorter time than would normally be expected.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1247 Improper Protection Against Voltage and Clock Glitches
 
@@ -3490,14 +2714,6 @@ CVE-2019-17391: Lack of anti-glitch protections allows an attacker to launch a p
 
 CVE-2021-33478: IP communication firmware allows access to a boot shell via certain impulses
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1248 Semiconductor Defects in Hardware Logic with Security-Sensitive Implications
 
 ## Description
@@ -3505,14 +2721,6 @@ CVE-2021-33478: IP communication firmware allows access to a boot shell via cert
 The security-sensitive hardware module contains semiconductor defects.
 
 A semiconductor device can fail for various reasons. While some are manufacturing and packaging defects, the rest are due to prolonged use or usage under extreme conditions. Some mechanisms that lead to semiconductor defects include encapsulation failure, die-attach failure, wire-bond failure, bulk-silicon defects, oxide-layer faults, aluminum-metal faults (including electromigration, corrosion of aluminum, etc.), and thermal/electrical stress. These defects manifest as faults on chip-internal signals or registers, have the effect of inputs, outputs, or intermediate signals being always 0 or always 1, and do not switch as expected. If such faults occur in security-sensitive hardware modules, the security objectives of the hardware module may be compromised.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1249 Application-Level Admin Tool with Inconsistent View of Underlying Operating System
 
@@ -3538,14 +2746,6 @@ This discrepancy could be exploited in several ways:
   - An attacker could create an admin account which is viewable by an administrator, use this account to create the ghost account, delete logs and delete the first created admin account.
 
 Many of these attacker scenarios can be realized by leveraging separate vulnerabilities related to XSS, command injection, authentication bypass, or logic flaws on the various systems.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-125 Out-of-bounds Read
 
@@ -3675,14 +2875,6 @@ CVE-2021-40606: The gf_bs_write_data function in GPAC 1.0.1 allows attackers to 
 
 CVE-2022-35087: SWFTools commit 772e55a2 was discovered to contain a segmentation violation via MovieAddFrame at /src/gif2swf.c.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-1250 Improper Preservation of Consistency Between Independent Representations of Shared State
 
 ## Description
@@ -3697,14 +2889,6 @@ In such environments, it becomes critical for the product to ensure that this "s
 ## Top 25 Examples
 
 CVE-2022-22234: An Improper Preservation of Consistency Between Independent Representations of Shared State vulnerability in the Packet Forwarding Engine (PFE) of Juniper Networks Junos OS allows a locally authenticated attacker with low privileges to cause a Denial of Service (DoS). If the device is very busy for example while executing a series of show commands on the CLI one or more SFPs might not be detected anymore. The system then changes its state to "unplugged" which is leading to traffic impact and at least a partial DoS. Once the system is less busy the port states return to their actual value. Indicators of compromise are log messages about unplugged SFPs and corresponding syspld messages without any physical or environmental cause. These can be checked by issuing the following commands: user@device# show log messages | match unplugged %PFE-6: fpc0 sfp-0/1/2 SFP unplugged %PFE-6: fpc0 sfp-0/1/3 SFP unplugged The following log messages will also be seen when this issue happens: fpc0 Error tvp_drv_syspld_read: syspld read failed for address <address> fpc0 Error[-1]:tvp_optics_presence_get - Syspld read failed for port <pic/port> fpc0 optics pres failed(-1) for pic <pic> port <port> fpc0 tvp_drv_syspld_read: i2c access retry count 200 This issue affects Juniper Networks Junos OS on EX2300 Series, EX3400 Series: All versions prior to 18.4R3-S11; 19.1 versions prior to 19.1R3-S9; 19.2 versions prior to 19.2R1-S9, 19.2R3-S5; 19.3 versions prior to 19.3R3-S6; 19.4 versions prior to 19.4R2-S7, 19.4R3-S8; 20.1 versions prior to 20.1R3-S4; 20.2 versions prior to 20.2R3-S4; 20.3 versions prior to 20.3R3-S4; 20.4 versions prior to 20.4R3-S3; 21.1 versions prior to 21.1R3-S1; 21.2 versions prior to 21.2R3; 21.3 versions prior to 21.3R2; 21.4 versions prior to 21.4R2.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1251 Mirrored Regions with Different Values
 
@@ -3737,14 +2921,6 @@ This situation of shadow-copy-possibly-out-of-sync-with-original-copy might occu
 
   - Suppose a situation where the original copy has a system of reverting back to its original value if it does not hear back from all the shadow copies that such copies have successfully completed the update request. In such a case, an attack might occur as follows: (1) the original copy might send an update request; (2) the shadow copy updates it; (3) the shadow copy sends back the successful completion message; (4) through a separate issue, the attacker is able to intercept the shadow copy's completion message. In this case, the original copy thinks that the update did not succeed, hence it reverts to its original value. Now there is a situation where the original copy has the "old" value, and the shadow copy has the "new" value.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1252 CPU Hardware Not Configured to Support Exclusivity of Write and Execute Operations
 
 ## Description
@@ -3753,14 +2929,6 @@ The CPU is not configured to provide hardware support for exclusivity of write a
 
 CPUs provide a special bit that supports exclusivity of write and execute operations. This bit is used to segregate areas of memory to either mark them as code (instructions, which can be executed) or data (which should not be executed). In this way, if a user can write to a region of memory, the user cannot execute from that region and vice versa. This exclusivity provided by special hardware bit is leveraged by the operating system to protect executable space. While this bit is available in most modern processors by default, in some CPUs the exclusivity is implemented via a memory-protection unit (MPU) and memory-management unit (MMU) in which memory regions can be carved out with exact read, write, and execute permissions. However, if the CPU does not have an MMU/MPU, then there is no write exclusivity. Without configuring exclusivity of operations via segregated areas of memory, an attacker may be able to inject malicious code onto memory and later execute it.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1253 Incorrect Selection of Fuse Values
 
 ## Description
@@ -3768,14 +2936,6 @@ CPUs provide a special bit that supports exclusivity of write and execute operat
 The logic level used to set a system to a secure state relies on a fuse being unblown. An attacker can set the system to an insecure state merely by blowing the fuse.
 
 Fuses are often used to store secret data, including security configuration data. When not blown, a fuse is considered to store a logic 0, and, when blown, it indicates a logic 1. Fuses are generally considered to be one-directional, i.e., once blown to logic 1, it cannot be reset to logic 0. However, if the logic used to determine system-security state (by leveraging the values sensed from the fuses) uses negative logic, an attacker might blow the fuse and drive the system to an insecure state.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1254 Incorrect Comparison Logic Granularity
 
@@ -3797,14 +2957,6 @@ CVE-2014-0984: Password-checking function in router terminates validation of a p
 
 CVE-2022-39308: GoCD is a continuous delivery server. GoCD helps you automate and streamline the build-test-release cycle for continuous delivery of your product. GoCD versions from 19.2.0 to 19.10.0 (inclusive) are subject to a timing attack in validation of access tokens due to use of regular string comparison for validation of the token rather than a constant time algorithm. This could allow a brute force attack on GoCD server API calls to observe timing differences in validations in order to guess an access token generated by a user for API access. This issue is fixed in GoCD version 19.11.0. As a workaround, users can apply rate limiting or insert random delays to API calls made to GoCD Server via a reverse proxy or other fronting web server. Another workaround, users may disallow use of access tokens by users by having an administrator revoke all access tokens through the "Access Token Management" admin function.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1255 Comparison Logic is Vulnerable to Power Side-Channel Attacks
 
 ## Description
@@ -3816,14 +2968,6 @@ The power consumed by a device may be instrumented and monitored in real time. I
 ## Observed Examples
 
 CVE-2020-12788: CMAC verification vulnerable to timing and power attacks.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-1256 Improper Restriction of Software Interfaces to Hardware Features
 
@@ -3856,14 +3000,6 @@ CVE-2020-12912: AMD extension to a Linux service does not require privileged acc
 
 CVE-2015-0565: NaCl in 2015 allowed the CLFLUSH instruction, making Rowhammer attacks possible.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1257 Improper Access Control Applied to Mirrored or Aliased Memory Regions
 
 ## Description
@@ -3885,14 +3021,6 @@ A common security weakness that can exist in such memory mapping is that aliased
 
 An untrusted agent could also possibly create memory aliases in the system address map for malicious purposes if it is able to change the mapping of an address region or modify memory region sizes.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1258 Exposure of Sensitive System Information Due to Uncleared Debug Information
 
 ## Description
@@ -3911,14 +3039,6 @@ CVE-2022-31162: Rust library leaks Oauth client details in application debug log
 
 CVE-2022-31162: Slack Morphism is an async client library for Rust. Prior to 0.41.0, it was possible for Slack OAuth client information to leak in application debug logs. Stricter and more secure debug formatting was introduced in v0.41.0 for OAuth secret types to reduce the possibility of printing sensitive information in application logs. As a workaround, do not print/output requests and responses for OAuth and client configurations in logs.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1259 Improper Restriction of Security Token Assignment
 
 ## Description
@@ -3926,14 +3046,6 @@ CVE-2022-31162: Slack Morphism is an async client library for Rust. Prior to 0.4
 The System-On-A-Chip (SoC) implements a Security Token mechanism to differentiate what actions are allowed or disallowed when a transaction originates from an entity. However, the Security Tokens are improperly protected.
 
 Systems-On-A-Chip (Integrated circuits and hardware engines) implement Security Tokens to differentiate and identify which actions originated from which agent. These actions may be one of the directives: 'read', 'write', 'program', 'reset', 'fetch', 'compute', etc. Security Tokens are assigned to every agent in the System that is capable of generating an action or receiving an action from another agent. Multiple Security Tokens may be assigned to an agent and may be unique based on the agent's trust level or allowed privileges. Since the Security Tokens are integral for the maintenance of security in an SoC, they need to be protected properly. A common weakness afflicting Security Tokens is improperly restricting the assignment to trusted components. Consequently, an improperly protected Security Token may be able to be programmed by a malicious agent (i.e., the Security Token is mutable) to spoof the action as if it originated from a trusted agent.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-126 Buffer Over-read
 
@@ -4095,14 +3207,6 @@ CVE-2022-1533: Buffer Over-read in GitHub repository bfabiszewski/libmobi prior 
 
 CVE-2022-1534: Buffer Over-read at parse_rawml.c:1416 in GitHub repository bfabiszewski/libmobi prior to 0.11. The bug causes the program reads data past the end of the intented buffer. Typically, this can allow attackers to read sensitive information from other memory locations or cause a crash.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-1260 Improper Handling of Overlap Between Protected Memory Ranges
 
 ## Description
@@ -4120,14 +3224,6 @@ CVE-2008-7096: virtualization product allows compromise of hardware product by a
 
 [REF-1100]: processor design flaw allows ring 0 code to access more privileged rings by causing a register window to overlap a range of protected system RAM [REF-1100]
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1261 Improper Handling of Single Event Upsets
 
 ## Description
@@ -4135,14 +3231,6 @@ CVE-2008-7096: virtualization product allows compromise of hardware product by a
 The hardware logic does not effectively handle when single-event upsets (SEUs) occur.
 
 Technology trends such as CMOS-transistor down-sizing, use of new materials, and system-on-chip architectures continue to increase the sensitivity of systems to soft errors. These errors are random, and their causes might be internal (e.g., interconnect coupling) or external (e.g., cosmic radiation). These soft errors are not permanent in nature and cause temporary bit flips known as single-event upsets (SEUs). SEUs are induced errors in circuits caused when charged particles lose energy by ionizing the medium through which they pass, leaving behind a wake of electron-hole pairs that cause temporary failures. If these failures occur in security-sensitive modules in a chip, it might compromise the security guarantees of the chip. For instance, these temporary failures could be bit flips that change the privilege of a regular user to root.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1262 Improper Access Control for Register Interface
 
@@ -4162,14 +3250,6 @@ CVE-2020-12446: Driver exposes access to Model Specific Register (MSR) registers
 
 CVE-2015-2150: Virtualization product does not restrict access to PCI command registers, allowing host crash from the guest.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1263 Improper Physical Access Control
 
 ## Description
@@ -4184,14 +3264,6 @@ CVE-2022-36443: An issue was discovered in Zebra Enterprise Home Screen 4.1.19. 
 
 CVE-2022-41505: An access control issue on TP-LInk Tapo C200 V1 devices allows physically proximate attackers to obtain root access by connecting to the UART pins, interrupting the boot process, and setting an init=/bin/sh value.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-1264 Hardware Logic with Insecure De-Synchronization between Control and Data Channels
 
 ## Description
@@ -4203,14 +3275,6 @@ Many high-performance on-chip bus protocols and processor data-paths employ sepa
 ## Observed Examples
 
 CVE-2017-5754: Systems with microprocessors utilizing speculative execution and indirect branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis of the data cache.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1265 Unintended Reentrant Invocation of Non-reentrant Code Via Nested Calls
 
@@ -4226,14 +3290,6 @@ CVE-2014-1772: In this vulnerability, by registering a malicious onerror handler
 
 CVE-2018-8174: This CVE covers several vulnerable scenarios enabled by abuse of the Class_Terminate feature in Microsoft VBScript. In one scenario, Class_Terminate is used to produce an undesirable re-entrance of ScriptingDictionary during execution of that object's destructor. In another scenario, a vulnerable condition results from a recursive entrance of a property setter method. This recursive invocation produces a second, spurious call to the Release method of a reference-counted object, causing a UAF when that object is freed prematurely. This vulnerability pattern has been popularized as "Double Kill". [REF-1099]
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1266 Improper Scrubbing of Sensitive Data from Decommissioned Device
 
 ## Description
@@ -4242,14 +3298,6 @@ The product does not properly provide a capability for the product administrator
 
 When a product is decommissioned - i.e., taken out of service - best practices or regulatory requirements may require the administrator to remove or overwrite sensitive data first, i.e. "scrubbing." Improper scrubbing of sensitive data from a decommissioned device leaves that data vulnerable to acquisition by a malicious actor. Sensitive data may include, but is not limited to, device/manufacturer proprietary information, user/device credentials, network configurations, and other forms of sensitive data.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1267 Policy Uses Obsolete Encoding
 
 ## Description
@@ -4257,14 +3305,6 @@ When a product is decommissioned - i.e., taken out of service - best practices o
 The product uses an obsolete encoding mechanism to implement access controls.
 
 Within a System-On-a-Chip (SoC), various circuits and hardware engines generate transactions for the purpose of accessing (read/write) assets or performing various actions (e.g., reset, fetch, compute, etc.). Among various types of message information, a typical transaction is comprised of source identity (identifying the originator of the transaction) and a destination identity (routing the transaction to the respective entity). Sometimes the transactions are qualified with a Security Token. This Security Token helps the destination agent decide on the set of allowed actions (e.g., access to an asset for reads and writes). A policy encoder is used to map the bus transactions to Security Tokens that in turn are used as access-controls/protection mechanisms. A common weakness involves using an encoding which is no longer trusted, i.e., an obsolete encoding.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1268 Policy Privileges are not Assigned Consistently Between Control and Data Agents
 
@@ -4277,14 +3317,6 @@ Integrated circuits and hardware engines may provide access to resources (device
 
 
 Resources that include agents in their control policy but not in their write policy could unintentionally allow an untrusted agent to insert itself in the write policy register. Inclusion in the write policy register could allow a malicious or misbehaving agent write access to resources. This action could result in security compromises including leaked information, leaked encryption keys, or modification of device configuration.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1269 Product Released in Non-Release Configuration
 
@@ -4313,14 +3345,6 @@ CVE-2019-13945: Regarding SSA-686531, a hardware based manufacturing access on S
 
 CVE-2018-4251: Laptops with Intel chipsets were found to be running in Manufacturing Mode. After this information was reported to the OEM, the vulnerability (CVE-2018-4251) was patched disallowing access to the interface.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-127 Buffer Under-read
 
 ## Description
@@ -4337,14 +3361,6 @@ CVE-2021-40985: HTML conversion package has a buffer under-read, allowing a cras
 
 CVE-2021-40985: A stack-based buffer under-read in htmldoc before 1.9.12, allows attackers to cause a denial of service via a crafted BMP image to image_load_bmp.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-1270 Generation of Incorrect Security Tokens
 
 ## Description
@@ -4357,14 +3373,6 @@ Systems-On-a-Chip (SoC) (Integrated circuits and hardware engines) implement Sec
 
 CVE-2022-31122: Wire is an encrypted communication and collaboration platform. Versions prior to 2022-07-12/Chart 4.19.0 are subject to Token Recipient Confusion. If an attacker has certain details of SAML IdP metadata, and configures their own SAML on the same backend, the attacker can delete all SAML authenticated accounts of a targeted team, Authenticate as a user of the attacked team and create arbitrary accounts in the context of the team if it is not managed by SCIM. This issue is fixed in wire-server 2022-07-12 and is already deployed on all Wire managed services. On-premise instances of wire-server need to be updated to 2022-07-12/Chart 4.19.0, so that their backends are no longer affected. As a workaround, the risk of an attack can be reduced by disabling SAML configuration for teams (galley.config.settings.featureFlags.sso). Helm overrides are located in `values/wire-server/values.yaml` Note that the ability to configure SAML SSO as a team is disabled by default for on-premise installations.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1271 Uninitialized Value on Reset for Registers Holding Security Settings
 
 ## Description
@@ -4372,14 +3380,6 @@ CVE-2022-31122: Wire is an encrypted communication and collaboration platform. V
 Security-critical logic is not set to a known value on reset.
 
 When the device is first brought out of reset, the state of registers will be indeterminate if they have not been initialized by the logic. Before the registers are initialized, there will be a window during which the device is in an insecure state and may be vulnerable to attack.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1272 Sensitive Information Uncleared Before Debug/Power State Transition
 
@@ -4393,14 +3393,6 @@ A device or system frequently employs many power and sleep states during its nor
 
 CVE-2020-12926: Product software does not set a flag as per TPM specifications, thereby preventing a failed authorization attempt from being recorded after a loss of power.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1273 Device Unlock Credential Sharing
 
 ## Description
@@ -4408,14 +3400,6 @@ CVE-2020-12926: Product software does not set a flag as per TPM specifications, 
 The credentials necessary for unlocking a device are shared across multiple parties and may expose sensitive information.
 
 "Unlocking a device" often means activating certain unadvertised debug and manufacturer-specific capabilities of a device using sensitive credentials. Unlocking a device might be necessary for the purpose of troubleshooting device problems. For example, suppose a device contains the ability to dump the content of the full system memory by disabling the memory-protection mechanisms. Since this is a highly security-sensitive capability, this capability is "locked" in the production part. Unless the device gets unlocked by supplying the proper credentials, the debug capabilities are not available. For cases where the chip designer, chip manufacturer (fabricator), and manufacturing and assembly testers are all employed by the same company, the risk of compromise of the credentials is greatly reduced. However, the risk is greater when the chip designer is employed by one company, the chip manufacturer is employed by another company (a foundry), and the assemblers and testers are employed by yet a third company. Since these different companies will need to perform various tests on the device to verify correct device function, they all need to share the unlock key. Unfortunately, the level of secrecy and policy might be quite different at each company, greatly increasing the risk of sensitive credentials being compromised.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1274 Improper Access Control for Volatile Memory Containing Boot Code
 
@@ -4435,14 +3419,6 @@ If the volatile-memory-region protections or access controls are insufficient to
 
 CVE-2019-2267: Locked memory regions may be modified through other interfaces in a secure-boot-loader image due to improper access control.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1275 Sensitive Cookie with Improper SameSite Attribute
 
 ## Description
@@ -4455,14 +3431,6 @@ The SameSite attribute controls how cookies are sent for cross-domain requests. 
 
 CVE-2022-24045: Web application for a room automation system has client-side JavaScript that sets a sensitive cookie without the SameSite security attribute, allowing the cookie to be sniffed
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-1276 Hardware Child Block Incorrectly Connected to Parent System
 
 ## Description
@@ -4470,14 +3438,6 @@ CVE-2022-24045: Web application for a room automation system has client-side Jav
 Signals between a hardware IP and the parent system design are incorrectly connected causing security risks.
 
 Individual hardware IP must communicate with the parent system in order for the product to function correctly and as intended. If implemented incorrectly, while not causing any apparent functional issues, may cause security issues. For example, if the IP should only be reset by a system-wide hard reset, but instead the reset input is connected to a software-triggered debug mode reset (which is also asserted during a hard reset), integrity of data inside the IP can be violated.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1277 Firmware Not Updateable
 
@@ -4496,14 +3456,6 @@ CVE-2020-9054: Chain: network-attached storage (NAS) device has a critical OS co
 
 [REF-1095]: A hardware "smart lock" has weak key generation that allows attackers to steal the key by BLE sniffing, but the device's firmware cannot be upgraded and hence remains vulnerable [REF-1095].
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1278 Missing Protection Against Hardware Reverse Engineering Using Integrated Circuit (IC) Imaging Techniques
 
 ## Description
@@ -4515,14 +3467,6 @@ The physical structure of a device, viewed at high enough magnification, can rev
 
 The goal of such activities is to recover secret keys, unique device identifiers, and proprietary code and circuit designs embedded in hardware that the attacker has been unsuccessful at accessing through other means. These secrets may be stored in non-volatile memory or in the circuit netlist. Memory technologies such as masked ROM allow easier to extraction of secrets than One-time Programmable (OTP) memory.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1279 Cryptographic Operations are run Before Supporting Units are Ready
 
 ## Description
@@ -4530,14 +3474,6 @@ The goal of such activities is to recover secret keys, unique device identifiers
 Performing cryptographic operations without ensuring that the supporting inputs are ready to supply valid data may compromise the cryptographic result.
 
 Many cryptographic hardware units depend upon other hardware units to supply information to them to produce a securely encrypted result. For example, a cryptographic unit that depends on an external random-number-generator (RNG) unit for entropy must wait until the RNG unit is producing random numbers. If a cryptographic unit retrieves a private encryption key from a fuse unit, the fuse unit must be up and running before a key may be supplied.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-128 Wrap-around Error
 
@@ -4547,14 +3483,6 @@ Wrap around errors occur whenever a value is incremented past the maximum value 
 
 Due to how addition is performed by computers, if a primitive is incremented past the maximum value possible for its storage space, the system will not recognize this, and therefore increment each bit as if it still had extra space. Because of how negative numbers are represented in binary, primitives interpreted as signed may "wrap" to very large negative values.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1280 Access Control Check Implemented After Asset is Accessed
 
 ## Description
@@ -4562,14 +3490,6 @@ Due to how addition is performed by computers, if a primitive is incremented pas
 A product's hardware-based access control check occurs after the asset has been accessed.
 
 The product implements a hardware-based access control check. The asset should be accessible only after the check is successful. If, however, this operation is not atomic and the asset is accessed before the check is complete, the security of the system may be compromised.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1281 Sequence of Processor Instructions Leads to Unexpected Behavior
 
@@ -4585,14 +3505,6 @@ CVE-2021-26339: A bug in AMD CPU's core logic allows a potential DoS by using a 
 
 CVE-1999-1476: A bug in some Intel Pentium processors allow DoS (hang) via an invalid "CMPXCHG8B" instruction, causing a deadlock
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1282 Assumed-Immutable Data is Stored in Writable Memory
 
 ## Description
@@ -4600,14 +3512,6 @@ CVE-1999-1476: A bug in some Intel Pentium processors allow DoS (hang) via an in
 Immutable data, such as a first-stage bootloader, device identifiers, and "write-once" configuration settings are stored in writable memory that can be re-programmed or updated in the field.
 
 Security services such as secure boot, authentication of code and data, and device attestation all require assets such as the first stage bootloader, public keys, golden hash digests, etc. which are implicitly trusted. Storing these assets in read-only memory (ROM), fuses, or one-time programmable (OTP) memory provides strong integrity guarantees and provides a root of trust for securing the rest of the system. Security is lost if assets assumed to be immutable can be modified.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1283 Mutable Attestation or Measurement Reporting Data
 
@@ -4620,14 +3524,6 @@ A System-on-Chip (SoC) implements secure boot or verified boot. During this boot
 ## Top 25 Examples
 
 CVE-2022-1740: The tested version of Dominion Voting Systems ImageCast X’s on-screen application hash display feature, audit log export, and application export functionality rely on self-attestation mechanisms. An attacker could leverage this vulnerability to disguise malicious applications on a device.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1284 Improper Validation of Specified Quantity in Input
 
@@ -4831,14 +3727,6 @@ CVE-2022-29196: TensorFlow is an open source platform for machine learning. Prio
 
 CVE-2022-29200: TensorFlow is an open source platform for machine learning. Prior to versions 2.9.0, 2.8.1, 2.7.2, and 2.6.4, the implementation of `tf.raw_ops.LSTMBlockCell` does not fully validate the input arguments. This results in a `CHECK`-failure which can be used to trigger a denial of service attack. The code does not validate the ranks of any of the arguments to this API call. This results in `CHECK`-failures when the elements of the tensor are accessed. Versions 2.9.0, 2.8.1, 2.7.2, and 2.6.4 contain a patch for this issue.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-1285 Improper Validation of Specified Index, Position, or Offset in Input
 
 ## Description
@@ -4897,14 +3785,6 @@ CVE-2022-23814: Failure to validate addresses provided by software to BIOS comma
 
 CVE-2022-36363: A vulnerability has been identified in LOGO! 12/24RCE (All versions), LOGO! 12/24RCEo (All versions), LOGO! 230RCE (All versions), LOGO! 230RCEo (All versions), LOGO! 24CE (All versions), LOGO! 24CEo (All versions), LOGO! 24RCE (All versions), LOGO! 24RCEo (All versions), SIPLUS LOGO! 12/24RCE (All versions), SIPLUS LOGO! 12/24RCEo (All versions), SIPLUS LOGO! 230RCE (All versions), SIPLUS LOGO! 230RCEo (All versions), SIPLUS LOGO! 24CE (All versions), SIPLUS LOGO! 24CEo (All versions), SIPLUS LOGO! 24RCE (All versions), SIPLUS LOGO! 24RCEo (All versions). Affected devices do not properly validate an offset value which can be defined in TCP packets when calling a method. This could allow an attacker to retrieve parts of the content of the memory.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1286 Improper Validation of Syntactic Correctness of Input
 
 ## Description
@@ -4940,14 +3820,6 @@ CVE-2022-40277: Joplin version 2.8.8 allows an external attacker to execute arbi
 CVE-2022-41908: TensorFlow is an open source platform for machine learning. An input `token` that is not a UTF-8 bytestring will trigger a `CHECK` fail in `tf.raw_ops.PyFunc`. We have patched the issue in GitHub commit 9f03a9d3bafe902c1e6beb105b2f24172f238645. The fix will be included in TensorFlow 2.11. We will also cherrypick this commit on TensorFlow 2.10.1, 2.9.3, and TensorFlow 2.8.4, as these are also affected and still in supported range.
 
 CVE-2022-1431: An issue has been discovered in GitLab affecting all versions starting from 12.10 before 14.8.6, all versions starting from 14.9 before 14.9.4, all versions starting from 14.10 before 14.10.1. GitLab was not correctly handling malicious requests to the PyPi API endpoint allowing the attacker to cause uncontrolled resource consumption.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1287 Improper Validation of Specified Type of Input
 
@@ -5138,14 +4010,6 @@ CVE-2022-29198: TensorFlow is an open source platform for machine learning. Prio
 
 CVE-2022-29199: TensorFlow is an open source platform for machine learning. Prior to versions 2.9.0, 2.8.1, 2.7.2, and 2.6.4, the implementation of `tf.raw_ops.LoadAndRemapMatrix does not fully validate the input arguments. This results in a `CHECK`-failure which can be used to trigger a denial of service attack. The code assumes `initializing_values` is a vector but there is no validation for this before accessing its value. Versions 2.9.0, 2.8.1, 2.7.2, and 2.6.4 contain a patch for this issue.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1288 Improper Validation of Consistency within Input
 
 ## Description
@@ -5172,14 +4036,6 @@ CVE-2021-0177: Improper Validation of Consistency within input in software for I
 
 CVE-2021-41531: NLnet Labs Routinator prior to 0.10.0 produces invalid RTR payload if an RPKI CA uses too large values in the max-length parameter in a ROA. This will lead to RTR clients such as routers to reject the RPKI data set, effectively disabling Route Origin Validation.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1289 Improper Validation of Unsafe Equivalence in Input
 
 ## Description
@@ -5205,14 +4061,6 @@ CVE-2004-2214: HTTP server allows bypass of access restrictions using URIs with 
 CVE-2021-29468: Cygwin Git is a patch set for the git command line tool for the cygwin environment. A specially crafted repository that contains symbolic links as well as files with backslash characters in the file name may cause just-checked out code to be executed while checking out a repository using Git on Cygwin. The problem will be patched in the Cygwin Git v2.31.1-2 release. At time of writing, the vulnerability is present in the upstream Git source code; any Cygwin user who compiles Git for themselves from upstream sources should manually apply a patch to mitigate the vulnerability. As mitigation users should not clone or pull from repositories from untrusted sources. CVE-2019-1354 was an equivalent vulnerability in Git for Visual Studio.
 
 CVE-2022-0675: In certain situations it is possible for an unmanaged rule to exist on the target system that has the same comment as the rule specified in the manifest. This could allow for unmanaged rules to exist on the target system and leave the system in an unsafe state.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-129 Improper Validation of Array Index
 
@@ -5264,14 +4112,6 @@ CVE-2021-21949: An improper array index validation vulnerability exists in the J
 
 CVE-2022-21310: Vulnerability in the MySQL Cluster product of Oracle MySQL (component: Cluster: General). Supported versions that are affected are 7.4.34 and prior, 7.5.24 and prior, 7.6.20 and prior and 8.0.27 and prior. Difficult to exploit vulnerability allows high privileged attacker with access to the physical communication segment attached to the hardware where the MySQL Cluster executes to compromise MySQL Cluster. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of MySQL Cluster. CVSS 3.1 Base Score 6.3 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:A/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:H).
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: Yes
-
 # CWE-1290 Incorrect Decoding of Security Identifiers 
 
 ## Description
@@ -5282,14 +4122,6 @@ In a System-On-Chip (SoC), various integrated circuits and hardware engines gene
 
 
 A common weakness that can exist in this scenario is incorrect decoding because an untrusted agent's security identifier is decoded into a trusted agent's security identifier. Thus, an untrusted agent previously without access to an asset can now gain access to the asset.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1291 Public Key Re-Use for Signing both Debug and Production Code
 
@@ -5308,14 +4140,6 @@ Once the product exits the manufacturing stage and enters production, it is good
 
 If a different public key is used for the production image, even if the attacker gains access to the debug firmware image, they will not be able to run it on a production machine. Thus, damage will be limited to the intellectual property leakage resulting from the debug image.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1292 Incorrect Conversion of Security Identifiers
 
 ## Description
@@ -5330,14 +4154,6 @@ A typical bus connects several leader and follower agents. Some follower agents 
 
 A common weakness that can exist in this scenario is that this conversion between protocols is implemented incorrectly, whereupon an untrusted agent may gain unauthorized access to an asset.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1293 Missing Source Correlation of Multiple Independent Data
 
 ## Description
@@ -5345,14 +4161,6 @@ A common weakness that can exist in this scenario is that this conversion betwee
 The product relies on one source of data, preventing the ability to detect if an adversary has compromised a data source.
 
 To operate successfully, a product sometimes has to implicitly trust the integrity of an information source. When information is implicitly signed, one can ensure that the data was not tampered in transit. This does not ensure that the information source was not compromised when responding to a request. By requesting information from multiple sources, one can check if all of the data is the same. If they are not, the system should report the information sources that respond with a different or minority value as potentially compromised. If there are not enough answers to provide a majority or plurality of responses, the system should report all of the sources as potentially compromised. As the seriousness of the impact of incorrect integrity increases, so should the number of independent information sources that would need to be queried.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1294 Insecure Security Identifier Mechanism
 
@@ -5364,14 +4172,6 @@ Systems-On-Chip (Integrated circuits and hardware engines) implement Security Id
 
 
 A broad class of flaws can exist in the Security Identifier process, including but not limited to missing security identifiers, improper conversion of security identifiers, incorrect generation of security identifiers, etc.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-1295 Debug Messages Revealing Unnecessary Information
 
@@ -5392,14 +4192,6 @@ CVE-2017-18326: modem debug messages include cryptographic keys
 ## Top 25 Examples
 
 CVE-2022-34364:  Dell BSAFE SSL-J, versions before 6.5 and version 7.0 contain a debug message revealing unnecessary information vulnerability. This may lead to disclosing sensitive information to a locally privileged user. . 
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1296 Incorrect Chaining or Granularity of Debug Components
 
@@ -5424,14 +4216,6 @@ CVE-2017-18347: Incorrect access control in RDP Level 1 on STMicroelectronics ST
 
 CVE-2020-1791: There is an improper authorization vulnerability in several smartphones. The system has a logic-judging error, and, under certain scenarios, a successful exploit could allow the attacker to switch to third desktop after a series of operations in ADB mode. (Vulnerability ID: HWPSIRT-2019-10114).
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1297 Unprotected Confidential Information on Device is Accessible by OSAT Vendors
 
 ## Description
@@ -5443,14 +4227,6 @@ In contrast to complete vertical integration of architecting, designing, manufac
 
 Logic errors during design or synthesis could misconfigure the interconnection of the debug components, which could provide improper authorization to sensitive information.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1298 Hardware Logic Contains Race Conditions
 
 ## Description
@@ -5458,14 +4234,6 @@ Logic errors during design or synthesis could misconfigure the interconnection o
 A race condition in the hardware logic results in undermining security guarantees of the system.
 
 A race condition in logic circuits typically occurs when a logic gate gets inputs from signals that have traversed different paths while originating from the same source. Such inputs to the gate can change at slightly different times in response to a change in the source signal. This results in a timing error or a glitch (temporary or permanent) that causes the output to change to an unwanted state before settling back to the desired state. If such timing errors occur in access control logic or finite state machines that are implemented in security sensitive flows, an attacker might exploit them to circumvent existing protections.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1299 Missing Protection Mechanism for Alternate Hardware Interface
 
@@ -5503,27 +4271,11 @@ CVE-2022-43557: The BD BodyGuard™ infusion pumps specified allow for access th
 
 CVE-2022-38399: Missing protection mechanism for alternate hardware interface in SmaCam CS-QR10 all versions and SmaCam Night Vision CS-QR20 all versions allows an attacker to execute an arbitrary OS command by having the product connect to the product's specific serial connection
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-13 ASP.NET Misconfiguration: Password in Configuration File
 
 ## Description
 
 Storing a plaintext password in a configuration file allows anyone who can read the file access to the password-protected resource making them an easy target for attackers.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-130 Improper Handling of Length Parameter Inconsistency
 
@@ -5605,14 +4357,6 @@ CVE-2022-3290: Improper Handling of Length Parameter Inconsistency in GitHub rep
 
 CVE-2022-30556: Apache HTTP Server 2.4.53 and earlier may return lengths to applications calling r:wsread() that point past the end of the storage allocated for the buffer.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1300 Improper Protection of Physical Side Channels
 
 ## Description
@@ -5644,14 +4388,6 @@ CVE-2020-28368: virtualization product allows recovery of AES keys from the gues
 
 CVE-2019-18673: power consumption varies based on number of pixels being illuminated in a display, allowing reading of secrets such as the PIN by using the USB interface to measure power consumption
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1301 Insufficient or Incomplete Data Removal within Hardware Component
 
 ## Description
@@ -5667,14 +4403,6 @@ Recovering data after erasure or overwriting is possible due to a phenomenon cal
 
 CVE-2019-8575: Firmware Data Deletion Vulnerability in which a base station factory reset might not delete all user information. The impact of this enables a new owner of a used device that has been "factory-default reset" with a vulnerable firmware version can still retrieve, at least, the previous owner's wireless network name, and the previous owner's wireless security (such as WPA2) key. This issue was addressed with improved, data deletion.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1302 Missing Source Identifier in Entity Transactions on a System-On-Chip (SOC)
 
 ## Description
@@ -5685,14 +4413,6 @@ In a System-On-Chip (SoC), various integrated circuits and hardware engines gene
 
 
 A weakness that can exist in such transaction schemes is that the source agent does not consistently include the necessary Security Identifier with the transaction. If the Security Identifier is missing, the destination agent might drop the message (resulting in an inadvertent Denial-of-Service (DoS)) or take inappropriate action by default in its attempt to execute the transaction, resulting in privilege escalation or provision of unintended access.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1303 Non-Transparent Sharing of Microarchitectural Resources
 
@@ -5708,14 +4428,6 @@ Some examples of shared micro-architectural resources that have been used to lea
 
 If the extent of resource sharing between contexts in the design microarchitecture is undocumented, it is extremely difficult to ensure system assets are protected against disclosure.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1304 Improperly Preserved Integrity of Hardware Configuration State During a Power Save/Restore Operation
 
 ## Description
@@ -5726,14 +4438,6 @@ The product performs a power save/restore
 	    the beginning and ending of the operation.
 
 Before powering down, the Intellectual Property (IP) saves current state (S) to persistent storage such as flash or always-on memory in order to optimize the restore operation. During this process, an attacker with access to the persistent storage may alter (S) to a configuration that could potentially modify privileges, disable protections, and/or cause damage to the hardware. If the IP does not validate the configuration state stored in persistent memory, upon regaining power or becoming operational again, the IP could be compromised through the activation of an unwanted/harmful configuration.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-131 Incorrect Calculation of Buffer Size
 
@@ -5795,14 +4499,6 @@ CVE-2022-32650: In mtk-isp, there is a possible use after free due to a logic er
 
 CVE-2022-32651: In mtk-aie, there is a possible use after free due to a logic error. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS07225857; Issue ID: ALPS07225857.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-1310 Missing Ability to Patch ROM Code
 
 ## Description
@@ -5813,14 +4509,6 @@ A System or System-on-Chip (SoC) that implements a boot process utilizing securi
 
 
 A common weakness is that the ROM does not have the ability to patch if security vulnerabilities are uncovered after the system gets shipped. This leaves the system in a vulnerable state where an adversary can compromise the SoC.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1311 Improper Translation of Security Attributes by Fabric Bridge
 
@@ -5836,14 +4524,6 @@ The values on these signals are used to indicate the security attributes of the 
 
 A weakness can arise if the bridge IP block, which translates the signals from the protocol used in the IP block endpoint to the protocol used by the central bus, does not properly translate the security attributes. As a result, the identity of the initiator could be translated from untrusted to trusted or vice-versa. This could result in access-control bypass, privilege escalation, or denial of service.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1312 Missing Protection for Mirrored Regions in On-Chip Fabric Firewall
 
 ## Description
@@ -5851,14 +4531,6 @@ A weakness can arise if the bridge IP block, which translates the signals from t
 The firewall in an on-chip fabric protects the main addressed region, but it does not protect any mirrored memory or memory-mapped-IO (MMIO) regions.
 
 Few fabrics mirror memory and address ranges, where mirrored regions contain copies of the original data. This redundancy is used to achieve fault tolerance. Whatever protections the fabric firewall implements for the original region should also apply to the mirrored regions. If not, an attacker could bypass existing read/write protections by reading from/writing to the mirrored regions to leak or corrupt the original data.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1313 Hardware Allows Activation of Test or Debug Logic at Runtime
 
@@ -5878,14 +4550,6 @@ CVE-2021-0146: Processor allows the activation of test or debug logic at runtime
 
 CVE-2021-33150: Hardware allows activation of test or debug logic at runtime for some Intel(R) Trace Hub instances which may allow an unauthenticated user to potentially enable escalation of privilege via physical access.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1314 Missing Write Protection for Parametric Data Values
 
 ## Description
@@ -5904,14 +4568,6 @@ While the limit values are usually protected, the sensor parametric data values 
 
 CVE-2017-8252: Kernel can inject faults in computations during the execution of TrustZone leading to information disclosure in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer Electronics Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon IoT, Snapdragon Mobile, Snapdragon Voice and Music, Snapdragon Wearables, Snapdragon Wired Infrastructure and Networking.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1315 Improper Setting of Bus Controlling Capability in Fabric End-point
 
 ## Description
@@ -5919,14 +4575,6 @@ CVE-2017-8252: Kernel can inject faults in computations during the execution of 
 The bus controller enables bits in the fabric end-point to allow responder devices to control transactions on the fabric.
 
 To support reusability, certain fabric interfaces and end points provide a configurable register bit that allows IP blocks connected to the controller to access other peripherals connected to the fabric. This allows the end point to be used with devices that function as a controller or responder. If this bit is set by default in hardware, or if firmware incorrectly sets it later, a device intended to be a responder on a fabric is now capable of controlling transactions to other devices and might compromise system security.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1316 Fabric-Address Map Allows Programming of Unwarranted Overlaps of Protected and Unprotected Ranges
 
@@ -5943,14 +4591,6 @@ Occasionally, these ranges could overlap. The overlap could either be intentiona
 
 CVE-2009-4419: Attacker can modify MCHBAR register to overlap with an attacker-controlled region, which modification prevents the SENTER instruction from properly applying VT-d protection while a Measured Launch Environment is being launched.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1317 Improper Access Control in Fabric Bridge
 
 ## Description
@@ -5966,14 +4606,6 @@ For overall system security, it is important that the access-control privileges 
 
 CVE-2019-6260: Baseboard Management Controller (BMC) device implements Advanced High-performance Bus (AHB) bridges that do not require authentication for arbitrary read and write access to the BMC's physical address space from the host, and possibly the network [REF-1138].
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1318 Missing Support for Security Features in On-chip Fabrics or Buses
 
 ## Description
@@ -5981,14 +4613,6 @@ CVE-2019-6260: Baseboard Management Controller (BMC) device implements Advanced 
  On-chip fabrics or buses either do not support or are not configured to support privilege separation or other security features, such as access control. 
 
 Certain on-chip fabrics and buses, especially simple and low-power buses, do not support security features. Apart from data transfer and addressing ports, some fabrics and buses do not have any interfaces to transfer privilege, immutable identity, or any other security attribute coming from the bus master. Similarly, they do not have dedicated signals to transport security-sensitive data from slave to master, such as completions for certain types of transactions. Few other on-chip fabrics and buses support security features and define specific interfaces/signals for transporting security attributes from master to slave or vice-versa. However, including these signals is not mandatory and could be left unconfigured when generating the register-transfer-level (RTL) description for the fabric. Such fabrics or buses should not be used to transport any security attribute coming from the bus master. In general, peripherals with security assets should not be connected to such buses before the transaction from the bus master reaches the bus, unless some form of access control is performed at a fabric bridge or another intermediate module.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1319 Improper Protection against Electromagnetic Fault Injection (EM-FI)
 
@@ -6011,14 +4635,6 @@ Electromagnetic fault injection may allow an attacker to locally and dynamically
 
 CVE-2020-27211: Chain: microcontroller system-on-chip uses a register value stored in flash to set product protection state on the memory bus and does not contain protection against fault injection (CWE-1319) which leads to an incorrect initialization of the memory bus (CWE-1419) causing the product to be in an unprotected state.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1320 Improper Protection for Outbound Error Messages and Alert Signals
 
 ## Description
@@ -6033,14 +4649,6 @@ When device sensors detect out of bound conditions, alert signals may be generat
 
 
 Warning signals that are not properly secured may be disabled or used to generate spurious alerts, causing degraded performance or denial-of-service (DoS). These alerts may be masked by untrusted software. Examples of these alerts involve thermal and power sensor alerts.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1321 Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')
 
@@ -6117,14 +4725,6 @@ CVE-2021-25947: Prototype pollution vulnerability in 'nestie' versions 0.0.0 thr
 
 CVE-2021-25953: Prototype pollution vulnerability in 'putil-merge' versions1.0.0 through 3.6.6 allows attacker to cause a denial of service and may lead to remote code execution.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: Yes
-
 # CWE-1322 Use of Blocking Code in Single-threaded, Non-blocking Context
 
 ## Description
@@ -6136,14 +4736,6 @@ When an attacker can directly invoke the blocking code, or the blocking code can
 
 
 Due to limitations in multi-thread models, single-threaded models are used to overcome the resource constraints that are caused by using many threads. In such a model, all code should generally be non-blocking. If blocking code is called, then the event loop will effectively be stopped, which can be undesirable or dangerous. Such models are used in Python asyncio, Vert.x, and Node.js, or other custom event loop code.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1323 Improper Management of Sensitive Trace Data
 
@@ -6157,14 +4749,6 @@ To facilitate verification of complex System-on-Chip (SoC) designs, SoC integrat
 
 
 Since these traces are collected from several security-sensitive sources, they must be protected against untrusted debuggers. If they are stored in unprotected memory, an untrusted software debugger can access these traces and extract secret information. Additionally, if security-sensitive traces are not tagged as secure, an untrusted hardware debugger might access them to extract confidential information.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1325 Improperly Controlled Sequential Memory Allocation
 
@@ -6186,14 +4770,6 @@ CVE-2013-1591: Chain: an integer overflow (CWE-190) in the image size calculatio
 
 CVE-2022-23486: libp2p-rust is the official rust language Implementation of the libp2p networking stack. In versions prior to 0.45.1 an attacker node can cause a victim node to allocate a large number of small memory chunks, which can ultimately lead to the victim’s process running out of memory and thus getting killed by its operating system. When executed continuously, this can lead to a denial of service attack, especially relevant on a larger scale when run against more than one node of a libp2p based network. Users are advised to upgrade to `libp2p` `v0.45.1` or above. Users unable to upgrade should reference the DoS Mitigation page for more information on how to incorporate mitigation strategies, monitor their application, and respond to attacks: https://docs.libp2p.io/reference/dos-mitigation/.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1326 Missing Immutable Root of Trust in Hardware
 
 ## Description
@@ -6207,14 +4783,6 @@ One of the many ways RoT is achieved is by storing the code and data in memory o
 
 
 Note that, for components like ROM, secure patching/update features should be supported to allow authenticated and authorized updates in the field.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1327 Binding to an Unrestricted IP Address
 
@@ -6234,14 +4802,6 @@ CVE-2022-21947: A Exposure of Resource to Wrong Sphere vulnerability in Rancher 
 
 CVE-2022-29820: In JetBrains PyCharm before 2022.1 exposure of the debugger port to the internal network was possible
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1328 Security Version Number Mutable to Older Versions
 
 ## Description
@@ -6252,14 +4812,6 @@ A System-on-Chip (SoC) implements secure boot or verified boot. It might support
 
 
 The security version number must be stored securely and persistently across power-on resets. A common weakness is that the security version number is modifiable by an adversary, allowing roll-back or downgrade attacks or, under certain circumstances, preventing upgrades (i.e. Denial-of-Service on upgrades). In both cases, the SoC is in a vulnerable state.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1329 Reliance on Component That is Not Updateable
 
@@ -6278,14 +4830,6 @@ If the component is discovered to contain a vulnerability or critical bug, but t
 ## Observed Examples
 
 CVE-2020-9054: Chain: network-attached storage (NAS) device has a critical OS command injection (CWE-78) vulnerability that is actively exploited to place IoT devices into a botnet, but some products are "end-of-support" and cannot be patched (CWE-1277). [REF-1097]
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1330 Remanent Data Readable after Memory Erase
 
@@ -6308,14 +4852,6 @@ Other than explicit erase commands, self-encrypting, secure-memory devices can a
 
 CVE-2019-8575: Firmware Data Deletion Vulnerability in which a base station factory reset might not delete all user information. The impact of this enables a new owner of a used device that has been "factory-default reset" with a vulnerable firmware version can still retrieve, at least, the previous owner's wireless network name, and the previous owner's wireless security (such as WPA2) key. This issue was addressed with improved, data deletion.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-1331 Improper Isolation of Shared Resources in Network On Chip (NoC)
 
 ## Description
@@ -6332,14 +4868,6 @@ Typically, network on chips (NoC) have many internal resources that are shared b
 ## Observed Examples
 
 CVE-2021-33096: Improper isolation of shared resource in a network-on-chip leads to denial of service
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1332 Improper Handling of Faults that Lead to Instruction Skips
 
@@ -6358,14 +4886,6 @@ Attackers can use fault injection techniques to alter the operating conditions o
 ## Observed Examples
 
 CVE-2019-15894: fault injection attack bypasses the verification mode, potentially allowing arbitrary code execution.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1333 Inefficient Regular Expression Complexity
 
@@ -6585,14 +5105,6 @@ CVE-2022-36064: Shescape is a shell escape package for JavaScript. An Inefficien
 
 CVE-2022-44570: A denial of service vulnerability in the Range header parsing component of Rack >= 1.5.0. A Carefully crafted input can cause the Range header parsing component in Rack to take an unexpected amount of time, possibly resulting in a denial of service attack vector. Any applications that deal with Range requests (such as streaming applications, or applications that serve files) may be impacted.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-1334 Unauthorized Error Injection Can Degrade Hardware Redundancy
 
 ## Description
@@ -6600,14 +5112,6 @@ CVE-2022-44570: A denial of service vulnerability in the Range header parsing co
 An unauthorized agent can inject errors into a redundant block to deprive the system of redundancy or put the system in a degraded operating mode.
 
 To ensure the performance and functional reliability of certain components, hardware designers can implement hardware blocks for redundancy in the case that others fail. This redundant block can be prevented from performing as intended if the design allows unauthorized agents to inject errors into it. In this way, a path with injected errors may become unavailable to serve as a redundant channel. This may put the system into a degraded mode of operation which could be exploited by a subsequent attack.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1335 Incorrect Bitwise Shift of Integer
 
@@ -6637,14 +5141,6 @@ CVE-2018-18445: Some kernels improperly handle right shifts of 32 bit numbers in
 CVE-2013-4206: Putty has an incorrectly sized shift value resulting in an overshift.
 
 CVE-2018-20788: LED driver overshifts under certain conditions resulting in a DoS.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1336 Improper Neutralization of Special Elements Used in a Template Engine
 
@@ -6737,14 +5233,6 @@ CVE-2022-4300: A vulnerability was found in FastCMS. It has been rated as critic
 
 CVE-2022-45132: In Linaro Automated Validation Architecture (LAVA) before 2022.11.1, remote code execution can be achieved through user-submitted Jinja2 template. The REST API endpoint for validating device configuration files in lava-server loads input as a Jinja2 template in a way that can be used to trigger remote code execution in the LAVA server.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1338 Improper Protections Against Hardware Overheating
 
 ## Description
@@ -6761,14 +5249,6 @@ Depending on the type of hardware device and its expected usage, such thermal ov
 
 
 There can be similar weaknesses with lack of protection from attacks based on overvoltage or overcurrent conditions. However, thermal heat is generated by hardware operation and the device should implement protection from overheating.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1339 Insufficient Precision or Accuracy of a Real Number
 
@@ -6802,14 +5282,6 @@ CVE-2021-29529: Chain: machine-learning product can have a heap-based buffer ove
 CVE-2008-2108: Chain: insufficient precision (CWE-1339) in random-number generator causes some zero bits to be reliably generated, reducing the amount of entropy (CWE-331)
 
 CVE-2006-6499: Chain: web browser crashes due to infinite loop - "bad looping logic [that relies on] floating point math [CWE-1339] to exit the loop [CWE-835]"
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-134 Use of Externally-Controlled Format String
 
@@ -6868,14 +5340,6 @@ CVE-2022-35887: Four format string injection vulnerabilities exist in the web in
 
 CVE-2022-3724: Crash in the USB HID protocol dissector in Wireshark 3.6.0 to 3.6.8 allows denial of service via packet injection or crafted capture file on Windows
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-1341 Multiple Releases of Same Resource or Handle
 
 ## Description
@@ -6897,14 +5361,6 @@ CVE-2019-13351: file descriptor double close can cause the wrong file to be asso
 CVE-2006-5051: Chain: Signal handler contains too much functionality (CWE-828), introducing a race condition that leads to a double free (CWE-415).
 
 CVE-2004-0772: Double free resultant from certain error conditions.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1342 Information Exposure through Microarchitectural State after Transient Execution
 
@@ -6936,27 +5392,11 @@ CVE-2021-28689: x86: Speculative vulnerabilities with bare (non-shim) 32-bit PV 
 
 CVE-2022-29900: Mis-trained branch predictions for return instructions may allow arbitrary speculative code execution under certain microarchitecture-dependent conditions.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-135 Incorrect Calculation of Multi-Byte String Length
 
 ## Description
 
 The product does not correctly calculate the length of strings that can contain wide or multi-byte characters.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1351 Improper Handling of Hardware Behavior in Exceptionally Cold Environments
 
@@ -6975,14 +5415,6 @@ An example of a change in behavior is that power loss won't clear/reset any vola
 
 This weakness does not cover "Cold Boot Attacks" wherein RAM or other external storage is super cooled and read externally by an attacker.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1357 Reliance on Insufficiently Trustworthy Component
 
 ## Description
@@ -7000,14 +5432,6 @@ Note that there can be disagreement as to whether a component is sufficiently tr
 ## Observed Examples
 
 CVE-2020-9054: Chain: network-attached storage (NAS) device has a critical OS command injection (CWE-78) vulnerability that is actively exploited to place IoT devices into a botnet, but some products are "end-of-support" and cannot be patched (CWE-1277). [REF-1097]
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-138 Improper Neutralization of Special Elements
 
@@ -7149,14 +5573,6 @@ CVE-2022-20664: A vulnerability in the web management interface of Cisco Secure 
 
 CVE-2021-38703: Wireless devices running certain Arcadyan-derived firmware (such as KPN Experia WiFi 1.00.15) do not properly sanitise user input to the syslog configuration form. An authenticated remote attacker could leverage this to alter the device configuration and achieve remote code execution. This can be exploited in conjunction with CVE-2021-20090.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-1384 Improper Handling of Physical or Environmental Conditions
 
 ## Description
@@ -7189,14 +5605,6 @@ Physical or environmental conditions of concern are:
 
 CVE-2019-17391: Lack of anti-glitch protections allows an attacker to launch a physical attack to bypass the secure boot and read protected eFuses.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-1385 Missing Origin Validation in WebSockets
 
 ## Description
@@ -7223,14 +5631,6 @@ CVE-2018-14732: WebSocket server does not check the origin of requests, allowing
 ## Top 25 Examples
 
 CVE-2022-22757: Remote Agent, used in WebDriver, did not validate the Host or Origin headers. This could have allowed websites to connect back locally to the user's browser to control it. <br>*This bug only affected Firefox when WebDriver was enabled, which is not the default configuration.*. This vulnerability affects Firefox < 97.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-1386 Insecure Operation on Windows Junction / Mount Point
 
@@ -7266,14 +5666,6 @@ CVE-2022-0799: Insufficient policy enforcement in Installer in Google Chrome on 
 CVE-2022-34008: Comodo Antivirus 12.2.2.8012 has a quarantine flaw that allows privilege escalation. To escalate privilege, a low-privileged attacker can use an NTFS directory junction to restore a malicious DLL from quarantine into the System32 folder.
 
 CVE-2022-21895: Windows User Profile Service Elevation of Privilege Vulnerability
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1389 Incorrect Parsing of Numbers with Different Radices
 
@@ -7311,14 +5703,6 @@ CVE-2021-29424: The Net::Netmask module before 2.0000 for Perl does not properly
 CVE-2021-29662: The Data::Validate::IP module through 0.29 for Perl does not properly consider extraneous zero characters at the beginning of an IP address string, which (in some situations) allows attackers to bypass access control that is based on IP addresses.
 
 CVE-2021-33318: An Input Validation Vulnerability exists in Joel Christner .NET C# packages WatsonWebserver, IpMatcher 1.0.4.1 and below (IpMatcher) and 4.1.3 and below (WatsonWebserver) due to insufficient validation of input IP addresses and netmasks against the internal Matcher list of IP addresses and subnets.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1390 Weak Authentication
 
@@ -7452,14 +5836,6 @@ CVE-2022-1053: Keylime does not enforce that the agent registrar data is the sam
 
 CVE-2022-45124: An information disclosure vulnerability exists in the User authentication functionality of WellinTech KingHistorian 35.01.00.05. A specially crafted network packet can lead to a disclosure of sensitive information. An attacker can sniff network traffic to leverage this vulnerability.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-1391 Use of Weak Credentials
 
 ## Description
@@ -7530,14 +5906,6 @@ CVE-2021-41506: Xiaongmai AHB7008T-MH-V2, AHB7804R-ELS, AHB7804R-MH-V2, AHB7808R
 
 CVE-2022-43917:  IBM WebSphere Application Server 8.5 and 9.0 traditional container uses weaker than expected cryptographic keys that could allow an attacker to decrypt sensitive information. This affects only the containerized version of WebSphere Application Server traditional. IBM X-Force ID: 241045. 
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-1392 Use of Default Credentials
 
 ## Description
@@ -7581,14 +5949,6 @@ CVE-2022-1666: The default password for the web application’s root user (the v
 CVE-2022-35203: An access control issue in TrendNet TV-IP572PI v1.0 allows unauthenticated attackers to access sensitive system information.
 
 CVE-2022-23320: XMPie uStore 12.3.7244.0 allows for administrators to generate reports based on raw SQL queries. Since the application ships with default administrative credentials, an attacker may authenticate into the application and exfiltrate sensitive information from the database.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1393 Use of Default Password
 
@@ -7640,14 +6000,6 @@ CVE-2022-47209: A support user exists on the device and appears to be a backdoor
 
 CVE-2022-44244: An authentication bypass in Lin-CMS v0.2.1 allows attackers to escalate privileges to Super Administrator.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1394 Use of Default Cryptographic Key
 
 ## Description
@@ -7676,14 +6028,6 @@ CVE-2021-35252: Common encryption key appears to be used across all deployed ins
 
 CVE-2021-43116: An Access Control vulnerability exists in Nacos 2.0.3 in the access prompt page; enter username and password, click on login to capture packets and then change the returned package, which lets a malicious user login.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1395 Dependency on Vulnerable Third-Party Component
 
 ## Description
@@ -7691,14 +6035,6 @@ CVE-2021-43116: An Access Control vulnerability exists in Nacos 2.0.3 in the acc
 The product has a dependency on a third-party component that contains one or more known vulnerabilities.
 
 Many products are large enough or complex enough that part of their functionality uses libraries, modules, or other intellectual property developed by third parties who are not the product creator. For example, even an entire operating system might be from a third-party supplier in some hardware products. Whether open or closed source, these components may contain publicly known vulnerabilities that could be exploited by adversaries to compromise the product.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-14 Compiler Removal of Code to Clear Buffers
 
@@ -7714,14 +6050,6 @@ This compiler optimization error occurs when:
   1. The secret data are scrubbed from memory by overwriting its contents.
 
   1. The source code is compiled using an optimizing compiler, which identifies and removes the function that overwrites the contents as a dead store because the memory is not used subsequently.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-140 Improper Neutralization of Delimiters
 
@@ -7739,14 +6067,6 @@ CVE-2001-0527: Attacker inserts carriage returns and "|" field separator charact
 
 CVE-2002-0267: Linebreak in field of PHP script allows admin privileges when written to data file.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-141 Improper Neutralization of Parameter/Argument Delimiters
 
 ## Description
@@ -7758,14 +6078,6 @@ As data is parsed, an injected/absent/malformed delimiter may cause the process 
 ## Observed Examples
 
 CVE-2003-0307: Attacker inserts field separator into input to specify admin privileges.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-1419 Incorrect Initialization of Resource
 
@@ -7793,14 +6105,6 @@ CVE-2022-36349: insecure default variable initialization in BIOS firmware for a 
 
 CVE-2015-7763: distributed filesystem only initializes part of the variable-length padding for a packet, allowing attackers to read sensitive information from previously-sent packets in the same memory location
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-142 Improper Neutralization of Value Delimiters
 
 ## Description
@@ -7812,14 +6116,6 @@ As data is parsed, an injected/absent/malformed delimiter may cause the process 
 ## Observed Examples
 
 CVE-2000-0293: Multiple internal space, insufficient quoting - program does not use proper delimiter between values.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-1420 Exposure of Sensitive Information during Transient Execution
 
@@ -7842,14 +6138,6 @@ CVE-2017-5753: Microarchitectural conditional branch predictors may allow operat
 CVE-2021-0089: A machine clear triggered by self-modifying code may allow incorrect operations to execute transiently, potentially exposing data over a covert channel.
 
 CVE-2022-0002: Microarchitectural indirect branch predictors may allow incorrect operations to execute transiently after a misprediction, potentially exposing data over a covert channel.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1421 Exposure of Sensitive Information in Shared Microarchitectural Structures during Transient Execution
 
@@ -7878,14 +6166,6 @@ CVE-2018-3615: A fault may allow transient non-enclave operations to access SGX 
 
 CVE-2019-1135: A TSX Asynchronous Abort may allow transient operations to access architecturally restricted data, potentially exposing the data over a covert channel.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1422 Exposure of Sensitive Information caused by Incorrect Data Forwarding during Transient Execution
 
 ## Description
@@ -7907,14 +6187,6 @@ Consequently, weaknesses that arise from incorrect/stale data forwarding might v
 CVE-2020-0551: A fault, microcode assist, or abort may allow transient load operations to forward malicious stale data to dependent operations executed by a victim, causing the victim to unintentionally access and potentially expose its own data over a covert channel.
 
 CVE-2020-8698: A fast store forwarding predictor may allow store operations to forward incorrect data to transient load operations, potentially exposing data over a covert channel.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-1423 Exposure of Sensitive Information caused by Shared Microarchitectural Predictor State that Influences Transient Execution
 
@@ -7947,14 +6219,6 @@ CVE-2022-0001: (Branch History Injection, BHI, Spectre-BHB). Shared branch histo
 
 CVE-2021-33149: (RSB underflow, Retbleed). Shared return stack buffer state may allow code that executes before a prediction barrier to influence transient execution after the prediction barrier, potentially exposing data that is accessible beyond the barrier over a covert channel.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-1426 Improper Validation of Generative AI Output
 
 ## Description
@@ -7970,14 +6234,6 @@ The product invokes a generative AI/ML
 
 CVE-2024-3402: chain: GUI for ChatGPT API performs input validation but does not properly "sanitize" or validate model output data (CWE-1426), leading to XSS (CWE-79).
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-143 Improper Neutralization of Record Delimiters
 
 ## Description
@@ -7992,14 +6248,6 @@ CVE-2004-1982: Carriage returns in subject field allow adding new records to dat
 
 CVE-2001-0527: Attacker inserts carriage returns and "|" field separator characters to add new user/privileges.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-144 Improper Neutralization of Line Delimiters
 
 ## Description
@@ -8012,14 +6260,6 @@ As data is parsed, an injected/absent/malformed delimiter may cause the process 
 
 CVE-2002-0267: Linebreak in field of PHP script allows admin privileges when written to data file.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-145 Improper Neutralization of Section Delimiters
 
 ## Description
@@ -8031,14 +6271,6 @@ As data is parsed, an injected/absent/malformed delimiter may cause the process 
 
 One example of a section delimiter is the boundary string in a multipart MIME message. In many cases, doubled line delimiters can serve as a section delimiter.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-146 Improper Neutralization of Expression/Command Delimiters
 
 ## Description
@@ -8046,14 +6278,6 @@ One example of a section delimiter is the boundary string in a multipart MIME me
 The product receives input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could be interpreted as expression or command delimiters when they are sent to a downstream component.
 
 As data is parsed, an injected/absent/malformed delimiter may cause the process to take unexpected actions.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-147 Improper Neutralization of Input Terminators
 
@@ -8073,27 +6297,11 @@ CVE-2001-0996: Mail server does not quote end-of-input terminator if it appears 
 
 CVE-2002-0001: Improperly terminated comment or phrase allows commands.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-148 Improper Neutralization of Input Leaders
 
 ## Description
 
 The product does not properly handle when a leading character or sequence ("leader") is missing or malformed, or if multiple leaders are used when only one should be allowed.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-149 Improper Neutralization of Quoting Syntax
 
@@ -8110,14 +6318,6 @@ CVE-2003-1016: MIE. MFV too? bypass AV/security with fields that should not be q
 ## Top 25 Examples
 
 CVE-2022-39232: Discourse is an open source discussion platform. Starting with version 2.9.0.beta5 and prior to version 2.9.0.beta10, an incomplete quote can generate a JavaScript error which will crash the current page in the browser in some cases. Version 2.9.0.beta10 added a fix and tests to ensure incomplete quotes won't break the app. As a workaround, the quote can be fixed via the rails console.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-15 External Control of System or Configuration Setting
 
@@ -8136,14 +6336,6 @@ CVE-2021-39971: Password vault has a External Control of System or Configuration
 CVE-2022-48198: The ntpd_driver component before 1.3.0 and 2.x before 2.2.0 for Robot Operating System (ROS) allows attackers, who control the source code of a different node in the same ROS application, to change a robot's behavior. This occurs because a topic name depends on the attacker-controlled time_ref_topic parameter.
 
 CVE-2022-29850: Various Lexmark products through 2022-04-27 allow an attacker who has already compromised an affected Lexmark device to maintain persistence across reboots.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-150 Improper Neutralization of Escape, Meta, or Control Sequences
 
@@ -8183,14 +6375,6 @@ CVE-2022-34298: The NT auth module in OpenAM before 14.6.6 allows a "replace Sam
 
 CVE-2022-23465: SwiftTerm is a Xterm/VT100 Terminal emulator. Prior to commit a94e6b24d24ce9680ad79884992e1dff8e150a31, an attacker could modify the window title via a certain character escape sequence and then insert it back to the command line in the user's terminal, e.g. when the user views a file containing the malicious sequence, which could allow the attacker to execute arbitrary commands. Version a94e6b24d24ce9680ad79884992e1dff8e150a31 contains a patch for this issue. There are no known workarounds available.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-151 Improper Neutralization of Comment Delimiters
 
 ## Description
@@ -8209,14 +6393,6 @@ CVE-2005-1909: Information hiding using a manipulation involving injection of co
 
 CVE-2005-1969: Information hiding using a manipulation involving injection of comment code into product. Note: these vulnerabilities are likely vulnerable to more general XSS problems, although a regexp might allow "<!--" while denying most other tags.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-152 Improper Neutralization of Macro Symbols
 
 ## Description
@@ -8229,14 +6405,6 @@ CVE-2002-0770: Server trusts client to expand macros, allows macro characters to
 
 CVE-2008-2018: Attacker can obtain sensitive information from a database by using a comment containing a macro, which inserts the data during expansion.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-153 Improper Neutralization of Substitution Characters
 
 ## Description
@@ -8246,14 +6414,6 @@ The product receives input from an upstream component, but it does not neutraliz
 ## Observed Examples
 
 CVE-2002-0770: Server trusts client to expand macros, allows macro characters to be expanded to trigger resultant information exposure.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-154 Improper Neutralization of Variable Name Delimiters
 
@@ -8268,14 +6428,6 @@ As data is parsed, an injected delimiter may cause the process to take unexpecte
 CVE-2005-0129: "%" variable is expanded by wildcard function into disallowed commands.
 
 CVE-2002-0770: Server trusts client to expand macros, allows macro characters to be expanded to trigger resultant information exposure.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-155 Improper Neutralization of Wildcards or Matching Symbols
 
@@ -8298,14 +6450,6 @@ CVE-2004-1962: SQL injection involving "/**/" sequences.
 ## Top 25 Examples
 
 CVE-2022-21646: SpiceDB is a database system for managing security-critical application permissions. Any user making use of a wildcard relationship under the right hand branch of an `exclusion` or within an `intersection` operation will see `Lookup`/`LookupResources` return a resource as "accessible" if it is *not* accessible by virtue of the inclusion of the wildcard in the intersection or the right side of the exclusion. In `v1.3.0`, the wildcard is ignored entirely in lookup's dispatch, resulting in the `banned` wildcard being ignored in the exclusion. Version 1.4.0 contains a patch for this issue. As a workaround, don't make use of wildcards on the right side of intersections or within exclusions.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-156 Improper Neutralization of Whitespace
 
@@ -8330,14 +6474,6 @@ CVE-2022-1243: CRHTLF can lead to invalid protocol extraction potentially leadin
 CVE-2022-31180: Shescape is a simple shell escape package for JavaScript. Affected versions were found to have insufficient escaping of white space when interpolating output. This issue only impacts users that use the `escape` or `escapeAll` functions with the `interpolation` option set to `true`. The result is that if an attacker is able to include whitespace in their input they can: 1. Invoke shell-specific behaviour through shell-specific special characters inserted directly after whitespace. 2. Invoke shell-specific behaviour through shell-specific special characters inserted or appearing after line terminating characters. 3. Invoke arbitrary commands by inserting a line feed character. 4. Invoke arbitrary commands by inserting a carriage return character. Behaviour number 1 has been patched in [v1.5.7] which you can upgrade to now. No further changes are required. Behaviour number 2, 3, and 4 have been patched in [v1.5.8] which you can upgrade to now. No further changes are required. The best workaround is to avoid having to use the `interpolation: true` option - in most cases using an alternative is possible, see [the recipes](https://github.com/ericcornelissen/shescape#recipes) for recommendations. Alternatively, users may strip all whitespace from user input. Note that this is error prone, for example: for PowerShell this requires stripping `'\\u0085'` which is not included in JavaScript's definition of `\\s` for Regular Expressions.
 
 CVE-2022-24723: URI.js is a Javascript URL mutation library. Before version 1.19.9, whitespace characters are not removed from the beginning of the protocol, so URLs are not parsed properly. This issue has been patched in version 1.19.9. Removing leading whitespace from values before passing them to URI.parse can be used as a workaround.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-157 Failure to Sanitize Paired Delimiters
 
@@ -8367,14 +6503,6 @@ CVE-2004-0956: Crash via missing paired delimiter (open double-quote but no clos
 CVE-2000-1165: Crash via message without closing ">".
 
 CVE-2005-2933: Buffer overflow via mailbox name with an opening double quote but missing a closing double quote, causing a larger copy than expected.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-158 Improper Neutralization of Null Byte or NUL Character
 
@@ -8428,14 +6556,6 @@ CVE-2022-39243: NuProcess is an external process execution implementation for Ja
 
 CVE-2022-4170: The rxvt-unicode package is vulnerable to a remote code execution, in the Perl background extension, when an attacker can control the data written to the user's terminal and certain options are set.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-159 Improper Handling of Invalid Use of Special Elements
 
 ## Description
@@ -8447,14 +6567,6 @@ The product does not properly filter, remove, quote, or otherwise manage the inv
 CVE-2002-1362: Crash via message type without separator character
 
 CVE-2000-0116: Extra "<" in front of SCRIPT tag bypasses XSS prevention.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-160 Improper Neutralization of Leading Special Elements
 
@@ -8468,14 +6580,6 @@ As data is parsed, improperly handled leading special elements may cause the pro
 
 CVE-2002-1345: Multiple FTP clients write arbitrary files via absolute paths in server responses
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-161 Improper Neutralization of Multiple Leading Special Elements
 
 ## Description
@@ -8487,14 +6591,6 @@ As data is parsed, improperly handled multiple leading special elements may caus
 ## Observed Examples
 
 CVE-2002-1238: Server allows remote attackers to bypass access restrictions for files via an HTTP request with a sequence of multiple / (slash) characters such as http://www.example.com///file/.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-162 Improper Neutralization of Trailing Special Elements
 
@@ -8516,14 +6612,6 @@ CVE-2001-0446: Application server allows remote attackers to read source code fo
 
 CVE-2022-27779: libcurl wrongly allows cookies to be set for Top Level Domains (TLDs) if thehost name is provided with a trailing dot.curl can be told to receive and send cookies. curl's "cookie engine" can bebuilt with or without [Public Suffix List](https://publicsuffix.org/)awareness. If PSL support not provided, a more rudimentary check exists to atleast prevent cookies from being set on TLDs. This check was broken if thehost name in the URL uses a trailing dot.This can allow arbitrary sites to set cookies that then would get sent to adifferent and unrelated site or domain.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-163 Improper Neutralization of Multiple Trailing Special Elements
 
 ## Description
@@ -8538,14 +6626,6 @@ CVE-2002-1078: Directory listings in web server using multiple trailing slash
 
 CVE-2004-0281: Multiple trailing dot allows directory listing
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-164 Improper Neutralization of Internal Special Elements
 
 ## Description
@@ -8554,14 +6634,6 @@ The product receives input from an upstream component, but it does not neutraliz
 
 As data is parsed, improperly handled internal special elements may cause the process to take unexpected actions that result in an attack.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-165 Improper Neutralization of Multiple Internal Special Elements
 
 ## Description
@@ -8569,14 +6641,6 @@ As data is parsed, improperly handled internal special elements may cause the pr
 The product receives input from an upstream component, but it does not neutralize or incorrectly neutralizes multiple internal special elements that could be interpreted in unexpected ways when they are sent to a downstream component.
 
 As data is parsed, improperly handled multiple internal special elements may cause the process to take unexpected actions that result in an attack.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-166 Improper Handling of Missing Special Element
 
@@ -8592,14 +6656,6 @@ CVE-2002-0729: Missing special character (separator) causes crash
 
 CVE-2002-1532: HTTP GET without \r\n\r\n CRLF sequences causes product to wait indefinitely and prevents other users from accessing it
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-167 Improper Handling of Additional Special Element
 
 ## Description
@@ -8614,14 +6670,6 @@ CVE-2001-1157: Extra "<" in front of SCRIPT tag.
 
 CVE-2002-2086: "<script" - probably a cleansing error
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-168 Improper Handling of Inconsistent Special Elements
 
 ## Description
@@ -8629,14 +6677,6 @@ CVE-2002-2086: "<script" - probably a cleansing error
 The product does not properly handle input in which an inconsistency exists between two or more special characters or reserved words.
 
 An example of this problem would be if paired characters appear in the wrong order, or if the special characters are not properly nested.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-170 Improper Null Termination
 
@@ -8674,14 +6714,6 @@ CVE-2021-21967: An out-of-bounds write vulnerability exists in the OTA update ta
 
 CVE-2022-26635: PHP-Memcached v2.2.0 and below contains an improper NULL termination which allows attackers to execute CLRF injection. Note: Third parties have disputed this as not affecting PHP-Memcached directly.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-172 Encoding Error
 
 ## Description
@@ -8702,27 +6734,11 @@ CVE-2005-2256: Hex-encoded path traversal variants - "%2e%2e", "%2e%2e%2f", "%5c
 
 CVE-2022-26307: LibreOffice supports the storage of passwords for web connections in the user’s configuration database. The stored passwords are encrypted with a single master key provided by the user. A flaw in LibreOffice existed where master key was poorly encoded resulting in weakening its entropy from 128 to 43 bits making the stored passwords vulerable to a brute force attack if an attacker has access to the users stored config. This issue affects: The Document Foundation LibreOffice 7.2 versions prior to 7.2.7; 7.3 versions prior to 7.3.3.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-173 Improper Handling of Alternate Encoding
 
 ## Description
 
 The product does not properly handle when an input uses an alternate encoding that is valid for the control sphere to which the input is being sent.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-174 Double Decoding of the Same Data
 
@@ -8748,27 +6764,11 @@ CVE-2005-0054: Browser executes HTML at higher privileges via URL with hostnames
 
 CVE-2021-42013: It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was insufficient. An attacker could use a path traversal attack to map URLs to files outside the directories configured by Alias-like directives. If files outside of these directories are not protected by the usual default configuration "require all denied", these requests can succeed. If CGI scripts are also enabled for these aliased pathes, this could allow for remote code execution. This issue only affects Apache 2.4.49 and Apache 2.4.50 and not earlier versions.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-175 Improper Handling of Mixed Encoding
 
 ## Description
 
 The product does not properly handle when the same input uses several different (mixed) encodings.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-176 Improper Handling of Unicode Encoding
 
@@ -8789,14 +6789,6 @@ CVE-2001-0669: Overlaps interaction error.
 CVE-2022-0530: A flaw was found in Unzip. The vulnerability occurs during the conversion of a wide string to a local string that leads to a heap of out-of-bound write. This flaw allows an attacker to input a specially crafted zip file, leading to a crash or code execution.
 
 CVE-2022-25987: Improper handling of Unicode encoding in source code to be compiled by the Intel(R) C++ Compiler Classic before version 2021.6 for Intel(R) oneAPI Toolkits before version 2022.2 may allow an unauthenticated user to potentially enable escalation of privilege via network access.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-177 Improper Handling of URL Encoding (Hex Encoding)
 
@@ -8849,14 +6841,6 @@ CVE-2002-1575: "%0a" (overlaps CRLF)
 CVE-2021-33604: URL encoding error in development mode handler in com.vaadin:flow-server versions 2.0.0 through 2.6.1 (Vaadin 14.0.0 through 14.6.1), 3.0.0 through 6.0.9 (Vaadin 15.0.0 through 19.0.8) allows local user to execute arbitrary JavaScript code by opening crafted URL in browser.
 
 CVE-2022-25765: The package pdfkit from 0.0.0 are vulnerable to Command Injection where the URL is not properly sanitized.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-178 Improper Handling of Case Sensitivity
 
@@ -8911,14 +6895,6 @@ CVE-2007-3365: Chain: uppercase file extensions causes web server to return scri
 
 CVE-2021-39155: Chain: A microservice integration and management platform compares the hostname in the HTTP Host header in a case-sensitive way (CWE-178, CWE-1289), allowing bypass of the authorization policy (CWE-863) using a hostname with mixed case or other variations.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-179 Incorrect Behavior Order: Early Validation
 
 ## Description
@@ -8942,14 +6918,6 @@ CVE-2004-2363: Product checks URI for "<" and other literal characters, but does
 CVE-2002-0934: Directory traversal vulnerability allows remote attackers to read or modify arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a ".." sequence.
 
 CVE-2003-0282: Directory traversal vulnerability allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a ".." sequence.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-180 Incorrect Behavior Order: Validate Before Canonicalize
 
@@ -8975,14 +6943,6 @@ CVE-2004-2363: Product checks URI for "<" and other literal characters, but does
 
 CVE-2022-23553: Alpine is a scaffolding library in Java. Alpine prior to version 1.10.4 allows URL access filter bypass. This issue has been fixed in version 1.10.4. There are no known workarounds.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-181 Incorrect Behavior Order: Validate Before Filter
 
 ## Description
@@ -8996,14 +6956,6 @@ This can be used by an attacker to bypass the validation and launch attacks that
 CVE-2002-0934: Directory traversal vulnerability allows remote attackers to read or modify arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a ".." sequence.
 
 CVE-2003-0282: Directory traversal vulnerability allows attackers to overwrite arbitrary files via invalid characters between two . (dot) characters, which are filtered and result in a ".." sequence.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-182 Collapse of Data into Unsafe Value
 
@@ -9024,14 +6976,6 @@ CVE-2002-0784: chain: HTTP server protects against ".." but allows "." variants 
 CVE-2005-2169: MFV. Regular expression intended to protect against directory traversal reduces ".../...//" to "../".
 
 CVE-2001-1157: XSS protection mechanism strips a <script> sequence that is nested in another <script> sequence.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-183 Permissive List of Allowed Inputs
 
@@ -9056,14 +7000,6 @@ CVE-2017-1000095: Default allowlist includes unsafe methods, allowing bypass of 
 CVE-2021-43415: HashiCorp Nomad and Nomad Enterprise up to 1.0.13, 1.1.7, and 1.2.0, with the QEMU task driver enabled, allowed authenticated users with job submission capabilities to bypass the configured allowed image paths. Fixed in 1.0.14, 1.1.8, and 1.2.1.
 
 CVE-2022-25237: Bonita Web 2021.2 is affected by a authentication/authorization bypass vulnerability due to an overly broad exclude pattern used in the RestAPIAuthorizationFilter. By appending ;i18ntranslation or /../i18ntranslation/ to the end of a URL, users with no privileges can access privileged API endpoints. This can lead to remote code execution by abusing the privileged API actions.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-184 Incomplete List of Disallowed Inputs
 
@@ -9121,14 +7057,6 @@ CVE-2021-42576: The bluemonday sanitizer before 1.0.16 for Go, and before 0.0.8 
 
 CVE-2021-41133: Flatpak is a system for building, distributing, and running sandboxed desktop applications on Linux. In versions prior to 1.10.4 and 1.12.0, Flatpak apps with direct access to AF_UNIX sockets such as those used by Wayland, Pipewire or pipewire-pulse can trick portals and other host-OS services into treating the Flatpak app as though it was an ordinary, non-sandboxed host-OS process. They can do this by manipulating the VFS using recent mount-related syscalls that are not blocked by Flatpak's denylist seccomp filter, in order to substitute a crafted `/.flatpak-info` or make that file disappear entirely. Flatpak apps that act as clients for AF_UNIX sockets such as those used by Wayland, Pipewire or pipewire-pulse can escalate the privileges that the corresponding services will believe the Flatpak app has. Note that protocols that operate entirely over the D-Bus session bus (user bus), system bus or accessibility bus are not affected by this. This is due to the use of a proxy process `xdg-dbus-proxy`, whose VFS cannot be manipulated by the Flatpak app, when interacting with these buses. Patches exist for versions 1.10.4 and 1.12.0, and as of time of publication, a patch for version 1.8.2 is being planned. There are no workarounds aside from upgrading to a patched version.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-185 Incorrect Regular Expression
 
 ## Description
@@ -9165,14 +7093,6 @@ CVE-2005-4155: Null byte bypasses PHP regexp check.
 
 CVE-2022-24891: ESAPI (The OWASP Enterprise Security API) is a free, open source, web application security control library. Prior to version 2.3.0.0, there is a potential for a cross-site scripting vulnerability in ESAPI caused by a incorrect regular expression for "onsiteURL" in the **antisamy-esapi.xml** configuration file that can cause "javascript:" URLs to fail to be correctly sanitized. This issue is patched in ESAPI 2.3.0.0. As a workaround, manually edit the **antisamy-esapi.xml** configuration files to change the "onsiteURL" regular expression. More information about remediation of the vulnerability, including the workaround, is available in the maintainers' release notes and security bulletin.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-186 Overly Restrictive Regular Expression
 
 ## Description
@@ -9188,14 +7108,6 @@ CVE-2005-1604: MIE. ".php.ns" bypasses ".php$" regexp but is still parsed as PHP
 ## Top 25 Examples
 
 CVE-2022-41317: An issue was discovered in Squid 4.9 through 4.17 and 5.0.6 through 5.6. Due to inconsistent handling of internal URIs, there can be Exposure of Sensitive Information about clients using the proxy via an HTTPS request to an internal cache manager URL. This is fixed in 5.7.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-187 Partial String Comparison
 
@@ -9223,14 +7135,6 @@ CVE-2022-26691: A logic issue was addressed with improved state management. This
 
 CVE-2022-23554: Alpine is a scaffolding library in Java. Alpine prior to version 1.10.4 allows Authentication Filter bypass. The AuthenticationFilter relies on the request URI to evaluate if the user is accessing the swagger endpoint. By accessing a URL with a path such as /api/foo;%2fapi%2fswagger the contains condition will hold and will return from the authentication filter without aborting the request. Note that the principal object will not be assigned and therefore the issue wont allow user impersonation. This issue has been fixed in version 1.10.4. There are no known workarounds.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-188 Reliance on Data/Memory Layout
 
 ## Description
@@ -9241,14 +7145,6 @@ When changing platforms or protocol versions, in-memory organization of data may
 
 
 In protocol implementations, it is common to calculate an offset relative to another field to pick out a specific piece of data. Exceptional conditions, often involving new protocol versions, may add corner cases that change the data layout in an unusual way. The result can be that an implementation accesses an unintended field in the packet, treating data of one type as data of another type.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-190 Integer Overflow or Wraparound
 
@@ -9410,14 +7306,6 @@ CVE-2022-28937: FISCO-BCOS release-3.0.0-rc2 was discovered to contain an issue 
 
 CVE-2022-1699: Uncontrolled Resource Consumption in GitHub repository causefx/organizr prior to 2.1.2000. This vulnerability can be abused by doing a DDoS attack for which genuine users will not able to access resources/applications.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-191 Integer Underflow (Wrap or Wraparound)
 
 ## Description
@@ -9462,14 +7350,6 @@ CVE-2021-31956: Windows NTFS Elevation of Privilege Vulnerability
 
 CVE-2022-22715: Named Pipe File System Elevation of Privilege Vulnerability
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-192 Integer Coercion Error
 
 ## Description
@@ -9485,14 +7365,6 @@ CVE-2022-2639: Chain: integer coercion error (CWE-192) prevents a return value f
 ## Top 25 Examples
 
 CVE-2022-2639: An integer coercion error was found in the openvswitch kernel module. Given a sufficiently large number of actions, while copying and reserving memory for a new action of a new flow, the reserve_sfa_size() function does not return -EMSGSIZE as expected, potentially leading to an out-of-bounds write access. This flaw allows a local user to crash or potentially escalate their privileges on the system.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-193 Off-by-one Error
 
@@ -9564,14 +7436,6 @@ CVE-2021-3156: Sudo before 1.9.5p2 contains an off-by-one error that can result 
 
 CVE-2022-30155: Windows Kernel Denial of Service Vulnerability
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-194 Unexpected Sign Extension
 
 ## Description
@@ -9591,14 +7455,6 @@ CVE-2007-4988: chain: signed short width value in image processor is sign extend
 CVE-2006-1834: chain: signedness error allows bypass of a length check; later sign extension makes exploitation easier.
 
 CVE-2005-2753: Sign extension when manipulating Pascal-style strings leads to integer overflow and improper memory copy.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-195 Signed to Unsigned Conversion Error
 
@@ -9621,14 +7477,6 @@ CVE-2022-27882: slaacd in OpenBSD 6.9 and 7.0 before 2022-03-22 has an integer s
 
 CVE-2022-43663: An integer conversion vulnerability exists in the SORBAx64.dll RecvPacket functionality of WellinTech KingHistorian 35.01.00.05. A specially crafted network packet can lead to a buffer overflow. An attacker can send a malicious packet to trigger this vulnerability.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-196 Unsigned to Signed Conversion Error
 
 ## Description
@@ -9636,14 +7484,6 @@ CVE-2022-43663: An integer conversion vulnerability exists in the SORBAx64.dll R
 The product uses an unsigned primitive and performs a cast to a signed primitive, which can produce an unexpected value if the value of the unsigned primitive can not be represented using a signed primitive.
 
 Although less frequent an issue than signed-to-unsigned conversion, unsigned-to-signed conversion can be the perfect precursor to dangerous buffer underwrite conditions that allow attackers to move down the stack where they otherwise might not have access in a normal buffer overflow condition. Buffer underwrites occur frequently when large unsigned values are cast to signed values, and then used as indexes into a buffer or for pointer arithmetic.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-197 Numeric Truncation Error
 
@@ -9671,25 +7511,9 @@ CVE-2022-42324: Oxenstored 32->31 bit integer truncation issues Integers in Ocam
 
 CVE-2022-34169: The Apache Xalan Java XSLT library is vulnerable to an integer truncation issue when processing malicious XSLT stylesheets. This can be used to corrupt Java class files generated by the internal XSLTC compiler and execute arbitrary Java bytecode. Users are recommended to update to version 2.7.3 or later. Note: Java runtimes (such as OpenJDK) include repackaged copies of Xalan.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-198 Use of Incorrect Byte Ordering
 
 ## Description
 
 The product receives input from an upstream component, but it does not account for byte ordering (e.g. big-endian and little-endian) when processing the input, causing an incorrect number or value to be used.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 

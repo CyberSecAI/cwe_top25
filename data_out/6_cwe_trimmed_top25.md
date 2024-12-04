@@ -14,14 +14,6 @@ Session ID's can be used to identify communicating parties in a web environment.
 The expected number of seconds required to guess a valid session identifier is given by the equation: (2^B+1)/(2*A*S) Where: - B is the number of bits of entropy in the session identifier. - A is the number of guesses an attacker can try each second. - S is the number of valid session identifiers that are valid and available to be guessed at any given time. The number of bits of entropy in the session identifier is always less than the total number of bits in the session identifier. For example, if session identifiers were provided in ascending order, there would be close to zero bits of entropy in the session identifier no matter the identifier's length. Assuming that the session identifiers are being generated using a good source of random numbers, we will estimate the number of bits of entropy in a session identifier to be half the total number of bits in the session identifier. For realistic identifier lengths this is possible, though perhaps optimistic.
 
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-600 Uncaught Exception in Servlet 
 
 ## Description
@@ -29,14 +21,6 @@ The expected number of seconds required to guess a valid session identifier is g
 The Servlet does not catch all exceptions, which may reveal sensitive debugging information.
 
 When a Servlet throws an exception, the default error response the Servlet container sends back to the user typically includes debugging information. This information is of great value to an attacker. For example, a stack trace might show the attacker a malformed SQL query string, the type of database being used, and the version of the application container. This information enables the attacker to target known vulnerabilities in these components.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-601 URL Redirection to Untrusted Site ('Open Redirect')
 
@@ -67,14 +51,6 @@ CVE-2022-40083: Labstack Echo v4.8.0 was discovered to contain an open redirect 
 CVE-2022-35406: A URL disclosure issue was discovered in Burp Suite before 2022.6. If a user views a crafted response in the Repeater or Intruder, it may be incorrectly interpreted as a redirect.
 
 CVE-2022-31657: VMware Workspace ONE Access and Identity Manager contain a URL injection vulnerability. A malicious actor with network access may be able to redirect an authenticated user to an arbitrary domain.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
 
 # CWE-602 Client-Side Enforcement of Server-Side Security
 
@@ -108,14 +84,6 @@ CVE-2022-34397:  Dell Unisphere for PowerMax vApp, VASA Provider vApp, and Solut
 
 CVE-2022-38341: Safe Software FME Server v2021.2.5 and below does not employ server-side validation.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-603 Use of Client-Side Authentication
 
 ## Description
@@ -138,14 +106,6 @@ CVE-2022-31463: Owl Labs Meeting Owl 5.2.0.15 does not require a password for Bl
 
 CVE-2022-3218: Due to a reliance on client-side authentication, the WiFi Mouse (Mouse Server) from Necta LLC's authentication mechanism is trivially bypassed, which can result in remote code execution.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-605 Multiple Binds to the Same Port
 
 ## Description
@@ -153,14 +113,6 @@ CVE-2022-3218: Due to a reliance on client-side authentication, the WiFi Mouse (
 When multiple sockets are allowed to bind to the same port, other services on that port may be stolen or spoofed.
 
 On most systems, a combination of setting the SO_REUSEADDR socket option, and a call to bind() allows any process to bind to a port to which a previous process has bound with INADDR_ANY. This allows a user to bind to the specific address of a server bound to INADDR_ANY on an unprivileged port, and steal its UDP packets/TCP connection.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-606 Unchecked Input for Loop Condition
 
@@ -174,41 +126,17 @@ CVE-2022-26477: The Security Team noticed that the termination condition of the 
 
 CVE-2022-41861: A flaw was found in freeradius. A malicious RADIUS client or home server can send a malformed abinary attribute which can cause the server to crash.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-607 Public Static Final Field References Mutable Object
 
 ## Description
 
 A public or protected static final field references a mutable object, which allows the object to be changed by malicious code, or accidentally from another package.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-608 Struts: Non-private Field in ActionForm Class
 
 ## Description
 
 An ActionForm class contains a field that has not been declared private, which can be accessed without using a setter or getter.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-609 Double-Checked Locking
 
@@ -217,14 +145,6 @@ An ActionForm class contains a field that has not been declared private, which c
 The product uses double-checked locking to access a resource without the overhead of explicit synchronization, but the locking is insufficient.
 
 Double-checked locking refers to the situation where a programmer checks to see if a resource has been initialized, grabs a lock, checks again to see if the resource has been initialized, and then performs the initialization if it has not occurred yet. This should not be done, as it is not guaranteed to work in all languages and on all architectures. In summary, other threads may not be operating inside the synchronous block and are not guaranteed to see the operations execute in the same order as they would appear inside the synchronous block.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-61 UNIX Symbolic Link (Symlink) Following
 
@@ -282,14 +202,6 @@ CVE-2022-21944: A UNIX Symbolic Link (Symlink) Following vulnerability in the sy
 
 CVE-2022-31250: A UNIX Symbolic Link (Symlink) Following vulnerability in keylime of openSUSE Tumbleweed allows local attackers to escalate from the keylime user to root. This issue affects: openSUSE Tumbleweed keylime versions prior to 6.4.2-1.1.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Compound
-
-- 1003 view: No
-
 # CWE-610 Externally Controlled Reference to a Resource in Another Sphere
 
 ## Description
@@ -317,14 +229,6 @@ CVE-2022-27593: An externally controlled reference to a resource vulnerability h
 CVE-2022-30190: A remote code execution vulnerability exists when MSDT is called using the URL protocol from a calling application such as Word. An attacker who successfully exploits this vulnerability can run arbitrary code with the privileges of the calling application. The attacker can then install programs, view, change, or delete data, or create new accounts in the context allowed by the user’s rights. Please see the MSRC Blog Entry for important information about steps you can take to protect your system from this vulnerability. 
 
 CVE-2022-3032: When receiving an HTML email that contained an <code>iframe</code> element, which used a <code>srcdoc</code> attribute to define the inner HTML document, remote objects specified in the nested document, for example images or videos, were not blocked. Rather, the network was accessed, the objects were loaded and displayed. This vulnerability affects Thunderbird < 102.2.1 and Thunderbird < 91.13.1.
-
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Class
-
-- 1003 view: Yes
 
 # CWE-611 Improper Restriction of XML External Entity Reference
 
@@ -394,14 +298,6 @@ CVE-2022-47514: An XML external entity (XXE) injection vulnerability in XML-RPC.
 
 CVE-2022-47873: Netcad KEOS 1.0 is vulnerable to XML External Entity (XXE) resulting in SSRF with XXE (remote).
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-612 Improper Authorization of Index Containing Sensitive Information
 
 ## Description
@@ -422,14 +318,6 @@ CVE-2022-35980: OpenSearch Security is a plugin for OpenSearch that offers encry
 
 CVE-2022-41918: OpenSearch is a community-driven, open source fork of Elasticsearch and Kibana. There is an issue with the implementation of fine-grained access control rules (document-level security, field-level security and field masking) where they are not correctly applied to the indices that back data streams potentially leading to incorrect access authorization. OpenSearch 1.3.7 and 2.4.0 contain a fix for this issue. Users are advised to update. There are no known workarounds for this issue.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-613 Insufficient Session Expiration
 
 ## Description
@@ -447,14 +335,6 @@ CVE-2022-30277: BD Synapsys™, versions 4.20, 4.20 SR1, and 4.30, contain an in
 CVE-2021-29846: IBM Security Guardium Insights 3.0 could allow an authenticated user to obtain sensitive information due to insufficient session expiration. IBM X-Force ID: 205256.
 
 CVE-2021-3844: Rapid7 InsightVM suffers from insufficient session expiration when an administrator performs a security relevant edit on an existing, logged on user. For example, if a user's password is changed by an administrator due to an otherwise unrelated credential leak, that user account's current session is still valid after the password change, potentially allowing the attacker who originally compromised the credential to remain logged in and able to cause further damage. This vulnerability is mitigated by the use of the Platform Login feature. This issue is related to CVE-2019-5638.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
 
 # CWE-614 Sensitive Cookie in HTTPS Session Without 'Secure' Attribute
 
@@ -502,14 +382,6 @@ CVE-2021-40650: In Connx Version 6.2.0.1269 (20210623), a cookie can be issued b
 
 CVE-2022-47715: In Last Yard 22.09.8-1, the cookie can be stolen via via unencrypted traffic.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-615 Inclusion of Sensitive Information in Source Code Comments
 
 ## Description
@@ -526,14 +398,6 @@ CVE-2007-4072: CMS places full pathname of server in HTML comment.
 
 CVE-2009-2431: blog software leaks real username in HTML comment.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-616 Incomplete Identification of Uploaded File Variables (PHP)
 
 ## Description
@@ -549,14 +413,6 @@ CVE-2002-1460: Forum does not properly verify whether a file was uploaded or if 
 CVE-2002-1759: Product doesn't check if the variables for an upload were set by uploading the file, or other methods such as $_POST.
 
 CVE-2002-1710: Product does not distinguish uploaded file from other files.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-617 Reachable Assertion
 
@@ -601,14 +457,6 @@ CVE-2022-23572: Tensorflow is an Open Source Machine Learning Framework. Under c
 
 CVE-2021-46784: In Squid 3.x through 3.5.28, 4.x through 4.17, and 5.x before 5.6, due to improper buffer management, a Denial of Service can occur when processing long Gopher server responses.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-618 Exposed Unsafe ActiveX Method
 
 ## Description
@@ -625,14 +473,6 @@ CVE-2006-6838: control downloads and executes a url in a parameter
 
 CVE-2007-0321: resultant buffer overflow
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-619 Dangling Database Cursor ('Cursor Injection')
 
 ## Description
@@ -642,14 +482,6 @@ If a database cursor is not closed properly, then it could become accessible to 
 For example, an improper dangling cursor could arise from unhandled exceptions. The impact of the issue depends on the cursor's role, but SQL injection attacks are commonly possible.
 
 A cursor is a feature in Oracle PL/SQL and other languages that provides a handle for executing and accessing the results of SQL queries.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-62 UNIX Hard Link
 
@@ -681,14 +513,6 @@ CVE-2021-21272: "Zip Slip" vulnerability in Go-based Open Container Initiative (
 
 CVE-2003-1366: setuid root tool allows attackers to read secret data by replacing a temp file with a hard link to a sensitive file
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-620 Unverified Password Change
 
 ## Description
@@ -717,14 +541,6 @@ CVE-2022-24551: A flaw was found in StarWind Stack. The endpoint for setting a n
 
 CVE-2022-0862: A lack of password change protection vulnerability in a depreciated API of McAfee Enterprise ePolicy Orchestrator (ePO) prior to 5.10 Update 13 allows a remote attacker to change the password of a compromised session without knowing the existing user's password. This functionality was removed from the User Interface in ePO 10 and the API has now been disabled. Other protection is in place to reduce the likelihood of this being successful through sending a link to a logged in user.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-621 Variable Extraction Error
 
 ## Description
@@ -748,14 +564,6 @@ CVE-2006-6661: extract() enables static code injection
 
 CVE-2006-2828: import_request_variables() buried in include files makes post-disclosure analysis confusing
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-622 Improper Validation of Function Hook Arguments
 
 ## Description
@@ -776,14 +584,6 @@ CVE-2007-1220: invalid syscall arguments bypass code execution limits
 
 CVE-2006-4541: DoS in IDS via NULL argument
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-623 Unsafe ActiveX Control Marked Safe For Scripting
 
 ## Description
@@ -799,14 +599,6 @@ CVE-2007-0617: control allows attackers to add malicious email addresses to bypa
 CVE-2007-0219: web browser uses certain COM objects as ActiveX
 
 CVE-2006-6510: kiosk allows bypass to read files
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-624 Executable Regular Expression Error
 
@@ -825,14 +617,6 @@ CVE-2005-3420: Executable regexp in PHP by inserting "e" modifier into first arg
 CVE-2006-2878: Complex curly syntax inserted into the replacement argument to PHP preg_replace(), which uses the "/e" modifier
 
 CVE-2006-2908: Function allows remote attackers to execute arbitrary PHP code via the username field, which is used in a preg_replace function call with a /e (executable) modifier.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-625 Permissive Regular Expression
 
@@ -875,14 +659,6 @@ CVE-2022-42717: An issue was discovered in Hashicorp Packer before 2.3.1. The re
 
 CVE-2021-35368: OWASP ModSecurity Core Rule Set 3.1.x before 3.1.2, 3.2.x before 3.2.1, and 3.3.x before 3.3.2 is affected by a Request Body Bypass via a trailing pathname.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-626 Null Byte Interaction Error (Poison Null Byte)
 
 ## Description
@@ -904,14 +680,6 @@ CVE-2005-3153: inserting SQL after a NUL byte bypasses allowlist regexp, enablin
 
 CVE-2022-25219: A null byte interaction error has been discovered in the code that the telnetd_startup daemon uses to construct a pair of ephemeral passwords that allow a user to spawn a telnet service on the router, and to ensure that the telnet service persists upon reboot. By means of a crafted exchange of UDP packets, an unauthenticated attacker on the local network can leverage this null byte interaction error in such a way as to make those ephemeral passwords predictable (with 1-in-94 odds). Since the attacker must manipulate data processed by the OpenSSL function RSA_public_decrypt(), successful exploitation of this vulnerability depends on the use of an unpadded RSA cipher (CVE-2022-25218).
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-627 Dynamic Variable Evaluation
 
 ## Description
@@ -931,14 +699,6 @@ CVE-2007-2431: Chain: dynamic variable evaluation in PHP program used to modify 
 CVE-2006-4904: Chain: dynamic variable evaluation in PHP program used to conduct remote file inclusion.
 
 CVE-2006-4019: Dynamic variable evaluation in mail program allows reading and modifying attachments and preferences of other users.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-628 Function Call with Incorrectly Specified Arguments
 
@@ -963,14 +723,6 @@ There are multiple ways in which this weakness can be introduced, including:
 
 CVE-2006-7049: The method calls the functions with the wrong argument order, which allows remote attackers to bypass intended access restrictions.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-636 Not Failing Securely ('Failing Open')
 
 ## Description
@@ -984,14 +736,6 @@ By entering a less secure state, the product inherits the weaknesses associated 
 CVE-2007-5277: The failure of connection attempts in a web browser resets DNS pin restrictions. An attacker can then bypass the same origin policy by rebinding a domain name to a different IP address. This was an attempt to "fail functional."
 
 CVE-2006-4407: Incorrect prioritization leads to the selection of a weaker cipher. Although it is not known whether this issue occurred in implementation or design, it is feasible that a poorly designed algorithm could be a factor.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-637 Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism')
 
@@ -1011,14 +755,6 @@ CVE-2007-6479: In Apache environments, a "filename.php.gif" can be redirected to
 
 CVE-2005-2148: The developer cleanses the $_REQUEST superglobal array, but PHP also populates $_GET, allowing attackers to bypass the protection mechanism and conduct SQL injection attacks against code that uses $_GET.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-638 Not Using Complete Mediation
 
 ## Description
@@ -1028,14 +764,6 @@ The product does not perform access checks on a resource every time the resource
 ## Observed Examples
 
 CVE-2007-0408: Server does not properly validate client certificates when reusing cached connections.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-639 Authorization Bypass Through User-Controlled Key
 
@@ -1119,14 +847,6 @@ CVE-2022-0442: The UsersWP WordPress plugin before 1.2.3.1 is missing access con
 
 CVE-2021-36539: Instructure Canvas LMS didn't properly deny access to locked/unpublished files when the unprivileged user access the DocViewer based file preview URL (canvadoc_session_url).
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-64 Windows Shortcut Following (.LNK)
 
 ## Description
@@ -1151,14 +871,6 @@ CVE-2001-1386: ".LNK." - .LNK with trailing dot
 
 CVE-2003-1233: Rootkits can bypass file access restrictions to Windows kernel directories using NtCreateSymbolicLinkObject function to create symbolic link
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-640 Weak Password Recovery Mechanism for Forgotten Password
 
 ## Description
@@ -1174,14 +886,6 @@ This weakness may be that the security question is too easy to guess or find an 
 
 CVE-2022-23855: An issue was discovered in Saviynt Enterprise Identity Cloud (EIC) 5.5 SP2.x. An authentication bypass in ECM/maintenance/forgotpasswordstep1 allows an unauthenticated user to reset passwords and login as any local account.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-641 Improper Restriction of Names for Files and Other Resources
 
 ## Description
@@ -1193,14 +897,6 @@ This may produce resultant weaknesses. For instance, if the names of these resou
 ## Top 25 Examples
 
 CVE-2022-36302: File path manipulation vulnerability in BF-OS version 3.00 up to and including 3.83 allows an attacker to modify the file path to access different resources, which may contain sensitive information.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-642 External Control of Critical State Data
 
@@ -1245,14 +941,6 @@ CVE-2008-1319: Server allows client to specify the search path, which can be mod
 
 CVE-2022-22154: In a Junos Fusion scenario an External Control of Critical State Data vulnerability in the Satellite Device (SD) control state machine of Juniper Networks Junos OS allows an attacker who is able to make physical changes to the cabling of the device to cause a denial of service (DoS). An SD can get rebooted and subsequently controlled by an Aggregation Device (AD) which does not belong to the original Fusion setup and is just connected to an extended port of the SD. To carry out this attack the attacker needs to have physical access to the cabling between the SD and the original AD. This issue affects: Juniper Networks Junos OS 16.1R1 and later versions prior to 18.4R3-S10; 19.1 versions prior to 19.1R3-S7; 19.2 versions prior to 19.2R3-S4. This issue does not affect Juniper Networks Junos OS versions prior to 16.1R1.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-643 Improper Neutralization of Data within XPath Expressions ('XPath Injection')
 
 ## Description
@@ -1260,14 +948,6 @@ CVE-2022-22154: In a Junos Fusion scenario an External Control of Critical State
 The product uses external input to dynamically construct an XPath expression used to retrieve data from an XML database, but it does not neutralize or incorrectly neutralizes that input. This allows an attacker to control the structure of the query.
 
 The net effect is that the attacker will have control over the information selected from the XML database and may use that ability to control application flow, modify logic, retrieve unauthorized data, or bypass important checks (e.g. authentication).
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-644 Improper Neutralization of HTTP Headers for Scripting Syntax
 
@@ -1284,14 +964,6 @@ If a product does not neutralize user controlled data being placed in the header
 
 CVE-2006-3918: Web server does not remove the Expect header from an HTTP request when it is reflected back in an error message, allowing a Flash SWF file to perform XSS attacks.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-645 Overly Restrictive Account Lockout Mechanism
 
 ## Description
@@ -1300,14 +972,6 @@ The product contains an account lockout protection mechanism, but the mechanism 
 
 Account lockout is a security feature often present in applications as a countermeasure to the brute force attack on the password based authentication mechanism of the system. After a certain number of failed login attempts, the users' account may be disabled for a certain period of time or until it is unlocked by an administrator. Other security events may also possibly trigger account lockout. However, an attacker may use this very security feature to deny service to legitimate system users. It is therefore important to ensure that the account lockout security mechanism is not overly restrictive.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-646 Reliance on File Name or Extension of Externally-Supplied File
 
 ## Description
@@ -1315,14 +979,6 @@ Account lockout is a security feature often present in applications as a counter
 The product allows a file to be uploaded, but it relies on the file name or extension of the file to determine the appropriate behaviors. This could be used by attackers to cause the file to be misclassified and processed in a dangerous fashion.
 
 An application might use the file name or extension of a user-supplied file to determine the proper course of action, such as selecting the correct process to which control should be passed, deciding what data should be made available, or what resources should be allocated. If the attacker can cause the code to misclassify the supplied file, then the wrong action could occur. For example, an attacker could supply a file that ends in a ".php.gif" extension that appears to be a GIF image, but would be processed as PHP code. In extreme cases, code execution is possible, but the attacker could also cause exhaustion of resources, denial of service, exposure of debug or system data (including application source code), or being bound to a particular server side process. This weakness may be due to a vulnerability in any of the technologies used by the web and application servers, due to misconfiguration, or resultant from another flaw in the application itself.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-647 Use of Non-Canonical URL Paths for Authorization Decisions
 
@@ -1344,14 +1000,6 @@ If an application defines policy namespaces and makes authorization decisions ba
   - http://www.example.com:80/mypage
 
 Therefore it is important to specify access control policy that is based on the path information in some canonical form with all alternate encodings rejected (which can be accomplished by a default deny rule).
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-648 Incorrect Use of Privileged APIs
 
@@ -1386,14 +1034,6 @@ CVE-2022-25089: Printix Secure Cloud Print Management through 1.3.1106.0 incorre
 
 CVE-2022-32633: In Wi-Fi, there is a possible memory access violation due to a logic error. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS07441637; Issue ID: ALPS07441637.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-649 Reliance on Obfuscation or Encryption of Security-Relevant Inputs without Integrity Checking
 
 ## Description
@@ -1405,14 +1045,6 @@ When an application relies on obfuscation or incorrectly applied / weak encrypti
 ## Observed Examples
 
 CVE-2005-0039: An IPSec configuration does not perform integrity checking of the IPSec packet as the result of either not configuring ESP properly to support the integrity service or using AH improperly. In either case, the security gateway receiving the IPSec packet would not validate the integrity of the packet to ensure that it was not changed. Thus if the packets were intercepted the attacker could undetectably change some of the bits in the packets. The meaningful bit flipping was possible due to the known weaknesses in the CBC encryption mode. Since the attacker knew the structure of the packet, they were able (in one variation of the attack) to use bit flipping to change the destination IP of the packet to the destination machine controlled by the attacker. And so the destination security gateway would decrypt the packet and then forward the plaintext to the machine controlled by the attacker. The attacker could then read the original message. For instance if VPN was used with the vulnerable IPSec configuration the attacker could read the victim's e-mail. This vulnerability demonstrates the need to enforce the integrity service properly when critical data could be modified by an attacker. This problem might have also been mitigated by using an encryption mode that is not susceptible to bit flipping attacks, but the preferred mechanism to address this problem still remains message verification for integrity. While this attack focuses on the network layer and requires an entity that controls part of the communication path such as a router, the situation is not much different at the software level, where an attacker can modify tokens/parameters used by the application.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-65 Windows Hard Link
 
@@ -1428,14 +1060,6 @@ CVE-2002-0725: File system allows local attackers to hide file usage activities 
 
 CVE-2003-0844: Web server plugin allows local users to overwrite arbitrary files via a symlink attack on predictable temporary filenames.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-650 Trusting HTTP Permission Methods on the Server Side
 
 ## Description
@@ -1447,14 +1071,6 @@ The HTTP GET method and some other methods are designed to retrieve resources an
 ## Top 25 Examples
 
 CVE-2021-45327: Gitea before 1.11.2 is affected by Trusting HTTP Permission Methods on the Server Side when referencing the vulnerable admin or user API. which could let a remote malisious user execute arbitrary code.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-651 Exposure of WSDL File Containing Sensitive Information
 
@@ -1471,14 +1087,6 @@ An information exposure may occur if any of the following apply:
 
   - Information in the WSDL file helps guess names/locations of methods/resources that should not be publicly accessible.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-652 Improper Neutralization of Data within XQuery Expressions ('XQuery Injection')
 
 ## Description
@@ -1486,14 +1094,6 @@ An information exposure may occur if any of the following apply:
 The product uses external input to dynamically construct an XQuery expression used to retrieve data from an XML database, but it does not neutralize or incorrectly neutralizes that input. This allows an attacker to control the structure of the query.
 
 The net effect is that the attacker will have control over the information selected from the XML database and may use that ability to control application flow, modify logic, retrieve unauthorized data, or bypass important checks (e.g. authentication).
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-653 Improper Isolation or Compartmentalization
 
@@ -1513,14 +1113,6 @@ CVE-2019-6260: Baseboard Management Controller (BMC) device implements Advanced 
 
 CVE-2022-3044: Inappropriate implementation in Site Isolation in Google Chrome prior to 105.0.5195.52 allowed a remote attacker who had compromised the renderer process to bypass site isolation via a crafted HTML page.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-654 Reliance on a Single Factor in a Security Decision
 
 ## Description
@@ -1531,27 +1123,11 @@ A protection mechanism relies exclusively, or to a large extent, on the evaluati
 
 CVE-2022-35248: Chat application skips validation when Central Authentication Service (CAS) is enabled, effectively removing the second factor from two-factor authentication
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-655 Insufficient Psychological Acceptability
 
 ## Description
 
 The product has a protection mechanism that is too difficult or inconvenient to use, encouraging non-malicious users to disable or bypass the mechanism, whether by accident or on purpose.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-656 Reliance on Security Through Obscurity
 
@@ -1570,14 +1146,6 @@ CVE-2006-7142: Hard-coded cryptographic key stored in executable program.
 CVE-2005-4002: Hard-coded cryptographic key stored in executable program.
 
 CVE-2006-4068: Hard-coded hashed values for username and password contained in client-side script, allowing brute-force offline attacks.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-657 Violation of Secure Design Principles
 
@@ -1605,14 +1173,6 @@ CVE-2022-28244: Acrobat Reader DC versions 22.001.20085 (and earlier), 20.005.30
 
 CVE-2022-30707: Violation of secure design principles exists in the communication of CAMS for HIS. Affected products and versions are CENTUM series where LHS4800 is installed (CENTUM CS 3000 and CENTUM CS 3000 Small R3.08.10 to R3.09.00), CENTUM series where CAMS function is used (CENTUM VP, CENTUM VP Small, and CENTUM VP Basic R4.01.00 to R4.03.00), CENTUM series regardless of the use of CAMS function (CENTUM VP, CENTUM VP Small, and CENTUM VP Basic R5.01.00 to R5.04.20 and R6.01.00 to R6.09.00), Exaopc R3.72.00 to R3.80.00 (only if NTPF100-S6 'For CENTUM VP Support CAMS for HIS' is installed), B/M9000 CS R5.04.01 to R5.05.01, and B/M9000 VP R6.01.01 to R8.03.01). If an adjacent attacker successfully compromises a computer using CAMS for HIS software, they can use credentials from the compromised machine to access data from another machine using CAMS for HIS software. This can lead to a disabling of CAMS for HIS software functions on any affected machines, or information disclosure/alteration.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-66 Improper Handling of File Names that Identify Virtual Resources
 
 ## Description
@@ -1628,14 +1188,6 @@ CVE-1999-0278: In IIS, remote attackers can obtain source code for ASP files by 
 CVE-2004-1084: Server allows remote attackers to read files and resource fork content via HTTP requests to certain special file names related to multiple data streams in HFS+.
 
 CVE-2002-0106: Server allows remote attackers to cause a denial of service via a series of requests to .JSP files that contain an MS-DOS device name.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-662 Improper Synchronization
 
@@ -1667,14 +1219,6 @@ CVE-2022-32644: In vow, there is a possible use after free due to a race conditi
 
 CVE-2022-32648: In disp, there is a possible use after free due to a race condition. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS06535964; Issue ID: ALPS06535964.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-663 Use of a Non-reentrant Function in a Concurrent Context
 
 ## Description
@@ -1686,14 +1230,6 @@ The product calls a non-reentrant function in a concurrent context in which a co
 CVE-2001-1349: unsafe calls to library functions from signal handler
 
 CVE-2004-2259: SIGCHLD signal to FTP server can cause crash under heavy load while executing non-reentrant functions like malloc/free.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-664 Improper Control of a Resource Through its Lifetime
 
@@ -1725,14 +1261,6 @@ CVE-2022-39949: An improper control of a resource through its lifetime vulnerabi
 CVE-2021-43204: A improper control of a resource through its lifetime in Fortinet FortiClientWindows version 6.4.1 and 6.4.0, version 6.2.9 and below, version 6.0.10 and below allows attacker to cause a complete denial of service of its components via changes of directory access permissions.
 
 CVE-2022-23446: A improper control of a resource through its lifetime in Fortinet FortiEDR version 5.0.3 and earlier allows attacker to make the whole application unresponsive via changing its root directory access permission.
-
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Pillar
-
-- 1003 view: No
 
 # CWE-665 Improper Initialization
 
@@ -1786,14 +1314,6 @@ CVE-2022-29695: Unicorn Engine v2.0.0-rc7 contains memory leaks caused by an inc
 
 CVE-2022-46505: An issue in MatrixSSL 4.5.1-open and earlier leads to failure to securely check the SessionID field, resulting in the misuse of an all-zero MasterSecret that can decrypt secret data.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-666 Operation on Resource in Wrong Phase of Lifetime
 
 ## Description
@@ -1805,14 +1325,6 @@ A resource's lifecycle includes several phases: initialization, use, and release
 ## Observed Examples
 
 CVE-2006-5051: Chain: Signal handler contains too much functionality (CWE-828), introducing a race condition (CWE-362) that leads to a double free (CWE-415).
-
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-667 Improper Locking
 
@@ -1912,14 +1424,6 @@ CVE-2022-38690: In camera driver, there is a possible memory corruption due to i
 
 CVE-2022-48216: Uniswap Universal Router before 1.1.0 mishandles reentrancy. This would have allowed theft of funds.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-668 Exposure of Resource to Wrong Sphere
 
 ## Description
@@ -1972,14 +1476,6 @@ CVE-2022-34464: A vulnerability has been identified in SICAM GridEdge Essential 
 
 CVE-2022-24074: Whale Bridge, a default extension in Whale browser before 3.12.129.18, allowed to receive any SendMessage request from the content script itself that could lead to controlling Whale Bridge if the rendering process compromises.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-669 Incorrect Resource Transfer Between Spheres
 
 ## Description
@@ -1995,14 +1491,6 @@ CVE-2021-22909: Chain: router's firmware update procedure uses curl with "-k" (i
 CVE-2023-5227: PHP-based FAQ management app does not check the MIME type for uploaded images
 
 CVE-2005-0406: Some image editors modify a JPEG image, but the original EXIF thumbnail image is left intact within the JPEG. (Also an interaction error).
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
 
 # CWE-67 Improper Handling of Windows Device Names
 
@@ -2034,14 +1522,6 @@ CVE-2004-0552: Product does not properly handle files whose names contain reserv
 
 CVE-2005-2195: Server allows remote attackers to cause a denial of service (application crash) via a URL with a filename containing a .cgi extension and an MS-DOS device name.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-670 Always-Incorrect Control Flow Implementation
 
 ## Description
@@ -2057,14 +1537,6 @@ CVE-2021-3011: virtual interrupt controller in a virtualization product allows c
 ## Top 25 Examples
 
 CVE-2022-45196: Hyperledger Fabric 2.3 allows attackers to cause a denial of service (orderer crash) by repeatedly sending a crafted channel tx with the same Channel name. NOTE: the official Fabric with Raft prevents exploitation via a locking mechanism and a check for names that already exist.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
 
 # CWE-671 Lack of Administrator Control over Security
 
@@ -2084,14 +1556,6 @@ CVE-2000-0127: GUI configuration tool does not enable a security option when a c
 
 CVE-2021-20612: Lack of administrator control over security vulnerability in MELSEC-F series FX3U-ENET Firmware version 1.14 and prior, FX3U-ENET-L Firmware version 1.14 and prior and FX3U-ENET-P502 Firmware version 1.14 and prior allows a remote unauthenticated attacker to cause a denial-of-service (DoS) condition in communication function of the product or other unspecified effects by sending specially crafted packets to an unnecessary opening of TCP port. Control by MELSEC-F series PLC is not affected by this vulnerability, but system reset is required for recovery.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-672 Operation on a Resource after Expiration or Release
 
 ## Description
@@ -2101,14 +1565,6 @@ The product uses, accesses, or otherwise operates on a resource after that resou
 ## Observed Examples
 
 CVE-2009-3547: Chain: race condition (CWE-362) might allow resource to be released before operating on it, leading to NULL dereference (CWE-476)
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
 
 # CWE-673 External Influence of Sphere Definition
 
@@ -2121,14 +1577,6 @@ Typically, a product defines its control sphere within the code itself, or throu
 ## Observed Examples
 
 CVE-2008-2613: setuid program allows compromise using path that finds and loads a malicious library.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-674 Uncontrolled Recursion
 
@@ -2206,14 +1654,6 @@ CVE-2022-27943: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack consumpti
 
 CVE-2022-40150: Those using Jettison to parse untrusted XML or JSON data may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by Out of memory. This effect may support a denial of service attack.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-675 Multiple Operations on Resource in Single-Operation Context
 
 ## Description
@@ -2231,14 +1671,6 @@ CVE-2004-1939: XSS protection mechanism attempts to remove "/" that could be use
 ## Top 25 Examples
 
 CVE-2022-39190: An issue was discovered in net/netfilter/nf_tables_api.c in the Linux kernel before 5.19.6. A denial of service can occur upon binding to an already bound chain.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-676 Use of Potentially Dangerous Function
 
@@ -2268,14 +1700,6 @@ CVE-2022-27255: In Realtek eCos RSDK 1.5.7p1 and MSDK 4.9.4p1, the SIP ALG funct
 
 CVE-2022-0736: Insecure Temporary File in GitHub repository mlflow/mlflow prior to 1.23.1.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-680 Integer Overflow to Buffer Overflow
 
 ## Description
@@ -2291,14 +1715,6 @@ CVE-2017-1000121: chain: unchecked message size metadata allows integer overflow
 ## Top 25 Examples
 
 CVE-2022-33248: Memory corruption in User Identity Module due to integer overflow to buffer overflow when a segement is received via qmi http.
-
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Compound
-
-- 1003 view: No
 
 # CWE-681 Incorrect Conversion between Numeric Types
 
@@ -2324,14 +1740,6 @@ CVE-2008-3282: Size of a particular type changes for 64-bit platforms, leading t
 
 CVE-2021-0964: In C2SoftMP3::process() of C2SoftMp3Dec.cpp, there is a possible out of bounds write due to a heap buffer overflow. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-10 Android-11 Android-12 Android-9Android ID: A-193363621
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-682 Incorrect Calculation
 
 ## Description
@@ -2354,14 +1762,6 @@ CVE-2022-31748: Mozilla developers Gabriele Svelto, Timothy Nikkel, Randell Jesu
 
 CVE-2022-30780: Lighttpd 1.4.56 through 1.4.58 allows a remote attacker to cause a denial of service (CPU consumption from stuck connections) because connection_read_header_more in connections.c has a typo that disrupts use of multiple read operations on large headers.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Pillar
-
-- 1003 view: Yes
-
 # CWE-683 Function Call With Incorrect Order of Arguments
 
 ## Description
@@ -2373,14 +1773,6 @@ While this weakness might be caught by the compiler in some languages, it can oc
 ## Observed Examples
 
 CVE-2006-7049: Application calls functions with arguments in the wrong order, allowing attacker to bypass intended access restrictions.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-684 Incorrect Provision of Specified Functionality
 
@@ -2400,27 +1792,11 @@ CVE-2003-0187: Program uses large timeouts on unconfirmed connections resulting 
 
 CVE-1999-1446: UI inconsistency; visited URLs list not cleared when "Clear History" option is selected.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-685 Function Call With Incorrect Number of Arguments
 
 ## Description
 
 The product calls a function, procedure, or routine, but the caller specifies too many arguments, or too few arguments, which may lead to undefined behavior and resultant weaknesses.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-686 Function Call With Incorrect Argument Type
 
@@ -2430,27 +1806,11 @@ The product calls a function, procedure, or routine, but the caller specifies an
 
 This weakness is most likely to occur in loosely typed languages, or in strongly typed languages in which the types of variable arguments cannot be enforced at compilation time, or where there is implicit casting.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-687 Function Call With Incorrectly Specified Argument Value
 
 ## Description
 
 The product calls a function, procedure, or routine, but the caller specifies an argument that contains the wrong value, which may lead to resultant weaknesses.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-688 Function Call With Incorrect Variable or Reference as Argument
 
@@ -2461,14 +1821,6 @@ The product calls a function, procedure, or routine, but the caller specifies th
 ## Observed Examples
 
 CVE-2005-2548: Kernel code specifies the wrong variable in first argument, leading to resultant NULL pointer dereference.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-689 Permission Race Condition During Resource Copy
 
@@ -2488,14 +1840,6 @@ CVE-2005-2475: Archive permissions issue using hard link.
 
 CVE-2003-0265: Database product creates files world-writable before initializing the setuid bits, leading to modification of executables.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Compound
-
-- 1003 view: No
-
 # CWE-69 Improper Handling of Windows ::DATA Alternate Data Stream
 
 ## Description
@@ -2511,14 +1855,6 @@ Alternate data streams (ADS) were first implemented in the Windows NT operating 
 CVE-1999-0278: In IIS, remote attackers can obtain source code for ASP files by appending "::$DATA" to the URL.
 
 CVE-2000-0927: Product does not properly record file sizes if they are stored in alternative data streams, which allows users to bypass quota restrictions.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-690 Unchecked Return Value to NULL Pointer Dereference
 
@@ -2539,14 +1875,6 @@ CVE-2006-2555: Parsing routine encounters NULL dereference when input is missing
 CVE-2003-1054: URI parsing API sets argument to NULL when a parsing failure occurs, such as when the Referer header is missing a hostname, leading to NULL dereference.
 
 CVE-2008-5183: chain: unchecked return value can lead to NULL dereference
-
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Compound
-
-- 1003 view: No
 
 # CWE-691 Insufficient Control Flow Management
 
@@ -2582,14 +1910,6 @@ CVE-2022-33902: Insufficient control flow management in the Intel(R) Quartus Pri
 
 CVE-2022-36278: Insufficient control flow management in the Intel(R) Battery Life Diagnostic Tool software before version 2.2.0 may allow an authenticated user to potentially enable escalation of privilege via local access.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Pillar
-
-- 1003 view: No
-
 # CWE-692 Incomplete Denylist to Cross-Site Scripting
 
 ## Description
@@ -2605,14 +1925,6 @@ CVE-2007-5727: Denylist only removes <SCRIPT> tag.
 CVE-2006-3617: Denylist only removes <SCRIPT> tag.
 
 CVE-2006-4308: Denylist only checks "javascript:" tag
-
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Compound
-
-- 1003 view: No
 
 # CWE-693 Protection Mechanism Failure
 
@@ -2646,14 +1958,6 @@ CVE-2022-36797: Protection mechanism failure in the Intel(R) Ethernet 500 Series
 
 CVE-2022-1349: The WPQA Builder Plugin WordPress plugin before 5.2, used as a companion plugin for the Discy and Himer , does not validate that the value passed to the image_id parameter of the ajax action wpqa_remove_image belongs to the requesting user, allowing any users (with privileges as low as Subscriber) to delete the profile pictures of any other user.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Pillar
-
-- 1003 view: No
-
 # CWE-694 Use of Multiple Resources with Duplicate Identifier
 
 ## Description
@@ -2670,14 +1974,6 @@ CVE-2013-4787: chain: mobile OS verifies cryptographic signature of file in an a
 
 CVE-2021-3436: BT: Possible to overwrite an existing bond during keys distribution phase when the identity address of the bond is known. Zephyr versions >= 1.14.2, >= 2.4.0, >= 2.5.0 contain Use of Multiple Resources with Duplicate Identifier (CWE-694). For more information, see https://github.com/zephyrproject-rtos/zephyr/security/advisories/GHSA-j76f-35mc-4h63
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-695 Use of Low-Level Functionality
 
 ## Description
@@ -2685,14 +1981,6 @@ CVE-2021-3436: BT: Possible to overwrite an existing bond during keys distributi
 The product uses low-level functionality that is explicitly prohibited by the framework or specification under which the product is supposed to operate.
 
 The use of low-level functionality can violate the specification in unexpected ways that effectively disable built-in protection mechanisms, introduce exploitable inconsistencies, or otherwise expose the functionality to attack.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-696 Incorrect Behavior Order
 
@@ -2722,14 +2010,6 @@ CVE-2022-37734: graphql-java before19.0 is vulnerable to Denial of Service. An a
 
 CVE-2022-41723: A maliciously crafted HTTP/2 stream could cause excessive CPU consumption in the HPACK decoder, sufficient to cause a denial of service from a small number of small requests.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-697 Incorrect Comparison
 
 ## Description
@@ -2757,14 +2037,6 @@ CVE-2016-10003: Proxy performs incorrect comparison of request headers, leading 
 
 CVE-2022-22990: A limited authentication bypass vulnerability was discovered that could allow an attacker to achieve remote code execution and escalate privileges on the My Cloud devices. Addressed this vulnerability by changing access token validation logic and rewriting rule logic on PHP scripts.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Pillar
-
-- 1003 view: Yes
-
 # CWE-698 Execution After Redirect (EAR)
 
 ## Description
@@ -2786,12 +2058,4 @@ CVE-2007-5578: Bypass of authentication step through EAR.
 CVE-2007-2713: Chain: Execution after redirect triggers eval injection.
 
 CVE-2007-6652: chain: execution after redirect allows non-administrator to perform static code injection.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 

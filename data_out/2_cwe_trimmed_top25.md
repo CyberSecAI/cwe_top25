@@ -1654,14 +1654,6 @@ CVE-2022-30232: A CWE-20: Improper Input Validation vulnerability exists that co
 
 CVE-2022-30233: A CWE-20: Improper Input Validation vulnerability exists that could allow the product to be maliciously manipulated when the user is tricked into performing certain actions on a webpage. Affected Products: Wiser Smart, EER21000 & EER21001 (V4.5 and prior)
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-200 Exposure of Sensitive Information to an Unauthorized Actor
 
 ## Description
@@ -1913,14 +1905,6 @@ CVE-2021-35080: Disabled SMMU from secure side while RPM is assigned a secure st
 
 CVE-2021-3677: A flaw was found in postgresql. A purpose-crafted query can read arbitrary bytes of server memory. In the default configuration, any authenticated database user can complete this attack at will. The attack does not require the ability to create objects. If server settings include max_worker_processes=0, the known versions of this attack are infeasible. However, undiscovered variants of the attack may be independent of that setting.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-201 Insertion of Sensitive Information Into Sent Data
 
 ## Description
@@ -1993,14 +1977,6 @@ CVE-2022-38113: This vulnerability discloses build and services versions in the 
 
 CVE-2022-46150: Discourse is an open-source discussion platform. Prior to version 2.8.13 of the `stable` branch and version 2.9.0.beta14 of the `beta` and `tests-passed` branches, unauthorized users may learn of the existence of hidden tags and that they have been applied to topics that they have access to. This issue is patched in version 2.8.13 of the `stable` branch and version 2.9.0.beta14 of the `beta` and `tests-passed` branches. As a workaround, use the `disable_email` site setting to disable all emails to non-staff users.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-202 Exposure of Sensitive Information Through Data Queries
 
 ## Description
@@ -2018,14 +1994,6 @@ CVE-2022-41935: Wiki product allows an adversary to discover filenames via a ser
 CVE-2022-31177: Flask-AppBuilder is an application development framework built on top of Flask python framework. In versions prior to 4.1.3 an authenticated Admin user could query other users by their salted and hashed passwords strings. These filters could be made by using partial hashed password strings. The response would not include the hashed passwords, but an attacker could infer partial password hashes and their respective users. This issue has been fixed in version 4.1.3. Users are advised to upgrade. There are no known workarounds for this issue.
 
 CVE-2022-41935: XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. Users without the right to view documents can deduce their existence by repeated Livetable queries. The issue has been patched in XWiki 14.6RC1, 13.10.8, and 14.4.3, the response is not properly cleaned up of obfuscated entries. As a workaround, The patch for the document `XWiki.LiveTableResultsMacros` can be manually applied or a XAR archive of a patched version can be imported, on versions 12.10.11, 13.9-rc-1, and 13.4.4. There are no known workarounds for this issue.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-203 Observable Discrepancy
 
@@ -2109,14 +2077,6 @@ CVE-2022-4087: A vulnerability was found in iPXE. It has been declared as proble
 
 CVE-2021-33838: Luca through 1.7.4 on Android allows remote attackers to obtain sensitive information about COVID-19 tracking because requests related to Check-In State occur shortly after requests for Phone Number Registration.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-204 Observable Response Discrepancy
 
 ## Description
@@ -2169,14 +2129,6 @@ CVE-2022-24032: Adenza AxiomSL ControllerView through 10.8.1 is vulnerable to us
 
 CVE-2022-0569: Observable Discrepancy in Packagist snipe/snipe-it prior to v5.3.9. 
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-205 Observable Behavioral Discrepancy
 
 ## Description
@@ -2194,14 +2146,6 @@ CVE-2004-2252: Behavioral infoleak by responding to SYN-FIN packets.
 ## Top 25 Examples
 
 CVE-2021-32528: Observable behavioral discrepancy vulnerability in QSAN Storage Manager allows remote attackers to obtain the system information without permissions. Suggest contacting with QSAN and refer to recommendations in QSAN Document.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-206 Observable Internal Behavioral Discrepancy
 
@@ -2221,14 +2165,6 @@ CVE-2001-1497: Behavioral infoleak in GUI allows attackers to distinguish betwee
 
 CVE-2003-0190: Product immediately sends an error message when user does not exist instead of waiting until the password is provided, allowing username enumeration.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-207 Observable Behavioral Discrepancy With Equivalent Products
 
 ## Description
@@ -2244,14 +2180,6 @@ CVE-2002-0208: Product modifies TCP/IP stack and ICMP error messages in unusual 
 CVE-2004-2252: Behavioral infoleak by responding to SYN-FIN packets.
 
 CVE-2000-1142: Honeypot generates an error with a "pwd" command in a particular directory, allowing attacker to know they are in a honeypot system.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-208 Observable Timing Discrepancy
 
@@ -2304,14 +2232,6 @@ CVE-2022-37146: The PlexTrac platform prior to version 1.28.0 allows for usernam
 CVE-2022-2891: The WP 2FA WordPress plugin before 2.3.0 uses comparison operators that don't mitigate time-based attacks, which could be abused to leak information about the authentication codes being compared.
 
 CVE-2022-3907: The Clerk WordPress plugin before 4.0.0 is affected by time-based attacks in the validation function for all API requests due to the usage of comparison operators to verify API keys against the ones stored in the site options.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-209 Generation of Error Message Containing Sensitive Information
 
@@ -2366,14 +2286,6 @@ CVE-2022-24906: Nextcloud Deck is a Kanban-style project & personal management t
 
 CVE-2022-39307: Grafana is an open-source platform for monitoring and observability. When using the forget password on the login page, a POST request is made to the `/api/user/password/sent-reset-email` URL. When the username or email does not exist, a JSON response contains a “user not found” message. This leaks information to unauthenticated users and introduces a security risk. This issue has been patched in 9.2.4 and backported to 8.5.15. There are no known workarounds.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-210 Self-generated Error Message Containing Sensitive Information
 
 ## Description
@@ -2383,14 +2295,6 @@ The product identifies an error condition and creates its own diagnostic or erro
 ## Observed Examples
 
 CVE-2005-1745: Infoleak of sensitive information in error message (physical access required).
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-211 Externally-Generated Error Message Containing Sensitive Information
 
@@ -2411,14 +2315,6 @@ CVE-2005-0443: invalid parameter triggers a failure to find an include file, lea
 CVE-2005-0433: Various invalid requests lead to information leak in verbose error messages describing the failure to instantiate a class, open a configuration file, or execute an undefined function.
 
 CVE-2004-1101: Improper handling of filename request with trailing "/" causes multiple consequences, including information leak in Visual Basic error message.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-212 Improper Removal of Sensitive Information Before Storage or Transfer
 
@@ -2471,14 +2367,6 @@ CVE-2022-3460: In affected versions of Octopus Deploy it is possible for certain
 
 CVE-2022-4734: Improper Removal of Sensitive Information Before Storage or Transfer in GitHub repository usememos/memos prior to 0.9.1. 
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-213 Exposure of Sensitive Information Due to Incompatible Policies
 
 ## Description
@@ -2521,14 +2409,6 @@ CVE-2022-33696: Exposure of Sensitive Information in Telephony service prior to 
 
 CVE-2022-39848: Exposure of sensitive information in AT_Distributor prior to SMR Oct-2022 Release 1 allows local attacker to access SerialNo via log.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-214 Invocation of Process Using Visible Sensitive Information
 
 ## Description
@@ -2565,14 +2445,6 @@ CVE-2022-0851: There is a flaw in convert2rhel. When the --activationkey option 
 
 CVE-2022-1662: In convert2rhel, there's an ansible playbook named ansible/run-convert2rhel.yml which passes the Red Hat Subscription Manager user password via the CLI to convert2rhel. This could allow unauthorized local users to view the password via the process list while convert2rhel is running. However, this ansible playbook is only an example in the upstream repository and it is not shipped in officially supported versions of convert2rhel.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-215 Insertion of Sensitive Information Into Debugging Code
 
 ## Description
@@ -2594,14 +2466,6 @@ CVE-2003-1078: FTP client with debug option enabled shows password to the screen
 CVE-2022-0721: Insertion of Sensitive Information Into Debugging Code in GitHub repository microweber/microweber prior to 1.3.
 
 CVE-2022-27912: An issue was discovered in Joomla! 4.0.0 through 4.2.3. Sites with publicly enabled debug mode exposed data of previous requests.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-219 Storage of File with Sensitive Data Under Web Root
 
@@ -2626,14 +2490,6 @@ CVE-2005-1645: database file under web root.
 ## Top 25 Examples
 
 CVE-2021-20148: ManageEngine ADSelfService Plus below build 6116 stores the password policy file for each domain under the html/ web root with a predictable filename based on the domain name. When ADSSP is configured with multiple Windows domains, a user from one domain can obtain the password policy for another domain by authenticating to the service and then sending a request specifying the password policy file of the other domain.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-22 Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')
 
@@ -2765,14 +2621,6 @@ CVE-2021-21469: When security guidelines for SAP NetWeaver Master Data Managemen
 
 CVE-2021-41277: Metabase is an open source data analytics platform. In affected versions a security issue has been discovered with the custom GeoJSON map (`admin->settings->maps->custom maps->add a map`) support and potential local file inclusion (including environment variables). URLs were not validated prior to being loaded. This issue is fixed in a new maintenance release (0.40.5 and 1.40.5), and any subsequent release after that. If you’re unable to upgrade immediately, you can mitigate this by including rules in your reverse proxy or load balancer or WAF to provide a validation filter before the application.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-220 Storage of File With Sensitive Data Under FTP Root
 
 ## Description
@@ -2780,14 +2628,6 @@ CVE-2021-41277: Metabase is an open source data analytics platform. In affected 
 The product stores sensitive data under the FTP server root with insufficient access control, which might make it accessible to untrusted parties.
 
 Various Unix FTP servers require a password file that is under the FTP root, due to use of chroot.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-221 Information Loss or Omission
 
@@ -2809,14 +2649,6 @@ CVE-2002-0725: Attacker performs malicious actions on a hard link to a file, obs
 
 CVE-1999-1055: Product does not warn user when document contains certain dangerous functions or macros.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-222 Truncation of Security-relevant Information
 
 ## Description
@@ -2830,14 +2662,6 @@ CVE-2005-0585: Web browser truncates long sub-domains or paths, facilitating phi
 CVE-2004-2032: Bypass URL filter via a long URL with a large number of trailing hex-encoded space characters.
 
 CVE-2003-0412: application server does not log complete URI of a long request (truncation).
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-223 Omission of Security-relevant Information
 
@@ -2857,14 +2681,6 @@ CVE-2000-0542: Failed authentication attempts are not recorded if later attempt 
 
 CVE-2021-45289: A vulnerability exists in GPAC 1.0.1 due to an omission of security-relevant Information, which could cause a Denial of Service. The program terminates with signal SIGKILL.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-224 Obscured Security-relevant Information by Alternate Name
 
 ## Description
@@ -2874,14 +2690,6 @@ The product records security-relevant information according to an alternate name
 ## Observed Examples
 
 CVE-2002-0725: Attacker performs malicious actions on a hard link to a file, obscuring the real target file.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-226 Sensitive Information in Resource Not Removed Before Reuse
 
@@ -2923,14 +2731,6 @@ CVE-2022-22779: The Keybase Clients for macOS and Windows before version 5.9.0 f
 
 CVE-2022-23633: Action Pack is a framework for handling and responding to web requests. Under certain circumstances response bodies will not be closed. In the event a response is *not* notified of a `close`, `ActionDispatch::Executor` will not know to reset thread local state for the next request. This can lead to data being leaked to subsequent requests.This has been fixed in Rails 7.0.2.1, 6.1.4.5, 6.0.4.5, and 5.2.6.1. Upgrading is highly recommended, but to work around this problem a middleware described in GHSA-wh98-p28r-vrc9 can be used.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-228 Improper Handling of Syntactically Invalid Structure
 
 ## Description
@@ -2949,27 +2749,11 @@ CVE-2022-41783: tdpServer of TP-Link RE300 V1 improperly processes its input, wh
 
 CVE-2022-38100: The CMS800 device fails while attempting to parse malformed network data sent by a threat actor. A threat actor with network access can remotely issue a specially formatted UDP request that will cause the entire device to crash and require a physical reboot. A UDP broadcast request could be sent that causes a mass denial-of-service attack on all CME8000 devices connected to the same network.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-229 Improper Handling of Values
 
 ## Description
 
 The product does not properly handle when the expected number of values for parameters, fields, or arguments is not provided in input, or if those values are undefined.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-23 Relative Path Traversal
 
@@ -3131,14 +2915,6 @@ CVE-2022-38638: Casdoor v1.97.3 was discovered to contain an arbitrary file writ
 
 CVE-2022-42977: The Netic User Export add-on before 1.3.5 for Atlassian Confluence has the functionality to generate a list of users in the application, and export it. During export, the HTTP request has a fileName parameter that accepts any file on the system (e.g., an SSH private key) to be downloaded.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-230 Improper Handling of Missing Values
 
 ## Description
@@ -3167,27 +2943,11 @@ CVE-2022-25226: ThinVNC version 1.0b1 allows an unauthenticated user to bypass t
 
 CVE-2022-47003: A vulnerability in the Remember Me function of Mura CMS before v10.0.580 allows attackers to bypass authentication via a crafted web request.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-231 Improper Handling of Extra Values
 
 ## Description
 
 The product does not handle or incorrectly handles when more values are provided than expected.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-232 Improper Handling of Undefined Values
 
@@ -3198,14 +2958,6 @@ The product does not handle or incorrectly handles when a value is not defined o
 ## Observed Examples
 
 CVE-2000-1003: Client crash when server returns unknown driver type.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-233 Improper Handling of Parameters
 
@@ -3222,14 +2974,6 @@ CVE-2021-45477: Improper Handling of Parameters vulnerability in Bordam Informat
 CVE-2021-45478: Improper Handling of Parameters vulnerability in Bordam Information Technologies Library Automation System allows Collect Data as Provided by Users.This issue affects Library Automation System: before 19.2. 
 
 CVE-2021-4105: Improper Handling of Parameters vulnerability in BG-TEK COSLAT Firewall allows Remote Code Inclusion.This issue affects COSLAT Firewall: from 5.24.0.R.20180630 before 5.24.0.R.20210727. 
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-234 Failure to Handle Missing Parameter
 
@@ -3269,14 +3013,6 @@ CVE-2002-0107: Resultant infoleak in web server via GET requests without HTTP/1.
 
 CVE-2002-0596: GET request with empty parameter leads to error message infoleak (path disclosure).
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-235 Improper Handling of Extra Parameters
 
 ## Description
@@ -3291,14 +3027,6 @@ CVE-2003-1014: MIE. multiple gateway/security products allow restriction bypass 
 
 CVE-2022-31683: Concourse (7.x.y prior to 7.8.3 and 6.x.y prior to 6.7.9) contains an authorization bypass issue. A Concourse user can send a request with body including :team_name=team2 to bypass team scope check to gain access to certain resources belong to any other team.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-236 Improper Handling of Undefined Parameters
 
 ## Description
@@ -3311,41 +3039,17 @@ CVE-2002-1488: Crash in IRC client via PART message from a channel the user is n
 
 CVE-2001-0650: Router crash or bad route modification using BGP updates with invalid transitive attribute.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-237 Improper Handling of Structural Elements
 
 ## Description
 
 The product does not handle or incorrectly handles inputs that are related to complex structures.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-238 Improper Handling of Incomplete Structural Elements
 
 ## Description
 
 The product does not handle or incorrectly handles when a particular structural element is not completely specified.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-239 Failure to Handle Incomplete Element
 
@@ -3362,14 +3066,6 @@ CVE-2003-0195: Partial request is not timed out.
 CVE-2005-2526: MFV. CPU exhaustion in printer via partial printing request then early termination of connection.
 
 CVE-2002-1906: CPU consumption by sending incomplete HTTP requests and leaving the connections open.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-24 Path Traversal: '../filedir'
 
@@ -3398,14 +3094,6 @@ CVE-2022-3060: Improper control of a resource identifier in Error Tracking in Gi
 
 CVE-2022-32409: A local file inclusion (LFI) vulnerability in the component codemirror.php of Portal do Software Publico Brasileiro i3geo v7.0.5 allows attackers to execute arbitrary PHP code via a crafted HTTP request.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-240 Improper Handling of Inconsistent Structural Elements
 
 ## Description
@@ -3417,14 +3105,6 @@ The product does not handle or incorrectly handles when two or more structural e
 CVE-2014-0160: Chain: "Heartbleed" bug receives an inconsistent length parameter (CWE-130) enabling an out-of-bounds read (CWE-126), returning memory that could include private cryptographic keys and other sensitive data.
 
 CVE-2009-2299: Web application firewall consumes excessive memory when an HTTP request contains a large Content-Length value but no POST data.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-241 Improper Handling of Unexpected Data Type
 
@@ -3438,14 +3118,6 @@ CVE-1999-1156: FTP server crash via PORT command with non-numeric character.
 
 CVE-2004-0270: Anti-virus product has assert error when line length is non-numeric.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-242 Use of Inherently Dangerous Function
 
 ## Description
@@ -3458,14 +3130,6 @@ Certain functions behave in dangerous ways regardless of how they are used. Func
 
 CVE-2007-4004: FTP client uses inherently insecure gets() function and is setuid root on some systems, allowing buffer overflow
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-243 Creation of chroot Jail Without Changing Working Directory
 
 ## Description
@@ -3475,14 +3139,6 @@ The product uses the chroot() system call to create a jail, but does not change 
 Improper use of chroot() may allow attackers to escape from the chroot jail. The chroot() function call does not change the process's current working directory, so relative paths may still refer to file system resources outside of the chroot jail after chroot() has been called.
 
 The chroot() system call allows a process to change its perception of the root directory of the file system. After properly invoking chroot(), a process cannot access any files outside the directory tree defined by the new root directory. Such an environment is called a chroot jail and is commonly used to prevent the possibility that a processes could be subverted and used to access unauthorized files. For instance, many FTP servers run in chroot jails to prevent an attacker who discovers a new vulnerability in the server from being able to download the password file or other sensitive files on the system.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-244 Improper Clearing of Heap Memory Before Release ('Heap Inspection')
 
@@ -3496,14 +3152,6 @@ When sensitive data such as a password or an encryption key is not removed from 
 
 CVE-2019-3733: Cryptography library does not clear heap memory before release
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-245 J2EE Bad Practices: Direct Management of Connections
 
 ## Description
@@ -3511,14 +3159,6 @@ CVE-2019-3733: Cryptography library does not clear heap memory before release
 The J2EE application directly manages connections, instead of using the container's connection management facilities.
 
 The J2EE standard forbids the direct management of connections. It requires that applications use the container's resource management facilities to obtain connections to resources. Every major web application container provides pooled database connection management as part of its resource management framework. Duplicating this functionality in an application is difficult and error prone, which is part of the reason it is forbidden under the J2EE standard.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-246 J2EE Bad Practices: Direct Use of Sockets
 
@@ -3530,14 +3170,6 @@ The J2EE standard permits the use of sockets only for the purpose of communicati
 
 
 Without significant scrutiny by a security expert, chances are good that a custom communication protocol will suffer from security problems. Many of the same issues apply to a custom implementation of a standard protocol. While there are usually more resources available that address security concerns related to implementing a standard protocol, these resources are also available to attackers.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-248 Uncaught Exception
 
@@ -3583,14 +3215,6 @@ CVE-2022-36287: Uncaught exception in the FCS Server software maintained by Inte
 
 CVE-2022-47933: Brave Browser before 1.42.51 allowed a remote attacker to cause a denial of service via a crafted HTML file that references the IPFS scheme. This vulnerability is caused by an uncaught exception in the function ipfs::OnBeforeURLRequest_IPFSRedirectWork() in ipfs_redirect_network_delegate_helper.cc.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-25 Path Traversal: '/../filedir'
 
 ## Description
@@ -3615,14 +3239,6 @@ CVE-2022-20818: Multiple vulnerabilities in the CLI of Cisco SD-WAN Software cou
 CVE-2022-29596: MicroStrategy Enterprise Manager 2022 allows authentication bypass by triggering a login failure and then entering the Uid=/../../../../../../../../../../../windows/win.ini%00.jpg&Pwd=_any_password_&ConnMode=1&3054=Login substring for directory traversal.
 
 CVE-2021-40870: An issue was discovered in Aviatrix Controller 6.x before 6.5-1804.1922. Unrestricted upload of a file with a dangerous type is possible, which allows an unauthenticated user to execute arbitrary code via directory traversal.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-250 Execution with Unnecessary Privileges
 
@@ -3691,14 +3307,6 @@ CVE-2022-1517: LRM utilizes elevated privileges. An unauthenticated malicious ac
 
 CVE-2021-3020: An issue was discovered in ClusterLabs Hawk (aka HA Web Konsole) through 2.3.0-15. It ships the binary hawk_invoke (built from tools/hawk_invoke.c), intended to be used as a setuid program. This allows the hacluster user to invoke certain commands as root (with an attempt to limit this to safe combinations). This user is able to execute an interactive "shell" that isn't limited to the commands specified in hawk_invoke, allowing escalation to root.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-252 Unchecked Return Value
 
 ## Description
@@ -3751,14 +3359,6 @@ CVE-2022-23626: m1k1o/blog is a lightweight self-hosted facebook-styled PHP blog
 
 CVE-2022-3807: A vulnerability was found in Axiomatic Bento4. It has been rated as problematic. Affected by this issue is some unknown functionality of the component Incomplete Fix CVE-2019-13238. The manipulation leads to resource consumption. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-212660.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-253 Incorrect Check of Function Return Value
 
 ## Description
@@ -3774,14 +3374,6 @@ CVE-2023-49286: Chain: function in web caching proxy does not correctly check a 
 ## Top 25 Examples
 
 CVE-2022-32590: In wlan, there is a possible use after free due to an incorrect status check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS07299425; Issue ID: ALPS07299425.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-256 Plaintext Storage of a Password
 
@@ -3867,14 +3459,6 @@ CVE-2022-3781: Dashlane password and Keepass Server password in My Account Setti
 
 CVE-2022-3206: The Passster WordPress plugin before 3.5.5.5.2 stores the password inside a cookie named "passster" using base64 encoding method which is easy to decode. This puts the password at risk in case the cookies get leaked.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-257 Storing Passwords in a Recoverable Format
 
 ## Description
@@ -3901,14 +3485,6 @@ CVE-2022-34837: Storing Passwords in a Recoverable Format vulnerability in ABB Z
 
 CVE-2022-34838: Storing Passwords in a Recoverable Format vulnerability in ABB Zenon 8.20 allows an attacker who successfully exploit the vulnerability may add or alter data points and corresponding attributes. Once such engineering data is used the data visualization will be altered for the end user.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-258 Empty Password in Configuration File
 
 ## Description
@@ -3922,14 +3498,6 @@ CVE-2022-26117: Network access control (NAC) product has a configuration file wi
 ## Top 25 Examples
 
 CVE-2022-26117: An empty password in configuration file vulnerability [CWE-258] in FortiNAC version 8.3.7 and below, 8.5.2 and below, 8.5.4, 8.6.0, 8.6.5 and below, 8.7.6 and below, 8.8.11 and below, 9.1.5 and below, 9.2.3 and below may allow an authenticated attacker to access the MySQL databases via the CLI.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-259 Use of Hard-coded Password
 
@@ -4019,14 +3587,6 @@ CVE-2022-41653: Daikin SVMPC1 version 2.1.22 and prior and SVMPC2 version 1.2.3 
 
 CVE-2022-48067: An information disclosure vulnerability in Totolink A830R V4.1.2cu.5182 allows attackers to obtain the root password via a brute-force attack.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-26 Path Traversal: '/dir/../filename'
 
 ## Description
@@ -4037,14 +3597,6 @@ This allows attackers to traverse the file system to access files or directories
 
 
 The '/dir/../filename' manipulation is useful for bypassing some path traversal protection schemes. Sometimes a program only checks for "../" at the beginning of the input, so a "/../" can bypass that check.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-260 Password in Configuration File
 
@@ -4068,14 +3620,6 @@ CVE-2022-38665: Jenkins CollabNet Plugins Plugin 2.0.8 and earlier stores a Rabb
 
 CVE-2022-41247: Jenkins BigPanda Notifier Plugin 1.4.0 and earlier stores the BigPanda API key unencrypted in its global configuration file on the Jenkins controller where they can be viewed by users with access to the Jenkins controller file system.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-261 Weak Encoding for Password
 
 ## Description
@@ -4090,14 +3634,6 @@ CVE-2022-38469:  An unauthorized user with network access and the decryption key
 
 CVE-2022-34445:  Dell PowerScale OneFS, versions 8.2.x through 9.3.x contain a weak encoding for a password. A malicious local privileged attacker may potentially exploit this vulnerability, leading to information disclosure. 
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-262 Not Using Password Aging
 
 ## Description
@@ -4109,14 +3645,6 @@ Password aging (or password rotation) is a policy that forces users to change th
 
 Note that while password aging was once considered an important security feature, it has since fallen out of favor by many, because it is not as effective against modern threats compared to other mechanisms such as slow hashes. In addition, forcing frequent changes can unintentionally encourage users to select less-secure passwords. However, password aging is still in use due to factors such as compliance requirements, e.g., Payment Card Industry Data Security Standard (PCI DSS).
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-263 Password Aging with Long Expiration
 
 ## Description
@@ -4127,14 +3655,6 @@ Password aging (or password rotation) is a policy that forces users to change th
 
 
 Note that while password aging was once considered an important security feature, it has since fallen out of favor by many, because it is not as effective against modern threats compared to other mechanisms such as slow hashes. In addition, forcing frequent changes can unintentionally encourage users to select less-secure passwords. However, password aging is still in use due to factors such as compliance requirements, e.g., Payment Card Industry Data Security Standard (PCI DSS).
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-266 Incorrect Privilege Assignment
 
@@ -4184,14 +3704,6 @@ CVE-2022-23296: Windows Installer Elevation of Privilege Vulnerability
 
 CVE-2022-21946: A Incorrect Permission Assignment for Critical Resource vulnerability in the sudoers configuration in cscreen of openSUSE Factory allows any local users to gain the privileges of the tty and dialout groups and access and manipulate any running cscreen seesion. This issue affects: openSUSE Factory cscreen version 1.2-1.3 and prior versions.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-267 Privilege Defined With Unsafe Actions
 
 ## Description
@@ -4238,14 +3750,6 @@ CVE-2005-2027: Certain debugging commands not restricted to just the administrat
 
 CVE-2022-38124: Debug tool in Secomea SiteManager allows logged-in administrator to modify system state in an unintended manner.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-268 Privilege Chaining
 
 ## Description
@@ -4265,14 +3769,6 @@ CVE-2003-0640: "operator" user can overwrite usernames and passwords to gain adm
 ## Top 25 Examples
 
 CVE-2022-1003: One of the API in Mattermost version 6.3.0 and earlier fails to properly protect the permissions, which allows the system administrators to combine the two distinct privileges/capabilities in a way that allows them to override certain restricted configurations like EnableUploads.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-269 Improper Privilege Management
 
@@ -4424,14 +3920,6 @@ CVE-2022-26676: aEnrich a+HRD has inadequate privilege restrictions, an unauthen
 
 CVE-2022-1901: In affected versions of Octopus Deploy it is possible to unmask sensitive variables by using variable preview.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-27 Path Traversal: 'dir/../../filename'
 
 ## Description
@@ -4450,14 +3938,6 @@ CVE-2002-0298: Server allows remote attackers to cause a denial of service via c
 ## Top 25 Examples
 
 CVE-2022-30508: DedeCMS v5.7.93 was discovered to contain arbitrary file deletion vulnerability in upload.php via the delete parameter.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-270 Privilege Context Switching Error
 
@@ -4478,14 +3958,6 @@ CVE-2005-2263: Run callback in different security context after it has been chan
 ## Top 25 Examples
 
 CVE-2022-34438: Dell PowerScale OneFS, versions 8.2.x-9.4.0.x, contain a privilege context switching error. A local authenticated malicious user with high privileges could potentially exploit this vulnerability, leading to full system compromise. This impacts compliance mode clusters.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-271 Privilege Dropping / Lowering Errors
 
@@ -4523,27 +3995,11 @@ CVE-2004-0828: Setuid program does not drop privileges before processing file sp
 
 CVE-2004-2070: Service on Windows does not drop privileges before using "view file" option, allowing code execution.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-272 Least Privilege Violation
 
 ## Description
 
 The elevated privilege level required to perform operations such as chroot() should be dropped immediately after the operation is performed.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-273 Improper Check for Dropped Privileges
 
@@ -4560,14 +4016,6 @@ In Windows based environments that have access control, impersonation is used so
 CVE-2006-4447: Program does not check return value when invoking functions to drop privileges, which could leave users with higher privileges than expected by forcing those functions to fail.
 
 CVE-2006-2916: Program does not check return value when invoking functions to drop privileges, which could leave users with higher privileges than expected by forcing those functions to fail.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
 
 # CWE-274 Improper Handling of Insufficient Privileges
 
@@ -4596,14 +4044,6 @@ CVE-2022-25782: Improper Handling of Insufficient Privileges vulnerability in We
 CVE-2022-45101:  Dell PowerScale OneFS 9.0.0.x - 9.4.0.x, contains an Improper Handling of Insufficient Privileges vulnerability in NFS. A remote unauthenticated attacker could potentially exploit this vulnerability, leading to information disclosure and remote execution. 
 
 CVE-2022-23160: Dell PowerScale OneFS, versions 8.2.0-9.3.0, contains an Improper Handling of Insufficient Permissions vulnerability. An remote malicious user could potentially exploit this vulnerability, leading to gaining write permissions on read-only files.
-
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-276 Incorrect Default Permissions
 
@@ -4641,14 +4081,6 @@ CVE-2022-27919: Gradle Enterprise before 2022.1 allows remote code execution if 
 
 CVE-2022-25364: In Gradle Enterprise before 2021.4.2, the default built-in build cache configuration allowed anonymous write access. If this was not manually changed, a malicious actor with network access to the build cache could potentially populate it with manipulated entries that execute malicious code as part of a build. As of 2021.4.2, the built-in build cache is inaccessible-by-default, requiring explicit configuration of its access-control settings before it can be used. (Remote build cache nodes are unaffected as they are inaccessible-by-default.)
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-277 Insecure Inherited Permissions
 
 ## Description
@@ -4677,14 +4109,6 @@ CVE-2022-40298: Crestron AirMedia for Windows before 5.5.1.84 has insecure inher
 
 CVE-2022-24769: Moby is an open-source project created by Docker to enable and accelerate software containerization. A bug was found in Moby (Docker Engine) prior to version 20.10.14 where containers were incorrectly started with non-empty inheritable Linux process capabilities, creating an atypical Linux environment and enabling programs with inheritable file capabilities to elevate those capabilities to the permitted set during `execve(2)`. Normally, when executable programs have specified permitted file capabilities, otherwise unprivileged users and processes can execute those programs and gain the specified file capabilities up to the bounding set. Due to this bug, containers which included executable programs with inheritable file capabilities allowed otherwise unprivileged users and processes to additionally gain these inheritable file capabilities up to the container's bounding set. Containers which use Linux users and groups to perform privilege separation inside the container are most directly impacted. This bug did not affect the container security sandbox as the inheritable set never contained more capabilities than were included in the container's bounding set. This bug has been fixed in Moby (Docker Engine) 20.10.14. Running containers should be stopped, deleted, and recreated for the inheritable capabilities to be reset. This fix changes Moby (Docker Engine) behavior such that containers are started with a more typical Linux environment. As a workaround, the entry point of a container can be modified to use a utility like `capsh(1)` to drop inheritable capabilities prior to the primary process starting.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-278 Insecure Preserved Inherited Permissions
 
 ## Description
@@ -4699,14 +4123,6 @@ CVE-2005-1724: Does not obey specified permissions when exporting.
 
 CVE-2021-45492: In Sage 300 ERP (formerly accpac) through 6.8.x, the installer configures the C:\\Sage\\Sage300\\Runtime directory to be the first entry in the system-wide PATH environment variable. However, this directory is writable by unprivileged users because the Sage installer fails to set explicit permissions and therefore inherits weak permissions from the C:\\ folder. Because entries in the system-wide PATH variable are included in the search order for DLLs, an attacker could perform DLL search-order hijacking to escalate their privileges to SYSTEM. Furthermore, if the Global Search or Web Screens functionality is enabled, then privilege escalation is possible via the GlobalSearchService and Sage.CNA.WindowsService services, again via DLL search-order hijacking because unprivileged users would have modify permissions on the application directory. Note that while older versions of the software default to installing in %PROGRAMFILES(X86)% (which would allow the Sage folder to inherit strong permissions, making the installation not vulnerable), the official Sage 300 installation guides for those versions recommend installing in C:\\Sage, which would make the installation vulnerable.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-279 Incorrect Execution-Assigned Permissions
 
 ## Description
@@ -4720,14 +4136,6 @@ CVE-2002-0265: Log files opened read/write.
 CVE-2003-0876: Log files opened read/write.
 
 CVE-2002-1694: Log files opened read/write.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-28 Path Traversal: '..\filedir'
 
@@ -4755,14 +4163,6 @@ CVE-2002-1178: Directory traversal vulnerability in servlet allows remote attack
 ## Top 25 Examples
 
 CVE-2022-1373: The “restore configuration” feature of Softing Secure Integration Server V1.22 is vulnerable to a directory traversal vulnerability when processing zip files. An attacker can craft a zip file to load an arbitrary dll and execute code. Using the "restore configuration" feature to upload a zip file containing a path traversal file may cause a file to be created and executed upon touching the disk.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-280 Improper Handling of Insufficient Permissions or Privileges 
 
@@ -4792,14 +4192,6 @@ CVE-2022-34368: Dell EMC NetWorker 19.2.1.x 19.3.x, 19.4.x, 19.5.x, 19.6.x and 1
 
 CVE-2022-36874: Improper Handling of Insufficient Permissions or Privileges vulnerability in Waterplugin prior to 2.2.11.22040751 allows attacker to access device IMEI and Serial number.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-281 Improper Preservation of Permissions
 
 ## Description
@@ -4822,14 +4214,6 @@ CVE-2022-0330: A random memory access flaw was found in the Linux kernel's GPU i
 
 CVE-2021-45446: A vulnerability in Hitachi Vantara Pentaho Business Analytics Server versions before 9.2.0.2 and 8.3.0.25 does not cascade the hidden property to the children of the Home folder. This directory listing provides an attacker with the complete index of all the resources located inside the directory. 
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-282 Improper Ownership Management
 
 ## Description
@@ -4843,14 +4227,6 @@ CVE-1999-1125: Program runs setuid root but relies on a configuration file owned
 ## Top 25 Examples
 
 CVE-2022-3706: Improper authorization in GitLab CE/EE affecting all versions from 7.14 prior to 15.3.5, 15.4 prior to 15.4.4, and 15.5 prior to 15.5.2 allows a user retrying a job in a downstream pipeline to take ownership of the retried jobs in the upstream pipeline even if the user doesn't have access to that project.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-283 Unverified Ownership
 
@@ -4867,14 +4243,6 @@ CVE-2004-2012: Owner of special device not checked, allowing root.
 ## Top 25 Examples
 
 CVE-2022-31154: Sourcegraph is an opensource code search and navigation engine. It is possible for an authenticated Sourcegraph user to edit the Code Monitors owned by any other Sourcegraph user. This includes being able to edit both the trigger and the action of the monitor in question. An attacker is not able to read contents of existing code monitors, only override the data. The issue is fixed in Sourcegraph 3.42. There are no workaround for the issue and patching is highly recommended.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-284 Improper Access Control
 
@@ -5516,14 +4884,6 @@ CVE-2022-3780: Database connections on deleted users could stay active on MySQL 
 
 CVE-2022-0093: An issue has been discovered affecting GitLab versions prior to 14.4.5, between 14.5.0 and 14.5.3, and between 14.6.0 and 14.6.1. GitLab allows a user with an expired password to access sensitive information through RSS feeds.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Pillar
-
-- 1003 view: No
-
 # CWE-285 Improper Authorization
 
 ## Description
@@ -5783,14 +5143,6 @@ CVE-2022-1783: An issue has been discovered in GitLab CE/EE affecting all versio
 
 CVE-2022-3994: The Authenticator WordPress plugin before 1.3.1 does not prevent subscribers from updating a site's feed access token, which may deny other users access to the functionality in certain configurations.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Class
-
-- 1003 view: No
-
 # CWE-286 Incorrect User Management
 
 ## Description
@@ -5814,14 +5166,6 @@ CVE-2022-45857: An incorrect user management vulnerability [CWE-286] in the Fort
 CVE-2021-21553: Dell PowerScale OneFS versions 8.1.0-9.1.0 contain an Incorrect User Management vulnerability.under some specific conditions, this can allow the CompAdmin user to elevate privileges and break out of Compliance mode. This is a critical vulnerability and Dell recommends upgrading at the earliest.
 
 CVE-2022-36109: Moby is an open-source project created by Docker to enable software containerization. A bug was found in Moby (Docker Engine) where supplementary groups are not set up properly. If an attacker has direct access to a container and manipulates their supplementary group access, they may be able to use supplementary group access to bypass primary group restrictions in some cases, potentially gaining access to sensitive information or gaining the ability to execute code in that container. This bug is fixed in Moby (Docker Engine) 20.10.18. Running containers should be stopped and restarted for the permissions to be fixed. For users unable to upgrade, this problem can be worked around by not using the `"USER $USERNAME"` Dockerfile instruction. Instead by calling `ENTRYPOINT ["su", "-", "user"]` the supplementary groups will be set up properly.
-
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: No
 
 # CWE-287 Improper Authentication
 
@@ -6099,14 +5443,6 @@ CVE-2022-31125: Roxy-wi is an open source web interface for managing Haproxy, Ng
 
 CVE-2022-31164: Tovy is a a staff management system for Roblox groups. A vulnerability in versions prior to 0.7.51 allows users to log in as other users, including privileged users such as the other of the instance. The problem has been patched in version 0.7.51.
 
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-288 Authentication Bypass Using an Alternate Path or Channel
 
 ## Description
@@ -6167,14 +5503,6 @@ CVE-2022-27510: Unauthorized access to Gateway user capabilities
 
 CVE-2022-30623: The server checks the user's cookie in a non-standard way, and a value is entered in the cookie value name of the status and its value is set to true to bypass the identification with the system using a username and password.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-289 Authentication Bypass by Alternate Name
 
 ## Description
@@ -6192,14 +5520,6 @@ CVE-2004-0847: Bypass of authentication for files using "\" (backslash) or "%5C"
 CVE-2022-4722: Authentication Bypass by Primary Weakness in GitHub repository ikus060/rdiffweb prior to 2.5.5.
 
 CVE-2022-23317: CobaltStrike <=4.5 HTTP(S) listener does not determine whether the request URL begins with "/", and attackers can obtain relevant information by specifying the URL.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-29 Path Traversal: '\..\filename'
 
@@ -6221,14 +5541,6 @@ CVE-2005-2142: Directory traversal vulnerability in FTP server allows remote aut
 ## Top 25 Examples
 
 CVE-2022-2788: Emerson Electric's Proficy Machine Edition Version 9.80 and prior is vulnerable to CWE-29 Path Traversal: '\\..\\Filename', also known as a ZipSlip attack, through an upload procedure which enables attackers to implant a malicious .BLZ file on the PLC. The file can transfer through the engineering station onto Windows in a way that executes the malicious code.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-290 Authentication Bypass by Spoofing
 
@@ -6276,14 +5588,6 @@ CVE-2021-40823: A logic error in the room key sharing functionality of matrix-js
 
 CVE-2021-40824: A logic error in the room key sharing functionality of Element Android before 1.2.2 and matrix-android-sdk2 (aka Matrix SDK for Android) before 1.2.2 allows a malicious Matrix homeserver present in an encrypted room to steal room encryption keys (via crafted Matrix protocol messages) that were originally sent by affected Matrix clients participating in that room. This allows the attacker to decrypt end-to-end encrypted messages sent by affected clients.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-291 Reliance on IP Address for Authentication
 
 ## Description
@@ -6306,14 +5610,6 @@ CVE-2022-30319: Saia Burgess Controls (SBC) PCD through 2022-05-06 allows Authen
 
 CVE-2022-47648: An Improper Access Control vulnerability allows an attacker to access the control panel of the B420 without requiring any sort of authorization or authentication due to the IP based authorization. If an authorized user has accessed a publicly available B420 product using valid credentials, an insider attacker can gain access to the same panel without requiring any sort of authorization. The B420 module was already obsolete at the time this vulnerability was found (The End of Life announcement was made in 2013).
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-293 Using Referer Field for Authentication
 
 ## Description
@@ -6321,14 +5617,6 @@ CVE-2022-47648: An Improper Access Control vulnerability allows an attacker to a
 The referer field in HTTP requests can be easily modified and, as such, is not a valid means of message integrity checking.
 
 The referer field in HTML requests can be simply modified by malicious users, rendering it useless as a means of checking the validity of the request in question.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-294 Authentication Bypass by Capture-replay
 
@@ -6373,14 +5661,6 @@ CVE-2022-41541: TP-Link AX10v1 V1_211117 allows attackers to execute a replay at
 CVE-2022-29334: An issue in H v1.0 allows attackers to bypass authentication via a session replay attack.
 
 CVE-2022-31158: LTI 1.3 Tool Library is a library used for building IMS-certified LTI 1.3 tool providers in PHP. Prior to version 5.0, the Nonce Claim Value was not being validated against the nonce value sent in the Authentication Request. Users should upgrade to version 5.0 to receive a patch. There are currently no known workarounds.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
 
 # CWE-295 Improper Certificate Validation
 
@@ -6458,14 +5738,6 @@ CVE-2022-25640: In wolfSSL before 5.2.0, a TLS 1.3 server cannot properly enforc
 
 CVE-2022-31083: Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js. Prior to versions 4.10.11 and 5.2.2, the certificate in the Parse Server Apple Game Center auth adapter not validated. As a result, authentication could potentially be bypassed by making a fake certificate accessible via certain Apple domains and providing the URL to that certificate in an authData object. Versions 4.0.11 and 5.2.2 prevent this by introducing a new `rootCertificateUrl` property to the Parse Server Apple Game Center auth adapter which takes the URL to the root certificate of Apple's Game Center authentication certificate. If no value is set, the `rootCertificateUrl` property defaults to the URL of the current root certificate as of May 27, 2022. Keep in mind that the root certificate can change at any time and that it is the developer's responsibility to keep the root certificate URL up-to-date when using the Parse Server Apple Game Center auth adapter. There are no known workarounds for this issue.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-296 Improper Following of a Certificate's Chain of Trust
 
 ## Description
@@ -6506,14 +5778,6 @@ CVE-2009-0124: chain: incorrect check of return value from the OpenSSL EVP_Verif
 CVE-2002-0970: File-transfer software does not validate Basic Constraints of an intermediate CA-signed certificate.
 
 CVE-2002-0862: Cryptographic API, as used in web browsers, mail clients, and other software, does not properly validate Basic Constraints.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-297 Improper Validation of Certificate with Host Mismatch
 
@@ -6579,14 +5843,6 @@ CVE-2022-29082: Dell EMC NetWorker versions 19.1.x, 19.1.0.x, 19.1.1.x, 19.2.x, 
 
 CVE-2022-48306: Improper Validation of Certificate with Host Mismatch vulnerability in Gotham Chat IRC helper of Palantir Gotham allows A malicious attacker in a privileged network position could abuse this to perform a man-in-the-middle attack. A successful man-in-the-middle attack would allow them to intercept, read, or modify network communications to and from the affected service. This issue affects: Palantir Palantir Gotham Chat IRC helper versions prior to 30221005.210011.9242.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-298 Improper Validation of Certificate Expiration
 
 ## Description
@@ -6594,14 +5850,6 @@ CVE-2022-48306: Improper Validation of Certificate with Host Mismatch vulnerabil
 A certificate expiration is not validated or is incorrectly validated, so trust may be assigned to certificates that have been abandoned due to age.
 
 When the expiration of a certificate is not taken into account, no trust has necessarily been conveyed through it. Therefore, the validity of the certificate cannot be verified and all benefit of the certificate is lost.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-299 Improper Check for Certificate Revocation
 
@@ -6640,12 +5888,4 @@ CVE-2006-4409: Product cannot access certificate revocation list when an HTTP pr
 ## Top 25 Examples
 
 CVE-2022-21170: Improper check for certificate revocation in i-FILTER Ver.10.45R01 and earlier, i-FILTER Ver.9.50R10 and earlier, i-FILTER Browser & Cloud MultiAgent for Windows Ver.4.93R04 and earlier, and D-SPA (Ver.3 / Ver.4) using i-FILTER allows a remote unauthenticated attacker to conduct a man-in-the-middle attack and eavesdrop on an encrypted communication.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 

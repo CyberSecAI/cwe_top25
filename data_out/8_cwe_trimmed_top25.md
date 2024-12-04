@@ -4,14 +4,6 @@
 
 When an application exposes a remote interface for an entity bean, it might also expose methods that get or set the bean's data. These methods could be leveraged to read sensitive information, or to change data in ways that violate the application's expectations, potentially leading to other vulnerabilities.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-80 Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS)
 
 ## Description
@@ -46,14 +38,6 @@ CVE-2021-44197: Improper Neutralization of Script-Related HTML Tags in a Web Pag
 
 CVE-2022-25620: Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability in Group Functionality of Profelis IT Consultancy SambaBox allows AUTHENTICATED user to cause execute arbitrary codes on the vulnerable server. This issue affects: Profelis IT Consultancy SambaBox 4.0 version 4.0 and prior versions on x86.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-804 Guessable CAPTCHA
 
 ## Description
@@ -79,14 +63,6 @@ There can be several different causes of a guessable CAPTCHA:
 ## Observed Examples
 
 CVE-2022-4036: Chain: appointment booking app uses a weak hash (CWE-328) for generating a CAPTCHA, making it guessable (CWE-804)
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-805 Buffer Access with Incorrect Length Value
 
@@ -122,14 +98,6 @@ CVE-2022-40760: A Buffer Access with Incorrect Length Value vulnerablity in the 
 
 CVE-2022-34399:  Dell Alienware m17 R5 BIOS version prior to 1.2.2 contain a buffer access vulnerability. A malicious user with admin privileges could potentially exploit this vulnerability by sending input larger than expected in order to leak certain sections of SMRAM. 
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-806 Buffer Access Using Size of Source Buffer
 
 ## Description
@@ -137,14 +105,6 @@ CVE-2022-34399:  Dell Alienware m17 R5 BIOS version prior to 1.2.2 contain a buf
 The product uses the size of a source buffer when reading from or writing to a destination buffer, which may cause it to access memory that is outside of the bounds of the buffer.
 
 When the size of the destination is smaller than the size of the source, a buffer overflow could occur.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-807 Reliance on Untrusted Inputs in a Security Decision
 
@@ -183,14 +143,6 @@ CVE-2021-37791: MyAdmin v1.0 is affected by an incorrect access control vulnerab
 
 CVE-2022-20744: A vulnerability in the input protection mechanisms of Cisco Firepower Management Center (FMC) Software could allow an authenticated, remote attacker to view data without proper authorization. This vulnerability exists because of a protection mechanism that relies on the existence or values of a specific input. An attacker could exploit this vulnerability by modifying this input to bypass the protection mechanism and sending a crafted request to an affected device. A successful exploit could allow the attacker to view data beyond the scope of their authorization.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-81 Improper Neutralization of Script in an Error Message Web Page
 
 ## Description
@@ -209,14 +161,6 @@ CVE-2002-0840: XSS in default error page from Host: header.
 CVE-2002-1053: XSS in error message.
 
 CVE-2002-1700: XSS in error page from targeted parameter.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-82 Improper Neutralization of Script in Attributes of IMG Tags in a Web Page
 
@@ -244,14 +188,6 @@ CVE-2002-1807: javascript URI scheme in IMG tag.
 
 CVE-2002-1808: javascript URI scheme in IMG tag.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-820 Missing Synchronization
 
 ## Description
@@ -264,14 +200,6 @@ If access to a shared resource is not synchronized, then the resource may not be
 
 CVE-2022-3565: A vulnerability, which was classified as critical, has been found in Linux Kernel. Affected by this issue is the function del_timer of the file drivers/isdn/mISDN/l1oip_core.c of the component Bluetooth. The manipulation leads to use after free. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-211088.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-821 Incorrect Synchronization
 
 ## Description
@@ -283,14 +211,6 @@ If access to a shared resource is not correctly synchronized, then the resource 
 ## Top 25 Examples
 
 CVE-2022-1931: Incorrect Synchronization in GitHub repository polonel/trudesk prior to 1.2.3.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-822 Untrusted Pointer Dereference
 
@@ -351,14 +271,6 @@ CVE-2022-22716: Microsoft Excel Information Disclosure Vulnerability
 CVE-2022-29275: In UsbCoreDxe, untrusted input may allow SMRAM or OS memory tampering Use of untrusted pointers could allow OS or SMRAM memory tampering leading to escalation of privileges. This issue was discovered by Insyde during security review. It was fixed in: Kernel 5.0: version 05.09.21 Kernel 5.1: version 05.17.21 Kernel 5.2: version 05.27.21 Kernel 5.3: version 05.36.21 Kernel 5.4: version 05.44.21 Kernel 5.5: version 05.52.21 https://www.insyde.com/security-pledge/SA-2022058
 
 CVE-2022-29279: Use of a untrusted pointer allows tampering with SMRAM and OS memory in SdHostDriver and SdMmcDevice Use of a untrusted pointer allows tampering with SMRAM and OS memory in SdHostDriver and SdMmcDevice. This issue was discovered by Insyde during security review. It was fixed in: Kernel 5.0: version 05.09.17 Kernel 5.1: version 05.17.17 Kernel 5.2: version 05.27.17 Kernel 5.3: version 05.36.17 Kernel 5.4: version 05.44.17 Kernel 5.5: version 05.52.17 https://www.insyde.com/security-pledge/SA-2022062
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-823 Use of Out-of-range Pointer Offset
 
@@ -430,14 +342,6 @@ CVE-2022-33246: Memory corruption in Audio due to use of out-of-range pointer of
 
 CVE-2022-42264: NVIDIA GPU Display Driver for Linux contains a vulnerability in the kernel mode layer, where an unprivileged regular user can cause the use of an out-of-range pointer offset, which may lead to data tampering, data loss, information disclosure, or denial of service.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-824 Access of Uninitialized Pointer
 
 ## Description
@@ -501,14 +405,6 @@ CVE-2022-43606: A use-of-uninitialized-pointer vulnerability exists in the Forwa
 
 CVE-2022-21971: Windows Runtime Remote Code Execution Vulnerability
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-825 Expired Pointer Dereference
 
 ## Description
@@ -531,14 +427,6 @@ CVE-2007-1211: read of value at an offset into a structure after the offset is n
 
 CVE-2021-39693: In onUidStateChanged of AppOpsService.java, there is a possible way to access location without a visible indicator due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android-12Android ID: A-208662370
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-826 Premature Release of Resource During Expected Lifetime
 
 ## Description
@@ -558,14 +446,6 @@ CVE-2009-3547: Chain: race condition (CWE-362) might allow resource to be releas
 
 CVE-2022-27499: Premature release of resource during expected lifetime in the Intel(R) SGX SDK software may allow a privileged user to potentially enable information disclosure via local access.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-827 Improper Control of Document Type Definition
 
 ## Description
@@ -580,14 +460,6 @@ For example, the SOAP specification prohibits SOAP messages from containing DTDs
 ## Observed Examples
 
 CVE-2010-2076: Product does not properly reject DTDs in SOAP messages, which allows remote attackers to read arbitrary files, send HTTP requests to intranet servers, or cause a denial of service.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-828 Signal Handler with Functionality that is not Asynchronous-Safe
 
@@ -627,14 +499,6 @@ CVE-2004-0794: SIGURG can be used to remotely interrupt signal handler; other va
 CVE-2004-2259: SIGCHLD signal to FTP server can cause crash under heavy load while executing non-reentrant functions like malloc/free.
 
 CVE-2002-1563: SIGCHLD not blocked in a daemon loop while counter is modified, causing counter to get out of sync.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-829 Inclusion of Functionality from Untrusted Control Sphere
 
@@ -689,14 +553,6 @@ CVE-2005-1971: Directory traversal vulnerability in PHP include statement.
 
 CVE-2005-3335: PHP file inclusion issue, both remote and local; local include uses ".." and "%00" characters as a manipulation, but many remote file inclusion issues probably have this vector.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-83 Improper Neutralization of Script in Attributes in a Web Page
 
 ## Description
@@ -725,14 +581,6 @@ CVE-2003-1136: Javascript in onmouseover attribute in e-mail address or URL.
 
 CVE-2022-0565: Cross-site Scripting in Packagist pimcore/pimcore prior to 10.3.1. 
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-830 Inclusion of Web Functionality from an Untrusted Source
 
 ## Description
@@ -750,14 +598,6 @@ This weakness is common in "mashup" development on the web, which may include so
 
 Such dependencies may be desirable, or even required, but sometimes programmers are not aware that a dependency exists.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-831 Signal Handler Function Associated with Multiple Signals
 
 ## Description
@@ -771,14 +611,6 @@ An attacker could send one signal that invokes the handler function; in many OSe
 
 
 Another rarely-explored possibility arises when the signal handler is only designed to be executed once (if at all). By sending multiple signals, an attacker could invoke the function more than once. This may generate extra, unintended side effects. A race condition might not even be necessary; the attacker could send one signal, wait until it is handled, then send the other signal.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-832 Unlock of a Resource that is not Locked
 
@@ -795,14 +627,6 @@ CVE-2010-4210: function in OS kernel unlocks a mutex that was not previously loc
 CVE-2008-4302: Chain: OS kernel does not properly handle a failure of a function call (CWE-755), leading to an unlock of a resource that was not locked (CWE-832), with resultant crash.
 
 CVE-2009-1243: OS kernel performs an unlock in some incorrect circumstances, leading to panic.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-833 Deadlock
 
@@ -862,14 +686,6 @@ CVE-2022-42328: Guests can trigger deadlock in Linux netback driver T[his CNA in
 
 CVE-2022-42329: Guests can trigger deadlock in Linux netback driver T[his CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.] The patch for XSA-392 introduced another issue which might result in a deadlock when trying to free the SKB of a packet dropped due to the XSA-392 handling (CVE-2022-42328). Additionally when dropping packages for other reasons the same deadlock could occur in case of netpoll being active for the interface the xen-netback driver is connected to (CVE-2022-42329).
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-834 Excessive Iteration
 
 ## Description
@@ -887,14 +703,6 @@ CVE-2006-6499: Chain: web browser crashes due to infinite loop - "bad looping lo
 ## Top 25 Examples
 
 CVE-2022-36083: JOSE is "JSON Web Almost Everything" - JWA, JWS, JWE, JWT, JWK, JWKS with no dependencies using runtime's native crypto in Node.js, Browser, Cloudflare Workers, Electron, and Deno. The PBKDF2-based JWE key management algorithms expect a JOSE Header Parameter named `p2c` PBES2 Count, which determines how many PBKDF2 iterations must be executed in order to derive a CEK wrapping key. The purpose of this parameter is to intentionally slow down the key derivation function in order to make password brute-force and dictionary attacks more expensive. This makes the PBES2 algorithms unsuitable for situations where the JWE is coming from an untrusted source: an adversary can intentionally pick an extremely high PBES2 Count value, that will initiate a CPU-bound computation that may take an unreasonable amount of time to finish. Under certain conditions, it is possible to have the user's environment consume unreasonable amount of CPU time. The impact is limited only to users utilizing the JWE decryption APIs with symmetric secrets to decrypt JWEs from untrusted parties who do not limit the accepted JWE Key Management Algorithms (`alg` Header Parameter) using the `keyManagementAlgorithms` (or `algorithms` in v1.x) decryption option or through other means. The `v1.28.2`, `v2.0.6`, `v3.20.4`, and `v4.9.2` releases limit the maximum PBKDF2 iteration count to `10000` by default. It is possible to adjust this limit with a newly introduced `maxPBES2Count` decryption option. If users are unable to upgrade their required library version, they have two options depending on whether they expect to receive JWEs using any of the three PBKDF2-based JWE key management algorithms. They can use the `keyManagementAlgorithms` decryption option to disable accepting PBKDF2 altogether, or they can inspect the JOSE Header prior to using the decryption API and limit the PBKDF2 iteration count (`p2c` Header Parameter).
-
-## Mapping
-
-- Usage: Discouraged
-
-- Abstraction: Class
-
-- 1003 view: Yes
 
 # CWE-835 Loop with Unreachable Exit Condition ('Infinite Loop')
 
@@ -940,14 +748,6 @@ CVE-2022-31628: In PHP versions before 7.4.31, 8.0.24 and 8.1.11, the phar uncom
 
 CVE-2022-46770: qubes-mirage-firewall (aka Mirage firewall for QubesOS) 0.8.x through 0.8.3 allows guest OS users to cause a denial of service (CPU consumption and loss of forwarding) via a crafted multicast UDP packet (IP address range of 224.0.0.0 through 239.255.255.255).
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-836 Use of Password Hash Instead of Password for Authentication
 
 ## Description
@@ -977,14 +777,6 @@ CVE-2022-25157: Use of Password Hash Instead of Password for Authentication vuln
 
 CVE-2022-32282: An improper password check exists in the login functionality of WWBN AVideo 11.6 and dev master commit 3f7c0364. An attacker that owns a users' password hash will be able to use it to directly login into the account, leading to increased privileges.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-837 Improper Enforcement of a Single, Unique Action
 
 ## Description
@@ -1006,14 +798,6 @@ CVE-2003-1433: Chain: lack of validation of a challenge key in a game allows a p
 CVE-2002-1018: Library feature allows attackers to check out the same e-book multiple times, preventing other users from accessing copies of the e-book.
 
 CVE-2009-2346: Protocol implementation allows remote attackers to cause a denial of service (call-number exhaustion) by initiating many message exchanges.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-838 Inappropriate Encoding for Output Context
 
@@ -1041,14 +825,6 @@ CVE-2009-2814: Server does not properly handle requests that do not contain UTF-
 CVE-2022-43408: Jenkins Pipeline: Stage View Plugin 2.26 and earlier does not correctly encode the ID of 'input' steps when using it to generate URLs to proceed or abort Pipeline builds, allowing attackers able to configure Pipelines to specify 'input' step IDs resulting in URLs that would bypass the CSRF protection of any target URL in Jenkins.
 
 CVE-2022-43407: Jenkins Pipeline: Input Step Plugin 451.vf1a_a_4f405289 and earlier does not restrict or sanitize the optionally specified ID of the 'input' step, which is used for the URLs that process user interactions for the given 'input' step (proceed or abort) and is not correctly encoded, allowing attackers able to configure Pipelines to have Jenkins build URLs from 'input' step IDs that would bypass the CSRF protection of any target URL in Jenkins when the 'input' step is interacted with.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
 
 # CWE-839 Numeric Range Comparison Without Minimum Check
 
@@ -1079,14 +855,6 @@ CVE-2008-6393: chain: file transfer client performs signed comparison, leading t
 
 CVE-2008-4558: chain: negative ID in media player bypasses check for maximum index, then used as an array index for buffer under-read.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-84 Improper Neutralization of Encoded URI Schemes in a Web Page
 
 ## Description
@@ -1108,14 +876,6 @@ CVE-2002-0118: Encoded "javascript" in IMG tag.
 ## Top 25 Examples
 
 CVE-2022-40181: A vulnerability has been identified in Desigo PXM30-1 (All versions < V02.20.126.11-41), Desigo PXM30.E (All versions < V02.20.126.11-41), Desigo PXM40-1 (All versions < V02.20.126.11-41), Desigo PXM40.E (All versions < V02.20.126.11-41), Desigo PXM50-1 (All versions < V02.20.126.11-41), Desigo PXM50.E (All versions < V02.20.126.11-41), PXG3.W100-1 (All versions < V02.20.126.11-37), PXG3.W100-2 (All versions < V02.20.126.11-41), PXG3.W200-1 (All versions < V02.20.126.11-37), PXG3.W200-2 (All versions < V02.20.126.11-41). The device embedded browser does not prevent interaction with alternative URI schemes when redirected to corresponding resources by web application code. By setting the homepage URI, the favorite URIs, or redirecting embedded browser users via JavaScript code to alternative scheme resources, a remote low privileged attacker can perform a range of attacks against the device, such as read arbitrary files on the filesystem, execute arbitrary JavaScript code in order to steal or manipulate the information on the screen, or trigger denial of service conditions.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-841 Improper Enforcement of Behavioral Workflow
 
@@ -1163,14 +923,6 @@ CVE-2010-2620: FTP server allows remote attackers to bypass authentication by se
 
 CVE-2005-3296: FTP server allows remote attackers to list arbitrary directories as root by running the LIST command before logging in.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
-
 # CWE-842 Placement of User into Incorrect Group
 
 ## Description
@@ -1196,14 +948,6 @@ CVE-2002-0080: Chain: daemon does not properly clear groups before dropping priv
 ## Top 25 Examples
 
 CVE-2022-45097:  Dell PowerScale OneFS 9.0.0.x-9.4.0.x contains an Incorrect User Management vulnerability. A low privileged network attacker could potentially exploit this vulnerability, leading to escalation of privileges, and information disclosure. 
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: No
 
 # CWE-843 Access of Resource Using Incompatible Type ('Type Confusion')
 
@@ -1301,14 +1045,6 @@ CVE-2022-21656: Envoy is an open source edge and service proxy, designed for clo
 
 CVE-2021-33624: In kernel/bpf/verifier.c in the Linux kernel before 5.12.13, a branch can be mispredicted (e.g., because of type confusion) and consequently an unprivileged BPF program can read arbitrary memory locations via a side-channel attack, aka CID-9183671af6db.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
-
 # CWE-85 Doubled Character XSS Manipulations
 
 ## Description
@@ -1323,14 +1059,6 @@ CVE-2000-0116: Encoded "javascript" in IMG tag.
 
 CVE-2001-1157: Extra "<" in front of SCRIPT tag.
 
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
-
 # CWE-86 Improper Neutralization of Invalid Characters in Identifiers in Web Pages
 
 ## Description
@@ -1342,14 +1070,6 @@ Some web browsers may remove these sequences, resulting in output that may have 
 ## Observed Examples
 
 CVE-2004-0595: XSS filter doesn't filter null characters before looking for dangerous tags, which are ignored by web browsers. Multiple Interpretation Error (MIE) and validate-before-cleanse.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-862 Missing Authorization
 
@@ -2362,14 +2082,6 @@ CVE-2022-39289: ZoneMinder is a free, open source Closed-circuit television soft
 
 CVE-2022-46158: PrestaShop is an open-source e-commerce solution. Versions prior to 1.7.8.8 did not properly restrict host filesystem access for users. Users may have been able to view the contents of the upload directory without appropriate permissions. This issue has been addressed and users are advised to upgrade to version 1.7.8.8. There are no known workarounds for this issue.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-863 Incorrect Authorization
 
 ## Description
@@ -2683,14 +2395,6 @@ CVE-2022-42724: app/Controller/UsersController.php in MISP before 2.4.164 allows
 
 CVE-2021-41571: In Apache Pulsar it is possible to access data from BookKeeper that does not belong to the topics accessible by the authenticated user. The Admin API get-message-by-id requires the user to input a topic and a ledger id. The ledger id is a pointer to the data, and it is supposed to be a valid it for the topic. Authorisation controls are performed against the topic name and there is not proper validation the that ledger id is valid in the context of such ledger. So it may happen that the user is able to read from a ledger that contains data owned by another tenant. This issue affects Apache Pulsar Apache Pulsar version 2.8.0 and prior versions; Apache Pulsar version 2.7.3 and prior versions; Apache Pulsar version 2.6.4 and prior versions.
 
-## Mapping
-
-- Usage: Allowed-with-Review
-
-- Abstraction: Class
-
-- 1003 view: Yes
-
 # CWE-87 Improper Neutralization of Alternate XSS Syntax
 
 ## Description
@@ -2700,14 +2404,6 @@ The product does not neutralize or incorrectly neutralizes user-controlled input
 ## Observed Examples
 
 CVE-2002-0738: XSS using "&={script}".
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Variant
-
-- 1003 view: No
 
 # CWE-88 Improper Neutralization of Argument Delimiters in a Command ('Argument Injection')
 
@@ -2808,14 +2504,6 @@ CVE-2022-24437: The package git-pull-or-clone before 2.0.2 are vulnerable to Com
 CVE-2021-46850: myVesta Control Panel before 0.9.8-26-43 and Vesta Control Panel before 0.9.8-26 are vulnerable to command injection. An authenticated and remote administrative user can execute arbitrary commands via the v_sftp_license parameter when sending HTTP POST requests to the /edit/server endpoint.
 
 CVE-2022-24953: The Crypt_GPG extension before 1.6.7 for PHP does not prevent additional options in GPG calls, which presents a risk for certain environments and GPG versions.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
 
 # CWE-89 Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')
 
@@ -2956,12 +2644,4 @@ CVE-2022-3730: A vulnerability, which was classified as critical, was found in s
 CVE-2022-3731: A vulnerability has been found in seccome Ehoney and classified as critical. Affected by this vulnerability is an unknown functionality of the file /api/v1/attack/token. The manipulation of the argument Payload leads to sql injection. The attack can be launched remotely. The identifier VDB-212413 was assigned to this vulnerability.
 
 CVE-2022-3733: A vulnerability was found in SourceCodester Web-Based Student Clearance System. It has been classified as critical. This affects an unknown part of the file Admin/edit-admin.php. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-212415.
-
-## Mapping
-
-- Usage: Allowed
-
-- Abstraction: Base
-
-- 1003 view: Yes
 
